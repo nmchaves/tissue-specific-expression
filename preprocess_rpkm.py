@@ -5,8 +5,7 @@
     If you want to run this script yourself, make sure to edit the file
     paths inside main.
 
-    Running this script generates the following 5 files (the 6th "file" is actually
-    many files--1 for each donor):
+    Running this script generates the following 8 types of files.
 
     1) donors.txt: This file will contain a tab-separated list of all
     donor ID's in the rpkm file (there will be 1 donor per column in this file)
@@ -25,10 +24,13 @@
     in the rpkm file that has all 0 expression levels.
     (See generateTargetIdFiles())
 
-    5) tissues.txt: Tab-delimited file of all SMTSD tissues.
+    6) tissues.txt: Tab-delimited file of all SMTSD tissues.
 
-    5) donor_meta_[donor Id].txt: The meta file for each donor. Column 1 is sample
+    7) donor_meta_[donor Id].txt: The meta file for each donor. Column 1 is sample
     IDs. Column 2 is tissue type
+
+    8) tissue_meta_[tissue name].txt: Meta file for each tissue. This is a tab-delimited
+    list of all sample IDs corresponding to this tissue
 
 """
 
@@ -186,6 +188,7 @@ def generateTargetIdFiles(path):
                     zeroTargetIds_file.write('\t' + targetId)
     zeroTargetIds_file.close()
 
+
 def generateDonorMetaFiles(rpkm_path, attributes_path):
 
     samplesToTissues = generateSamplesToTissuesDict(attributes_path)
@@ -214,6 +217,46 @@ def generateDonorMetaFiles(rpkm_path, attributes_path):
         donor_meta_file.close()
 
 
+def generateTissueMetaFiles(rpkm_path, attributes_path):
+
+    tissues = getArrayFromFile('tissues.txt')
+    sampleToTissues = generateSamplesToTissuesDict(attributes_path)
+    tissueToSamples = {}
+
+    for tissue in tissues:
+        firstSample = True
+        tissueToSamples[tissue] = []
+        tissue_metafile = open('tissue_metadata/tissue_meta_' + tissue + '.txt', 'w')
+        rpkm_file = open(rpkm_path)
+        for line in rpkm_file:
+            sampleIds = line.split('\t')[4:]
+            break
+        sampleIds[-1] = sampleIds[-1][:-1]
+
+        for sampleId in sampleIds:
+            sampleTissue = sampleToTissues[sampleId]
+            if sampleTissue == tissue:
+                if firstSample:
+                    tissue_metafile.write(sampleId)
+                    firstSample = False
+                else:
+                    tissue_metafile.write('\t' + sampleId)
+        tissue_metafile.close()
+
+
+def getArrayFromFile(path):
+    """
+    This function takes a path to a file containing a tab-delimited
+    text file and converts that file into an array.
+
+    :param path: Path to the file
+    :return: The text file
+    """
+    f = open(path)
+    for line in f:
+        return line.split('\t')
+
+
 """
 *********************
         Main
@@ -224,10 +267,14 @@ if __name__ == "__main__":
     path_to_rpkm_file = '../../../Downloads/GTEx_Analysis_v6_RNA-seq_Flux1.6_transcript_rpkm.txt'
     path_to_attributes_file = '../../../Downloads/GTEx_Data_V6_Annotations_SampleAttributesDS.txt'
 
+    """
     generateDonorsFile(path_to_rpkm_file)
     generateDonorMetaFiles(path_to_rpkm_file, path_to_attributes_file)
     generateDonorTissuesFile(path_to_rpkm_file, path_to_attributes_file)
     generateTargetIdFiles(path_to_rpkm_file)
     generateTissuesFile(path_to_rpkm_file, path_to_attributes_file)
+    """
+    generateTissueMetaFiles(path_to_rpkm_file, path_to_attributes_file)
+
 
 
