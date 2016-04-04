@@ -5,7 +5,8 @@
     If you want to run this script yourself, make sure to edit the file
     paths inside main.
 
-    Running this script generates the following files:
+    Running this script generates the following 5 files (the 5th "file" is actually
+    many files--1 for each donor):
 
     1) donors.txt: This file will contain a tab-separated list of all
     donor ID's in the rpkm file (there will be 1 donor per column in this file)
@@ -23,6 +24,9 @@
     4) zeroTargetIds.txt: This file will contain each of the targetIds
     in the rpkm file that has all 0 expression levels.
     (See generateTargetIdFiles())
+
+    5) donor_meta_[donor Id].txt: The meta file for each donor. Column 1 is sample
+    IDs. Column 2 is tissue type
 
 """
 
@@ -54,37 +58,36 @@ def generateDonorsFile(path):
     donorFile.close()
 
 
+def generateSamplesToTissuesDict(attributes_path):
+    attributes_file = open(attributes_path)
+    tissueTypes = []
+    samplesToTissues = {}  # Dictionary mapping each sample ID to its tissue type
+    firstLine = True
+    for line in attributes_file:
+        lineAsArr = line.split('\t')
+        if firstLine:
+            SAMPID_colno = lineAsArr.index('SAMPID')  # column of sample ID
+            SMTS_colno = lineAsArr.index('SMTSD')  # column of sample tissue type
+            firstLine = False
+        else:
+            if lineAsArr[0][0:4] != 'GTEX':
+                continue
+            sampleId = lineAsArr[SAMPID_colno]
+            tissueType = lineAsArr[SMTS_colno]
+            if tissueType not in tissueTypes:
+                tissueTypes.append(tissueType)
+            samplesToTissues[sampleId] = tissueType
+    return samplesToTissues
+
 def generateDonorTissuesFile(rpkm_path, attributes_path):
 
     rpkm_file = open(rpkm_path)
-
-    def generateSamplesToTissuesDict():
-        attributes_file = open(attributes_path)
-        tissueTypes = []
-        samplesToTissues = {}  # Dictionary mapping each sample ID to its tissue type
-        firstLine = True
-        for line in attributes_file:
-            lineAsArr = line.split('\t')
-            if firstLine:
-                SAMPID_colno = lineAsArr.index('SAMPID')  # column of sample ID
-                SMTS_colno = lineAsArr.index('SMTSD')  # column of sample tissue type
-                firstLine = False
-            else:
-                if lineAsArr[0][0:4] != 'GTEX':
-                    continue
-                sampleId = lineAsArr[SAMPID_colno]
-                tissueType = lineAsArr[SMTS_colno]
-                if tissueType not in tissueTypes:
-                    tissueTypes.append(tissueType)
-                samplesToTissues[sampleId] = tissueType
-        return samplesToTissues
-
 
     for line in rpkm_file:
         samples = line.split('\t')[4:]
         break
 
-    samplesToTissuesDict = generateSamplesToTissuesDict()
+    samplesToTissuesDict = generateSamplesToTissuesDict(attributes_path)
     donorsToTissues = {}  # maps a donor ID to list of tissues sampled
     numSamples = len(samples)
     for (i, sampleId) in enumerate(samples):
@@ -160,6 +163,33 @@ def generateTargetIdFiles(path):
                     zeroTargetIds_file.write('\t' + targetId)
     zeroTargetIds_file.close()
 
+def generateDonorMetaFiles(rpkm_path, attributes_path):
+
+    samplesToTissues = generateSamplesToTissuesDict(attributes_path)
+
+    rpkm_file = open(rpkm_path)
+    for line in rpkm_file:
+        samples = line.split('\t')[4:]
+        break
+    samples[-1] = samples[-1][:-1]  # Remove the newline character from the last sample ID
+    rpkm_file.close()
+
+    donorMetaData = {}
+    for sampleId in samples:
+        donorId = sampleId.split('-')[1]
+        tissue = samplesToTissues[sampleId]
+        if donorId not in donorMetaData:
+            donorMetaData[donorId] = [(sampleId, tissue)]
+        else:
+            donorMetaData[donorId].append((sampleId, tissue))
+
+    for donorId in donorMetaData.keys():
+        donor_meta_file = open('donor_matrices/donor_meta_' + donorId + '.txt', 'w')
+        metaData = donorMetaData[donorId]
+        for (sampleId, tissue) in metaData:
+            donor_meta_file.write(sampleId + '\t' + tissue + '\n')
+        donor_meta_file.close()
+
 
 """
 *********************
@@ -172,6 +202,7 @@ if __name__ == "__main__":
     path_to_attributes_file = '../../../Downloads/GTEx_Data_V6_Annotations_SampleAttributesDS.txt'
 
     generateDonorsFile(path_to_rpkm_file)
+    generateDonorMetaFiles(path_to_rpkm_file, path_to_attributes_file)
     generateDonorTissuesFile(path_to_rpkm_file, path_to_attributes_file)
     generateTargetIdFiles(path_to_rpkm_file)
 
