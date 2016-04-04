@@ -51,6 +51,7 @@ def generateDonorsFile(path):
                 firstDonor = False
             else:
                 donorFile.write('\t' + donorId)
+    donorFile.close()
 
 
 def generateDonorTissuesFile(rpkm_path, attributes_path):
@@ -106,6 +107,7 @@ def generateDonorTissuesFile(rpkm_path, attributes_path):
         for tiss in tissueList:
             donors_tissue_file.write('\t' + tiss)
         donors_tissue_file.write('\n')
+    donors_tissue_file.close()
 
 
 
@@ -137,6 +139,7 @@ def generateTargetIdFiles(path):
                             targetIds_file.write('\t' + targetId)
                         targetIdsWritten[targetId] = True
                         break  # go to next line in file
+    targetIds_file.close()
 
     # Generate zero targetIds file
     zeroTargetIds_file = open('zeroTargetIds.txt', 'w')
@@ -155,6 +158,7 @@ def generateTargetIdFiles(path):
                     firstTarget = False
                 else:
                     zeroTargetIds_file.write('\t' + targetId)
+    zeroTargetIds_file.close()
 
 
 """
