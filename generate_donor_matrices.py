@@ -64,8 +64,8 @@ if __name__ == "__main__":
         """
         This function generates the donor matrix for |donorId|.
         After this function completes there will be a file containing
-        a tab-delimited matrix. The matrix rows correspond to samples and the
-        matrix columns correspond to target IDs. The cell values are expression
+        a tab-delimited matrix. The matrix columns correspond to samples and the
+        matrix rows correspond to target IDs. The cell values are expression
         levels.
 
         :param donorId: The donor's ID
@@ -88,7 +88,10 @@ if __name__ == "__main__":
                 targetId = line[0:line.index('\t')]
 
                 if targetId in targetIdsToSkip:
-                    continue
+                    # Write a row full of zeros
+                    matrix_file.write('0')
+                    for i in range(len(donorColumns)-1):
+                        matrix_file.write('\t0')
                 else:
                     lineAsArr = line.split('\t')
                     for (j, rpkm_column) in enumerate(donorColumns):
@@ -104,6 +107,6 @@ if __name__ == "__main__":
         rpkm_file.close()
 
     for (i, donor) in enumerate(donors):
-        print i , 'th donor: ', donor
+        print 'donor ' + i + ': ', donor
         generate_donor_matrix(donor)
         break # TODO: remove this break. it's just for testing
