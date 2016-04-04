@@ -5,7 +5,7 @@
     If you want to run this script yourself, make sure to edit the file
     paths inside main.
 
-    Running this script generates the following 5 files (the 5th "file" is actually
+    Running this script generates the following 5 files (the 6th "file" is actually
     many files--1 for each donor):
 
     1) donors.txt: This file will contain a tab-separated list of all
@@ -24,6 +24,8 @@
     4) zeroTargetIds.txt: This file will contain each of the targetIds
     in the rpkm file that has all 0 expression levels.
     (See generateTargetIdFiles())
+
+    5) tissues.txt: Tab-delimited file of all SMTSD tissues.
 
     5) donor_meta_[donor Id].txt: The meta file for each donor. Column 1 is sample
     IDs. Column 2 is tissue type
@@ -112,6 +114,27 @@ def generateDonorTissuesFile(rpkm_path, attributes_path):
         donors_tissue_file.write('\n')
     donors_tissue_file.close()
 
+
+def generateTissuesFile(rpkm_path, attributes_path):
+
+    samplesToTissuesDict = generateSamplesToTissuesDict(attributes_path)
+
+    tissues = []
+    rpkm_file = open(rpkm_path)
+    for line in rpkm_file:
+        samples = line.split('\t')[4:]
+        break
+    samples[-1] = samples[-1][:-1]  # Remove newline from last sample ID
+
+    for sample in samples:
+        tissue = samplesToTissuesDict[sample]
+        if tissue not in tissues:
+            tissues.append(tissue)
+
+    tissue_file = open('tissues.txt', 'w')
+    tissue_file.write(tissues[0])
+    for t in tissues[1:]:
+        tissue_file.write('\t' + t)
 
 
 def generateTargetIdFiles(path):
@@ -205,5 +228,6 @@ if __name__ == "__main__":
     generateDonorMetaFiles(path_to_rpkm_file, path_to_attributes_file)
     generateDonorTissuesFile(path_to_rpkm_file, path_to_attributes_file)
     generateTargetIdFiles(path_to_rpkm_file)
+    generateTissuesFile(path_to_rpkm_file, path_to_attributes_file)
 
 
