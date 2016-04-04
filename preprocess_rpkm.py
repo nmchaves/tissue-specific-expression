@@ -267,13 +267,11 @@ if __name__ == "__main__":
     path_to_rpkm_file = '../../../Downloads/GTEx_Analysis_v6_RNA-seq_Flux1.6_transcript_rpkm.txt'
     path_to_attributes_file = '../../../Downloads/GTEx_Data_V6_Annotations_SampleAttributesDS.txt'
 
-    """
     generateDonorsFile(path_to_rpkm_file)
     generateDonorMetaFiles(path_to_rpkm_file, path_to_attributes_file)
     generateDonorTissuesFile(path_to_rpkm_file, path_to_attributes_file)
     generateTargetIdFiles(path_to_rpkm_file)
     generateTissuesFile(path_to_rpkm_file, path_to_attributes_file)
-    """
     generateTissueMetaFiles(path_to_rpkm_file, path_to_attributes_file)
 
 
