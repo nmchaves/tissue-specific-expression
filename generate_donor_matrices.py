@@ -107,6 +107,6 @@ if __name__ == "__main__":
         rpkm_file.close()
 
     for (i, donor) in enumerate(donors):
-        print 'donor ' + i + ': ', donor
+        print 'donor ', i, ': ', donor
         generate_donor_matrix(donor)
         break # TODO: remove this break. it's just for testing
