@@ -18,10 +18,7 @@ import pandas as pd
 *********************
 """
 
-if __name__ == "__main__":
-
-    filename = 'tissue_test.txt' 
-
+def short_summary(filename):
     # compute and store the mean expression levels for each targetID
     meanExpLevels = [] 
     rpkm_file = open(filename)
@@ -41,4 +38,9 @@ if __name__ == "__main__":
     series = pd.Series(meanExpLevels)
     print series.describe()
     
+
+if __name__ == "__main__":
+
+    filename = 'tissue_test.txt' 
+    short_summary(filename)
 
