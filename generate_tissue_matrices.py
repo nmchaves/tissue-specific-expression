@@ -16,7 +16,7 @@ def getTissueColumns(tissue, path_to_rpkm_file):
     """
     columns = []
     # Get a dictionary whose keys are sample IDs of this tissue's samples.
-    samples = getDictFromFile('tissue_metadata/tissue_meta_' + tissue + '.txt')
+    samples = getDictFromFile('../../../Documents/Stanford/CS341_Data/tissue_metadata/tissue_meta_' + tissue + '.txt')
     rpkm_file = open(path_to_rpkm_file)
     for line in rpkm_file:
         lineAsArr = line.split('\t')
@@ -70,7 +70,7 @@ if __name__ == "__main__":
     nonzeroTargetIds = getArrayFromFile('nonzeroTargetIds.txt')
     numTargetIds = len(targetIdsToSkip) + len(nonzeroTargetIds)
 
-    rpkm_file_path = '../../../Downloads/GTEx_Analysis_v6_RNA-seq_Flux1.6_transcript_rpkm.txt'
+    rpkm_file_path = '../../../Documents/Stanford/CS341_Data/transcript_rpkm_top_10000_var.txt'
 
     def generate_tissue_matrix(tissue):
         """
