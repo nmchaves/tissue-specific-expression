@@ -2,7 +2,7 @@
     This script generates a file containing a tab-delimited matrix
     for each tissue.
 
-    The matrix files are generated incrementally. If this program is interrupted at some
+    The matrix files are generated incrementally. If this program gets interrupted at some
     point, then we'll have saved the files for each tissue that has been processed so far.
 
 """
