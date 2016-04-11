@@ -65,7 +65,6 @@ def getArrayFromFile(path):
 """
 if __name__ == "__main__":
 
-    # TODO: get actual tissues file
     tissues = getArrayFromFile('tissues.txt')
     targetIdsToSkip = getArrayFromFile('zeroTargetIds.txt')
     nonzeroTargetIds = getArrayFromFile('nonzeroTargetIds.txt')
@@ -92,8 +91,6 @@ if __name__ == "__main__":
         row = 0
         tissueColumns = getTissueColumns(tissue, rpkm_file_path)
         for line in rpkm_file:
-            if row > 1000:
-                break  # TODO: remove this! it's just for testing
             if firstLine:
                 firstLine = False
                 continue
@@ -120,6 +117,5 @@ if __name__ == "__main__":
         rpkm_file.close()
 
     for (i, tissue) in enumerate(tissues):
-        print 'tissue ', i, ': ', tissue
+        print 'Generating file for tissue ', i, ': ', tissue
         generate_tissue_matrix(tissue)
-        break # TODO: remove this break. it's just for testing
