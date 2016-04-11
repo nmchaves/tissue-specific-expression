@@ -1,6 +1,6 @@
 """
     This file performs step 1/3 of preprocessing of the GTEx RPKM file:
-    "GTEx_Analysis_v6_RNA-seq_Flux1.6_transcript_rpkm.txt"
+    "GTEx_Analysis_v6_RNA-seq_Flux1.6_transcript_rpkm.txt".
 
     It goes through each line of the above rpkm file. If the current transcript
     corresponds to a gene in Gene Ontology, then the current line is written out
