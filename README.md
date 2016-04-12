@@ -18,6 +18,11 @@ We downloaded the Transcript RPKM file (`GTEx_Analysis_v6_RNA-seq_Flux1.6_transc
 2. Select top 10,000 transcripts with the highest variance across all samples in this dataset
 3. 
 
+|                     | Downloaded Transcript RPKM | After GO Term Filter | After Variance Filter |
+| --------------------|:--------------------------:| :-------------------:|:---------------------:|
+| Number of Variables | 195,747                    | 67,344               | 10,000                |
+
+
 TODO: Write usage instructions
 
 ## Contributing
