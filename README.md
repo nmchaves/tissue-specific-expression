@@ -1,6 +1,6 @@
 # CS 341 GTEx Project  
 
-TODO: Write a project description
+Team memebers: Nico Chaves, Noam Weinberger and Junjie (Jason) Zhu
 
 ## Structure
 
