@@ -1,10 +1,14 @@
-# Project Name
+# CS 341 GTEx Project  
 
 TODO: Write a project description
 
-## Installation
+## Structure
 
-TODO: Describe the installation process
+`/data`: includes metadata for the processed scripts and example datasets such as tissue; full datasets are stored on the server
+
+`/preprocessing`: includes python scripts that used to process the expression data downloaded from [GTEx](http://www.gtexportal.org/home/datasets)
+
+`/ipython_notebook`: includes ipython notebooks used to display main results of this project in an interactive fashion
 
 ## Usage
 
