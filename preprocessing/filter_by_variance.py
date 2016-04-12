@@ -22,6 +22,8 @@ if __name__ == "__main__":
     NUM_TRANSCRIPTS_TO_RETAIN = 10000
 
     path_to_rpkm_file = '../../../Documents/Stanford/CS341_Data/transcript_rpkm_in_go.txt'
+
+    # First pass: compute variances and record indices sorted by variance
     rpkm_file = open(path_to_rpkm_file)
 
     variances = []
@@ -37,15 +39,18 @@ if __name__ == "__main__":
 
     # Sort the list by variance (the 2nd element in the tuple)
     variances = sorted(variances, key=lambda tup: tup[1], reverse=True)
-    topVarianceIndeces = [index for (index, var) in variances[0:NUM_TRANSCRIPTS_TO_RETAIN]]
-    topVarianceIndeces = sorted(topVarianceIndeces)  # Sort by index
+    topVarianceIndices = [index for (index, var) in variances[0:NUM_TRANSCRIPTS_TO_RETAIN]]
+    topVarianceIndices = sorted(topVarianceIndices)  # Sort by index
 
+    rpkm_file.close()
+
+    # Second pass: write the processed data out to new .rpkm file
     rpkm_file = open(path_to_rpkm_file)
 
     file_name = '../../../Documents/Stanford/CS341_Data/transcript_rpkm_top_' + str(NUM_TRANSCRIPTS_TO_RETAIN) + '_var.txt'
     rpkm_file_top_var = open(file_name, 'w')
     firstLine = True
-    nextIndex = topVarianceIndeces.pop(0)
+    nextIndex = topVarianceIndices.pop(0)
     i = 0
     for line in rpkm_file:
         if firstLine:
@@ -55,8 +60,8 @@ if __name__ == "__main__":
         else:
             if i == nextIndex:
                 rpkm_file_top_var.write(line)
-                if len(topVarianceIndeces) > 0:
-                    nextIndex = topVarianceIndeces.pop(0)
+                if len(topVarianceIndices) > 0:
+                    nextIndex = topVarianceIndices.pop(0)
                 else:
                     break
             i += 1

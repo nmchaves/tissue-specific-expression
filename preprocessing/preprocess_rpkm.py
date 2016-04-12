@@ -60,6 +60,7 @@ def generateDonorsFile(path):
             else:
                 donorFile.write('\t' + donorId)
     donorFile.close()
+    rpkm_file.close()
 
 
 def generateSamplesToTissuesDict(attributes_path):
@@ -115,6 +116,7 @@ def generateDonorTissuesFile(rpkm_path, attributes_path):
             donors_tissue_file.write('\t' + tiss)
         donors_tissue_file.write('\n')
     donors_tissue_file.close()
+    rpkm_file.close()
 
 
 def generateTissuesFile(rpkm_path, attributes_path):
@@ -137,6 +139,7 @@ def generateTissuesFile(rpkm_path, attributes_path):
     tissue_file.write(tissues[0])
     for t in tissues[1:]:
         tissue_file.write('\t' + t)
+    rpkm_file.close()
 
 
 def generateTargetIdFiles(path):
@@ -168,6 +171,7 @@ def generateTargetIdFiles(path):
                         targetIdsWritten[targetId] = True
                         break  # go to next line in file
     targetIds_file.close()
+    rpkm_file.close()
 
     # Generate zero targetIds file
     zeroTargetIds_file = open('zeroTargetIds.txt', 'w')
@@ -187,6 +191,7 @@ def generateTargetIdFiles(path):
                 else:
                     zeroTargetIds_file.write('\t' + targetId)
     zeroTargetIds_file.close()
+    rpkm_file.close()
 
 
 def generateDonorMetaFiles(rpkm_path, attributes_path):
@@ -242,6 +247,7 @@ def generateTissueMetaFiles(rpkm_path, attributes_path):
                 else:
                     tissue_metafile.write('\t' + sampleId)
         tissue_metafile.close()
+        rpkm_file.close()
 
 
 def getArrayFromFile(path):
