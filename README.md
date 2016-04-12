@@ -4,7 +4,7 @@ TODO: Write a project description
 
 ## Structure
 
-`/data`: includes metadata for the processed scripts and example datasets such as tissue; full datasets are stored on the server
+`/data`: includes metadata of processed data and example datasets; full datasets are stored on the server
 
 `/preprocessing`: includes python scripts that used to process the expression data downloaded from [GTEx](http://www.gtexportal.org/home/datasets)
 
