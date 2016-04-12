@@ -10,7 +10,11 @@ TODO: Write a project description
 
 `/ipython_notebook`: includes ipython notebooks used to display main results of this project in an interactive fashion
 
-## Usage
+## Data Preprocessing
+
+1. Select transcripts that are mapped to genes in the GO database (list downloaded from [ensembl](http://uswest.ensembl.org/biomart/martview/e9b91b8cc3de4a51e3a6f7cacad17699) biomart tool)
+2. Select top 10,000 transcripts with the highest variance across all samples in this dataset
+3. 
 
 TODO: Write usage instructions
 
