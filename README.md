@@ -12,9 +12,9 @@ TODO: Write a project description
 
 ## Data Preprocessing
 
-We downloaded the Transcript RPKM file (`GTEx_Analysis_v6_RNA-seq_Flux1.6_transcript_rpkm.txt.gz`) and meta-information (`GTEx_Data_V6_Annotations_SampleAttributesDS.txt`) from [GTExPortal](http://www.gtexportal.org/home/datasets) where the former includes expression values and the latter includes information about donorIDs and tissue types of each sample. Then we filtered out transcripts according to the following procedure:
+We downloaded the Transcript RPKM file (`GTEx_Analysis_v6_RNA-seq_Flux1.6_transcript_rpkm.txt.gz`) and meta-information (`GTEx_Data_V6_Annotations_SampleAttributesDS.txt`) from [GTExPortal](http://www.gtexportal.org/home/datasets) where the former includes expression values and the latter includes information about donor IDs and tissue types of each sample. Then we filtered out transcripts according to the following procedure:
 
-1. Select transcripts that are mapped to genes in the GO database (list downloaded from [Ensembl](http://uswest.ensembl.org/biomart/martview/e9b91b8cc3de4a51e3a6f7cacad17699) biomart tool)
+1. Select transcripts that are mapped to genes in the GO database (list downloaded from [Ensembl](http://uswest.ensembl.org/biomart/martview/e9b91b8cc3de4a51e3a6f7cacad17699) Biomart)
 2. Select top 10,000 transcripts with the highest variance across all samples in this dataset
 3. 
 
