@@ -16,7 +16,7 @@ def getTissueColumns(tissue, path_to_rpkm_file):
     """
     columns = []
     # Get a dictionary whose keys are sample IDs of this tissue's samples.
-    samples = getDictFromFile('../../../Documents/Stanford/CS341_Data/tissue_metadata/tissue_meta_' + tissue + '.txt')
+    samples = getDictFromFile('../../../../Documents/Stanford/CS341_Data/tissue_metadata/tissue_meta_' + tissue + '.txt')
     rpkm_file = open(path_to_rpkm_file)
     for line in rpkm_file:
         lineAsArr = line.split('\t')
@@ -25,6 +25,7 @@ def getTissueColumns(tissue, path_to_rpkm_file):
                 if sampleId in samples:
                     columns.append(col)
         break  # Only examine the 1st line of rpkm file
+    rpkm_file.close()
     return columns
 
 def getDictFromFile(path):
@@ -65,12 +66,8 @@ def getArrayFromFile(path):
 """
 if __name__ == "__main__":
 
-    tissues = getArrayFromFile('tissues.txt')
-    targetIdsToSkip = getArrayFromFile('zeroTargetIds.txt')
-    nonzeroTargetIds = getArrayFromFile('nonzeroTargetIds.txt')
-    numTargetIds = len(targetIdsToSkip) + len(nonzeroTargetIds)
-
-    rpkm_file_path = '../../../Documents/Stanford/CS341_Data/transcript_rpkm_top_10000_var.txt'
+    tissues = getArrayFromFile('../data/tissues.txt')
+    rpkm_file_path = '../../../../Documents/Stanford/CS341_Data/transcript_rpkm_top_10000_var.txt'
 
     def generate_tissue_matrix(tissue):
         """
@@ -83,35 +80,25 @@ if __name__ == "__main__":
         :param tissue: Name of the tissue
         :return: No return value.
         """
+        tissueColumns = getTissueColumns(tissue, rpkm_file_path)
 
         rpkm_file = open(rpkm_file_path)
-        matrix_file = open('tissue_matrices/tissue_' + tissue + '.txt', 'w')
+        matrix_file = open('../../../../Documents/Stanford/CS341_Data/tissue_matrices_fixed/tissue_' + tissue + '.txt', 'w')
 
         firstLine = True
-        row = 0
-        tissueColumns = getTissueColumns(tissue, rpkm_file_path)
         for line in rpkm_file:
             if firstLine:
                 firstLine = False
                 continue
             else:
-                targetId = line[0:line.index('\t')]
-
-                if targetId in targetIdsToSkip:
-                    # Write a row full of zeros
-                    matrix_file.write('0')
-                    for i in range(len(tissueColumns)-1):
-                        matrix_file.write('\t0')
-                else:
-                    lineAsArr = line.split('\t')
-                    for (j, rpkm_column) in enumerate(tissueColumns):
-                        expressionLevel = lineAsArr[rpkm_column]
-                        if j == 0:
-                            matrix_file.write(expressionLevel)
-                        else:
-                            matrix_file.write('\t' + expressionLevel)
+                lineAsArr = line.split('\t')
+                for (j, rpkm_column) in enumerate(tissueColumns):
+                    expressionLevel = lineAsArr[rpkm_column]
+                    if j == 0:
+                        matrix_file.write(expressionLevel)
+                    else:
+                        matrix_file.write('\t' + expressionLevel)
                 matrix_file.write('\n')
-                row += 1
 
         matrix_file.close()
         rpkm_file.close()

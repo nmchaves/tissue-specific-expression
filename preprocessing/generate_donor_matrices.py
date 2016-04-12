@@ -28,8 +28,9 @@ def buildDonorsToColumnsDict(path_to_rpkm_file):
                     donorsDict[donorId] = [col]
                 else:
                     donorsDict[donorId].append(col)
-        break # Only examine the 1st line of rpkm file
+        break  # Only examine the 1st line of rpkm file
 
+    rpkm_file.close()
     return donorsDict
 
 
@@ -52,12 +53,8 @@ def getArrayFromFile(path):
 """
 if __name__ == "__main__":
 
-    donors = getArrayFromFile('donors.txt')
-    targetIdsToSkip = getArrayFromFile('zeroTargetIds.txt')
-    nonzeroTargetIds = getArrayFromFile('nonzeroTargetIds.txt')
-    numTargetIds = len(targetIdsToSkip) + len(nonzeroTargetIds)
-
-    rpkm_file_path = '../../../Downloads/GTEx_Analysis_v6_RNA-seq_Flux1.6_transcript_rpkm.txt'
+    donors = getArrayFromFile('../data/donors.txt')
+    rpkm_file_path = '../../../../Documents/Stanford/CS341_Data/transcript_rpkm_top_10000_var.txt'
     donorsToColumns = buildDonorsToColumnsDict(rpkm_file_path)
 
     def generate_donor_matrix(donorId):
@@ -73,40 +70,27 @@ if __name__ == "__main__":
         """
 
         rpkm_file = open(rpkm_file_path)
-        matrix_file = open('donor_matrices/donor_' + donor + '.txt', 'w')
+        matrix_file = open('../../../../Documents/Stanford/CS341_Data/donor_matrices_fixed/donor_' + donor + '.txt', 'w')
 
         firstLine = True
-        row = 0
         donorColumns = donorsToColumns[donorId]
         for line in rpkm_file:
-            #if row > 1000:
-            #    break  # TODO: remove this! it's just for testing
             if firstLine:
                 firstLine = False
                 continue
             else:
-                targetId = line[0:line.index('\t')]
-
-                if targetId in targetIdsToSkip:
-                    # Write a row full of zeros
-                    matrix_file.write('0')
-                    for i in range(len(donorColumns)-1):
-                        matrix_file.write('\t0')
-                else:
-                    lineAsArr = line.split('\t')
-                    for (j, rpkm_column) in enumerate(donorColumns):
-                        expressionLevel = lineAsArr[rpkm_column]
-                        if j==0:
-                            matrix_file.write(expressionLevel)
-                        else:
-                            matrix_file.write('\t' + expressionLevel)
-                matrix_file.write('\n')
-                row += 1
+                lineAsArr = line.split('\t')
+                for (j, rpkm_column) in enumerate(donorColumns):
+                    expressionLevel = lineAsArr[rpkm_column]
+                    if j == 0:
+                        matrix_file.write(expressionLevel)
+                    else:
+                        matrix_file.write('\t' + expressionLevel)
+            matrix_file.write('\n')
 
         matrix_file.close()
         rpkm_file.close()
 
     for (i, donor) in enumerate(donors):
-        print 'donor ', i, ': ', donor
+        print 'Generating file for donor ', i, ': ', donor
         generate_donor_matrix(donor)
-        break # TODO: remove this break. it's just for testing

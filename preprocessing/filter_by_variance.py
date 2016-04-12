@@ -1,5 +1,5 @@
 """
-    This file performs step 2/3 of preprocessing of the GTEx RPKM file:
+    This file performs the 2nd step of preprocessing the GTEx RPKM file:
     "GTEx_Analysis_v6_RNA-seq_Flux1.6_transcript_rpkm.txt"
 
     This should be ran AFTER filter_by_go.py
@@ -21,6 +21,7 @@ if __name__ == "__main__":
 
     NUM_TRANSCRIPTS_TO_RETAIN = 10000
 
+    # Path to the file generated using filter_by_go.py
     path_to_rpkm_file = '../../../Documents/Stanford/CS341_Data/transcript_rpkm_in_go.txt'
 
     # First pass: compute variances and record indices sorted by variance
