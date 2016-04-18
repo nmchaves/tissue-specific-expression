@@ -1,0 +1,13 @@
+GTEX-WHPG-0626-SM-3NMBD	Adipose - Visceral (Omentum)
+GTEX-WHPG-1526-SM-4M1ZK	Adrenal Gland
+GTEX-WHPG-0004-SM-3NMDO	Cells - EBV-transformed lymphocytes
+GTEX-WHPG-1626-SM-4M1ZL	Colon - Sigmoid
+GTEX-WHPG-1026-SM-3NMBA	Heart - Atrial Appendage
+GTEX-WHPG-0826-SM-3NMBF	Heart - Left Ventricle
+GTEX-WHPG-1426-SM-3NMBB	Lung
+GTEX-WHPG-2226-SM-3NMBO	Muscle - Skeletal
+GTEX-WHPG-2626-SM-3NMBR	Skin - Not Sun Exposed (Suprapubic)
+GTEX-WHPG-0426-SM-4M1XW	Stomach
+GTEX-WHPG-0226-SM-3NMB9	Thyroid
+GTEX-WHPG-2326-SM-3NMBP	Artery - Tibial
+GTEX-WHPG-0006-SM-3NMBV	Whole Blood

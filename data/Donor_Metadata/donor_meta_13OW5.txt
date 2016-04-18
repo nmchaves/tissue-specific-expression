@@ -1,0 +1,22 @@
+GTEX-13OW5-0011-R11b-SM-5L3GG	Brain - Cerebellar Hemisphere
+GTEX-13OW5-3126-SM-5MR3Y	Brain - Cerebellum
+GTEX-13OW5-0011-R1b-SM-5L3GE	Brain - Hippocampus
+GTEX-13OW5-0011-R8a-SM-5L3GQ	Brain - Hypothalamus
+GTEX-13OW5-0011-R6b-SM-5O9BW	Brain - Nucleus accumbens (basal ganglia)
+GTEX-13OW5-0011-R7a-SM-5O9C9	Brain - Putamen (basal ganglia)
+GTEX-13OW5-0011-R9b-SM-5O9CL	Brain - Spinal cord (cervical c-1)
+GTEX-13OW5-2226-SM-5L3HC	Breast - Mammary Tissue
+GTEX-13OW5-2826-SM-5KM1G	Colon - Sigmoid
+GTEX-13OW5-2626-SM-5MR3M	Colon - Transverse
+GTEX-13OW5-0826-SM-5J1NE	Artery - Aorta
+GTEX-13OW5-0926-SM-5L3GZ	Heart - Atrial Appendage
+GTEX-13OW5-0726-SM-5KLZK	Lung
+GTEX-13OW5-0326-SM-5L3HK	Muscle - Skeletal
+GTEX-13OW5-2926-SM-5IJF2	Pituitary
+GTEX-13OW5-2326-SM-5L3HO	Skin - Not Sun Exposed (Suprapubic)
+GTEX-13OW5-0126-SM-5MR3A	Skin - Sun Exposed (Lower leg)
+GTEX-13OW5-2526-SM-5L3I1	Testis
+GTEX-13OW5-0626-SM-5J2N2	Thyroid
+GTEX-13OW5-0011-R4b-SM-5L3HS	Brain - Amygdala
+GTEX-13OW5-0011-R3a-SM-5L3I5	Brain - Anterior cingulate cortex (BA24)
+GTEX-13OW5-0011-R5b-SM-5L3FR	Brain - Caudate (basal ganglia)

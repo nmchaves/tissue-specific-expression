@@ -1,0 +1,24 @@
+GTEX-11EM3-2326-SM-5H12B	Adipose - Subcutaneous
+GTEX-11EM3-1126-SM-5A5KM	Adipose - Visceral (Omentum)
+GTEX-11EM3-0326-SM-5A5KJ	Adrenal Gland
+GTEX-11EM3-1326-SM-5N9C6	Breast - Mammary Tissue
+GTEX-11EM3-0001-SM-5Q5BD	Cells - EBV-transformed lymphocytes
+GTEX-11EM3-1626-SM-5N9CO	Colon - Sigmoid
+GTEX-11EM3-1526-SM-5A5KN	Colon - Transverse
+GTEX-11EM3-0926-SM-5A5KK	Esophagus - Gastroesophageal Junction
+GTEX-11EM3-0826-SM-5N9CC	Esophagus - Mucosa
+GTEX-11EM3-0726-SM-5GZZM	Esophagus - Muscularis
+GTEX-11EM3-0226-SM-5985Y	Artery - Aorta
+GTEX-11EM3-0426-SM-5N9BZ	Heart - Atrial Appendage
+GTEX-11EM3-0626-SM-5H12Z	Heart - Left Ventricle
+GTEX-11EM3-2126-SM-5H11M	Muscle - Skeletal
+GTEX-11EM3-1726-SM-5N9D1	Ovary
+GTEX-11EM3-0526-SM-5H12N	Artery - Coronary
+GTEX-11EM3-1226-SM-5N9DD	Skin - Not Sun Exposed (Suprapubic)
+GTEX-11EM3-2426-SM-59861	Skin - Sun Exposed (Lower leg)
+GTEX-11EM3-1026-SM-5A5KL	Stomach
+GTEX-11EM3-0126-SM-5985K	Thyroid
+GTEX-11EM3-2226-SM-5H11Y	Artery - Tibial
+GTEX-11EM3-1926-SM-5987U	Uterus
+GTEX-11EM3-1826-SM-5A5KO	Vagina
+GTEX-11EM3-0005-SM-5N9DK	Whole Blood

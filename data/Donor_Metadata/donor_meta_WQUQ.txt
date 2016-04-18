@@ -1,0 +1,14 @@
+GTEX-WQUQ-0126-SM-4OOSS	Adrenal Gland
+GTEX-WQUQ-0008-SM-4OOT1	Cells - Transformed fibroblasts
+GTEX-WQUQ-2626-SM-4MVNP	Colon - Sigmoid
+GTEX-WQUQ-2526-SM-4MVNO	Colon - Transverse
+GTEX-WQUQ-1826-SM-4OOSD	Esophagus - Gastroesophageal Junction
+GTEX-WQUQ-1626-SM-4OOSH	Esophagus - Mucosa
+GTEX-WQUQ-1526-SM-4OOSM	Artery - Aorta
+GTEX-WQUQ-1326-SM-3MJFF	Heart - Atrial Appendage
+GTEX-WQUQ-1426-SM-3MJFD	Heart - Left Ventricle
+GTEX-WQUQ-1926-SM-4OOSA	Liver
+GTEX-WQUQ-2126-SM-4OOSO	Pancreas
+GTEX-WQUQ-0426-SM-3MJFU	Skin - Sun Exposed (Lower leg)
+GTEX-WQUQ-2426-SM-4MVNW	Small Intestine - Terminal Ileum
+GTEX-WQUQ-0006-SM-3MJF4	Whole Blood

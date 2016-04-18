@@ -1,0 +1,12 @@
+GTEX-13IVO-0226-SM-5LZXU	Adipose - Subcutaneous
+GTEX-13IVO-2426-SM-5K7V9	Adipose - Visceral (Omentum)
+GTEX-13IVO-2926-SM-5L3CZ	Brain - Cortex
+GTEX-13IVO-0011-R10a-SM-5LZY3	Brain - Frontal Cortex (BA9)
+GTEX-13IVO-0011-R8a-SM-5L3DY	Brain - Hypothalamus
+GTEX-13IVO-0011-R6b-SM-5K7X9	Brain - Nucleus accumbens (basal ganglia)
+GTEX-13IVO-0626-SM-5LZYJ	Muscle - Skeletal
+GTEX-13IVO-0426-SM-5LZY7	Nerve - Tibial
+GTEX-13IVO-0726-SM-5LZYV	Skin - Not Sun Exposed (Suprapubic)
+GTEX-13IVO-0126-SM-5J1NG	Skin - Sun Exposed (Lower leg)
+GTEX-13IVO-0926-SM-5KLZP	Thyroid
+GTEX-13IVO-0011-R3b-SM-5IJBJ	Brain - Anterior cingulate cortex (BA24)

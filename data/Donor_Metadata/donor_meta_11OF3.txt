@@ -1,0 +1,23 @@
+GTEX-11OF3-2426-SM-5Q5AS	Adipose - Subcutaneous
+GTEX-11OF3-0826-SM-5BC51	Adipose - Visceral (Omentum)
+GTEX-11OF3-0011-R11a-SM-57WCR	Brain - Cerebellar Hemisphere
+GTEX-11OF3-2926-SM-5HL78	Brain - Cortex
+GTEX-11OF3-3126-SM-5GU5E	Brain - Cerebellum
+GTEX-11OF3-0011-R8b-SM-57WCS	Brain - Hypothalamus
+GTEX-11OF3-0011-R6b-SM-57WBG	Brain - Nucleus accumbens (basal ganglia)
+GTEX-11OF3-0011-R7a-SM-57WCG	Brain - Putamen (basal ganglia)
+GTEX-11OF3-1926-SM-59889	Breast - Mammary Tissue
+GTEX-11OF3-0008-SM-5S2NH	Cells - Transformed fibroblasts
+GTEX-11OF3-2326-SM-5GU73	Esophagus - Gastroesophageal Junction
+GTEX-11OF3-1326-SM-5N9FJ	Kidney - Cortex
+GTEX-11OF3-0726-SM-5BC4Z	Liver
+GTEX-11OF3-1126-SM-5986C	Lung
+GTEX-11OF3-2526-SM-5P9JL	Muscle - Skeletal
+GTEX-11OF3-3026-SM-5GU52	Pituitary
+GTEX-11OF3-1726-SM-5GU5Q	Prostate
+GTEX-11OF3-0126-SM-5PNYF	Skin - Not Sun Exposed (Suprapubic)
+GTEX-11OF3-2626-SM-5GU7F	Skin - Sun Exposed (Lower leg)
+GTEX-11OF3-1826-SM-5987N	Testis
+GTEX-11OF3-0626-SM-5BC4Y	Thyroid
+GTEX-11OF3-0006-SM-5O9CM	Whole Blood
+GTEX-11OF3-0011-R5a-SM-57WB4	Brain - Caudate (basal ganglia)

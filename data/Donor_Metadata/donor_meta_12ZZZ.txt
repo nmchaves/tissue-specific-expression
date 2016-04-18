@@ -1,0 +1,19 @@
+GTEX-12ZZZ-0526-SM-5DUX6	Adipose - Subcutaneous
+GTEX-12ZZZ-0011-R11a-SM-5EGLC	Brain - Cerebellar Hemisphere
+GTEX-12ZZZ-3126-SM-5LZU6	Brain - Cerebellum
+GTEX-12ZZZ-3026-SM-5BC67	Brain - Cortex
+GTEX-12ZZZ-0011-R10a-SM-5P9HC	Brain - Frontal Cortex (BA9)
+GTEX-12ZZZ-0011-R6b-SM-5EQ5B	Brain - Nucleus accumbens (basal ganglia)
+GTEX-12ZZZ-0011-R7b-SM-5EGLE	Brain - Putamen (basal ganglia)
+GTEX-12ZZZ-0926-SM-5N9EQ	Adrenal Gland
+GTEX-12ZZZ-2426-SM-5GCNN	Colon - Transverse
+GTEX-12ZZZ-1726-SM-59HK5	Heart - Left Ventricle
+GTEX-12ZZZ-1326-SM-59HKW	Liver
+GTEX-12ZZZ-0226-SM-59HKU	Muscle - Skeletal
+GTEX-12ZZZ-2026-SM-5LZWJ	Prostate
+GTEX-12ZZZ-0726-SM-5GCNZ	Skin - Not Sun Exposed (Suprapubic)
+GTEX-12ZZZ-0626-SM-5DUXI	Skin - Sun Exposed (Lower leg)
+GTEX-12ZZZ-1226-SM-59HK1	Thyroid
+GTEX-12ZZZ-0011-R4b-SM-5DUV7	Brain - Amygdala
+GTEX-12ZZZ-0011-R3b-SM-5DUXK	Brain - Anterior cingulate cortex (BA24)
+GTEX-12ZZZ-0011-R5a-SM-5EQ4M	Brain - Caudate (basal ganglia)

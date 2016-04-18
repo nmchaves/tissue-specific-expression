@@ -1,0 +1,17 @@
+GTEX-13FXS-0011-R11a-SM-5L3DM	Brain - Cerebellar Hemisphere
+GTEX-13FXS-3026-SM-5LZYO	Brain - Cerebellum
+GTEX-13FXS-3126-SM-5J2NN	Brain - Cortex
+GTEX-13FXS-0011-R10a-SM-5J2MA	Brain - Frontal Cortex (BA9)
+GTEX-13FXS-0011-R1a-SM-5K7U6	Brain - Hippocampus
+GTEX-13FXS-0011-R8a-SM-5J1MN	Brain - Hypothalamus
+GTEX-13FXS-0011-R6b-SM-5L3F7	Brain - Nucleus accumbens (basal ganglia)
+GTEX-13FXS-0011-R7a-SM-5L3FC	Brain - Putamen (basal ganglia)
+GTEX-13FXS-0011-R9a-SM-5K7UI	Brain - Spinal cord (cervical c-1)
+GTEX-13FXS-0011-R2b-SM-5K7XX	Brain - Substantia nigra
+GTEX-13FXS-0326-SM-5K7TV	Muscle - Skeletal
+GTEX-13FXS-1126-SM-5IJBB	Artery - Coronary
+GTEX-13FXS-2826-SM-5LZYC	Prostate
+GTEX-13FXS-0226-SM-5IJCK	Skin - Sun Exposed (Lower leg)
+GTEX-13FXS-0726-SM-5LZXJ	Thyroid
+GTEX-13FXS-0006-SM-5O99X	Whole Blood
+GTEX-13FXS-0011-R5b-SM-5LZYE	Brain - Caudate (basal ganglia)

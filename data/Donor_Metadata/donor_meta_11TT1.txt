@@ -1,0 +1,24 @@
+GTEX-11TT1-0126-SM-5LUAA	Adrenal Gland
+GTEX-11TT1-2126-SM-5GU5Y	Breast - Mammary Tissue
+GTEX-11TT1-0004-SM-5S2NT	Cells - EBV-transformed lymphocytes
+GTEX-11TT1-0008-SM-5S2P8	Cells - Transformed fibroblasts
+GTEX-11TT1-0926-SM-5GU5M	Colon - Sigmoid
+GTEX-11TT1-1026-SM-5PNW7	Colon - Transverse
+GTEX-11TT1-0626-SM-5GU4X	Esophagus - Gastroesophageal Junction
+GTEX-11TT1-0526-SM-5P9JO	Esophagus - Mucosa
+GTEX-11TT1-0426-SM-5EGI9	Esophagus - Muscularis
+GTEX-11TT1-1226-SM-5Q5AV	Artery - Aorta
+GTEX-11TT1-1426-SM-5EGIA	Heart - Atrial Appendage
+GTEX-11TT1-1326-SM-5PNYM	Heart - Left Ventricle
+GTEX-11TT1-1626-SM-5EQL7	Lung
+GTEX-11TT1-2626-SM-5EGL2	Nerve - Tibial
+GTEX-11TT1-1526-SM-5EQKU	Artery - Coronary
+GTEX-11TT1-0326-SM-5LUAY	Pancreas
+GTEX-11TT1-2026-SM-5EQM8	Prostate
+GTEX-11TT1-1826-SM-5EQLV	Skin - Not Sun Exposed (Suprapubic)
+GTEX-11TT1-2526-SM-5EGIB	Skin - Sun Exposed (Lower leg)
+GTEX-11TT1-0726-SM-5GU5A	Stomach
+GTEX-11TT1-2226-SM-5GU6B	Testis
+GTEX-11TT1-1126-SM-5P9GV	Thyroid
+GTEX-11TT1-2726-SM-5LU8L	Artery - Tibial
+GTEX-11TT1-0005-SM-5NQ8Y	Whole Blood

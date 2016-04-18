@@ -1,0 +1,9 @@
+GTEX-12WSE-0011-R11b-SM-5P9JW	Brain - Cerebellar Hemisphere
+GTEX-12WSE-2926-SM-5RQJ9	Brain - Cerebellum
+GTEX-12WSE-0011-R10b-SM-5P9JV	Brain - Frontal Cortex (BA9)
+GTEX-12WSE-0011-R1b-SM-5GU4V	Brain - Hippocampus
+GTEX-12WSE-0011-R6b-SM-5LZV5	Brain - Nucleus accumbens (basal ganglia)
+GTEX-12WSE-0011-R7a-SM-5PNWF	Brain - Putamen (basal ganglia)
+GTEX-12WSE-0926-SM-5S2VX	Heart - Atrial Appendage
+GTEX-12WSE-0826-SM-5S2VL	Lung
+GTEX-12WSE-0005-SM-5NQAE	Whole Blood

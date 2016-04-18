@@ -1,0 +1,11 @@
+GTEX-145MF-0526-SM-5LUA6	Adipose - Subcutaneous
+GTEX-145MF-1026-SM-5Q5EQ	Adipose - Visceral (Omentum)
+GTEX-145MF-2726-SM-5O995	Brain - Cortex
+GTEX-145MF-1526-SM-5LU95	Esophagus - Gastroesophageal Junction
+GTEX-145MF-1426-SM-5O9B6	Esophagus - Mucosa
+GTEX-145MF-0826-SM-5QGQA	Liver
+GTEX-145MF-0726-SM-5Q5BT	Lung
+GTEX-145MF-2626-SM-5O98S	Pituitary
+GTEX-145MF-0926-SM-5Q5EA	Skin - Not Sun Exposed (Suprapubic)
+GTEX-145MF-0626-SM-5LUAI	Skin - Sun Exposed (Lower leg)
+GTEX-145MF-0426-SM-5LU9T	Artery - Tibial

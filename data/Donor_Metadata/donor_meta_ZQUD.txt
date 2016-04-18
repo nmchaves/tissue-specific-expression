@@ -1,0 +1,18 @@
+GTEX-ZQUD-0526-SM-57WG4	Adipose - Visceral (Omentum)
+GTEX-ZQUD-1926-SM-51MSA	Breast - Mammary Tissue
+GTEX-ZQUD-0003-SM-4YCD3	Cells - EBV-transformed lymphocytes
+GTEX-ZQUD-0008-SM-4YCCU	Cells - Transformed fibroblasts
+GTEX-ZQUD-0426-SM-57WFR	Esophagus - Mucosa
+GTEX-ZQUD-0326-SM-4YCEN	Esophagus - Muscularis
+GTEX-ZQUD-0226-SM-4YCEB	Artery - Aorta
+GTEX-ZQUD-1526-SM-51MRE	Heart - Left Ventricle
+GTEX-ZQUD-2126-SM-51MSY	Minor Salivary Gland
+GTEX-ZQUD-1726-SM-51MRQ	Muscle - Skeletal
+GTEX-ZQUD-1226-SM-51MSP	Nerve - Tibial
+GTEX-ZQUD-1426-SM-57WER	Skin - Sun Exposed (Lower leg)
+GTEX-ZQUD-0926-SM-57WE3	Small Intestine - Terminal Ileum
+GTEX-ZQUD-0826-SM-57WDQ	Stomach
+GTEX-ZQUD-2026-SM-51MSM	Testis
+GTEX-ZQUD-0126-SM-4YCDY	Thyroid
+GTEX-ZQUD-1326-SM-57WEF	Artery - Tibial
+GTEX-ZQUD-0005-SM-4YCE5	Whole Blood

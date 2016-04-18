@@ -1,0 +1,10 @@
+GTEX-1314G-1626-SM-5EQ67	Adipose - Subcutaneous
+GTEX-1314G-1226-SM-5BC6D	Breast - Mammary Tissue
+GTEX-1314G-0126-SM-5LZUL	Heart - Left Ventricle
+GTEX-1314G-2026-SM-5LZUM	Minor Salivary Gland
+GTEX-1314G-1726-SM-5LZUX	Muscle - Skeletal
+GTEX-1314G-1826-SM-5LZVA	Nerve - Tibial
+GTEX-1314G-1326-SM-5BC6E	Skin - Not Sun Exposed (Suprapubic)
+GTEX-1314G-1526-SM-5EGK2	Skin - Sun Exposed (Lower leg)
+GTEX-1314G-1926-SM-5BC6F	Artery - Tibial
+GTEX-1314G-0005-SM-5NQ9O	Whole Blood

@@ -1,0 +1,7 @@
+GTEX-WOFL-0826-SM-3MJG1	Breast - Mammary Tissue
+GTEX-WOFL-0008-SM-4OOSZ	Cells - Transformed fibroblasts
+GTEX-WOFL-1226-SM-4OOST	Heart - Atrial Appendage
+GTEX-WOFL-0626-SM-3MJG3	Muscle - Skeletal
+GTEX-WOFL-0126-SM-3MJG2	Skin - Sun Exposed (Lower leg)
+GTEX-WOFL-0726-SM-3MJG4	Thyroid
+GTEX-WOFL-0006-SM-3TW8K	Whole Blood

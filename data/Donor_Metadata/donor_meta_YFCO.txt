@@ -1,0 +1,15 @@
+GTEX-YFCO-2026-SM-4W21Q	Adipose - Subcutaneous
+GTEX-YFCO-1126-SM-5S2N9	Adipose - Visceral (Omentum)
+GTEX-YFCO-0126-SM-4W1YT	Adrenal Gland
+GTEX-YFCO-1826-SM-4W1YH	Breast - Mammary Tissue
+GTEX-YFCO-0003-SM-4W21I	Cells - EBV-transformed lymphocytes
+GTEX-YFCO-0526-SM-4W1ZJ	Esophagus - Muscularis
+GTEX-YFCO-0426-SM-4W1Z7	Lung
+GTEX-YFCO-1926-SM-4W212	Muscle - Skeletal
+GTEX-YFCO-1026-SM-5LU9S	Pancreas
+GTEX-YFCO-1226-SM-5LUAT	Skin - Not Sun Exposed (Suprapubic)
+GTEX-YFCO-0926-SM-5LUA5	Spleen
+GTEX-YFCO-0826-SM-5LUAG	Stomach
+GTEX-YFCO-1726-SM-4W21S	Testis
+GTEX-YFCO-0326-SM-4W1ZP	Thyroid
+GTEX-YFCO-0005-SM-4W1ZI	Whole Blood

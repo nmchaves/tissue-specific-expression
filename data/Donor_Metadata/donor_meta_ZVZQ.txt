@@ -1,0 +1,17 @@
+GTEX-ZVZQ-0011-R11a-SM-51MS6	Brain - Cerebellar Hemisphere
+GTEX-ZVZQ-0011-R10b-SM-51MRT	Brain - Frontal Cortex (BA9)
+GTEX-ZVZQ-0011-R1a-SM-57WBU	Brain - Hippocampus
+GTEX-ZVZQ-0011-R8a-SM-51MR5	Brain - Hypothalamus
+GTEX-ZVZQ-0011-R6b-SM-57WAY	Brain - Nucleus accumbens (basal ganglia)
+GTEX-ZVZQ-0011-R7b-SM-57WBB	Brain - Putamen (basal ganglia)
+GTEX-ZVZQ-0011-R9a-SM-51MRH	Brain - Spinal cord (cervical c-1)
+GTEX-ZVZQ-0826-SM-51MRF	Breast - Mammary Tissue
+GTEX-ZVZQ-0008-SM-51MSK	Cells - Transformed fibroblasts
+GTEX-ZVZQ-2626-SM-59HLB	Colon - Sigmoid
+GTEX-ZVZQ-0726-SM-51MR3	Heart - Atrial Appendage
+GTEX-ZVZQ-1526-SM-5N9G6	Lung
+GTEX-ZVZQ-0626-SM-59HJU	Thyroid
+GTEX-ZVZQ-0006-SM-51MR8	Whole Blood
+GTEX-ZVZQ-0011-R4b-SM-57WCZ	Brain - Amygdala
+GTEX-ZVZQ-0011-R3a-SM-57WC7	Brain - Anterior cingulate cortex (BA24)
+GTEX-ZVZQ-0011-R5b-SM-57WDC	Brain - Caudate (basal ganglia)

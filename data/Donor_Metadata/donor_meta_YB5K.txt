@@ -1,0 +1,18 @@
+GTEX-YB5K-2226-SM-4WWG1	Adipose - Subcutaneous
+GTEX-YB5K-1626-SM-5IFIN	Breast - Mammary Tissue
+GTEX-YB5K-0003-SM-4VDSN	Cells - EBV-transformed lymphocytes
+GTEX-YB5K-0008-SM-4VDT8	Cells - Transformed fibroblasts
+GTEX-YB5K-0626-SM-5LUB5	Esophagus - Gastroesophageal Junction
+GTEX-YB5K-0726-SM-5LU8R	Esophagus - Muscularis
+GTEX-YB5K-0326-SM-5IFJQ	Artery - Aorta
+GTEX-YB5K-0226-SM-5IFJE	Heart - Atrial Appendage
+GTEX-YB5K-0126-SM-5IFJ2	Heart - Left Ventricle
+GTEX-YB5K-1726-SM-5IFIZ	Minor Salivary Gland
+GTEX-YB5K-2326-SM-5IFHD	Muscle - Skeletal
+GTEX-YB5K-2426-SM-5IFHP	Nerve - Tibial
+GTEX-YB5K-1826-SM-5IFJC	Pancreas
+GTEX-YB5K-2026-SM-4VDT3	Skin - Not Sun Exposed (Suprapubic)
+GTEX-YB5K-2126-SM-4WWDJ	Skin - Sun Exposed (Lower leg)
+GTEX-YB5K-1926-SM-4VDT4	Spleen
+GTEX-YB5K-0526-SM-5LUAS	Thyroid
+GTEX-YB5K-0005-SM-4VDSP	Whole Blood

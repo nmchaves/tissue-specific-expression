@@ -1,0 +1,15 @@
+GTEX-ZV7C-0826-SM-59HK8	Adipose - Visceral (Omentum)
+GTEX-ZV7C-1826-SM-5NQ83	Breast - Mammary Tissue
+GTEX-ZV7C-0003-SM-4YCF6	Cells - EBV-transformed lymphocytes
+GTEX-ZV7C-0008-SM-57WCL	Cells - Transformed fibroblasts
+GTEX-ZV7C-1526-SM-5NQ72	Colon - Transverse
+GTEX-ZV7C-1326-SM-5BC7G	Esophagus - Gastroesophageal Junction
+GTEX-ZV7C-0526-SM-51MRB	Heart - Atrial Appendage
+GTEX-ZV7C-0326-SM-57WB1	Heart - Left Ventricle
+GTEX-ZV7C-2426-SM-5NQ7Q	Muscle - Skeletal
+GTEX-ZV7C-0426-SM-51MQY	Artery - Coronary
+GTEX-ZV7C-0726-SM-59HKH	Pancreas
+GTEX-ZV7C-1626-SM-5NQ7E	Stomach
+GTEX-ZV7C-2026-SM-5NQ8F	Testis
+GTEX-ZV7C-0126-SM-57WDE	Thyroid
+GTEX-ZV7C-0005-SM-57WDL	Whole Blood

@@ -1,0 +1,12 @@
+GTEX-QESD-1526-SM-2S1QT	Adipose - Subcutaneous
+GTEX-QESD-0008-SM-447B2	Cells - Transformed fibroblasts
+GTEX-QESD-0826-SM-47J4G	Esophagus - Mucosa
+GTEX-QESD-0726-SM-4R1KQ	Esophagus - Muscularis
+GTEX-QESD-0426-SM-4R1JZ	Artery - Aorta
+GTEX-QESD-0526-SM-2I5G5	Heart - Left Ventricle
+GTEX-QESD-2026-SM-447BI	Liver
+GTEX-QESD-0626-SM-2I5G4	Lung
+GTEX-QESD-1626-SM-2S1RB	Muscle - Skeletal
+GTEX-QESD-0326-SM-47J4F	Artery - Coronary
+GTEX-QESD-1426-SM-2S1R9	Skin - Sun Exposed (Lower leg)
+GTEX-QESD-0006-SM-2I5G6	Whole Blood

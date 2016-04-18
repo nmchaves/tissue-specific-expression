@@ -1,0 +1,9 @@
+GTEX-13PLJ-0126-SM-5L3HU	Adipose - Subcutaneous
+GTEX-13PLJ-0011-R11b-SM-5O9BS	Brain - Cerebellar Hemisphere
+GTEX-13PLJ-0011-R9b-SM-5O9DV	Brain - Spinal cord (cervical c-1)
+GTEX-13PLJ-0326-SM-5L3I7	Muscle - Skeletal
+GTEX-13PLJ-1726-SM-5L3FT	Pituitary
+GTEX-13PLJ-0526-SM-5K7VW	Artery - Tibial
+GTEX-13PLJ-0005-SM-5NQ99	Whole Blood
+GTEX-13PLJ-0011-R3a-SM-5O9DT	Brain - Anterior cingulate cortex (BA24)
+GTEX-13PLJ-0011-R5a-SM-5O9BG	Brain - Caudate (basal ganglia)

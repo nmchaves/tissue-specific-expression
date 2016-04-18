@@ -1,0 +1,16 @@
+GTEX-Y8DK-0011-R11A-SM-4SOK2	Brain - Cerebellar Hemisphere
+GTEX-Y8DK-0726-SM-4TT3S	Brain - Cerebellum
+GTEX-Y8DK-0826-SM-4TT3T	Brain - Cortex
+GTEX-Y8DK-0011-R10A-SM-4SOK1	Brain - Frontal Cortex (BA9)
+GTEX-Y8DK-0011-R1A-SM-4RGLO	Brain - Hippocampus
+GTEX-Y8DK-0011-R6A-SM-4V6EG	Brain - Nucleus accumbens (basal ganglia)
+GTEX-Y8DK-0011-R7A-SM-4SOJZ	Brain - Putamen (basal ganglia)
+GTEX-Y8DK-0004-SM-4RGM7	Cells - EBV-transformed lymphocytes
+GTEX-Y8DK-0008-SM-4RGM2	Cells - Transformed fibroblasts
+GTEX-Y8DK-0326-SM-4TT3P	Muscle - Skeletal
+GTEX-Y8DK-0426-SM-4TT3Q	Nerve - Tibial
+GTEX-Y8DK-0126-SM-4TT3L	Skin - Sun Exposed (Lower leg)
+GTEX-Y8DK-0526-SM-4TT3R	Artery - Tibial
+GTEX-Y8DK-0005-SM-4RGNR	Whole Blood
+GTEX-Y8DK-0011-R3A-SM-4RTW5	Brain - Anterior cingulate cortex (BA24)
+GTEX-Y8DK-0011-R5B-SM-4RTW6	Brain - Caudate (basal ganglia)

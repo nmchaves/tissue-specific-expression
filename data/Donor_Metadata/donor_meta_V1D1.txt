@@ -1,0 +1,20 @@
+GTEX-V1D1-0226-SM-4JBHG	Adrenal Gland
+GTEX-V1D1-0003-SM-3NMDP	Cells - EBV-transformed lymphocytes
+GTEX-V1D1-0008-SM-4JBIJ	Cells - Transformed fibroblasts
+GTEX-V1D1-1226-SM-4JBI5	Esophagus - Gastroesophageal Junction
+GTEX-V1D1-1026-SM-4JBHE	Esophagus - Mucosa
+GTEX-V1D1-1126-SM-4JBHT	Esophagus - Muscularis
+GTEX-V1D1-0326-SM-4JBIY	Artery - Aorta
+GTEX-V1D1-0626-SM-4JBHN	Heart - Atrial Appendage
+GTEX-V1D1-0526-SM-4JBGW	Heart - Left Ventricle
+GTEX-V1D1-0826-SM-3P5ZA	Lung
+GTEX-V1D1-2426-SM-3GAER	Muscle - Skeletal
+GTEX-V1D1-0726-SM-4JBH7	Pancreas
+GTEX-V1D1-1926-SM-4JBGX	Prostate
+GTEX-V1D1-2026-SM-3GAF4	Skin - Not Sun Exposed (Suprapubic)
+GTEX-V1D1-2226-SM-3NMAX	Skin - Sun Exposed (Lower leg)
+GTEX-V1D1-1726-SM-4JBHB	Stomach
+GTEX-V1D1-2126-SM-4JBH4	Testis
+GTEX-V1D1-0926-SM-4JBHQ	Thyroid
+GTEX-V1D1-2626-SM-4JBJH	Artery - Tibial
+GTEX-V1D1-0006-SM-3NMCE	Whole Blood

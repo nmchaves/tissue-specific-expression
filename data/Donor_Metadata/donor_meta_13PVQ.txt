@@ -1,0 +1,26 @@
+GTEX-13PVQ-0226-SM-5SIBG	Adipose - Subcutaneous
+GTEX-13PVQ-2226-SM-5L3G9	Adipose - Visceral (Omentum)
+GTEX-13PVQ-0011-R11a-SM-5O9DU	Brain - Cerebellar Hemisphere
+GTEX-13PVQ-2926-SM-5L3HJ	Brain - Cerebellum
+GTEX-13PVQ-3026-SM-5SI93	Brain - Cortex
+GTEX-13PVQ-0011-R7a-SM-5L3G3	Brain - Putamen (basal ganglia)
+GTEX-13PVQ-0011-R9b-SM-5LU3B	Brain - Spinal cord (cervical c-1)
+GTEX-13PVQ-1026-SM-5KM3M	Breast - Mammary Tissue
+GTEX-13PVQ-2726-SM-5L3H7	Colon - Sigmoid
+GTEX-13PVQ-1926-SM-5L3GN	Esophagus - Gastroesophageal Junction
+GTEX-13PVQ-1726-SM-5IFF3	Esophagus - Mucosa
+GTEX-13PVQ-1826-SM-5L3GU	Esophagus - Muscularis
+GTEX-13PVQ-1426-SM-5J1O4	Artery - Aorta
+GTEX-13PVQ-1326-SM-5LU4J	Heart - Atrial Appendage
+GTEX-13PVQ-1226-SM-5IJDC	Heart - Left Ventricle
+GTEX-13PVQ-0926-SM-5IJFD	Lung
+GTEX-13PVQ-0326-SM-5K7YF	Muscle - Skeletal
+GTEX-13PVQ-0426-SM-5J1OG	Nerve - Tibial
+GTEX-13PVQ-0626-SM-5LU47	Skin - Not Sun Exposed (Suprapubic)
+GTEX-13PVQ-0126-SM-5SIB4	Skin - Sun Exposed (Lower leg)
+GTEX-13PVQ-2126-SM-5L3FW	Stomach
+GTEX-13PVQ-0726-SM-5L3GI	Thyroid
+GTEX-13PVQ-0526-SM-5LU8Q	Artery - Tibial
+GTEX-13PVQ-0011-R4a-SM-5O9CT	Brain - Amygdala
+GTEX-13PVQ-0011-R3b-SM-5O9D6	Brain - Anterior cingulate cortex (BA24)
+GTEX-13PVQ-0011-R5b-SM-5O9DI	Brain - Caudate (basal ganglia)

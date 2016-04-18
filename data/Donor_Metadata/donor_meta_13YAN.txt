@@ -1,0 +1,11 @@
+GTEX-13YAN-0426-SM-5O9DR	Adipose - Subcutaneous
+GTEX-13YAN-1826-SM-5LU3Q	Esophagus - Gastroesophageal Junction
+GTEX-13YAN-2026-SM-5Q5EY	Esophagus - Muscularis
+GTEX-13YAN-1526-SM-5LU3E	Artery - Aorta
+GTEX-13YAN-1326-SM-5Q5F1	Heart - Left Ventricle
+GTEX-13YAN-1026-SM-5O9CF	Lung
+GTEX-13YAN-0526-SM-5O9BE	Muscle - Skeletal
+GTEX-13YAN-0626-SM-5O9BQ	Nerve - Tibial
+GTEX-13YAN-2126-SM-5Q5C4	Pancreas
+GTEX-13YAN-0326-SM-5O9DF	Skin - Sun Exposed (Lower leg)
+GTEX-13YAN-0926-SM-5O9C3	Thyroid

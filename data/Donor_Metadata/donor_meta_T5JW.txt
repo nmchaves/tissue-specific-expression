@@ -1,0 +1,18 @@
+GTEX-T5JW-1726-SM-3GADN	Adipose - Subcutaneous
+GTEX-T5JW-2026-SM-4DM63	Breast - Mammary Tissue
+GTEX-T5JW-0003-SM-3NMAD	Cells - EBV-transformed lymphocytes
+GTEX-T5JW-0008-SM-4DM5X	Cells - Transformed fibroblasts
+GTEX-T5JW-0726-SM-4DM6D	Cervix - Ectocervix
+GTEX-T5JW-1126-SM-4DM5V	Colon - Transverse
+GTEX-T5JW-1326-SM-4DM5G	Esophagus - Mucosa
+GTEX-T5JW-1426-SM-4DM5Q	Esophagus - Muscularis
+GTEX-T5JW-0326-SM-4DM6J	Fallopian Tube
+GTEX-T5JW-1826-SM-3GAE1	Muscle - Skeletal
+GTEX-T5JW-0426-SM-4DM7M	Ovary
+GTEX-T5JW-0226-SM-4DM7I	Pancreas
+GTEX-T5JW-1626-SM-3GADZ	Skin - Sun Exposed (Lower leg)
+GTEX-T5JW-0126-SM-4DM6K	Spleen
+GTEX-T5JW-0926-SM-4DM5K	Stomach
+GTEX-T5JW-1226-SM-3GACY	Thyroid
+GTEX-T5JW-1526-SM-4DM5E	Uterus
+GTEX-T5JW-0005-SM-3GADE	Whole Blood

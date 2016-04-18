@@ -1,0 +1,26 @@
+GTEX-TSE9-0226-SM-3DB84	Adipose - Subcutaneous
+GTEX-TSE9-0011-R11A-SM-3DB7N	Brain - Cerebellar Hemisphere
+GTEX-TSE9-2926-SM-3DB77	Brain - Cerebellum
+GTEX-TSE9-3026-SM-3DB76	Brain - Cortex
+GTEX-TSE9-0011-R10A-SM-3DB7O	Brain - Frontal Cortex (BA9)
+GTEX-TSE9-0011-R1A-SM-3DB7E	Brain - Hippocampus
+GTEX-TSE9-0011-R8A-SM-3DB7R	Brain - Hypothalamus
+GTEX-TSE9-0011-R6A-SM-3DB7L	Brain - Nucleus accumbens (basal ganglia)
+GTEX-TSE9-0011-R7A-SM-3DB7P	Brain - Putamen (basal ganglia)
+GTEX-TSE9-0011-R9A-SM-3DB7Q	Brain - Spinal cord (cervical c-1)
+GTEX-TSE9-0008-SM-4DXT8	Cells - Transformed fibroblasts
+GTEX-TSE9-2826-SM-4DXTF	Cervix - Ectocervix
+GTEX-TSE9-2726-SM-4DXSQ	Cervix - Endocervix
+GTEX-TSE9-1226-SM-4DXTM	Esophagus - Mucosa
+GTEX-TSE9-0726-SM-3DB8C	Lung
+GTEX-TSE9-0526-SM-3DB7Z	Muscle - Skeletal
+GTEX-TSE9-2226-SM-4DXUR	Ovary
+GTEX-TSE9-3126-SM-4DXSY	Pituitary
+GTEX-TSE9-0126-SM-3DB83	Skin - Sun Exposed (Lower leg)
+GTEX-TSE9-0626-SM-3DB8B	Thyroid
+GTEX-TSE9-0426-SM-3DB81	Artery - Tibial
+GTEX-TSE9-2626-SM-4DXV2	Uterus
+GTEX-TSE9-2526-SM-4DXUS	Vagina
+GTEX-TSE9-0005-SM-4DXUF	Whole Blood
+GTEX-TSE9-0011-R4A-SM-3DB7H	Brain - Amygdala
+GTEX-TSE9-0011-R5A-SM-3DB7J	Brain - Caudate (basal ganglia)

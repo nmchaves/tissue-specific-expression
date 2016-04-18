@@ -1,0 +1,19 @@
+GTEX-QLQ7-1526-SM-2S1QA	Adipose - Subcutaneous
+GTEX-QLQ7-0126-SM-4R1JW	Adrenal Gland
+GTEX-QLQ7-0008-SM-447AW	Cells - Transformed fibroblasts
+GTEX-QLQ7-1126-SM-4R1KN	Colon - Transverse
+GTEX-QLQ7-0926-SM-447BC	Esophagus - Mucosa
+GTEX-QLQ7-1026-SM-447BB	Esophagus - Muscularis
+GTEX-QLQ7-0426-SM-4R1JU	Artery - Aorta
+GTEX-QLQ7-0526-SM-2I5G3	Heart - Left Ventricle
+GTEX-QLQ7-1726-SM-2S1QQ	Muscle - Skeletal
+GTEX-QLQ7-1826-SM-2S1R5	Nerve - Tibial
+GTEX-QLQ7-0326-SM-4R1JV	Artery - Coronary
+GTEX-QLQ7-0626-SM-4R1JT	Pancreas
+GTEX-QLQ7-1326-SM-4R1JY	Prostate
+GTEX-QLQ7-1626-SM-2S1R8	Skin - Sun Exposed (Lower leg)
+GTEX-QLQ7-0826-SM-447B3	Stomach
+GTEX-QLQ7-1426-SM-4R1JX	Testis
+GTEX-QLQ7-0726-SM-2I5G2	Thyroid
+GTEX-QLQ7-1926-SM-2S1R6	Artery - Tibial
+GTEX-QLQ7-0005-SM-2S1QP	Whole Blood

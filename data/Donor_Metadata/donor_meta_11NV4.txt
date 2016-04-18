@@ -1,0 +1,17 @@
+GTEX-11NV4-1426-SM-5BC4W	Adipose - Visceral (Omentum)
+GTEX-11NV4-2226-SM-5BC4T	Brain - Cerebellum
+GTEX-11NV4-2126-SM-5N9DS	Brain - Cortex
+GTEX-11NV4-0011-R6a-SM-57WD5	Brain - Nucleus accumbens (basal ganglia)
+GTEX-11NV4-0011-R7a-SM-57WDH	Brain - Putamen (basal ganglia)
+GTEX-11NV4-2026-SM-5N9DG	Breast - Mammary Tissue
+GTEX-11NV4-0008-SM-5Q5BA	Cells - Transformed fibroblasts
+GTEX-11NV4-0826-SM-5BC4S	Heart - Atrial Appendage
+GTEX-11NV4-1326-SM-5HL6V	Liver
+GTEX-11NV4-1126-SM-5HL6J	Lung
+GTEX-11NV4-1926-SM-5N9D4	Minor Salivary Gland
+GTEX-11NV4-0326-SM-5HL58	Muscle - Skeletal
+GTEX-11NV4-2326-SM-5BC4X	Pituitary
+GTEX-11NV4-1726-SM-5N9FC	Testis
+GTEX-11NV4-0526-SM-5N9BF	Artery - Tibial
+GTEX-11NV4-0005-SM-5N9EX	Whole Blood
+GTEX-11NV4-0011-R5a-SM-5NQ88	Brain - Caudate (basal ganglia)

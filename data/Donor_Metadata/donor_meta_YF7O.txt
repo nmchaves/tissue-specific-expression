@@ -1,0 +1,21 @@
+GTEX-YF7O-2426-SM-5IFJL	Adipose - Subcutaneous
+GTEX-YF7O-0126-SM-5IFIR	Adrenal Gland
+GTEX-YF7O-1626-SM-5IFII	Colon - Sigmoid
+GTEX-YF7O-1726-SM-5IFJ9	Colon - Transverse
+GTEX-YF7O-1026-SM-5P9IP	Esophagus - Gastroesophageal Junction
+GTEX-YF7O-0926-SM-5IFIF	Esophagus - Mucosa
+GTEX-YF7O-0826-SM-4W21F	Esophagus - Muscularis
+GTEX-YF7O-0526-SM-5P9IO	Heart - Atrial Appendage
+GTEX-YF7O-0426-SM-5P9FS	Heart - Left Ventricle
+GTEX-YF7O-0626-SM-4W21R	Lung
+GTEX-YF7O-2226-SM-5CVN8	Minor Salivary Gland
+GTEX-YF7O-2526-SM-5IFJX	Muscle - Skeletal
+GTEX-YF7O-2626-SM-5IFHK	Nerve - Tibial
+GTEX-YF7O-0226-SM-5IFJ4	Artery - Coronary
+GTEX-YF7O-1326-SM-4W1ZR	Pancreas
+GTEX-YF7O-1926-SM-4W1YQ	Prostate
+GTEX-YF7O-2326-101833-SM-5CVN9	Skin - Sun Exposed (Lower leg)
+GTEX-YF7O-1826-SM-5IFIU	Small Intestine - Terminal Ileum
+GTEX-YF7O-2026-SM-4W1YE	Testis
+GTEX-YF7O-0726-SM-4W213	Thyroid
+GTEX-YF7O-0005-SM-4W1ZU	Whole Blood

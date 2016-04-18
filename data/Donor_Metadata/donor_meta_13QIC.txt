@@ -1,0 +1,15 @@
+GTEX-13QIC-0011-R11b-SM-5O9BU	Brain - Cerebellar Hemisphere
+GTEX-13QIC-3026-SM-5LU58	Brain - Cerebellum
+GTEX-13QIC-2926-SM-5J2NF	Brain - Cortex
+GTEX-13QIC-0011-R10a-SM-5O9C7	Brain - Frontal Cortex (BA9)
+GTEX-13QIC-0011-R1a-SM-5O9CJ	Brain - Hippocampus
+GTEX-13QIC-0011-R8b-SM-5O9CV	Brain - Hypothalamus
+GTEX-13QIC-2326-SM-5LU5N	Breast - Mammary Tissue
+GTEX-13QIC-2026-SM-5N9G9	Esophagus - Gastroesophageal Junction
+GTEX-13QIC-1226-SM-5K7YR	Muscle - Skeletal
+GTEX-13QIC-1426-SM-5LU4V	Nerve - Tibial
+GTEX-13QIC-1526-SM-5IJFL	Ovary
+GTEX-13QIC-1626-SM-5K7TZ	Artery - Tibial
+GTEX-13QIC-1826-SM-5J1MY	Vagina
+GTEX-13QIC-0011-R4a-SM-5PNX8	Brain - Amygdala
+GTEX-13QIC-0011-R3a-SM-5P9HT	Brain - Anterior cingulate cortex (BA24)

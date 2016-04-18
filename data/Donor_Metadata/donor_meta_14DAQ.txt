@@ -1,0 +1,9 @@
+GTEX-14DAQ-2526-SM-5RQIO	Adipose - Visceral (Omentum)
+GTEX-14DAQ-3026-SM-5S2QZ	Brain - Cerebellum
+GTEX-14DAQ-1626-SM-5S2R1	Esophagus - Gastroesophageal Junction
+GTEX-14DAQ-1426-SM-5RQJD	Esophagus - Mucosa
+GTEX-14DAQ-1326-SM-5RQIM	Artery - Aorta
+GTEX-14DAQ-1726-SM-5S2R2	Liver
+GTEX-14DAQ-0126-SM-5S2MQ	Skin - Sun Exposed (Lower leg)
+GTEX-14DAQ-2326-SM-5S2QX	Vagina
+GTEX-14DAQ-0005-SM-5NQ7B	Whole Blood

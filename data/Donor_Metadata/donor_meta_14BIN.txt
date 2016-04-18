@@ -1,0 +1,13 @@
+GTEX-14BIN-1226-SM-5S2OM	Adipose - Visceral (Omentum)
+GTEX-14BIN-0011-R11a-SM-5SI79	Brain - Cerebellar Hemisphere
+GTEX-14BIN-3326-SM-5Q5E6	Brain - Cerebellum
+GTEX-14BIN-0011-R10a-SM-5S2UA	Brain - Frontal Cortex (BA9)
+GTEX-14BIN-0011-R6a-SM-5S2RH	Brain - Nucleus accumbens (basal ganglia)
+GTEX-14BIN-0011-R7b-SM-5S2RI	Brain - Putamen (basal ganglia)
+GTEX-14BIN-0011-R9a-SM-5SI76	Brain - Spinal cord (cervical c-1)
+GTEX-14BIN-0011-R2a-SM-5S2RJ	Brain - Substantia nigra
+GTEX-14BIN-2726-SM-5RQIE	Esophagus - Mucosa
+GTEX-14BIN-1126-SM-5RQJZ	Skin - Not Sun Exposed (Suprapubic)
+GTEX-14BIN-0926-SM-5S2OZ	Artery - Tibial
+GTEX-14BIN-0005-SM-5N9FE	Whole Blood
+GTEX-14BIN-0011-R5b-SM-5SI78	Brain - Caudate (basal ganglia)

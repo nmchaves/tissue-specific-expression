@@ -1,0 +1,12 @@
+GTEX-13QJC-0011-R10a-SM-5SI63	Brain - Frontal Cortex (BA9)
+GTEX-13QJC-0011-R1b-SM-5S2UU	Brain - Hippocampus
+GTEX-13QJC-0011-R8b-SM-5S2U6	Brain - Hypothalamus
+GTEX-13QJC-0011-R6a-SM-5S2VI	Brain - Nucleus accumbens (basal ganglia)
+GTEX-13QJC-0011-R7b-SM-5PNUM	Brain - Putamen (basal ganglia)
+GTEX-13QJC-0011-R9b-SM-5PNX3	Brain - Spinal cord (cervical c-1)
+GTEX-13QJC-0011-R2b-SM-5PNUN	Brain - Substantia nigra
+GTEX-13QJC-0726-SM-5RQJK	Liver
+GTEX-13QJC-0526-SM-5RQKB	Lung
+GTEX-13QJC-2326-SM-5Q5CD	Minor Salivary Gland
+GTEX-13QJC-0626-SM-5S2O9	Artery - Coronary
+GTEX-13QJC-0826-SM-5RQKC	Thyroid

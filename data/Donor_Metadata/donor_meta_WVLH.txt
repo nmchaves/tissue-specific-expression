@@ -1,0 +1,18 @@
+GTEX-WVLH-0226-SM-3MJG6	Adipose - Subcutaneous
+GTEX-WVLH-0011-R11A-SM-3MJFO	Brain - Cerebellar Hemisphere
+GTEX-WVLH-2926-SM-3MJG5	Brain - Cerebellum
+GTEX-WVLH-3026-SM-3MJG9	Brain - Cortex
+GTEX-WVLH-0011-R10A-SM-3MJFM	Brain - Frontal Cortex (BA9)
+GTEX-WVLH-0011-R1A-SM-4MVOK	Brain - Hippocampus
+GTEX-WVLH-0011-R8A-SM-3MJFC	Brain - Hypothalamus
+GTEX-WVLH-0011-R6A-SM-3MJFZ	Brain - Nucleus accumbens (basal ganglia)
+GTEX-WVLH-0011-R7A-SM-3MJFB	Brain - Putamen (basal ganglia)
+GTEX-WVLH-0008-SM-4MVPD	Cells - Transformed fibroblasts
+GTEX-WVLH-1526-SM-4MVOC	Esophagus - Gastroesophageal Junction
+GTEX-WVLH-1426-SM-4MVNX	Esophagus - Mucosa
+GTEX-WVLH-3126-SM-3MJGA	Pituitary
+GTEX-WVLH-2626-SM-4MVNV	Testis
+GTEX-WVLH-0626-SM-3MJG7	Thyroid
+GTEX-WVLH-0006-SM-3MJF7	Whole Blood
+GTEX-WVLH-0011-R4A-SM-3MJFS	Brain - Amygdala
+GTEX-WVLH-0011-R5A-SM-3MJFW	Brain - Caudate (basal ganglia)

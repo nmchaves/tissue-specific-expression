@@ -1,0 +1,23 @@
+GTEX-T2IS-0226-SM-32QPH	Adipose - Subcutaneous
+GTEX-T2IS-0011-R11A-SM-32QPC	Brain - Cerebellar Hemisphere
+GTEX-T2IS-2926-SM-32QPO	Brain - Cerebellum
+GTEX-T2IS-3026-SM-32QPM	Brain - Cortex
+GTEX-T2IS-0011-R6A-SM-32QP2	Brain - Nucleus accumbens (basal ganglia)
+GTEX-T2IS-0011-R2A-SM-32QPF	Brain - Substantia nigra
+GTEX-T2IS-1526-SM-32QPR	Breast - Mammary Tissue
+GTEX-T2IS-0008-SM-4DM75	Cells - Transformed fibroblasts
+GTEX-T2IS-0826-SM-4DM6L	Esophagus - Mucosa
+GTEX-T2IS-0926-SM-4DM5B	Esophagus - Muscularis
+GTEX-T2IS-0426-SM-32QPE	Heart - Left Ventricle
+GTEX-T2IS-0526-SM-32QP9	Lung
+GTEX-T2IS-2626-SM-32QPP	Muscle - Skeletal
+GTEX-T2IS-1126-SM-4DM6Z	Nerve - Tibial
+GTEX-T2IS-2026-SM-4DM6W	Ovary
+GTEX-T2IS-3126-SM-32QPK	Pituitary
+GTEX-T2IS-0126-SM-4DM6O	Skin - Sun Exposed (Lower leg)
+GTEX-T2IS-0626-SM-32QP6	Thyroid
+GTEX-T2IS-1026-SM-32QP1	Artery - Tibial
+GTEX-T2IS-2226-SM-4DM65	Uterus
+GTEX-T2IS-1926-SM-4DM74	Vagina
+GTEX-T2IS-0011-R3A-SM-32QPB	Brain - Anterior cingulate cortex (BA24)
+GTEX-T2IS-0011-R5A-SM-32QP4	Brain - Caudate (basal ganglia)

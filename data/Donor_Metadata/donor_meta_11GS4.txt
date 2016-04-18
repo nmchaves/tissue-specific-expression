@@ -1,0 +1,20 @@
+GTEX-11GS4-2626-SM-5A5LD	Adipose - Subcutaneous
+GTEX-11GS4-1026-SM-5N9DE	Adipose - Visceral (Omentum)
+GTEX-11GS4-3126-SM-5A5LH	Brain - Cortex
+GTEX-11GS4-2126-SM-5A5KR	Breast - Mammary Tissue
+GTEX-11GS4-0008-SM-5QGRA	Cells - Transformed fibroblasts
+GTEX-11GS4-1826-SM-5HL4T	Colon - Sigmoid
+GTEX-11GS4-1426-SM-5N9D2	Esophagus - Muscularis
+GTEX-11GS4-0326-SM-5N9F7	Artery - Aorta
+GTEX-11GS4-0426-SM-5N9CD	Heart - Atrial Appendage
+GTEX-11GS4-0526-SM-5A5KQ	Heart - Left Ventricle
+GTEX-11GS4-2326-SM-5A5KS	Kidney - Cortex
+GTEX-11GS4-2526-SM-5A5KT	Muscle - Skeletal
+GTEX-11GS4-0626-SM-5A5LC	Artery - Coronary
+GTEX-11GS4-3026-SM-5A5LG	Pituitary
+GTEX-11GS4-0226-SM-5HL77	Skin - Not Sun Exposed (Suprapubic)
+GTEX-11GS4-2726-SM-5A5LE	Skin - Sun Exposed (Lower leg)
+GTEX-11GS4-2026-SM-5N9CP	Testis
+GTEX-11GS4-0826-SM-5986J	Thyroid
+GTEX-11GS4-2926-SM-5A5LF	Artery - Tibial
+GTEX-11GS4-0006-SM-5SI9M	Whole Blood

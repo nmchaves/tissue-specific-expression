@@ -1,0 +1,9 @@
+GTEX-11H98-0226-SM-5NQ89	Adipose - Subcutaneous
+GTEX-11H98-0011-R11b-SM-5NQ6U	Brain - Cerebellar Hemisphere
+GTEX-11H98-0011-R10b-SM-5NQ98	Brain - Frontal Cortex (BA9)
+GTEX-11H98-0011-R8a-SM-5NQ8V	Brain - Hypothalamus
+GTEX-11H98-0008-SM-5QGR8	Cells - Transformed fibroblasts
+GTEX-11H98-0326-SM-5HL4S	Muscle - Skeletal
+GTEX-11H98-0426-SM-5HL55	Nerve - Tibial
+GTEX-11H98-0126-SM-5EGHG	Skin - Sun Exposed (Lower leg)
+GTEX-11H98-0011-R5b-SM-57WCF	Brain - Caudate (basal ganglia)

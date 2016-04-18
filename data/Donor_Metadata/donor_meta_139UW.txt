@@ -1,0 +1,11 @@
+GTEX-139UW-0011-R11a-SM-5IJGN	Brain - Cerebellar Hemisphere
+GTEX-139UW-0011-R9b-SM-5LZYT	Brain - Spinal cord (cervical c-1)
+GTEX-139UW-2326-SM-5KM1Y	Colon - Sigmoid
+GTEX-139UW-1126-SM-5IJEJ	Esophagus - Mucosa
+GTEX-139UW-0426-SM-5K7V4	Artery - Aorta
+GTEX-139UW-0226-SM-5K7WU	Lung
+GTEX-139UW-2626-SM-5K7W1	Muscle - Skeletal
+GTEX-139UW-0326-SM-5J1ML	Skin - Not Sun Exposed (Suprapubic)
+GTEX-139UW-2826-SM-5L3E7	Skin - Sun Exposed (Lower leg)
+GTEX-139UW-0126-SM-5KM1B	Thyroid
+GTEX-139UW-0005-SM-5NQ8U	Whole Blood

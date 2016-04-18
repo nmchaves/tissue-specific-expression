@@ -1,0 +1,21 @@
+GTEX-11O72-0226-SM-59869	Adipose - Subcutaneous
+GTEX-11O72-2826-SM-5HL6W	Brain - Cerebellum
+GTEX-11O72-2926-SM-5BC4V	Brain - Cortex
+GTEX-11O72-2126-SM-5N9FO	Breast - Mammary Tissue
+GTEX-11O72-0008-SM-5Q5DN	Cells - Transformed fibroblasts
+GTEX-11O72-2226-SM-5PNW2	Colon - Transverse
+GTEX-11O72-2026-SM-5N9G8	Esophagus - Gastroesophageal Junction
+GTEX-11O72-1926-SM-5PNW1	Esophagus - Muscularis
+GTEX-11O72-1026-SM-5986B	Heart - Atrial Appendage
+GTEX-11O72-1126-SM-5N9E2	Heart - Left Ventricle
+GTEX-11O72-1326-SM-5BC5A	Lung
+GTEX-11O72-0326-SM-5986D	Muscle - Skeletal
+GTEX-11O72-0526-SM-5Q5AO	Nerve - Tibial
+GTEX-11O72-3026-SM-5986R	Pituitary
+GTEX-11O72-2726-SM-5HL6K	Prostate
+GTEX-11O72-0626-SM-5PNYE	Skin - Not Sun Exposed (Suprapubic)
+GTEX-11O72-0126-SM-59887	Skin - Sun Exposed (Lower leg)
+GTEX-11O72-0726-SM-5P9GO	Testis
+GTEX-11O72-2326-SM-5BC7H	Thyroid
+GTEX-11O72-0426-SM-5BC5B	Artery - Tibial
+GTEX-11O72-0006-SM-5O9DB	Whole Blood

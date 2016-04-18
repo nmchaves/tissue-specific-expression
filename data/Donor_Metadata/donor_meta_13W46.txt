@@ -1,0 +1,9 @@
+GTEX-13W46-1226-SM-5SIAS	Adipose - Visceral (Omentum)
+GTEX-13W46-0826-SM-5LU3H	Breast - Mammary Tissue
+GTEX-13W46-1926-SM-5J2MF	Esophagus - Mucosa
+GTEX-13W46-1826-SM-5K7VA	Artery - Aorta
+GTEX-13W46-0726-SM-5LU3Z	Muscle - Skeletal
+GTEX-13W46-0526-SM-5IJBD	Nerve - Tibial
+GTEX-13W46-0226-SM-5SIAG	Skin - Sun Exposed (Lower leg)
+GTEX-13W46-0926-SM-5LU3T	Thyroid
+GTEX-13W46-0626-SM-5LU3N	Artery - Tibial

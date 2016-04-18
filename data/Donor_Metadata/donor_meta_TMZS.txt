@@ -1,0 +1,6 @@
+GTEX-TMZS-0226-SM-3DB9N	Adipose - Subcutaneous
+GTEX-TMZS-0001-SM-3P61Q	Cells - EBV-transformed lymphocytes
+GTEX-TMZS-0008-SM-47JWM	Cells - Transformed fibroblasts
+GTEX-TMZS-0326-SM-3DB9P	Muscle - Skeletal
+GTEX-TMZS-0126-SM-3DB9Q	Skin - Sun Exposed (Lower leg)
+GTEX-TMZS-0006-SM-3DB8G	Whole Blood

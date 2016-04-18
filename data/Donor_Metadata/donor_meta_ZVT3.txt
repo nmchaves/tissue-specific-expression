@@ -1,0 +1,23 @@
+GTEX-ZVT3-0011-R11b-SM-57WBI	Brain - Cerebellar Hemisphere
+GTEX-ZVT3-2926-SM-5GU6M	Brain - Cerebellum
+GTEX-ZVT3-3026-SM-5E43N	Brain - Cortex
+GTEX-ZVT3-0011-R10b-SM-57WB6	Brain - Frontal Cortex (BA9)
+GTEX-ZVT3-0011-R8b-SM-57WDJ	Brain - Hypothalamus
+GTEX-ZVT3-0011-R6a-SM-51MSU	Brain - Nucleus accumbens (basal ganglia)
+GTEX-ZVT3-0011-R7a-SM-57WCO	Brain - Putamen (basal ganglia)
+GTEX-ZVT3-0008-SM-51MRI	Cells - Transformed fibroblasts
+GTEX-ZVT3-2826-SM-5GU6A	Colon - Sigmoid
+GTEX-ZVT3-0826-SM-5GIC8	Heart - Atrial Appendage
+GTEX-ZVT3-1626-SM-5GU66	Liver
+GTEX-ZVT3-0926-SM-5GICK	Lung
+GTEX-ZVT3-0526-SM-5GIE9	Muscle - Skeletal
+GTEX-ZVT3-0326-SM-5GU6U	Nerve - Tibial
+GTEX-ZVT3-2626-SM-5GU5L	Ovary
+GTEX-ZVT3-0126-SM-5GU6I	Skin - Sun Exposed (Lower leg)
+GTEX-ZVT3-2126-SM-59HL2	Stomach
+GTEX-ZVT3-0726-SM-5GICN	Thyroid
+GTEX-ZVT3-0426-SM-5GIDW	Artery - Tibial
+GTEX-ZVT3-2726-SM-5GU5X	Vagina
+GTEX-ZVT3-0006-SM-51MT9	Whole Blood
+GTEX-ZVT3-0011-R3b-SM-51MTJ	Brain - Anterior cingulate cortex (BA24)
+GTEX-ZVT3-0011-R5a-SM-51MSI	Brain - Caudate (basal ganglia)

@@ -1,0 +1,8 @@
+GTEX-WHSB-0002-SM-4M1ZR	Cells - EBV-transformed lymphocytes
+GTEX-WHSB-0326-SM-5FQSD	Lung
+GTEX-WHSB-1826-SM-3TW8M	Muscle - Skeletal
+GTEX-WHSB-2026-SM-3LK6H	Nerve - Tibial
+GTEX-WHSB-1326-SM-3LK6W	Skin - Not Sun Exposed (Suprapubic)
+GTEX-WHSB-2126-SM-4M1XF	Testis
+GTEX-WHSB-1626-SM-3LK6J	Thyroid
+GTEX-WHSB-0005-SM-3LK7C	Whole Blood

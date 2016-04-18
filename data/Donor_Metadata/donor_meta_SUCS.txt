@@ -1,0 +1,15 @@
+GTEX-SUCS-1826-SM-32PM1	Adipose - Subcutaneous
+GTEX-SUCS-0526-SM-4DM56	Adrenal Gland
+GTEX-SUCS-0002-SM-3NMAJ	Cells - EBV-transformed lymphocytes
+GTEX-SUCS-0008-SM-4DM53	Cells - Transformed fibroblasts
+GTEX-SUCS-0726-SM-4DM7J	Esophagus - Mucosa
+GTEX-SUCS-0326-SM-32PLL	Heart - Left Ventricle
+GTEX-SUCS-0626-SM-32PM5	Lung
+GTEX-SUCS-1626-SM-32PLS	Muscle - Skeletal
+GTEX-SUCS-1726-SM-32PM8	Nerve - Tibial
+GTEX-SUCS-1426-SM-4DM5W	Pancreas
+GTEX-SUCS-1926-SM-32PM3	Skin - Sun Exposed (Lower leg)
+GTEX-SUCS-0926-SM-4DM4Z	Stomach
+GTEX-SUCS-1326-SM-4DM5T	Testis
+GTEX-SUCS-0226-SM-32PLQ	Thyroid
+GTEX-SUCS-0006-SM-4DM59	Whole Blood
