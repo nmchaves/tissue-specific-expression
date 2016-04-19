@@ -1,0 +1,6 @@
+Tissue_Name	Male_Usable	Male_Unusable	Female_Usable	Female_Unusable
+Adipose - Subcutaneous	40	0	28	0
+Adipose - Visceral (Omentum)	25	1	29	2
+Brain - Cerebellar Hemisphere	12	0	14	0
+Brain - Cerebellum	26	0	24	1
+Brain - Cortex	22	2	28	0
