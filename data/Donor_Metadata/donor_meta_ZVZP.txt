@@ -1,0 +1,21 @@
+GTEX-ZVZP-2326-SM-59HL4	Adipose - Subcutaneous
+GTEX-ZVZP-1126-SM-5GICU	Adipose - Visceral (Omentum)
+GTEX-ZVZP-0004-SM-51MS8	Cells - EBV-transformed lymphocytes
+GTEX-ZVZP-0008-SM-51MSX	Cells - Transformed fibroblasts
+GTEX-ZVZP-1626-SM-5GIDJ	Esophagus - Gastroesophageal Junction
+GTEX-ZVZP-1426-SM-5NQ7R	Esophagus - Muscularis
+GTEX-ZVZP-0126-SM-5NQ6Q	Artery - Aorta
+GTEX-ZVZP-0226-SM-5NQ73	Heart - Left Ventricle
+GTEX-ZVZP-0926-SM-5GIDB	Kidney - Cortex
+GTEX-ZVZP-2526-SM-57WBR	Muscle - Skeletal
+GTEX-ZVZP-2626-SM-51MR4	Nerve - Tibial
+GTEX-ZVZP-0626-SM-59HL5	Pancreas
+GTEX-ZVZP-1226-SM-5GID7	Skin - Not Sun Exposed (Suprapubic)
+GTEX-ZVZP-2426-SM-59HKJ	Skin - Sun Exposed (Lower leg)
+GTEX-ZVZP-1826-SM-5GZXB	Small Intestine - Terminal Ileum
+GTEX-ZVZP-0726-SM-59HKA	Spleen
+GTEX-ZVZP-1726-SM-5GZWY	Stomach
+GTEX-ZVZP-2226-SM-57WBF	Testis
+GTEX-ZVZP-1026-SM-5GICI	Thyroid
+GTEX-ZVZP-2726-SM-5GZXZ	Artery - Tibial
+GTEX-ZVZP-0006-SM-51MSW	Whole Blood

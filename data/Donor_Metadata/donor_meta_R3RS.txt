@@ -1,0 +1,7 @@
+GTEX-R3RS-0626-SM-48FE1	Breast - Mammary Tissue
+GTEX-R3RS-0008-SM-48FF1	Cells - Transformed fibroblasts
+GTEX-R3RS-1326-SM-48FE7	Esophagus - Mucosa
+GTEX-R3RS-0526-SM-3GADG	Muscle - Skeletal
+GTEX-R3RS-0126-SM-3GIJL	Skin - Sun Exposed (Lower leg)
+GTEX-R3RS-0726-SM-3GIJR	Thyroid
+GTEX-R3RS-0005-SM-3GAEH	Whole Blood

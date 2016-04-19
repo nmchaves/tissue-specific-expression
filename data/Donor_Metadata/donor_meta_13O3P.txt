@@ -1,0 +1,15 @@
+GTEX-13O3P-0226-SM-5KM3Z	Adipose - Subcutaneous
+GTEX-13O3P-0926-SM-5IFFI	Adipose - Visceral (Omentum)
+GTEX-13O3P-0826-SM-5L3DH	Breast - Mammary Tissue
+GTEX-13O3P-2326-SM-5KM55	Colon - Transverse
+GTEX-13O3P-2726-SM-5KM2R	Esophagus - Gastroesophageal Junction
+GTEX-13O3P-1326-SM-5K7Y8	Esophagus - Muscularis
+GTEX-13O3P-1126-SM-5L3FG	Artery - Aorta
+GTEX-13O3P-1426-SM-5L3DT	Heart - Atrial Appendage
+GTEX-13O3P-1626-SM-5K7X3	Heart - Left Ventricle
+GTEX-13O3P-1026-SM-5N9E7	Lung
+GTEX-13O3P-0626-SM-5L3D5	Muscle - Skeletal
+GTEX-13O3P-0326-SM-5K7VM	Nerve - Tibial
+GTEX-13O3P-0126-SM-5KM4S	Skin - Sun Exposed (Lower leg)
+GTEX-13O3P-0726-SM-5J2OM	Thyroid
+GTEX-13O3P-0526-SM-5K7UT	Artery - Tibial

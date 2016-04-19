@@ -1,0 +1,14 @@
+GTEX-OHPM-0226-SM-3LK61	Adipose - Subcutaneous
+GTEX-OHPM-0008-SM-4E3IP	Cells - Transformed fibroblasts
+GTEX-OHPM-1426-SM-3TW8Y	Colon - Transverse
+GTEX-OHPM-0726-SM-3LK7A	Esophagus - Muscularis
+GTEX-OHPM-0426-SM-3TW8V	Artery - Aorta
+GTEX-OHPM-0326-SM-33HCA	Heart - Left Ventricle
+GTEX-OHPM-0526-SM-2YUMJ	Lung
+GTEX-OHPM-1626-SM-2HMK4	Muscle - Skeletal
+GTEX-OHPM-1026-SM-3LK74	Pancreas
+GTEX-OHPM-0126-SM-2YUN9	Skin - Sun Exposed (Lower leg)
+GTEX-OHPM-2126-SM-3LK75	Testis
+GTEX-OHPM-2626-SM-33HC5	Thyroid
+GTEX-OHPM-1826-SM-2YUNF	Artery - Tibial
+GTEX-OHPM-0006-SM-2HMKU	Whole Blood

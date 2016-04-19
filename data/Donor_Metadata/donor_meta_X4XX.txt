@@ -1,0 +1,18 @@
+GTEX-X4XX-0011-R11A-SM-46MWQ	Brain - Cerebellar Hemisphere
+GTEX-X4XX-2926-SM-3NMB1	Brain - Cerebellum
+GTEX-X4XX-3026-SM-3NMB2	Brain - Cortex
+GTEX-X4XX-0011-R10B-SM-46MWO	Brain - Frontal Cortex (BA9)
+GTEX-X4XX-0011-R1B-SM-3P622	Brain - Hippocampus
+GTEX-X4XX-0011-R8B-SM-46MWM	Brain - Hypothalamus
+GTEX-X4XX-0011-R6B-SM-46MWP	Brain - Nucleus accumbens (basal ganglia)
+GTEX-X4XX-0011-R2A-SM-3P623	Brain - Substantia nigra
+GTEX-X4XX-0008-SM-46MVK	Cells - Transformed fibroblasts
+GTEX-X4XX-1126-SM-3NMBY	Heart - Atrial Appendage
+GTEX-X4XX-1026-SM-4QARO	Lung
+GTEX-X4XX-0626-SM-3NMC1	Muscle - Skeletal
+GTEX-X4XX-0126-SM-3NMC2	Skin - Sun Exposed (Lower leg)
+GTEX-X4XX-0926-SM-46MV7	Thyroid
+GTEX-X4XX-0005-SM-3NMCS	Whole Blood
+GTEX-X4XX-0011-R4B-SM-46MWL	Brain - Amygdala
+GTEX-X4XX-0011-R3B-SM-46MWK	Brain - Anterior cingulate cortex (BA24)
+GTEX-X4XX-0011-R5A-SM-46MWN	Brain - Caudate (basal ganglia)

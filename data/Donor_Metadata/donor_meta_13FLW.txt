@@ -1,0 +1,9 @@
+GTEX-13FLW-1426-SM-5K7YE	Brain - Cortex
+GTEX-13FLW-0011-R10b-SM-5LZZF	Brain - Frontal Cortex (BA9)
+GTEX-13FLW-0011-R1b-SM-5LZX2	Brain - Hippocampus
+GTEX-13FLW-0011-R8b-SM-5J1MZ	Brain - Hypothalamus
+GTEX-13FLW-0011-R6b-SM-5L3EN	Brain - Nucleus accumbens (basal ganglia)
+GTEX-13FLW-0011-R7b-SM-5L3EZ	Brain - Putamen (basal ganglia)
+GTEX-13FLW-2126-SM-5N9FD	Testis
+GTEX-13FLW-0326-SM-5J2M4	Thyroid
+GTEX-13FLW-0011-R5a-SM-5LZX6	Brain - Caudate (basal ganglia)

@@ -1,0 +1,20 @@
+GTEX-XUZC-1826-SM-4BRVO	Adipose - Subcutaneous
+GTEX-XUZC-1126-SM-4BOPZ	Adipose - Visceral (Omentum)
+GTEX-XUZC-0226-SM-4BOO7	Adrenal Gland
+GTEX-XUZC-1626-SM-4BRVP	Breast - Mammary Tissue
+GTEX-XUZC-0008-SM-4BOQG	Cells - Transformed fibroblasts
+GTEX-XUZC-1526-SM-4BRV4	Colon - Sigmoid
+GTEX-XUZC-1326-SM-4BRV2	Colon - Transverse
+GTEX-XUZC-0526-SM-4BOPF	Esophagus - Gastroesophageal Junction
+GTEX-XUZC-0426-SM-4BOPE	Esophagus - Mucosa
+GTEX-XUZC-0326-SM-4BOO8	Esophagus - Muscularis
+GTEX-XUZC-0626-SM-4BOPG	Artery - Aorta
+GTEX-XUZC-2126-SM-4BRW8	Muscle - Skeletal
+GTEX-XUZC-1026-SM-4BOPY	Ovary
+GTEX-XUZC-1726-SM-4BRWS	Skin - Sun Exposed (Lower leg)
+GTEX-XUZC-1426-SM-4BRV3	Small Intestine - Terminal Ileum
+GTEX-XUZC-0726-SM-4BOPH	Stomach
+GTEX-XUZC-0126-SM-4BOO6	Thyroid
+GTEX-XUZC-2026-SM-4BRW9	Artery - Tibial
+GTEX-XUZC-0926-SM-4BOQF	Uterus
+GTEX-XUZC-0005-SM-4BOQ8	Whole Blood

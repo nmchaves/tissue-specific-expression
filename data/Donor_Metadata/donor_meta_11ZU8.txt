@@ -1,0 +1,9 @@
+GTEX-11ZU8-2426-SM-5EQMV	Adipose - Subcutaneous
+GTEX-11ZU8-0008-SM-5S2VO	Cells - Transformed fibroblasts
+GTEX-11ZU8-1126-SM-5EQ5K	Colon - Sigmoid
+GTEX-11ZU8-1526-SM-5EGHX	Esophagus - Mucosa
+GTEX-11ZU8-2326-SM-5EQMJ	Muscle - Skeletal
+GTEX-11ZU8-2626-SM-5EQLL	Nerve - Tibial
+GTEX-11ZU8-0126-SM-5EQ58	Skin - Not Sun Exposed (Suprapubic)
+GTEX-11ZU8-2526-SM-5EQKI	Skin - Sun Exposed (Lower leg)
+GTEX-11ZU8-0011-R4a-SM-5BC6Y	Brain - Amygdala

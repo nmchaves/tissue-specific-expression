@@ -1,0 +1,13 @@
+GTEX-1445S-3026-SM-5O9BR	Brain - Cortex
+GTEX-1445S-0011-R10a-SM-5PNWB	Brain - Frontal Cortex (BA9)
+GTEX-1445S-0011-R8a-SM-5PNWX	Brain - Hypothalamus
+GTEX-1445S-0011-R6b-SM-5PNUF	Brain - Nucleus accumbens (basal ganglia)
+GTEX-1445S-0011-R7b-SM-5PNUG	Brain - Putamen (basal ganglia)
+GTEX-1445S-0011-R2b-SM-5PNUH	Brain - Substantia nigra
+GTEX-1445S-1226-SM-5O9BF	Heart - Atrial Appendage
+GTEX-1445S-2926-SM-5O993	Minor Salivary Gland
+GTEX-1445S-0626-SM-5LU3C	Muscle - Skeletal
+GTEX-1445S-1126-SM-5QGOW	Artery - Coronary
+GTEX-1445S-0011-R4a-SM-5PNWN	Brain - Amygdala
+GTEX-1445S-0011-R3a-SM-5P9HY	Brain - Anterior cingulate cortex (BA24)
+GTEX-1445S-0011-R5a-SM-5PNUS	Brain - Caudate (basal ganglia)

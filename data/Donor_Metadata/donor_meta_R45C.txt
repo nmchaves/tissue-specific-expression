@@ -1,0 +1,4 @@
+GTEX-R45C-0008-SM-48FF2	Cells - Transformed fibroblasts
+GTEX-R45C-1226-SM-48FEE	Esophagus - Mucosa
+GTEX-R45C-0926-SM-3GAD4	Heart - Left Ventricle
+GTEX-R45C-0006-SM-3GAD6	Whole Blood

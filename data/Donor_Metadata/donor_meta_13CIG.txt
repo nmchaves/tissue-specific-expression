@@ -1,0 +1,5 @@
+GTEX-13CIG-0011-R8b-SM-5LZX5	Brain - Hypothalamus
+GTEX-13CIG-0011-R9a-SM-5K7VU	Brain - Spinal cord (cervical c-1)
+GTEX-13CIG-0006-SM-5P9HF	Whole Blood
+GTEX-13CIG-0011-R3b-SM-5K7XF	Brain - Anterior cingulate cortex (BA24)
+GTEX-13CIG-0011-R5b-SM-5L3F2	Brain - Caudate (basal ganglia)

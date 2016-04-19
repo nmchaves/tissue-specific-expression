@@ -1,0 +1,25 @@
+GTEX-13N1W-0226-SM-5K7W6	Adipose - Subcutaneous
+GTEX-13N1W-1226-SM-5K7UM	Adipose - Visceral (Omentum)
+GTEX-13N1W-0011-R10b-SM-5MR4H	Brain - Frontal Cortex (BA9)
+GTEX-13N1W-0011-R1b-SM-5MR4T	Brain - Hippocampus
+GTEX-13N1W-0011-R8a-SM-5MR56	Brain - Hypothalamus
+GTEX-13N1W-0011-R6a-SM-5MR43	Brain - Nucleus accumbens (basal ganglia)
+GTEX-13N1W-0011-R7b-SM-5MR4F	Brain - Putamen (basal ganglia)
+GTEX-13N1W-0011-R9b-SM-5MR4R	Brain - Spinal cord (cervical c-1)
+GTEX-13N1W-0626-SM-5MR4U	Breast - Mammary Tissue
+GTEX-13N1W-1926-SM-5IJCH	Esophagus - Gastroesophageal Junction
+GTEX-13N1W-0926-SM-5MR36	Heart - Atrial Appendage
+GTEX-13N1W-1026-SM-5IJC5	Heart - Left Ventricle
+GTEX-13N1W-0726-SM-5MR57	Lung
+GTEX-13N1W-0526-SM-5MR4I	Muscle - Skeletal
+GTEX-13N1W-0426-SM-5MR46	Nerve - Tibial
+GTEX-13N1W-3126-SM-5IFHB	Pituitary
+GTEX-13N1W-2426-SM-5IJD1	Skin - Not Sun Exposed (Suprapubic)
+GTEX-13N1W-0126-SM-5K7VT	Skin - Sun Exposed (Lower leg)
+GTEX-13N1W-2026-SM-5K7YU	Stomach
+GTEX-13N1W-2626-SM-5IJEP	Testis
+GTEX-13N1W-0826-SM-5MR5J	Thyroid
+GTEX-13N1W-0326-SM-5IJDJ	Artery - Tibial
+GTEX-13N1W-0011-R4a-SM-5MR52	Brain - Amygdala
+GTEX-13N1W-0011-R3a-SM-5MR5E	Brain - Anterior cingulate cortex (BA24)
+GTEX-13N1W-0011-R5b-SM-5MR5Q	Brain - Caudate (basal ganglia)

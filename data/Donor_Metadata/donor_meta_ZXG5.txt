@@ -1,0 +1,15 @@
+GTEX-ZXG5-0226-SM-59HJI	Adipose - Subcutaneous
+GTEX-ZXG5-1626-SM-59HJK	Adipose - Visceral (Omentum)
+GTEX-ZXG5-0011-R10a-SM-57WDD	Brain - Frontal Cortex (BA9)
+GTEX-ZXG5-0011-R8a-SM-57WD1	Brain - Hypothalamus
+GTEX-ZXG5-0011-R6a-SM-57WBZ	Brain - Nucleus accumbens (basal ganglia)
+GTEX-ZXG5-0011-R7b-SM-57WCC	Brain - Putamen (basal ganglia)
+GTEX-ZXG5-0008-SM-57WDB	Cells - Transformed fibroblasts
+GTEX-ZXG5-0826-SM-5GID6	Lung
+GTEX-ZXG5-2826-SM-5NQ8T	Minor Salivary Gland
+GTEX-ZXG5-0326-SM-5GICH	Muscle - Skeletal
+GTEX-ZXG5-2126-SM-59HKD	Skin - Not Sun Exposed (Suprapubic)
+GTEX-ZXG5-0126-SM-5GIEU	Skin - Sun Exposed (Lower leg)
+GTEX-ZXG5-0926-SM-5NQ8H	Thyroid
+GTEX-ZXG5-0005-SM-57WCN	Whole Blood
+GTEX-ZXG5-0011-R5b-SM-57WBN	Brain - Caudate (basal ganglia)

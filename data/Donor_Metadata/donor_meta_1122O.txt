@@ -1,0 +1,24 @@
+GTEX-1122O-2026-SM-5NQ91	Adipose - Subcutaneous
+GTEX-1122O-0926-SM-5N9C9	Adipose - Visceral (Omentum)
+GTEX-1122O-0326-SM-5H124	Adrenal Gland
+GTEX-1122O-1226-SM-5H113	Breast - Mammary Tissue
+GTEX-1122O-0003-SM-5Q5DL	Cells - EBV-transformed lymphocytes
+GTEX-1122O-0008-SM-5QGR2	Cells - Transformed fibroblasts
+GTEX-1122O-1426-SM-5H11R	Colon - Sigmoid
+GTEX-1122O-1526-SM-5N9CL	Colon - Transverse
+GTEX-1122O-1826-SM-5EGIP	Esophagus - Gastroesophageal Junction
+GTEX-1122O-1726-SM-5GICM	Esophagus - Mucosa
+GTEX-1122O-1626-SM-5N9CX	Esophagus - Muscularis
+GTEX-1122O-1126-SM-5NQ8X	Artery - Aorta
+GTEX-1122O-0626-SM-5N9B9	Heart - Atrial Appendage
+GTEX-1122O-0826-SM-5GICV	Heart - Left Ventricle
+GTEX-1122O-0126-SM-5GICA	Lung
+GTEX-1122O-2426-SM-5GIDN	Muscle - Skeletal
+GTEX-1122O-0426-SM-5H12G	Artery - Coronary
+GTEX-1122O-0726-SM-5GIEV	Pancreas
+GTEX-1122O-2126-SM-5EGIR	Skin - Sun Exposed (Lower leg)
+GTEX-1122O-1326-SM-5H11F	Small Intestine - Terminal Ileum
+GTEX-1122O-0526-SM-5N9DM	Spleen
+GTEX-1122O-1926-SM-5EGIQ	Stomach
+GTEX-1122O-0226-SM-5N9DA	Thyroid
+GTEX-1122O-0005-SM-5O99J	Whole Blood

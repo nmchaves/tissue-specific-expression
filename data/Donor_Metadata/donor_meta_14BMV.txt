@@ -1,0 +1,12 @@
+GTEX-14BMV-0226-SM-5S2N2	Adipose - Subcutaneous
+GTEX-14BMV-3026-SM-5S2PQ	Brain - Cortex
+GTEX-14BMV-2426-SM-5S2PP	Colon - Transverse
+GTEX-14BMV-1426-SM-5S2WA	Esophagus - Muscularis
+GTEX-14BMV-1026-SM-5SI6B	Heart - Atrial Appendage
+GTEX-14BMV-0326-SM-5RQHW	Muscle - Skeletal
+GTEX-14BMV-3126-SM-5S2UV	Pituitary
+GTEX-14BMV-2326-SM-5RQJ4	Prostate
+GTEX-14BMV-0126-SM-5S2PO	Skin - Sun Exposed (Lower leg)
+GTEX-14BMV-2226-SM-5RQHX	Stomach
+GTEX-14BMV-0526-SM-5S2NE	Artery - Tibial
+GTEX-14BMV-0005-SM-5NQ6Y	Whole Blood

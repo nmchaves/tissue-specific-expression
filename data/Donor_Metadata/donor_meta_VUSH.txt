@@ -1,0 +1,3 @@
+GTEX-VUSH-0004-SM-3P61T	Cells - EBV-transformed lymphocytes
+GTEX-VUSH-0008-SM-47JWK	Cells - Transformed fibroblasts
+GTEX-VUSH-0005-SM-3NB2H	Whole Blood

@@ -1,0 +1,18 @@
+GTEX-XQ3S-1626-SM-4WAYN	Adipose - Subcutaneous
+GTEX-XQ3S-1726-SM-4BOOD	Adrenal Gland
+GTEX-XQ3S-1326-SM-4BOPQ	Breast - Mammary Tissue
+GTEX-XQ3S-0001-SM-4B64K	Cells - EBV-transformed lymphocytes
+GTEX-XQ3S-0008-SM-4GIDZ	Cells - Transformed fibroblasts
+GTEX-XQ3S-1026-SM-4BOPJ	Esophagus - Gastroesophageal Junction
+GTEX-XQ3S-1126-SM-4BOPK	Esophagus - Mucosa
+GTEX-XQ3S-1226-SM-4BOPP	Esophagus - Muscularis
+GTEX-XQ3S-0126-SM-4BOO9	Artery - Aorta
+GTEX-XQ3S-0526-SM-4BOQA	Heart - Atrial Appendage
+GTEX-XQ3S-0626-SM-4BOOB	Heart - Left Ventricle
+GTEX-XQ3S-0926-SM-4BOPI	Lung
+GTEX-XQ3S-0426-SM-4BOOA	Muscle - Skeletal
+GTEX-XQ3S-2526-SM-4BOOG	Prostate
+GTEX-XQ3S-1426-SM-4BOPR	Skin - Not Sun Exposed (Suprapubic)
+GTEX-XQ3S-1526-SM-4BOOC	Skin - Sun Exposed (Lower leg)
+GTEX-XQ3S-2726-SM-4BOP2	Testis
+GTEX-XQ3S-0006-SM-4BOQ4	Whole Blood

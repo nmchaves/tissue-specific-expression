@@ -1,0 +1,4 @@
+GTEX-WCDI-0002-SM-3P61U	Cells - EBV-transformed lymphocytes
+GTEX-WCDI-0008-SM-47JYE	Cells - Transformed fibroblasts
+GTEX-WCDI-0426-SM-4GIAL	Artery - Tibial
+GTEX-WCDI-0005-SM-3NB2M	Whole Blood

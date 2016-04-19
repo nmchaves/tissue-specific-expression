@@ -1,0 +1,19 @@
+GTEX-13FHP-0226-SM-5K7WD	Adipose - Subcutaneous
+GTEX-13FHP-0011-R11b-SM-5LZXP	Brain - Cerebellar Hemisphere
+GTEX-13FHP-2926-SM-5IJG9	Brain - Cerebellum
+GTEX-13FHP-3026-SM-5IJBS	Brain - Cortex
+GTEX-13FHP-0011-R1b-SM-5K7XL	Brain - Hippocampus
+GTEX-13FHP-0011-R6b-SM-5LZY6	Brain - Nucleus accumbens (basal ganglia)
+GTEX-13FHP-0011-R7b-SM-5LZYI	Brain - Putamen (basal ganglia)
+GTEX-13FHP-2426-SM-5KLZ5	Colon - Transverse
+GTEX-13FHP-0826-SM-5K7V5	Heart - Atrial Appendage
+GTEX-13FHP-0726-SM-5K7YI	Lung
+GTEX-13FHP-0526-SM-5K7UY	Muscle - Skeletal
+GTEX-13FHP-0326-SM-5K7U2	Nerve - Tibial
+GTEX-13FHP-1126-SM-5IJDO	Artery - Coronary
+GTEX-13FHP-3126-SM-5KLYX	Pituitary
+GTEX-13FHP-0126-SM-5IJBG	Skin - Sun Exposed (Lower leg)
+GTEX-13FHP-2826-SM-5IJFW	Testis
+GTEX-13FHP-0926-SM-5L3EC	Thyroid
+GTEX-13FHP-0426-SM-5J1O5	Artery - Tibial
+GTEX-13FHP-0011-R5b-SM-5LZY2	Brain - Caudate (basal ganglia)

@@ -1,0 +1,17 @@
+GTEX-145MN-2626-SM-5NQAH	Adipose - Subcutaneous
+GTEX-145MN-0226-SM-5QGPY	Adrenal Gland
+GTEX-145MN-1926-SM-5SIAI	Breast - Mammary Tissue
+GTEX-145MN-1726-SM-5SIA6	Colon - Transverse
+GTEX-145MN-1026-SM-5NQ9G	Esophagus - Mucosa
+GTEX-145MN-1126-SM-5RQJB	Esophagus - Muscularis
+GTEX-145MN-0726-SM-5NQBH	Heart - Atrial Appendage
+GTEX-145MN-0626-SM-5QGRH	Heart - Left Ventricle
+GTEX-145MN-0326-SM-5QGQI	Kidney - Cortex
+GTEX-145MN-0926-SM-5NQBT	Lung
+GTEX-145MN-2426-SM-5NQA5	Muscle - Skeletal
+GTEX-145MN-1426-SM-5SI9H	Pancreas
+GTEX-145MN-1526-SM-5SI9T	Skin - Not Sun Exposed (Suprapubic)
+GTEX-145MN-2226-SM-5SIAU	Skin - Sun Exposed (Lower leg)
+GTEX-145MN-0126-SM-5RQHY	Spleen
+GTEX-145MN-1326-SM-5NQ9S	Stomach
+GTEX-145MN-2326-SM-5SIB7	Artery - Tibial

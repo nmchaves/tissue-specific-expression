@@ -1,0 +1,17 @@
+GTEX-ZLV1-1826-SM-5FQU5	Adipose - Subcutaneous
+GTEX-ZLV1-0926-SM-5S2MR	Adipose - Visceral (Omentum)
+GTEX-ZLV1-0226-SM-4WWC1	Adrenal Gland
+GTEX-ZLV1-1426-SM-4WWES	Breast - Mammary Tissue
+GTEX-ZLV1-0001-SM-4WWAO	Cells - EBV-transformed lymphocytes
+GTEX-ZLV1-1326-SM-4WWER	Colon - Sigmoid
+GTEX-ZLV1-1226-SM-4WWBX	Colon - Transverse
+GTEX-ZLV1-0526-SM-4WWD4	Esophagus - Mucosa
+GTEX-ZLV1-0626-SM-4WWF6	Esophagus - Muscularis
+GTEX-ZLV1-0426-SM-4WWC2	Lung
+GTEX-ZLV1-2126-SM-4WWD2	Muscle - Skeletal
+GTEX-ZLV1-2026-SM-5EQMB	Nerve - Tibial
+GTEX-ZLV1-1526-SM-4WWBC	Skin - Not Sun Exposed (Suprapubic)
+GTEX-ZLV1-1126-SM-4WWBW	Small Intestine - Terminal Ileum
+GTEX-ZLV1-0826-SM-4WWEQ	Stomach
+GTEX-ZLV1-1926-SM-5FQSF	Artery - Tibial
+GTEX-ZLV1-0005-SM-4WWAP	Whole Blood

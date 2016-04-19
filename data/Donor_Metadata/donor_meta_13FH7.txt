@@ -1,0 +1,22 @@
+GTEX-13FH7-2226-SM-5IJD4	Adipose - Subcutaneous
+GTEX-13FH7-1926-SM-5J2OL	Adipose - Visceral (Omentum)
+GTEX-13FH7-0226-SM-5IFGG	Adrenal Gland
+GTEX-13FH7-1626-SM-5J2O9	Colon - Sigmoid
+GTEX-13FH7-1526-SM-5J2N6	Colon - Transverse
+GTEX-13FH7-0626-SM-5KLZD	Esophagus - Gastroesophageal Junction
+GTEX-13FH7-0526-SM-5IJF8	Esophagus - Mucosa
+GTEX-13FH7-0326-SM-5J1MR	Artery - Aorta
+GTEX-13FH7-0826-SM-5J2NW	Heart - Atrial Appendage
+GTEX-13FH7-0926-SM-5J2MR	Heart - Left Ventricle
+GTEX-13FH7-1726-SM-5IJE7	Lung
+GTEX-13FH7-2126-SM-5L3DJ	Muscle - Skeletal
+GTEX-13FH7-2426-SM-5K7US	Nerve - Tibial
+GTEX-13FH7-0426-SM-5KM4M	Artery - Coronary
+GTEX-13FH7-1426-SM-5IFIC	Pancreas
+GTEX-13FH7-1126-SM-5K7UG	Skin - Not Sun Exposed (Suprapubic)
+GTEX-13FH7-2026-SM-5IJCR	Skin - Sun Exposed (Lower leg)
+GTEX-13FH7-1226-SM-5IJFK	Small Intestine - Terminal Ileum
+GTEX-13FH7-1326-SM-5IFG8	Spleen
+GTEX-13FH7-1026-SM-5IJGF	Stomach
+GTEX-13FH7-0126-SM-5KLZ1	Thyroid
+GTEX-13FH7-2326-SM-5KM1E	Artery - Tibial

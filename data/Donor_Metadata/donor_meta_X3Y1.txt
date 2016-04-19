@@ -1,0 +1,19 @@
+GTEX-X3Y1-0926-SM-3P5YT	Adipose - Visceral (Omentum)
+GTEX-X3Y1-0001-SM-4PQYP	Cells - EBV-transformed lymphocytes
+GTEX-X3Y1-0008-SM-4PR12	Cells - Transformed fibroblasts
+GTEX-X3Y1-1726-SM-4PQZL	Colon - Transverse
+GTEX-X3Y1-1126-SM-4PQZ9	Esophagus - Gastroesophageal Junction
+GTEX-X3Y1-1326-SM-4PQZB	Esophagus - Mucosa
+GTEX-X3Y1-1226-SM-4PQZ8	Esophagus - Muscularis
+GTEX-X3Y1-0326-SM-4PQZ7	Artery - Aorta
+GTEX-X3Y1-0226-SM-3P5Z5	Heart - Atrial Appendage
+GTEX-X3Y1-0426-SM-3P5Z4	Heart - Left Ventricle
+GTEX-X3Y1-2726-SM-4PQZH	Liver
+GTEX-X3Y1-0626-SM-3P5YS	Lung
+GTEX-X3Y1-1926-SM-4PQZO	Minor Salivary Gland
+GTEX-X3Y1-2426-SM-3P5Z7	Nerve - Tibial
+GTEX-X3Y1-0726-SM-3P5YU	Pancreas
+GTEX-X3Y1-2026-SM-3P5YM	Skin - Not Sun Exposed (Suprapubic)
+GTEX-X3Y1-0126-SM-4PQZA	Spleen
+GTEX-X3Y1-2626-SM-4PQZI	Testis
+GTEX-X3Y1-0006-SM-3P5ZG	Whole Blood

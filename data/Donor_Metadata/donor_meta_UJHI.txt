@@ -1,0 +1,19 @@
+GTEX-UJHI-1626-SM-3DB9A	Adipose - Subcutaneous
+GTEX-UJHI-1426-SM-3DB9C	Breast - Mammary Tissue
+GTEX-UJHI-0008-SM-4IHL1	Cells - Transformed fibroblasts
+GTEX-UJHI-1126-SM-4IHLN	Colon - Transverse
+GTEX-UJHI-0826-SM-4IHLM	Esophagus - Mucosa
+GTEX-UJHI-0926-SM-4IHKF	Esophagus - Muscularis
+GTEX-UJHI-0226-SM-4IHJL	Artery - Aorta
+GTEX-UJHI-0426-SM-3DB8Y	Heart - Left Ventricle
+GTEX-UJHI-0726-SM-3DB92	Lung
+GTEX-UJHI-1726-SM-3DB9B	Muscle - Skeletal
+GTEX-UJHI-1226-SM-4IHLR	Ovary
+GTEX-UJHI-0326-SM-4IHJE	Artery - Coronary
+GTEX-UJHI-0626-SM-3DB8T	Pancreas
+GTEX-UJHI-1526-SM-3DB99	Skin - Sun Exposed (Lower leg)
+GTEX-UJHI-0126-SM-4IHLP	Spleen
+GTEX-UJHI-1026-SM-4IHJP	Stomach
+GTEX-UJHI-1926-SM-3DB8Z	Artery - Tibial
+GTEX-UJHI-1326-SM-4IHJO	Vagina
+GTEX-UJHI-0006-SM-3DB8H	Whole Blood

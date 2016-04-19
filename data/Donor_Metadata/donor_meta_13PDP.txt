@@ -1,0 +1,9 @@
+GTEX-13PDP-0226-SM-5K7W9	Adipose - Subcutaneous
+GTEX-13PDP-1226-SM-5K7TW	Adipose - Visceral (Omentum)
+GTEX-13PDP-0011-R1a-SM-5PNX5	Brain - Hippocampus
+GTEX-13PDP-0011-R8b-SM-5O9CS	Brain - Hypothalamus
+GTEX-13PDP-0011-R6b-SM-5O9D5	Brain - Nucleus accumbens (basal ganglia)
+GTEX-13PDP-0326-SM-5K7XP	Muscle - Skeletal
+GTEX-13PDP-0726-SM-5L3HP	Skin - Not Sun Exposed (Suprapubic)
+GTEX-13PDP-0126-SM-5L3HD	Skin - Sun Exposed (Lower leg)
+GTEX-13PDP-1026-SM-5L3FA	Thyroid

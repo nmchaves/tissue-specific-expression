@@ -1,0 +1,14 @@
+GTEX-12126-0426-SM-5Q5AP	Adipose - Subcutaneous
+GTEX-12126-0011-R11a-SM-5BC6X	Brain - Cerebellar Hemisphere
+GTEX-12126-0926-SM-5FQTW	Brain - Cerebellum
+GTEX-12126-1026-SM-5P9JJ	Brain - Cortex
+GTEX-12126-0011-R10b-SM-5BC6T	Brain - Frontal Cortex (BA9)
+GTEX-12126-0011-R9b-SM-5BC6P	Brain - Spinal cord (cervical c-1)
+GTEX-12126-0008-SM-5S2UC	Cells - Transformed fibroblasts
+GTEX-12126-0526-SM-5PNW4	Muscle - Skeletal
+GTEX-12126-0626-SM-5Q5AQ	Nerve - Tibial
+GTEX-12126-1126-SM-5P9GP	Pituitary
+GTEX-12126-0826-SM-5FQTZ	Skin - Not Sun Exposed (Suprapubic)
+GTEX-12126-0326-SM-5PNW3	Skin - Sun Exposed (Lower leg)
+GTEX-12126-0726-SM-5FQTX	Artery - Tibial
+GTEX-12126-0006-SM-5O9B8	Whole Blood

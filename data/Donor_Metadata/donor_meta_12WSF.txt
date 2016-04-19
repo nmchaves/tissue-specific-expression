@@ -1,0 +1,10 @@
+GTEX-12WSF-0011-R11a-SM-5LZVT	Brain - Cerebellar Hemisphere
+GTEX-12WSF-0011-R10a-SM-5LZVH	Brain - Frontal Cortex (BA9)
+GTEX-12WSF-0011-R1a-SM-5DUVI	Brain - Hippocampus
+GTEX-12WSF-0011-R6b-SM-5HL8W	Brain - Nucleus accumbens (basal ganglia)
+GTEX-12WSF-0011-R7b-SM-5HL99	Brain - Putamen (basal ganglia)
+GTEX-12WSF-0011-R2a-SM-5DUVU	Brain - Substantia nigra
+GTEX-12WSF-0005-SM-5NQAQ	Whole Blood
+GTEX-12WSF-0011-R4b-SM-5HL88	Brain - Amygdala
+GTEX-12WSF-0011-R3a-SM-5DUW7	Brain - Anterior cingulate cortex (BA24)
+GTEX-12WSF-0011-R5a-SM-5HL8K	Brain - Caudate (basal ganglia)

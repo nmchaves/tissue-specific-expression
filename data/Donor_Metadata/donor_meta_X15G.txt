@@ -1,0 +1,19 @@
+GTEX-X15G-2326-SM-4PQZS	Adipose - Subcutaneous
+GTEX-X15G-1626-SM-3NMB3	Breast - Mammary Tissue
+GTEX-X15G-0001-SM-4PQZV	Cells - EBV-transformed lymphocytes
+GTEX-X15G-0008-SM-4PR2D	Cells - Transformed fibroblasts
+GTEX-X15G-1526-SM-4PQZM	Colon - Sigmoid
+GTEX-X15G-1326-SM-4PQZJ	Colon - Transverse
+GTEX-X15G-1026-SM-4PQZF	Esophagus - Gastroesophageal Junction
+GTEX-X15G-0826-SM-4PQZD	Esophagus - Mucosa
+GTEX-X15G-0926-SM-4PQZE	Esophagus - Muscularis
+GTEX-X15G-0426-SM-4PQZ6	Heart - Left Ventricle
+GTEX-X15G-2126-SM-4PQZR	Minor Salivary Gland
+GTEX-X15G-2526-SM-4PQZT	Nerve - Tibial
+GTEX-X15G-1726-SM-4PQZN	Ovary
+GTEX-X15G-0726-SM-4PQZ5	Pancreas
+GTEX-X15G-1426-SM-4PQZK	Small Intestine - Terminal Ileum
+GTEX-X15G-1126-SM-4PQZG	Stomach
+GTEX-X15G-0526-SM-3NMB7	Thyroid
+GTEX-X15G-1926-SM-4PQZQ	Vagina
+GTEX-X15G-0005-SM-3NMDA	Whole Blood

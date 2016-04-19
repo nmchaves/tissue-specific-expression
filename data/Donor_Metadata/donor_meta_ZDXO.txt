@@ -1,0 +1,14 @@
+GTEX-ZDXO-2426-SM-5S2NJ	Adipose - Subcutaneous
+GTEX-ZDXO-2326-SM-5LU9W	Adipose - Visceral (Omentum)
+GTEX-ZDXO-0011-R11a-SM-4WWD9	Brain - Cerebellar Hemisphere
+GTEX-ZDXO-0011-R10a-SM-4WWD8	Brain - Frontal Cortex (BA9)
+GTEX-ZDXO-0011-R8a-SM-4WWD7	Brain - Hypothalamus
+GTEX-ZDXO-0011-R6a-SM-4WWCT	Brain - Nucleus accumbens (basal ganglia)
+GTEX-ZDXO-0011-R7a-SM-4WWCU	Brain - Putamen (basal ganglia)
+GTEX-ZDXO-0126-SM-5S2ND	Breast - Mammary Tissue
+GTEX-ZDXO-0008-SM-4E3HR	Cells - Transformed fibroblasts
+GTEX-ZDXO-0726-SM-57WBT	Heart - Left Ventricle
+GTEX-ZDXO-1326-SM-57WBS	Lung
+GTEX-ZDXO-1926-SM-5E45Q	Nerve - Tibial
+GTEX-ZDXO-3126-SM-5IJDF	Skin - Not Sun Exposed (Suprapubic)
+GTEX-ZDXO-3026-SM-5J1N5	Skin - Sun Exposed (Lower leg)

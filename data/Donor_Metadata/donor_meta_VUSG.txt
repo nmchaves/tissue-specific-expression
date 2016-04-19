@@ -1,0 +1,22 @@
+GTEX-VUSG-2426-SM-4KKZG	Adipose - Subcutaneous
+GTEX-VUSG-1426-SM-3GIJN	Adipose - Visceral (Omentum)
+GTEX-VUSG-1526-SM-4KKZH	Adrenal Gland
+GTEX-VUSG-2226-SM-4KKZO	Breast - Mammary Tissue
+GTEX-VUSG-0003-SM-3NMDK	Cells - EBV-transformed lymphocytes
+GTEX-VUSG-0008-SM-4KL24	Cells - Transformed fibroblasts
+GTEX-VUSG-1026-SM-4KKZN	Esophagus - Gastroesophageal Junction
+GTEX-VUSG-1226-SM-4KKZF	Esophagus - Mucosa
+GTEX-VUSG-1126-SM-4KKZQ	Esophagus - Muscularis
+GTEX-VUSG-0526-SM-4KL22	Artery - Aorta
+GTEX-VUSG-0726-SM-3GIK1	Heart - Atrial Appendage
+GTEX-VUSG-0126-SM-4KL1X	Liver
+GTEX-VUSG-0926-SM-3GIK6	Lung
+GTEX-VUSG-2626-SM-4KKZI	Muscle - Skeletal
+GTEX-VUSG-2726-SM-4KKZJ	Nerve - Tibial
+GTEX-VUSG-0626-SM-4KL1Z	Artery - Coronary
+GTEX-VUSG-2326-SM-4KL1U	Skin - Not Sun Exposed (Suprapubic)
+GTEX-VUSG-2526-SM-4KL1V	Skin - Sun Exposed (Lower leg)
+GTEX-VUSG-1726-SM-4KKZL	Small Intestine - Terminal Ileum
+GTEX-VUSG-0426-SM-3GIKD	Thyroid
+GTEX-VUSG-2826-SM-4KKZM	Artery - Tibial
+GTEX-VUSG-0006-SM-3GIK9	Whole Blood

@@ -1,0 +1,10 @@
+GTEX-XOT4-0826-SM-4B66Y	Adipose - Visceral (Omentum)
+GTEX-XOT4-0726-SM-4GIAW	Breast - Mammary Tissue
+GTEX-XOT4-0008-SM-4B664	Cells - Transformed fibroblasts
+GTEX-XOT4-1126-SM-4B66E	Heart - Atrial Appendage
+GTEX-XOT4-1426-SM-4B65T	Lung
+GTEX-XOT4-0526-SM-4B66O	Muscle - Skeletal
+GTEX-XOT4-0326-SM-4B66S	Nerve - Tibial
+GTEX-XOT4-0626-SM-4B66L	Skin - Not Sun Exposed (Suprapubic)
+GTEX-XOT4-0426-SM-4B66T	Artery - Tibial
+GTEX-XOT4-0005-SM-4B64S	Whole Blood

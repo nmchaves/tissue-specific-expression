@@ -1,0 +1,18 @@
+GTEX-13OVH-1126-SM-5K7YP	Adipose - Visceral (Omentum)
+GTEX-13OVH-0011-R11b-SM-5KM4X	Brain - Cerebellar Hemisphere
+GTEX-13OVH-2926-SM-5IJFH	Brain - Cerebellum
+GTEX-13OVH-3026-SM-5MR4N	Brain - Cortex
+GTEX-13OVH-0011-R8b-SM-5MR35	Brain - Hypothalamus
+GTEX-13OVH-0011-R6b-SM-5LUAX	Brain - Nucleus accumbens (basal ganglia)
+GTEX-13OVH-1826-SM-5K7YW	Esophagus - Gastroesophageal Junction
+GTEX-13OVH-1026-SM-5J2NP	Lung
+GTEX-13OVH-0626-SM-5L3EI	Muscle - Skeletal
+GTEX-13OVH-3126-SM-5MR4Z	Pituitary
+GTEX-13OVH-0526-SM-5L3E6	Skin - Not Sun Exposed (Suprapubic)
+GTEX-13OVH-0126-SM-5MR4B	Skin - Sun Exposed (Lower leg)
+GTEX-13OVH-0726-SM-5N9BU	Testis
+GTEX-13OVH-0426-SM-5K7UC	Artery - Tibial
+GTEX-13OVH-0005-SM-5P9HB	Whole Blood
+GTEX-13OVH-0011-R4a-SM-5KM3W	Brain - Amygdala
+GTEX-13OVH-0011-R3a-SM-5KM49	Brain - Anterior cingulate cortex (BA24)
+GTEX-13OVH-0011-R5b-SM-5KM4L	Brain - Caudate (basal ganglia)

@@ -1,0 +1,12 @@
+GTEX-11PRG-0626-SM-5BC56	Adipose - Subcutaneous
+GTEX-11PRG-1526-SM-5HL6Z	Adipose - Visceral (Omentum)
+GTEX-11PRG-2826-SM-5BC54	Brain - Cerebellum
+GTEX-11PRG-2926-SM-5987A	Brain - Cortex
+GTEX-11PRG-0826-SM-5EQ6A	Breast - Mammary Tissue
+GTEX-11PRG-0008-SM-5S2N5	Cells - Transformed fibroblasts
+GTEX-11PRG-2026-SM-5GU5F	Colon - Sigmoid
+GTEX-11PRG-0926-SM-5EGI8	Lung
+GTEX-11PRG-0326-SM-5GU53	Muscle - Skeletal
+GTEX-11PRG-0126-SM-5BC55	Nerve - Tibial
+GTEX-11PRG-0726-SM-5EGL1	Skin - Not Sun Exposed (Suprapubic)
+GTEX-11PRG-0005-SM-5NQ6X	Whole Blood

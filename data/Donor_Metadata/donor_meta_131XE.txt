@@ -1,0 +1,22 @@
+GTEX-131XE-2426-SM-5EQ5V	Adipose - Subcutaneous
+GTEX-131XE-2026-SM-5LZW1	Adipose - Visceral (Omentum)
+GTEX-131XE-1026-SM-5EGKE	Colon - Sigmoid
+GTEX-131XE-0826-SM-5HL9W	Colon - Transverse
+GTEX-131XE-1526-SM-5KM1A	Esophagus - Gastroesophageal Junction
+GTEX-131XE-1426-SM-5HL7V	Esophagus - Mucosa
+GTEX-131XE-1226-SM-5EGKF	Esophagus - Muscularis
+GTEX-131XE-0526-SM-5K7YT	Heart - Atrial Appendage
+GTEX-131XE-0626-SM-5HL98	Heart - Left Ventricle
+GTEX-131XE-0326-SM-5LZVO	Liver
+GTEX-131XE-0726-SM-5HL9K	Lung
+GTEX-131XE-2726-SM-5P9G7	Muscle - Skeletal
+GTEX-131XE-2526-SM-5EQ57	Nerve - Tibial
+GTEX-131XE-1926-SM-5IFER	Pancreas
+GTEX-131XE-1626-SM-5K7VO	Skin - Not Sun Exposed (Suprapubic)
+GTEX-131XE-2326-SM-5PNZ2	Skin - Sun Exposed (Lower leg)
+GTEX-131XE-1126-SM-5EGHW	Spleen
+GTEX-131XE-2226-SM-5PNYX	Stomach
+GTEX-131XE-0426-SM-5IJF4	Testis
+GTEX-131XE-0126-SM-5LZVC	Thyroid
+GTEX-131XE-2626-SM-5PNYY	Artery - Tibial
+GTEX-131XE-0006-SM-5P9F9	Whole Blood

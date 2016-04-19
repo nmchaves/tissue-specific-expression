@@ -1,0 +1,18 @@
+GTEX-QVJO-1325-SM-2S1QX	Brain - Cerebellum
+GTEX-QVJO-1426-SM-2S1QY	Brain - Cortex
+GTEX-QVJO-0011-R10A-SM-2S1QJ	Brain - Frontal Cortex (BA9)
+GTEX-QVJO-0011-R1A-SM-2S1QI	Brain - Hippocampus
+GTEX-QVJO-0011-R8A-SM-447C7	Brain - Hypothalamus
+GTEX-QVJO-0011-R6A-SM-2S1QN	Brain - Nucleus accumbens (basal ganglia)
+GTEX-QVJO-0011-R9A-SM-2S1QH	Brain - Spinal cord (cervical c-1)
+GTEX-QVJO-0011-R2A-SM-2S1QK	Brain - Substantia nigra
+GTEX-QVJO-1826-SM-447C9	Breast - Mammary Tissue
+GTEX-QVJO-0008-SM-447AU	Cells - Transformed fibroblasts
+GTEX-QVJO-0526-SM-447CE	Artery - Aorta
+GTEX-QVJO-0126-SM-3GIK4	Muscle - Skeletal
+GTEX-QVJO-3126-SM-4R1KC	Ovary
+GTEX-QVJO-1626-SM-2S1QW	Skin - Sun Exposed (Lower leg)
+GTEX-QVJO-2526-SM-4R1KB	Vagina
+GTEX-QVJO-0006-SM-2S1RC	Whole Blood
+GTEX-QVJO-0011-R4A-SM-2S1QL	Brain - Amygdala
+GTEX-QVJO-0011-R5A-SM-2S1QM	Brain - Caudate (basal ganglia)

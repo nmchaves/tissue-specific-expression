@@ -1,0 +1,3 @@
+GTEX-Z93T-0226-SM-5HL5Z	Adipose - Subcutaneous
+GTEX-Z93T-0126-SM-5HL5N	Skin - Sun Exposed (Lower leg)
+GTEX-Z93T-0426-SM-5HL6G	Artery - Tibial

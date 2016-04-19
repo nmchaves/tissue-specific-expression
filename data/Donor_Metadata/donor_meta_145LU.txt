@@ -1,0 +1,14 @@
+GTEX-145LU-1226-SM-5LU9B	Adipose - Visceral (Omentum)
+GTEX-145LU-0011-R11b-SM-5P9JX	Brain - Cerebellar Hemisphere
+GTEX-145LU-2626-SM-5LU9Z	Brain - Cerebellum
+GTEX-145LU-0011-R10a-SM-5PNWJ	Brain - Frontal Cortex (BA9)
+GTEX-145LU-0011-R1a-SM-5Q5CE	Brain - Hippocampus
+GTEX-145LU-0011-R8b-SM-5PNZG	Brain - Hypothalamus
+GTEX-145LU-0011-R6a-SM-5S2V6	Brain - Nucleus accumbens (basal ganglia)
+GTEX-145LU-0011-R9b-SM-5SI66	Brain - Spinal cord (cervical c-1)
+GTEX-145LU-1326-SM-5LU9N	Liver
+GTEX-145LU-0526-SM-5O9AT	Lung
+GTEX-145LU-2026-SM-5Q5E8	Muscle - Skeletal
+GTEX-145LU-0726-SM-5QGP2	Nerve - Tibial
+GTEX-145LU-0426-SM-5O9AH	Thyroid
+GTEX-145LU-0011-R3a-SM-5P9K2	Brain - Anterior cingulate cortex (BA24)

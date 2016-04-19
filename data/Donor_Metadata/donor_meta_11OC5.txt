@@ -1,0 +1,7 @@
+GTEX-11OC5-0726-SM-5P9JK	Brain - Cortex
+GTEX-11OC5-0008-SM-5S2OH	Cells - Transformed fibroblasts
+GTEX-11OC5-0326-SM-5PNW5	Muscle - Skeletal
+GTEX-11OC5-0526-SM-5N9EE	Nerve - Tibial
+GTEX-11OC5-0126-SM-5HL6A	Skin - Sun Exposed (Lower leg)
+GTEX-11OC5-0426-SM-5Q5AR	Artery - Tibial
+GTEX-11OC5-0006-SM-5N9FA	Whole Blood

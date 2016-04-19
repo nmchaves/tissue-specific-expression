@@ -1,0 +1,17 @@
+GTEX-ZF2S-1526-SM-5S2OO	Adipose - Visceral (Omentum)
+GTEX-ZF2S-2026-SM-5E461	Breast - Mammary Tissue
+GTEX-ZF2S-0008-SM-4E3IK	Cells - Transformed fibroblasts
+GTEX-ZF2S-1926-SM-4WWAN	Colon - Transverse
+GTEX-ZF2S-1326-SM-4WWAZ	Esophagus - Gastroesophageal Junction
+GTEX-ZF2S-1226-SM-4WWAX	Esophagus - Mucosa
+GTEX-ZF2S-0926-SM-4WWBJ	Artery - Aorta
+GTEX-ZF2S-0826-SM-4WWBI	Heart - Atrial Appendage
+GTEX-ZF2S-1026-SM-4WWB1	Heart - Left Ventricle
+GTEX-ZF2S-3026-SM-4WWCH	Liver
+GTEX-ZF2S-2126-SM-4WWAY	Muscle - Skeletal
+GTEX-ZF2S-2526-SM-5CVNT	Nerve - Tibial
+GTEX-ZF2S-1626-SM-57WES	Skin - Not Sun Exposed (Suprapubic)
+GTEX-ZF2S-2326-SM-4WWCE	Skin - Sun Exposed (Lower leg)
+GTEX-ZF2S-1726-SM-57WFT	Small Intestine - Terminal Ileum
+GTEX-ZF2S-1426-SM-57WET	Stomach
+GTEX-ZF2S-2426-SM-5DUXV	Artery - Tibial

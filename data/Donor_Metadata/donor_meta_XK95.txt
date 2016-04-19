@@ -1,0 +1,4 @@
+GTEX-XK95-0426-SM-4AT4R	Adipose - Subcutaneous
+GTEX-XK95-0008-SM-4AT5G	Cells - Transformed fibroblasts
+GTEX-XK95-1026-SM-4GIDV	Esophagus - Mucosa
+GTEX-XK95-0226-SM-4AT58	Skin - Not Sun Exposed (Suprapubic)

@@ -1,0 +1,16 @@
+GTEX-PSDG-0326-SM-48TCP	Adipose - Subcutaneous
+GTEX-PSDG-1626-SM-48TCQ	Breast - Mammary Tissue
+GTEX-PSDG-0008-SM-48TE5	Cells - Transformed fibroblasts
+GTEX-PSDG-1326-SM-48TD2	Esophagus - Mucosa
+GTEX-PSDG-1426-SM-48TD1	Esophagus - Muscularis
+GTEX-PSDG-1026-SM-48TCV	Artery - Aorta
+GTEX-PSDG-0926-SM-2I5FP	Heart - Left Ventricle
+GTEX-PSDG-1126-SM-2S1ON	Lung
+GTEX-PSDG-0426-SM-5SI86	Muscle - Skeletal
+GTEX-PSDG-0626-SM-2S1OE	Nerve - Tibial
+GTEX-PSDG-0826-SM-48TCZ	Artery - Coronary
+GTEX-PSDG-1526-SM-48TCY	Pancreas
+GTEX-PSDG-0226-SM-33HC1	Skin - Sun Exposed (Lower leg)
+GTEX-PSDG-0726-SM-2I5FN	Thyroid
+GTEX-PSDG-0526-SM-2S1OH	Artery - Tibial
+GTEX-PSDG-0005-SM-3GADC	Whole Blood

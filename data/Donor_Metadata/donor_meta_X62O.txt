@@ -1,0 +1,5 @@
+GTEX-X62O-2226-SM-46MW3	Esophagus - Mucosa
+GTEX-X62O-0826-SM-46MW8	Heart - Atrial Appendage
+GTEX-X62O-0126-SM-4E3JN	Skin - Sun Exposed (Lower leg)
+GTEX-X62O-1626-SM-46MW9	Artery - Tibial
+GTEX-X62O-0005-SM-46MV1	Whole Blood

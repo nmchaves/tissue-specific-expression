@@ -1,0 +1,29 @@
+GTEX-13OVJ-0326-SM-5L3GL	Adipose - Subcutaneous
+GTEX-13OVJ-0926-SM-5K7U1	Adipose - Visceral (Omentum)
+GTEX-13OVJ-0011-R11a-SM-5P9H8	Brain - Cerebellar Hemisphere
+GTEX-13OVJ-2726-SM-5IJG6	Brain - Cerebellum
+GTEX-13OVJ-2826-SM-5L3GW	Brain - Cortex
+GTEX-13OVJ-0011-R10b-SM-5L3HT	Brain - Frontal Cortex (BA9)
+GTEX-13OVJ-0011-R1b-SM-5L3I6	Brain - Hippocampus
+GTEX-13OVJ-0011-R8b-SM-5L3FS	Brain - Hypothalamus
+GTEX-13OVJ-0011-R6b-SM-5L3GH	Brain - Nucleus accumbens (basal ganglia)
+GTEX-13OVJ-0011-R7a-SM-5L3G1	Brain - Putamen (basal ganglia)
+GTEX-13OVJ-0011-R9b-SM-5L3GD	Brain - Spinal cord (cervical c-1)
+GTEX-13OVJ-0011-R2b-SM-5L3GP	Brain - Substantia nigra
+GTEX-13OVJ-1826-SM-5KM2D	Colon - Sigmoid
+GTEX-13OVJ-1726-SM-5IJDZ	Colon - Transverse
+GTEX-13OVJ-1426-SM-5K7Z2	Esophagus - Gastroesophageal Junction
+GTEX-13OVJ-1226-SM-5L3HA	Esophagus - Mucosa
+GTEX-13OVJ-1326-SM-5K7Z9	Esophagus - Muscularis
+GTEX-13OVJ-0726-SM-5KM1W	Lung
+GTEX-13OVJ-0226-SM-5L3GK	Muscle - Skeletal
+GTEX-13OVJ-0426-SM-5L3GX	Nerve - Tibial
+GTEX-13OVJ-2426-SM-5KM3I	Ovary
+GTEX-13OVJ-2626-SM-5IJFT	Pituitary
+GTEX-13OVJ-0826-SM-5J1OK	Skin - Not Sun Exposed (Suprapubic)
+GTEX-13OVJ-0126-SM-5KM36	Skin - Sun Exposed (Lower leg)
+GTEX-13OVJ-0626-SM-5J2O2	Thyroid
+GTEX-13OVJ-2326-SM-5IJGA	Uterus
+GTEX-13OVJ-0006-SM-5O98T	Whole Blood
+GTEX-13OVJ-0011-R4b-SM-5P9H5	Brain - Amygdala
+GTEX-13OVJ-0011-R5a-SM-5P9H7	Brain - Caudate (basal ganglia)

@@ -1,0 +1,17 @@
+GTEX-N7MT-1226-SM-2D7W4	Brain - Cerebellum
+GTEX-N7MT-1126-SM-5SI7V	Brain - Cortex
+GTEX-N7MT-0011-R10A-SM-2I3E1	Brain - Frontal Cortex (BA9)
+GTEX-N7MT-0011-R1a-SM-5SI7S	Brain - Hippocampus
+GTEX-N7MT-0011-R8a-SM-2I5GU	Brain - Hypothalamus
+GTEX-N7MT-0011-R6a-SM-2I3G3	Brain - Nucleus accumbens (basal ganglia)
+GTEX-N7MT-0011-R7a-SM-2I3FZ	Brain - Putamen (basal ganglia)
+GTEX-N7MT-0011-R2a-SM-2I3GI	Brain - Substantia nigra
+GTEX-N7MT-0326-SM-48TDP	Esophagus - Mucosa
+GTEX-N7MT-1426-SM-3LK5M	Artery - Aorta
+GTEX-N7MT-0126-SM-2D7VT	Lung
+GTEX-N7MT-1026-SM-3TW8T	Pituitary
+GTEX-N7MT-0726-SM-3TW8S	Uterus
+GTEX-N7MT-1926-SM-3LK5N	Vagina
+GTEX-N7MT-0007-SM-3GACQ	Whole Blood
+GTEX-N7MT-0011-R4a-SM-2I3G9	Brain - Amygdala
+GTEX-N7MT-0011-R5a-SM-2I3G6	Brain - Caudate (basal ganglia)

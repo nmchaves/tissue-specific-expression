@@ -1,0 +1,5 @@
+GTEX-ZVZO-0226-SM-5A5LA	Adipose - Subcutaneous
+GTEX-ZVZO-0326-SM-5HL4N	Muscle - Skeletal
+GTEX-ZVZO-0526-SM-5A5LB	Nerve - Tibial
+GTEX-ZVZO-0126-SM-5A5L9	Skin - Sun Exposed (Lower leg)
+GTEX-ZVZO-0426-SM-5HL4Z	Artery - Tibial

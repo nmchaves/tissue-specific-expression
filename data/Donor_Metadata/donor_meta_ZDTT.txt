@@ -1,0 +1,7 @@
+GTEX-ZDTT-2626-SM-5S2OP	Adipose - Subcutaneous
+GTEX-ZDTT-0526-SM-5HL4M	Adipose - Visceral (Omentum)
+GTEX-ZDTT-2126-SM-5S2OJ	Breast - Mammary Tissue
+GTEX-ZDTT-0008-SM-4E3K5	Cells - Transformed fibroblasts
+GTEX-ZDTT-0926-SM-5J2MS	Lung
+GTEX-ZDTT-1026-SM-5KM19	Spleen
+GTEX-ZDTT-2026-SM-5K7TY	Testis

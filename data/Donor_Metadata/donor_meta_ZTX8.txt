@@ -1,0 +1,17 @@
+GTEX-ZTX8-1526-SM-5N9GI	Adipose - Subcutaneous
+GTEX-ZTX8-0726-SM-59HL9	Adipose - Visceral (Omentum)
+GTEX-ZTX8-1226-SM-4YCE9	Breast - Mammary Tissue
+GTEX-ZTX8-0002-SM-4YCEU	Cells - EBV-transformed lymphocytes
+GTEX-ZTX8-0008-SM-4YCDV	Cells - Transformed fibroblasts
+GTEX-ZTX8-0226-SM-5E44D	Esophagus - Mucosa
+GTEX-ZTX8-1626-SM-51MRY	Muscle - Skeletal
+GTEX-ZTX8-1726-SM-51MSB	Nerve - Tibial
+GTEX-ZTX8-1026-SM-5EGHD	Prostate
+GTEX-ZTX8-1326-SM-4YCEL	Skin - Not Sun Exposed (Suprapubic)
+GTEX-ZTX8-1426-SM-5DUVO	Skin - Sun Exposed (Lower leg)
+GTEX-ZTX8-0526-SM-59HLD	Small Intestine - Terminal Ileum
+GTEX-ZTX8-0426-SM-59HLG	Stomach
+GTEX-ZTX8-1126-SM-51MRM	Testis
+GTEX-ZTX8-0626-SM-59HKC	Thyroid
+GTEX-ZTX8-1826-SM-5N9E5	Artery - Tibial
+GTEX-ZTX8-0006-SM-4YCE4	Whole Blood

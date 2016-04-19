@@ -1,0 +1,21 @@
+GTEX-ZYWO-2526-SM-5GIDM	Adipose - Subcutaneous
+GTEX-ZYWO-0126-SM-5GZWQ	Adrenal Gland
+GTEX-ZYWO-2326-SM-5GZY4	Breast - Mammary Tissue
+GTEX-ZYWO-1626-SM-5E44H	Colon - Transverse
+GTEX-ZYWO-1126-SM-5U3SH	Esophagus - Gastroesophageal Junction
+GTEX-ZYWO-1026-SM-5E45U	Esophagus - Mucosa
+GTEX-ZYWO-0926-SM-5E43J	Esophagus - Muscularis
+GTEX-ZYWO-0526-SM-5E45I	Heart - Atrial Appendage
+GTEX-ZYWO-0626-SM-5E45K	Heart - Left Ventricle
+GTEX-ZYWO-0826-SM-5E45W	Lung
+GTEX-ZYWO-2626-SM-5E43V	Muscle - Skeletal
+GTEX-ZYWO-2726-SM-5NQ6N	Nerve - Tibial
+GTEX-ZYWO-1926-SM-5E456	Ovary
+GTEX-ZYWO-0426-SM-5SI9A	Artery - Coronary
+GTEX-ZYWO-1326-SM-5SI8X	Pancreas
+GTEX-ZYWO-2226-SM-5GZXR	Skin - Not Sun Exposed (Suprapubic)
+GTEX-ZYWO-1526-SM-5SIAL	Small Intestine - Terminal Ileum
+GTEX-ZYWO-0226-SM-5GZX3	Spleen
+GTEX-ZYWO-2826-SM-5GIDY	Artery - Tibial
+GTEX-ZYWO-2126-SM-5GZXF	Uterus
+GTEX-ZYWO-2026-SM-5GIDA	Vagina

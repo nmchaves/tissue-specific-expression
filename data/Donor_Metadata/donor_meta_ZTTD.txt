@@ -1,0 +1,11 @@
+GTEX-ZTTD-1026-SM-51MRD	Breast - Mammary Tissue
+GTEX-ZTTD-0001-SM-4YCD5	Cells - EBV-transformed lymphocytes
+GTEX-ZTTD-0008-SM-51MQV	Cells - Transformed fibroblasts
+GTEX-ZTTD-2626-SM-57WEX	Colon - Sigmoid
+GTEX-ZTTD-1226-SM-51MS2	Esophagus - Gastroesophageal Junction
+GTEX-ZTTD-1426-SM-4YCEX	Esophagus - Muscularis
+GTEX-ZTTD-0626-SM-4YCCY	Heart - Atrial Appendage
+GTEX-ZTTD-1126-SM-51MRP	Lung
+GTEX-ZTTD-2726-SM-57WFA	Prostate
+GTEX-ZTTD-2826-SM-4YCFA	Skin - Not Sun Exposed (Suprapubic)
+GTEX-ZTTD-0006-SM-51MSJ	Whole Blood

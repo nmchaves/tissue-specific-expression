@@ -1,0 +1,21 @@
+GTEX-12WSC-0226-SM-5EQ52	Adipose - Subcutaneous
+GTEX-12WSC-1726-SM-5GCN3	Adipose - Visceral (Omentum)
+GTEX-12WSC-0011-R11a-SM-5GU5J	Brain - Cerebellar Hemisphere
+GTEX-12WSC-2926-SM-5BC5Z	Brain - Cerebellum
+GTEX-12WSC-3026-SM-5GCNF	Brain - Cortex
+GTEX-12WSC-0011-R10a-SM-5GU57	Brain - Frontal Cortex (BA9)
+GTEX-12WSC-0011-R6b-SM-5LU99	Brain - Nucleus accumbens (basal ganglia)
+GTEX-12WSC-0011-R7b-SM-5LU9L	Brain - Putamen (basal ganglia)
+GTEX-12WSC-0011-R9a-SM-5GU4U	Brain - Spinal cord (cervical c-1)
+GTEX-12WSC-1026-SM-5EQ5Y	Heart - Atrial Appendage
+GTEX-12WSC-1126-SM-5EQ4G	Heart - Left Ventricle
+GTEX-12WSC-0326-SM-5EQ5E	Muscle - Skeletal
+GTEX-12WSC-0926-SM-5EQ63	Artery - Coronary
+GTEX-12WSC-3126-SM-5GCNB	Pituitary
+GTEX-12WSC-2826-SM-5BC5Y	Skin - Not Sun Exposed (Suprapubic)
+GTEX-12WSC-0126-SM-5EQ4P	Skin - Sun Exposed (Lower leg)
+GTEX-12WSC-0826-SM-5EQ5Q	Thyroid
+GTEX-12WSC-0526-SM-5BC5X	Artery - Tibial
+GTEX-12WSC-0005-SM-5MR3H	Whole Blood
+GTEX-12WSC-0011-R3a-SM-5P9F1	Brain - Anterior cingulate cortex (BA24)
+GTEX-12WSC-0011-R5b-SM-5CVNS	Brain - Caudate (basal ganglia)
