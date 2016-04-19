@@ -1,0 +1,18 @@
+GTEX-ZVP2-1826-SM-5GU62	Adipose - Subcutaneous
+GTEX-ZVP2-0226-SM-57WBD	Adipose - Visceral (Omentum)
+GTEX-ZVP2-0126-SM-5NQ7D	Adrenal Gland
+GTEX-ZVP2-0008-SM-51MSL	Cells - Transformed fibroblasts
+GTEX-ZVP2-1526-SM-5NQ82	Colon - Transverse
+GTEX-ZVP2-1426-SM-5NQ7P	Esophagus - Gastroesophageal Junction
+GTEX-ZVP2-1326-SM-57WCE	Esophagus - Mucosa
+GTEX-ZVP2-0626-SM-51MSO	Liver
+GTEX-ZVP2-2126-SM-5GU6E	Muscle - Skeletal
+GTEX-ZVP2-0726-SM-59HKY	Pancreas
+GTEX-ZVP2-0826-SM-59HJ6	Prostate
+GTEX-ZVP2-0326-SM-57WBP	Skin - Not Sun Exposed (Suprapubic)
+GTEX-ZVP2-1726-SM-5GU5P	Small Intestine - Terminal Ileum
+GTEX-ZVP2-0526-SM-51MSC	Spleen
+GTEX-ZVP2-1626-SM-5GU5D	Stomach
+GTEX-ZVP2-0426-SM-57WC2	Thyroid
+GTEX-ZVP2-2226-SM-5GU6Q	Artery - Tibial
+GTEX-ZVP2-0005-SM-51MRK	Whole Blood

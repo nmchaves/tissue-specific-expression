@@ -1,0 +1,18 @@
+GTEX-S4Q7-1626-SM-3K2AE	Adipose - Subcutaneous
+GTEX-S4Q7-0226-SM-4AD5O	Adrenal Gland
+GTEX-S4Q7-1126-SM-4AD6R	Breast - Mammary Tissue
+GTEX-S4Q7-0003-SM-3NM8M	Cells - EBV-transformed lymphocytes
+GTEX-S4Q7-0008-SM-3NM8A	Cells - Transformed fibroblasts
+GTEX-S4Q7-0826-SM-4AD5E	Colon - Transverse
+GTEX-S4Q7-0626-SM-4AD5M	Esophagus - Mucosa
+GTEX-S4Q7-0526-SM-4AD5N	Esophagus - Muscularis
+GTEX-S4Q7-0426-SM-3K2BJ	Lung
+GTEX-S4Q7-1526-SM-3K2AG	Muscle - Skeletal
+GTEX-S4Q7-1426-SM-3K2B9	Nerve - Tibial
+GTEX-S4Q7-1026-SM-4AD75	Prostate
+GTEX-S4Q7-0726-SM-4AD5F	Stomach
+GTEX-S4Q7-1226-SM-4AD5I	Testis
+GTEX-S4Q7-0326-SM-3K2B1	Thyroid
+GTEX-S4Q7-1326-SM-4AD74	Artery - Tibial
+GTEX-S4Q7-0006-SM-3K2AT	Whole Blood
+GTEX-S4Q7-0926-SM-4AD5D	Bladder

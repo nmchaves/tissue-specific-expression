@@ -1,0 +1,19 @@
+GTEX-W5WG-2526-SM-4SOJ2	Adipose - Subcutaneous
+GTEX-W5WG-1126-SM-4LMK4	Adrenal Gland
+GTEX-W5WG-0002-SM-3NMDN	Cells - EBV-transformed lymphocytes
+GTEX-W5WG-0008-SM-4KL25	Cells - Transformed fibroblasts
+GTEX-W5WG-2426-SM-4LMI6	Colon - Transverse
+GTEX-W5WG-2726-SM-4LMIC	Esophagus - Gastroesophageal Junction
+GTEX-W5WG-1626-SM-4LMKG	Esophagus - Mucosa
+GTEX-W5WG-1526-SM-4LMIG	Esophagus - Muscularis
+GTEX-W5WG-1926-SM-4KKZK	Muscle - Skeletal
+GTEX-W5WG-0926-SM-4RTX9	Ovary
+GTEX-W5WG-0826-SM-4RGNE	Pancreas
+GTEX-W5WG-1826-SM-4KL2Y	Skin - Sun Exposed (Lower leg)
+GTEX-W5WG-0626-SM-4SOID	Spleen
+GTEX-W5WG-1726-SM-4LMI5	Stomach
+GTEX-W5WG-1426-SM-4KKZP	Thyroid
+GTEX-W5WG-2226-SM-4LMI3	Artery - Tibial
+GTEX-W5WG-1326-SM-4LMI9	Uterus
+GTEX-W5WG-1026-SM-4LMIF	Vagina
+GTEX-W5WG-0006-SM-3GIJT	Whole Blood

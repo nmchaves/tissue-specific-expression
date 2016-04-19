@@ -1,0 +1,23 @@
+GTEX-13N2G-2726-SM-5J1MG	Adipose - Subcutaneous
+GTEX-13N2G-1926-SM-5J1O3	Adipose - Visceral (Omentum)
+GTEX-13N2G-0011-R11a-SM-5MR3F	Brain - Cerebellar Hemisphere
+GTEX-13N2G-3126-SM-5IJGL	Brain - Cerebellum
+GTEX-13N2G-0011-R10a-SM-5MR34	Brain - Frontal Cortex (BA9)
+GTEX-13N2G-0011-R1b-SM-5MR3G	Brain - Hippocampus
+GTEX-13N2G-0011-R6b-SM-5MR3P	Brain - Nucleus accumbens (basal ganglia)
+GTEX-13N2G-0011-R7a-SM-5MR42	Brain - Putamen (basal ganglia)
+GTEX-13N2G-0011-R9b-SM-5MR4E	Brain - Spinal cord (cervical c-1)
+GTEX-13N2G-0011-R2a-SM-5MR4Q	Brain - Substantia nigra
+GTEX-13N2G-2226-SM-5IJCU	Colon - Sigmoid
+GTEX-13N2G-0526-SM-5MR5L	Artery - Aorta
+GTEX-13N2G-0926-SM-5IFGJ	Liver
+GTEX-13N2G-0826-SM-5IJE6	Lung
+GTEX-13N2G-2326-SM-5J1ON	Muscle - Skeletal
+GTEX-13N2G-2926-SM-5IJEE	Pituitary
+GTEX-13N2G-1826-SM-5KM1I	Prostate
+GTEX-13N2G-0226-SM-5K7VF	Skin - Not Sun Exposed (Suprapubic)
+GTEX-13N2G-2626-SM-5J1OT	Skin - Sun Exposed (Lower leg)
+GTEX-13N2G-0126-SM-5N9DV	Testis
+GTEX-13N2G-0726-SM-5MR38	Thyroid
+GTEX-13N2G-0011-R4b-SM-5MR54	Brain - Amygdala
+GTEX-13N2G-0011-R3b-SM-5MR5G	Brain - Anterior cingulate cortex (BA24)

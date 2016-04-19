@@ -1,0 +1,24 @@
+GTEX-Y8E4-0726-SM-4WWFN	Adipose - Subcutaneous
+GTEX-Y8E4-1226-SM-5IFIM	Adipose - Visceral (Omentum)
+GTEX-Y8E4-1626-SM-5S2MW	Breast - Mammary Tissue
+GTEX-Y8E4-0003-SM-4V6FY	Cells - EBV-transformed lymphocytes
+GTEX-Y8E4-0008-SM-4V6FW	Cells - Transformed fibroblasts
+GTEX-Y8E4-2426-SM-4WWDN	Colon - Transverse
+GTEX-Y8E4-1926-SM-4VBPW	Esophagus - Gastroesophageal Junction
+GTEX-Y8E4-1726-SM-5LU9G	Esophagus - Mucosa
+GTEX-Y8E4-1826-SM-4VBPV	Esophagus - Muscularis
+GTEX-Y8E4-1126-SM-5IFIA	Artery - Aorta
+GTEX-Y8E4-0426-SM-4V6GB	Heart - Atrial Appendage
+GTEX-Y8E4-0326-SM-4VBRR	Heart - Left Ventricle
+GTEX-Y8E4-0526-SM-4V6GC	Lung
+GTEX-Y8E4-1026-SM-4VBQ5	Muscle - Skeletal
+GTEX-Y8E4-0826-SM-4VBRS	Nerve - Tibial
+GTEX-Y8E4-0226-SM-4VBQ3	Artery - Coronary
+GTEX-Y8E4-1326-SM-5IFIY	Pancreas
+GTEX-Y8E4-2126-SM-5RQHO	Prostate
+GTEX-Y8E4-2026-SM-5IFJB	Skin - Not Sun Exposed (Suprapubic)
+GTEX-Y8E4-0626-SM-4WWDL	Skin - Sun Exposed (Lower leg)
+GTEX-Y8E4-1526-SM-4WWDI	Stomach
+GTEX-Y8E4-2226-SM-5LU94	Testis
+GTEX-Y8E4-0126-SM-4VBQ2	Thyroid
+GTEX-Y8E4-0006-SM-4V6EW	Whole Blood

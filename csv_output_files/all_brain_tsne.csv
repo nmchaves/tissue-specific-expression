@@ -1,0 +1,1260 @@
+	DIM1	DIM2	ID	sex	age	tissue	group
+0	-11.6130520024	-14.0180069734	144GL	1	50	Brain - Cerebellar Hemisphere	Brain 
+1	-11.5226525684	-3.33052539701	144GL	1	50	Brain - Cerebellum	Brain 
+2	3.84800307892	-12.5122658532	144GL	1	50	Brain - Cortex	Brain 
+3	5.89116155538	-2.78535769316	144GL	1	50	Brain - Hippocampus	Brain 
+4	17.3495150508	-7.11742000634	144GL	1	50	Brain - Hypothalamus	Brain 
+5	11.0735318432	-5.68917948414	144GL	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+6	2.78291352447	13.4902360514	144GL	1	50	Brain - Putamen (basal ganglia)	Brain 
+7	10.2005228072	15.5276661576	144GL	1	50	Brain - Amygdala	Brain 
+8	12.649937897	-7.05515622771	144GL	1	50	Brain - Anterior cingulate cortex (BA24)	Brain 
+9	5.96575440555	15.6680701652	144GL	1	50	Brain - Caudate (basal ganglia)	Brain 
+10	8.76343702387	18.549020488	144GO	1	60	Brain - Hippocampus	Brain 
+11	9.49565088503	-14.629065531	144GO	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+12	7.22580032066	18.6144264797	144GO	1	60	Brain - Putamen (basal ganglia)	Brain 
+13	13.7940334487	-15.3312867825	144GO	1	60	Brain - Caudate (basal ganglia)	Brain 
+14	8.46855896484	-11.0654944287	12ZZW	1	50	Brain - Cortex	Brain 
+15	2.32586426222	11.9926363458	12ZZW	1	50	Brain - Frontal Cortex (BA9)	Brain 
+16	2.87891416757	15.1764354373	12ZZW	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+17	2.40834434735	14.9670237907	12ZZW	1	50	Brain - Putamen (basal ganglia)	Brain 
+18	5.45946209398	12.5915932336	12ZZW	1	50	Brain - Amygdala	Brain 
+19	7.75817943222	17.6764178727	12ZZW	1	50	Brain - Anterior cingulate cortex (BA24)	Brain 
+20	14.003293124	-15.110148029	12ZZW	1	50	Brain - Caudate (basal ganglia)	Brain 
+21	-11.4320841586	-7.151535469	11OC5	1	60	Brain - Cortex	Brain 
+22	15.0419679158	-9.33604782474	13PLJ	2	60	Brain - Cerebellar Hemisphere	Brain 
+23	-9.44849075454	7.06484977007	13PLJ	2	60	Brain - Spinal cord (cervical c-1)	Brain 
+24	9.77396032211	15.5274517629	13PLJ	2	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+25	-19.3151992348	-5.75640438533	13PLJ	2	60	Brain - Caudate (basal ganglia)	Brain 
+26	7.53571998201	-12.0980942933	11GS4	1	60	Brain - Cortex	Brain 
+27	-18.3997072015	-12.8078549498	11H98	1	50	Brain - Cerebellar Hemisphere	Brain 
+28	-3.29927686455	-2.73727315885	11H98	1	50	Brain - Frontal Cortex (BA9)	Brain 
+29	-4.38981552822	6.35631180858	11H98	1	50	Brain - Hypothalamus	Brain 
+30	2.24083683878	-8.36442344739	11H98	1	50	Brain - Caudate (basal ganglia)	Brain 
+31	-14.5484338682	13.3161644848	OHPN	2	60	Brain - Cerebellar Hemisphere	Brain 
+32	-16.2859828536	12.550333467	OHPN	2	60	Brain - Putamen (basal ganglia)	Brain 
+33	3.40628725752	4.94253091921	OHPN	2	60	Brain - Spinal cord (cervical c-1)	Brain 
+34	-15.8203347591	12.2649408722	OHPN	2	60	Brain - Substantia nigra	Brain 
+35	-16.2849761368	12.1848378891	OHPN	2	60	Brain - Amygdala	Brain 
+36	-11.5407731985	15.0886548321	OHPN	2	60	Brain - Caudate (basal ganglia)	Brain 
+37	2.58537349651	12.3605725882	ZXG5	1	60	Brain - Frontal Cortex (BA9)	Brain 
+38	6.63055511495	14.8883181274	ZXG5	1	60	Brain - Hypothalamus	Brain 
+39	12.3860575237	-14.4454063685	ZXG5	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+40	3.06484128309	15.8448654934	ZXG5	1	60	Brain - Putamen (basal ganglia)	Brain 
+41	0.85295782958	13.414884581	ZXG5	1	60	Brain - Caudate (basal ganglia)	Brain 
+42	8.51347721837	15.1431432253	139UW	1	60	Brain - Cerebellar Hemisphere	Brain 
+43	-9.45454227221	7.80388159216	139UW	1	60	Brain - Spinal cord (cervical c-1)	Brain 
+44	-11.9623111499	-11.9370979243	11GSO	1	60	Brain - Cerebellum	Brain 
+45	0.40990980865	-12.5870595077	11GSO	1	60	Brain - Cortex	Brain 
+46	16.3557940473	-9.35349321627	11GSO	1	60	Brain - Hippocampus	Brain 
+47	17.013322031	-9.7198479161	11GSO	1	60	Brain - Substantia nigra	Brain 
+48	4.42346205689	-3.70663725745	11GSO	1	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+49	3.17862088759	-14.1160933048	13PL6	2	40	Brain - Cortex	Brain 
+50	8.76657712917	18.7230115479	13PL6	2	40	Brain - Nucleus accumbens (basal ganglia)	Brain 
+51	0.165676449882	5.34344675358	13PL6	2	40	Brain - Spinal cord (cervical c-1)	Brain 
+52	-18.9273787789	-5.79426502031	R55E	1	20	Brain - Cerebellar Hemisphere	Brain 
+53	-7.23185139196	15.1855220727	R55E	1	20	Brain - Cerebellum	Brain 
+54	-12.2755381999	13.5978152564	R55E	1	20	Brain - Hippocampus	Brain 
+55	-10.2487664407	11.3763795268	R55E	1	20	Brain - Hypothalamus	Brain 
+56	-11.0467677437	14.2559586823	R55E	1	20	Brain - Nucleus accumbens (basal ganglia)	Brain 
+57	-11.8413978534	13.7892496049	R55E	1	20	Brain - Putamen (basal ganglia)	Brain 
+58	-9.46466603334	10.6384741581	R55E	1	20	Brain - Spinal cord (cervical c-1)	Brain 
+59	-10.4301914906	14.2411618795	R55E	1	20	Brain - Amygdala	Brain 
+60	-11.6235093678	14.0365362039	R55E	1	20	Brain - Caudate (basal ganglia)	Brain 
+61	-9.26379062738	15.7180694881	R55F	1	50	Brain - Cerebellum	Brain 
+62	2.94380009023	-12.3305689329	R55F	1	50	Brain - Cortex	Brain 
+63	-8.82780768778	15.6593499969	R55F	1	50	Brain - Hypothalamus	Brain 
+64	-12.8968751581	15.3039915884	R55F	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+65	13.3721348613	-4.9329161594	RVPU	1	50	Brain - Frontal Cortex (BA9)	Brain 
+66	3.46065624678	9.11049353392	RVPU	1	50	Brain - Hypothalamus	Brain 
+67	3.5381653929	9.18948103037	RVPU	1	50	Brain - Putamen (basal ganglia)	Brain 
+68	-9.62000100865	6.69862882013	RVPU	1	50	Brain - Spinal cord (cervical c-1)	Brain 
+69	10.3417987223	13.9001462755	RVPU	1	50	Brain - Anterior cingulate cortex (BA24)	Brain 
+70	15.0318941653	-5.27949763789	RVPU	1	50	Brain - Caudate (basal ganglia)	Brain 
+71	-11.2969292398	-2.82833661302	ZYFD	1	50	Brain - Cerebellum	Brain 
+72	-2.4781748119	-13.6126719292	ZYFD	1	50	Brain - Cortex	Brain 
+73	-7.05618275901	14.7237634886	RVPV	1	60	Brain - Cerebellar Hemisphere	Brain 
+74	-12.3245790831	13.8137692146	RVPV	1	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+75	-14.872813021	13.477851573	RVPV	1	60	Brain - Caudate (basal ganglia)	Brain 
+76	6.74869441169	9.041882793	1212Z	1	60	Brain - Hippocampus	Brain 
+77	-10.01328203	-11.4004075886	XMD1	1	60	Brain - Cerebellar Hemisphere	Brain 
+78	-10.1433041114	-11.2983796316	XMD1	1	60	Brain - Cerebellum	Brain 
+79	-8.11570784424	3.57476645131	XMD1	1	60	Brain - Frontal Cortex (BA9)	Brain 
+80	3.58423412197	1.47442775242	XMD1	1	60	Brain - Hippocampus	Brain 
+81	-7.68874561575	-11.2783159522	XMD1	1	60	Brain - Hypothalamus	Brain 
+82	-0.954071782915	-10.437921633	XMD1	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+83	-9.18982308542	8.56859511472	XMD1	1	60	Brain - Spinal cord (cervical c-1)	Brain 
+84	4.50855163873	9.29433125085	XMD1	1	60	Brain - Substantia nigra	Brain 
+85	3.74491198451	1.2706783433	XMD1	1	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+86	-5.69676789373	-4.55020773366	XMD1	1	60	Brain - Caudate (basal ganglia)	Brain 
+87	-14.7031205775	-14.6983605497	13OVL	1	50	Brain - Cerebellar Hemisphere	Brain 
+88	-12.0310972184	-11.7768962952	13OVL	1	50	Brain - Cerebellum	Brain 
+89	0.229286748072	-11.1607128308	13OVL	1	50	Brain - Frontal Cortex (BA9)	Brain 
+90	1.64498828687	3.5612752705	13OVL	1	50	Brain - Hippocampus	Brain 
+91	4.75173946413	11.8232249551	13OVL	1	50	Brain - Hypothalamus	Brain 
+92	2.14927336249	-7.52092051785	13OVL	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+93	7.89970216192	17.9973161677	13OVL	1	50	Brain - Putamen (basal ganglia)	Brain 
+94	-4.2614464002	6.55508497082	13OVL	1	50	Brain - Spinal cord (cervical c-1)	Brain 
+95	8.92754862884	14.1060850189	13OVL	1	50	Brain - Amygdala	Brain 
+96	11.5235963737	-7.75539799438	13OVL	1	50	Brain - Anterior cingulate cortex (BA24)	Brain 
+97	13.2019297148	-15.3207487872	13OVL	1	50	Brain - Caudate (basal ganglia)	Brain 
+98	-18.601004436	-11.5503591429	13OVH	1	70	Brain - Cerebellar Hemisphere	Brain 
+99	-12.9349548572	-12.9855147449	13OVH	1	70	Brain - Cerebellum	Brain 
+100	0.0892501137423	-12.397612358	13OVH	1	70	Brain - Cortex	Brain 
+101	8.10289570648	-4.6691114019	13OVH	1	70	Brain - Hypothalamus	Brain 
+102	14.9034512041	-5.86744276527	13OVH	1	70	Brain - Nucleus accumbens (basal ganglia)	Brain 
+103	9.37519815933	14.1528493328	13OVH	1	70	Brain - Amygdala	Brain 
+104	13.6192257695	-6.82010495365	13OVH	1	70	Brain - Anterior cingulate cortex (BA24)	Brain 
+105	13.5488580916	-13.4831448676	13OVH	1	70	Brain - Caudate (basal ganglia)	Brain 
+106	-18.1437174407	-10.2031532059	13OVJ	2	50	Brain - Cerebellar Hemisphere	Brain 
+107	-14.903328691	-15.9422552743	13OVJ	2	50	Brain - Cerebellum	Brain 
+108	-4.32102446304	-7.43931203516	13OVJ	2	50	Brain - Cortex	Brain 
+109	-4.37455289639	-7.36904565268	13OVJ	2	50	Brain - Frontal Cortex (BA9)	Brain 
+110	-8.74457738764	0.847423174937	13OVJ	2	50	Brain - Hippocampus	Brain 
+111	4.93726093884	4.46392380145	13OVJ	2	50	Brain - Hypothalamus	Brain 
+112	-4.12305603557	-7.43793435658	13OVJ	2	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+113	-2.76063593012	-7.57422029564	13OVJ	2	50	Brain - Putamen (basal ganglia)	Brain 
+114	4.96421334569	4.49322491612	13OVJ	2	50	Brain - Spinal cord (cervical c-1)	Brain 
+115	5.01037294723	4.39450870852	13OVJ	2	50	Brain - Substantia nigra	Brain 
+116	-4.59129108184	-4.11410990084	13OVJ	2	50	Brain - Amygdala	Brain 
+117	-2.20482225993	-7.69694731591	13OVJ	2	50	Brain - Caudate (basal ganglia)	Brain 
+118	-10.101809671	-2.33842321381	139TS	1	60	Brain - Cerebellum	Brain 
+119	15.5484652343	-10.5643159992	139TS	1	60	Brain - Frontal Cortex (BA9)	Brain 
+120	8.53206427508	12.881012525	139TS	1	60	Brain - Hypothalamus	Brain 
+121	7.55773271522	17.4549961688	139TS	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+122	8.88162049122	19.102490842	139TS	1	60	Brain - Putamen (basal ganglia)	Brain 
+123	-2.04417084475	6.25256982904	139TS	1	60	Brain - Substantia nigra	Brain 
+124	1.66975250514	13.9700070987	139TS	1	60	Brain - Caudate (basal ganglia)	Brain 
+125	-5.6488904203	-4.27344087341	13CIG	1	50	Brain - Hypothalamus	Brain 
+126	-0.0772213959652	5.26507257964	13CIG	1	50	Brain - Spinal cord (cervical c-1)	Brain 
+127	14.716524791	-10.469828928	13CIG	1	50	Brain - Anterior cingulate cortex (BA24)	Brain 
+128	1.52259073509	14.4194358045	13CIG	1	50	Brain - Caudate (basal ganglia)	Brain 
+129	-18.8215336508	-12.8753893898	14ABY	1	50	Brain - Cerebellar Hemisphere	Brain 
+130	-0.418981569156	-6.68777581951	14ABY	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+131	8.95522163571	-15.1024484161	14ABY	1	50	Brain - Putamen (basal ganglia)	Brain 
+132	-9.15247705852	8.38026512671	14ABY	1	50	Brain - Spinal cord (cervical c-1)	Brain 
+133	9.31761171689	-5.51301295873	14ABY	1	50	Brain - Amygdala	Brain 
+134	10.1443468993	-15.6221265944	14ABY	1	50	Brain - Caudate (basal ganglia)	Brain 
+135	7.39446258018	13.7795404024	14753	1	60	Brain - Frontal Cortex (BA9)	Brain 
+136	10.1389375439	17.7017135036	14753	1	60	Brain - Hypothalamus	Brain 
+137	-10.8045278463	-3.2698770635	ZZPT	1	50	Brain - Cerebellum	Brain 
+138	6.68652504952	-12.6089140723	ZZPT	1	50	Brain - Cortex	Brain 
+139	6.56459933805	-10.7906023007	145MF	1	50	Brain - Cortex	Brain 
+140	-12.0949171432	-4.5635483628	WHSE	1	20	Brain - Cerebellar Hemisphere	Brain 
+141	-17.470119527	-12.9756948815	WHSE	1	20	Brain - Cerebellum	Brain 
+142	-9.5981546637	-0.812919666019	WHSE	1	20	Brain - Cortex	Brain 
+143	-2.69720347045	-3.82766028236	WHSE	1	20	Brain - Hippocampus	Brain 
+144	-8.29923552927	1.8390939069	WHSE	1	20	Brain - Hypothalamus	Brain 
+145	2.37847259197	-7.24446098887	WHSE	1	20	Brain - Nucleus accumbens (basal ganglia)	Brain 
+146	11.8606891114	-15.5787539095	WHSE	1	20	Brain - Putamen (basal ganglia)	Brain 
+147	4.98820030877	4.71040448676	WHSE	1	20	Brain - Substantia nigra	Brain 
+148	-8.02021317998	2.31220300356	WHSE	1	20	Brain - Amygdala	Brain 
+149	12.7958623839	-6.98818280441	WHSE	1	20	Brain - Anterior cingulate cortex (BA24)	Brain 
+150	-0.845416105327	-8.42933556016	WHSE	1	20	Brain - Caudate (basal ganglia)	Brain 
+151	-18.4657997062	-9.94191633435	WWYW	2	50	Brain - Cerebellar Hemisphere	Brain 
+152	-18.312183157	-10.1107392918	WWYW	2	50	Brain - Cerebellum	Brain 
+153	-10.5962328559	-1.14931934067	WWYW	2	50	Brain - Cortex	Brain 
+154	-20.3285582578	-10.6429767041	WWYW	2	50	Brain - Frontal Cortex (BA9)	Brain 
+155	-8.56637088728	-0.00705566170431	WWYW	2	50	Brain - Hippocampus	Brain 
+156	5.38420320065	2.54032901678	WWYW	2	50	Brain - Hypothalamus	Brain 
+157	-12.9867200594	-6.85953160451	WWYW	2	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+158	-8.68791327839	1.59824563289	WWYW	2	50	Brain - Putamen (basal ganglia)	Brain 
+159	-12.9947797853	-7.25533643798	WWYW	2	50	Brain - Caudate (basal ganglia)	Brain 
+160	-1.64168479747	-0.995405849501	145MG	1	50	Brain - Cerebellum	Brain 
+161	5.15130252299	-2.92406289584	145MG	1	50	Brain - Cortex	Brain 
+162	-7.73048139116	-2.31295712158	145MG	1	50	Brain - Frontal Cortex (BA9)	Brain 
+163	4.44813734927	15.7732900123	145MG	1	50	Brain - Putamen (basal ganglia)	Brain 
+164	7.13447685241	9.96069030852	145MG	1	50	Brain - Anterior cingulate cortex (BA24)	Brain 
+165	8.51507611565	18.8988769183	145MG	1	50	Brain - Caudate (basal ganglia)	Brain 
+166	-17.0014226404	-12.2023122206	14ASI	1	60	Brain - Cerebellum	Brain 
+167	-4.3737670842	1.33721507492	14ASI	1	60	Brain - Cortex	Brain 
+168	-9.68499087441	-7.01183708229	14ASI	1	60	Brain - Frontal Cortex (BA9)	Brain 
+169	12.5076642991	-4.01288747278	14ASI	1	60	Brain - Hippocampus	Brain 
+170	4.23318458837	-13.7553375833	14ASI	1	60	Brain - Hypothalamus	Brain 
+171	12.7499878519	-7.73096274742	14ASI	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+172	4.06667817546	2.12241823068	11UD1	2	40	Brain - Hippocampus	Brain 
+173	-7.1313141602	4.98286759757	11UD1	2	40	Brain - Substantia nigra	Brain 
+174	16.299873989	-5.77608574081	11UD1	2	40	Brain - Anterior cingulate cortex (BA24)	Brain 
+175	5.49507730824	17.5009385775	11UD1	2	40	Brain - Caudate (basal ganglia)	Brain 
+176	12.6587978239	-10.9677669532	1445S	1	60	Brain - Cortex	Brain 
+177	14.6172788309	-11.1328274219	1445S	1	60	Brain - Frontal Cortex (BA9)	Brain 
+178	6.42105221729	9.12938213162	1445S	1	60	Brain - Hypothalamus	Brain 
+179	4.75150816837	13.1346470345	1445S	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+180	1.02178509612	13.6452701608	1445S	1	60	Brain - Putamen (basal ganglia)	Brain 
+181	0.471307364027	3.14381631447	1445S	1	60	Brain - Substantia nigra	Brain 
+182	8.09786823787	11.4016744387	1445S	1	60	Brain - Amygdala	Brain 
+183	8.39782924794	11.423655935	1445S	1	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+184	3.12241787561	15.4518097353	1445S	1	60	Brain - Caudate (basal ganglia)	Brain 
+185	-15.9397715261	-14.1038090099	12126	1	20	Brain - Cerebellar Hemisphere	Brain 
+186	-12.9543700147	-13.0013626083	12126	1	20	Brain - Cerebellum	Brain 
+187	4.1768822669	-12.6492809758	12126	1	20	Brain - Cortex	Brain 
+188	5.13149966786	-12.0666727569	12126	1	20	Brain - Frontal Cortex (BA9)	Brain 
+189	-8.22713508561	7.22890501339	12126	1	20	Brain - Spinal cord (cervical c-1)	Brain 
+190	-12.3388674387	-10.344173923	ZUA1	1	40	Brain - Cerebellar Hemisphere	Brain 
+191	-15.0769540129	-15.141956695	ZUA1	1	40	Brain - Cerebellum	Brain 
+192	0.365720036167	-13.0233804349	ZUA1	1	40	Brain - Cortex	Brain 
+193	13.526821889	-13.5706314792	ZUA1	1	40	Brain - Frontal Cortex (BA9)	Brain 
+194	11.3041906125	-14.498712959	ZUA1	1	40	Brain - Hippocampus	Brain 
+195	12.8597256453	-16.8295207676	ZUA1	1	40	Brain - Hypothalamus	Brain 
+196	5.01139522334	4.61332069183	ZUA1	1	40	Brain - Nucleus accumbens (basal ganglia)	Brain 
+197	8.06572274163	-15.5446434527	ZUA1	1	40	Brain - Putamen (basal ganglia)	Brain 
+198	9.38246985376	-5.33978225784	ZUA1	1	40	Brain - Anterior cingulate cortex (BA24)	Brain 
+199	3.04745526008	-7.97966986342	ZUA1	1	40	Brain - Caudate (basal ganglia)	Brain 
+200	-11.695925317	-3.25574411175	11ONC	1	60	Brain - Cerebellum	Brain 
+201	0.481184845039	-12.8972469311	11ONC	1	60	Brain - Cortex	Brain 
+202	4.78047881369	13.2862793159	11ONC	1	60	Brain - Hippocampus	Brain 
+203	12.0265080538	-7.89966397023	11ONC	1	60	Brain - Hypothalamus	Brain 
+204	0.481773734891	4.52390233821	11ONC	1	60	Brain - Spinal cord (cervical c-1)	Brain 
+205	-19.4663427782	-11.3607083526	13FHO	1	60	Brain - Cerebellar Hemisphere	Brain 
+206	-11.0239960939	-11.2677402131	13FHO	1	60	Brain - Cerebellum	Brain 
+207	-9.94502624717	-0.648297038088	13FHO	1	60	Brain - Cortex	Brain 
+208	-8.07291454012	-1.10445479542	13FHO	1	60	Brain - Frontal Cortex (BA9)	Brain 
+209	11.5153902743	-7.63305383991	13FHO	1	60	Brain - Hippocampus	Brain 
+210	1.52314295684	11.7032291171	13FHO	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+211	16.1206309468	-8.65258687496	13FHO	1	60	Brain - Putamen (basal ganglia)	Brain 
+212	13.1273282915	-7.06977867639	13FHO	1	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+213	-1.16556552833	-5.8839028522	13FHO	1	60	Brain - Caudate (basal ganglia)	Brain 
+214	-11.8989307192	-4.46087314107	13FHP	1	50	Brain - Cerebellar Hemisphere	Brain 
+215	-11.7023524267	-3.12964686186	13FHP	1	50	Brain - Cerebellum	Brain 
+216	0.492121245855	-12.7177057192	13FHP	1	50	Brain - Cortex	Brain 
+217	9.14311302602	16.9081879185	13FHP	1	50	Brain - Hippocampus	Brain 
+218	5.55106876869	15.3375219384	13FHP	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+219	7.42375799676	18.4044318135	13FHP	1	50	Brain - Putamen (basal ganglia)	Brain 
+220	4.96461058936	16.9427451411	13FHP	1	50	Brain - Caudate (basal ganglia)	Brain 
+221	-19.0374738952	-6.33541843934	X4EP	2	60	Brain - Cerebellar Hemisphere	Brain 
+222	-19.0157615275	-6.58839040439	X4EP	2	60	Brain - Cerebellum	Brain 
+223	-20.621331112	-10.4433432091	X4EP	2	60	Brain - Frontal Cortex (BA9)	Brain 
+224	-19.5279206202	-6.20847131895	X4EP	2	60	Brain - Putamen (basal ganglia)	Brain 
+225	-20.7403484554	-8.28199661196	X4EP	2	60	Brain - Spinal cord (cervical c-1)	Brain 
+226	6.90402671234	-12.762486913	11EI6	1	60	Brain - Cerebellum	Brain 
+227	9.7171312624	-11.6039869883	11EI6	1	60	Brain - Cortex	Brain 
+228	-12.2402244333	-3.48665621014	ZYY3	2	60	Brain - Cerebellum	Brain 
+229	-16.1310181543	-14.4578162618	S7SE	1	50	Brain - Cerebellar Hemisphere	Brain 
+230	-19.5127904523	-11.1330142411	S7SE	1	50	Brain - Cerebellum	Brain 
+231	-9.40049339721	-7.1800321392	S7SE	1	50	Brain - Frontal Cortex (BA9)	Brain 
+232	17.2258040228	-5.51059601248	S7SE	1	50	Brain - Hippocampus	Brain 
+233	6.5814099115	-2.58550609102	S7SE	1	50	Brain - Hypothalamus	Brain 
+234	-0.805525113327	-4.41347202283	S7SE	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+235	1.93746728637	-5.80900218108	S7SE	1	50	Brain - Putamen (basal ganglia)	Brain 
+236	3.37924339655	4.84408222887	S7SE	1	50	Brain - Substantia nigra	Brain 
+237	8.69466212849	-2.85269292634	S7SE	1	50	Brain - Amygdala	Brain 
+238	1.50586085433	-7.50266417428	S7SE	1	50	Brain - Caudate (basal ganglia)	Brain 
+239	-11.8404870422	-10.9600813944	13112	1	50	Brain - Cerebellum	Brain 
+240	9.05055659094	13.2476201404	13112	1	50	Brain - Hippocampus	Brain 
+241	0.965246432973	12.896189315	13112	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+242	13.0409468927	-14.3186567596	13112	1	50	Brain - Putamen (basal ganglia)	Brain 
+243	5.65240411037	11.0414130738	13112	1	50	Brain - Amygdala	Brain 
+244	17.4736623572	-6.36469315824	13112	1	50	Brain - Anterior cingulate cortex (BA24)	Brain 
+245	7.51034582892	18.2979901229	13112	1	50	Brain - Caudate (basal ganglia)	Brain 
+246	-15.2088206793	-13.6039838722	YJ89	1	60	Brain - Cerebellar Hemisphere	Brain 
+247	-10.9735635883	-11.1909607068	YJ89	1	60	Brain - Cerebellum	Brain 
+248	8.06578208788	-10.7887411883	YJ89	1	60	Brain - Cortex	Brain 
+249	-5.86163429155	-0.781066672834	YJ89	1	60	Brain - Frontal Cortex (BA9)	Brain 
+250	10.4825374163	16.5978759537	YJ89	1	60	Brain - Hippocampus	Brain 
+251	1.81885765067	3.42881128981	YJ89	1	60	Brain - Hypothalamus	Brain 
+252	1.9746027935	3.35522101799	YJ89	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+253	4.79294986308	16.6782432463	YJ89	1	60	Brain - Putamen (basal ganglia)	Brain 
+254	-8.97526851311	7.14572874546	YJ89	1	60	Brain - Spinal cord (cervical c-1)	Brain 
+255	3.48809481135	17.7329339395	YJ89	1	60	Brain - Substantia nigra	Brain 
+256	10.0500548835	-9.359859589	YJ89	1	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+257	4.72795630838	16.7424454313	YJ89	1	60	Brain - Caudate (basal ganglia)	Brain 
+258	-1.54199759373	-1.85629156678	13QJC	2	60	Brain - Frontal Cortex (BA9)	Brain 
+259	12.3166374928	-10.8746913428	13QJC	2	60	Brain - Hippocampus	Brain 
+260	6.54242988791	21.1097881095	13QJC	2	60	Brain - Hypothalamus	Brain 
+261	11.3144454826	-13.649467088	13QJC	2	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+262	0.546143527153	15.504473702	13QJC	2	60	Brain - Putamen (basal ganglia)	Brain 
+263	-2.49036807972	6.35686085225	13QJC	2	60	Brain - Spinal cord (cervical c-1)	Brain 
+264	3.03424348237	1.22028311035	13QJC	2	60	Brain - Substantia nigra	Brain 
+265	-16.4049891328	-12.9878723541	11GSP	2	60	Brain - Cerebellar Hemisphere	Brain 
+266	-12.7166009095	-11.7290837885	11GSP	2	60	Brain - Cerebellum	Brain 
+267	13.4877271131	-12.8391326811	11GSP	2	60	Brain - Cortex	Brain 
+268	10.165464813	-9.87539369124	11GSP	2	60	Brain - Frontal Cortex (BA9)	Brain 
+269	3.34255425605	1.25321765882	11GSP	2	60	Brain - Hypothalamus	Brain 
+270	9.81380286109	-12.8819438618	11GSP	2	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+271	2.7812284264	-8.86318128583	11GSP	2	60	Brain - Putamen (basal ganglia)	Brain 
+272	3.43768375889	2.63726096334	11GSP	2	60	Brain - Spinal cord (cervical c-1)	Brain 
+273	-1.03382126329	-7.49345751043	11GSP	2	60	Brain - Caudate (basal ganglia)	Brain 
+274	2.91504263106	-3.71613563023	13QIC	2	60	Brain - Cerebellar Hemisphere	Brain 
+275	-13.9750106418	-14.0809828249	13QIC	2	60	Brain - Cerebellum	Brain 
+276	3.11993350736	-14.0283553807	13QIC	2	60	Brain - Cortex	Brain 
+277	-4.40213012546	-1.38931267679	13QIC	2	60	Brain - Frontal Cortex (BA9)	Brain 
+278	4.87532473611	2.69017637037	13QIC	2	60	Brain - Hippocampus	Brain 
+279	8.82194039291	-6.20803304064	13QIC	2	60	Brain - Hypothalamus	Brain 
+280	17.1709399897	-7.21335867641	13QIC	2	60	Brain - Amygdala	Brain 
+281	13.2820127661	-6.78698700115	13QIC	2	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+282	-6.76069184766	14.4551151241	QVJO	2	60	Brain - Cerebellum	Brain 
+283	-11.6900207415	14.7257262173	QVJO	2	60	Brain - Cortex	Brain 
+284	-6.98118197103	14.4371085358	QVJO	2	60	Brain - Frontal Cortex (BA9)	Brain 
+285	-10.9313870365	14.5793811733	QVJO	2	60	Brain - Hippocampus	Brain 
+286	6.52047719612	1.36594304526	QVJO	2	60	Brain - Hypothalamus	Brain 
+287	-6.82541033075	14.3372490255	QVJO	2	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+288	-9.85328778434	10.9539458287	QVJO	2	60	Brain - Spinal cord (cervical c-1)	Brain 
+289	-12.2165091421	13.8167315765	QVJO	2	60	Brain - Substantia nigra	Brain 
+290	-10.354989839	14.5709190424	QVJO	2	60	Brain - Amygdala	Brain 
+291	-9.18653911209	14.7963495321	QVJO	2	60	Brain - Caudate (basal ganglia)	Brain 
+292	2.67809407279	-3.30217682949	ZVT3	2	60	Brain - Cerebellar Hemisphere	Brain 
+293	-11.4197244671	-2.11683400315	ZVT3	2	60	Brain - Cerebellum	Brain 
+294	2.6235902162	-10.8978601773	ZVT3	2	60	Brain - Cortex	Brain 
+295	10.1152547909	-4.76877283811	ZVT3	2	60	Brain - Frontal Cortex (BA9)	Brain 
+296	13.8100412284	-6.55218608091	ZVT3	2	60	Brain - Hypothalamus	Brain 
+297	6.45593648968	16.7945639612	ZVT3	2	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+298	8.72496007549	18.8771734255	ZVT3	2	60	Brain - Putamen (basal ganglia)	Brain 
+299	8.31356930326	13.6556080126	ZVT3	2	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+300	5.5296466729	16.4019034076	ZVT3	2	60	Brain - Caudate (basal ganglia)	Brain 
+301	-14.9386264454	-12.7047840958	QVUS	2	60	Brain - Cerebellum	Brain 
+302	-1.61266237627	0.317367906907	QVUS	2	60	Brain - Cortex	Brain 
+303	-3.47585520684	1.25770359219	QVUS	2	60	Brain - Frontal Cortex (BA9)	Brain 
+304	-8.49854695659	-8.53091432729	QVUS	2	60	Brain - Hippocampus	Brain 
+305	-8.18607453907	-7.28505719363	QVUS	2	60	Brain - Hypothalamus	Brain 
+306	5.8024638661	-4.68580618576	QVUS	2	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+307	-7.01747226409	6.01300644354	QVUS	2	60	Brain - Spinal cord (cervical c-1)	Brain 
+308	7.10101402991	-0.793933379917	QVUS	2	60	Brain - Amygdala	Brain 
+309	-8.82887125237	-7.21193866231	QVUS	2	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+310	-17.534328757	-11.2476045054	14DAQ	2	60	Brain - Cerebellum	Brain 
+311	-8.28947474541	-1.31526202184	13N1W	1	70	Brain - Frontal Cortex (BA9)	Brain 
+312	-8.52858482074	0.901941222468	13N1W	1	70	Brain - Hippocampus	Brain 
+313	5.06430770303	-3.39174358522	13N1W	1	70	Brain - Hypothalamus	Brain 
+314	-5.16885287764	-2.19099312984	13N1W	1	70	Brain - Nucleus accumbens (basal ganglia)	Brain 
+315	0.698990670668	-7.68604508088	13N1W	1	70	Brain - Putamen (basal ganglia)	Brain 
+316	-9.06206431232	7.3993686652	13N1W	1	70	Brain - Spinal cord (cervical c-1)	Brain 
+317	8.86912285816	-4.47865765768	13N1W	1	70	Brain - Amygdala	Brain 
+318	-4.07010087219	-2.22681966289	13N1W	1	70	Brain - Anterior cingulate cortex (BA24)	Brain 
+319	-1.75926777642	-7.38362263724	13N1W	1	70	Brain - Caudate (basal ganglia)	Brain 
+320	-11.4920303129	-14.2123332567	XLM4	1	60	Brain - Cerebellum	Brain 
+321	-2.59453447042	0.368472804253	XLM4	1	60	Brain - Cortex	Brain 
+322	-7.8569121116	-6.46708991838	XLM4	1	60	Brain - Frontal Cortex (BA9)	Brain 
+323	-10.0082662958	-5.1652549757	XLM4	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+324	-0.201033217257	-4.95923000831	XLM4	1	60	Brain - Putamen (basal ganglia)	Brain 
+325	0.100405933001	5.13701105636	XLM4	1	60	Brain - Spinal cord (cervical c-1)	Brain 
+326	4.88579632576	-0.330161620074	XLM4	1	60	Brain - Substantia nigra	Brain 
+327	-5.40969975687	-0.404137745296	XLM4	1	60	Brain - Amygdala	Brain 
+328	-5.39478343002	0.158935144579	XLM4	1	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+329	-18.3070554814	-13.5832379123	139TT	1	60	Brain - Cerebellar Hemisphere	Brain 
+330	-14.3958301403	-14.8815782412	139TT	1	60	Brain - Cerebellum	Brain 
+331	10.5033531528	-6.18774861113	139TT	1	60	Brain - Hippocampus	Brain 
+332	4.14678276927	-7.030097896	139TT	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+333	2.63246108054	-8.04184045269	139TT	1	60	Brain - Putamen (basal ganglia)	Brain 
+334	6.74112030651	-4.8278600571	139TT	1	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+335	6.78903304524	-4.94408952467	139TT	1	60	Brain - Caudate (basal ganglia)	Brain 
+336	-18.8568394914	-5.56408505816	NPJ8	1	40	Brain - Cerebellar Hemisphere	Brain 
+337	-7.60755268385	14.741445565	NPJ8	1	40	Brain - Cerebellum	Brain 
+338	-7.94073488411	13.9361451452	NPJ8	1	40	Brain - Cortex	Brain 
+339	-6.86697233946	13.7233022528	NPJ8	1	40	Brain - Frontal Cortex (BA9)	Brain 
+340	7.37044320942	7.25604481006	NPJ8	1	40	Brain - Hippocampus	Brain 
+341	-6.92400934655	14.2256885916	NPJ8	1	40	Brain - Hypothalamus	Brain 
+342	-8.53623895185	14.9337371172	NPJ8	1	40	Brain - Nucleus accumbens (basal ganglia)	Brain 
+343	-16.0118031613	13.07584086	NPJ8	1	40	Brain - Putamen (basal ganglia)	Brain 
+344	-9.57813261256	8.40627177748	NPJ8	1	40	Brain - Spinal cord (cervical c-1)	Brain 
+345	-14.9004084867	12.8471420526	NPJ8	1	40	Brain - Substantia nigra	Brain 
+346	-16.1265534657	12.5294462173	NPJ8	1	40	Brain - Amygdala	Brain 
+347	-8.07432119126	13.4580318065	NPJ8	1	40	Brain - Anterior cingulate cortex (BA24)	Brain 
+348	-12.0030662753	15.7876001531	NPJ8	1	40	Brain - Caudate (basal ganglia)	Brain 
+349	-19.1329568842	-6.0565524541	X585	1	50	Brain - Cerebellar Hemisphere	Brain 
+350	-19.3396345315	-7.59955106179	X585	1	50	Brain - Cortex	Brain 
+351	-19.3569998919	-7.83693198957	X585	1	50	Brain - Frontal Cortex (BA9)	Brain 
+352	-9.13653595046	-6.72425232066	X585	1	50	Brain - Hippocampus	Brain 
+353	-20.2603690324	-11.7256934987	X585	1	50	Brain - Hypothalamus	Brain 
+354	-6.9724515646	-5.69663109627	X585	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+355	-7.68045487804	-11.1528892391	X585	1	50	Brain - Substantia nigra	Brain 
+356	-7.66867150783	-11.1658257816	X585	1	50	Brain - Amygdala	Brain 
+357	-9.53949707777	-13.2987069951	X585	1	50	Brain - Anterior cingulate cortex (BA24)	Brain 
+358	-13.5812432573	-7.37279528228	X585	1	50	Brain - Caudate (basal ganglia)	Brain 
+359	-7.98681199273	15.0027892351	NPJ7	2	60	Brain - Cerebellar Hemisphere	Brain 
+360	-11.2933649552	15.2779955644	NPJ7	2	60	Brain - Cerebellum	Brain 
+361	-15.6238828398	12.9084048229	NPJ7	2	60	Brain - Cortex	Brain 
+362	-8.53973040035	15.0004269374	NPJ7	2	60	Brain - Frontal Cortex (BA9)	Brain 
+363	16.6301896984	-5.08509470994	NPJ7	2	60	Brain - Hippocampus	Brain 
+364	-12.0160305346	14.881839599	NPJ7	2	60	Brain - Hypothalamus	Brain 
+365	-13.0736077934	14.7352647077	NPJ7	2	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+366	-9.9907607296	10.2020098401	NPJ7	2	60	Brain - Spinal cord (cervical c-1)	Brain 
+367	-9.82610137666	10.1324927405	NPJ7	2	60	Brain - Substantia nigra	Brain 
+368	-16.2637240409	12.4234567247	NPJ7	2	60	Brain - Amygdala	Brain 
+369	2.12070901636	9.74443146798	NPJ7	2	60	Brain - Caudate (basal ganglia)	Brain 
+370	0.847507975424	-11.2913925169	13FLW	1	50	Brain - Cortex	Brain 
+371	0.0535672250938	-0.907930623109	13FLW	1	50	Brain - Frontal Cortex (BA9)	Brain 
+372	18.0678985884	-8.89285820623	13FLW	1	50	Brain - Hippocampus	Brain 
+373	1.28273546181	3.58552356165	13FLW	1	50	Brain - Hypothalamus	Brain 
+374	3.77231710712	-6.8761253912	13FLW	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+375	12.6244624804	-16.6009015099	13FLW	1	50	Brain - Putamen (basal ganglia)	Brain 
+376	11.8657869558	-15.5567644127	13FLW	1	50	Brain - Caudate (basal ganglia)	Brain 
+377	-13.300053621	-15.6819398086	13FLV	1	50	Brain - Cerebellar Hemisphere	Brain 
+378	-1.27790082465	-1.50082611948	13FLV	1	50	Brain - Frontal Cortex (BA9)	Brain 
+379	6.61358670031	1.70442089268	13FLV	1	50	Brain - Hypothalamus	Brain 
+380	0.388286342539	-6.22419205169	13FLV	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+381	3.3502206539	-7.94039845801	13FLV	1	50	Brain - Putamen (basal ganglia)	Brain 
+382	1.01357022622	3.81495631317	13FLV	1	50	Brain - Spinal cord (cervical c-1)	Brain 
+383	9.71232272908	-4.89594840564	13FLV	1	50	Brain - Amygdala	Brain 
+384	11.0015265213	-8.79417857904	13FLV	1	50	Brain - Anterior cingulate cortex (BA24)	Brain 
+385	9.39418286822	-14.7714518792	13FLV	1	50	Brain - Caudate (basal ganglia)	Brain 
+386	-11.1713301672	-2.90404606093	11EMC	2	60	Brain - Cerebellum	Brain 
+387	14.0431553083	-9.79707045631	11EMC	2	60	Brain - Cortex	Brain 
+388	-18.9286137044	-5.68921391412	Q2AG	2	40	Brain - Cerebellar Hemisphere	Brain 
+389	-6.63434638222	14.318962961	Q2AG	2	40	Brain - Cerebellum	Brain 
+390	-11.3351686151	15.1272357632	Q2AG	2	40	Brain - Cortex	Brain 
+391	-7.9879284016	15.0032078169	Q2AG	2	40	Brain - Frontal Cortex (BA9)	Brain 
+392	-9.24129389728	14.8802796688	Q2AG	2	40	Brain - Hippocampus	Brain 
+393	-15.7883843203	12.5088017533	Q2AG	2	40	Brain - Hypothalamus	Brain 
+394	-11.3021424922	15.3164320273	Q2AG	2	40	Brain - Nucleus accumbens (basal ganglia)	Brain 
+395	-15.6247132477	13.7170074439	Q2AG	2	40	Brain - Putamen (basal ganglia)	Brain 
+396	-13.5503778217	9.79123039585	Q2AG	2	40	Brain - Spinal cord (cervical c-1)	Brain 
+397	-9.6176041719	9.96564193532	Q2AG	2	40	Brain - Substantia nigra	Brain 
+398	-9.2426449948	15.1551473502	Q2AG	2	40	Brain - Amygdala	Brain 
+399	-8.22194293218	15.1298073885	Q2AG	2	40	Brain - Anterior cingulate cortex (BA24)	Brain 
+400	-11.2948724958	15.401350575	Q2AG	2	40	Brain - Caudate (basal ganglia)	Brain 
+401	13.3029064418	-8.66784924908	139T8	1	60	Brain - Cortex	Brain 
+402	10.4982756542	16.9389498482	139T8	1	60	Brain - Hippocampus	Brain 
+403	7.04035945603	11.3969003944	139T8	1	60	Brain - Amygdala	Brain 
+404	7.24905732852	10.5490543328	139T8	1	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+405	5.4214792815	14.4355762933	139T8	1	60	Brain - Caudate (basal ganglia)	Brain 
+406	-5.80676386122	6.49907748157	139T4	2	50	Brain - Spinal cord (cervical c-1)	Brain 
+407	-17.6885957258	-11.6095254701	145LS	2	60	Brain - Cerebellum	Brain 
+408	-2.01008049856	-2.59477895162	145LS	2	60	Brain - Cortex	Brain 
+409	-0.415547509469	-11.2377570998	145LS	2	60	Brain - Frontal Cortex (BA9)	Brain 
+410	9.21281111162	-8.22211183208	145LS	2	60	Brain - Hippocampus	Brain 
+411	-8.61845319058	0.235065818749	145LS	2	60	Brain - Hypothalamus	Brain 
+412	-4.90624381811	-5.640368866	145LS	2	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+413	2.46732559085	-8.52153883153	145LS	2	60	Brain - Putamen (basal ganglia)	Brain 
+414	5.7895618205	2.95710638076	145LS	2	60	Brain - Substantia nigra	Brain 
+415	11.0157388208	-4.51808074993	145LS	2	60	Brain - Amygdala	Brain 
+416	5.0292505672	-3.09803218705	145LS	2	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+417	2.02522019835	-8.29083099092	145LS	2	60	Brain - Caudate (basal ganglia)	Brain 
+418	-9.91168901244	-11.1716011412	145LU	1	50	Brain - Cerebellar Hemisphere	Brain 
+419	-9.97092254032	-11.3028644009	145LU	1	50	Brain - Cerebellum	Brain 
+420	13.4848285281	-9.83849017792	145LU	1	50	Brain - Frontal Cortex (BA9)	Brain 
+421	8.83411799509	14.2320571107	145LU	1	50	Brain - Hippocampus	Brain 
+422	12.127033778	-10.7524348531	145LU	1	50	Brain - Hypothalamus	Brain 
+423	5.47245191629	13.7238478762	145LU	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+424	-9.11855445276	7.23013935805	145LU	1	50	Brain - Spinal cord (cervical c-1)	Brain 
+425	5.99354505086	9.13728965122	145LU	1	50	Brain - Anterior cingulate cortex (BA24)	Brain 
+426	-10.7439662407	-12.2862621736	X261	1	50	Brain - Cerebellar Hemisphere	Brain 
+427	-12.5562699398	-5.66509991575	X261	1	50	Brain - Cerebellum	Brain 
+428	15.2265097785	-5.98888907585	X261	1	50	Brain - Frontal Cortex (BA9)	Brain 
+429	-7.89896851286	-7.37636297708	X261	1	50	Brain - Hypothalamus	Brain 
+430	8.60495487161	14.501153665	X261	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+431	7.46515539926	17.0966473391	X261	1	50	Brain - Putamen (basal ganglia)	Brain 
+432	2.44957457963	10.8073290071	X261	1	50	Brain - Caudate (basal ganglia)	Brain 
+433	-15.409558877	-13.4124125518	11DYG	1	60	Brain - Cerebellum	Brain 
+434	-12.3346043654	-4.73536836953	ZAK1	2	50	Brain - Cerebellum	Brain 
+435	-1.90123442904	-1.28609529772	ZAK1	2	50	Brain - Cortex	Brain 
+436	-10.5100840285	-2.53103526924	ZE7O	2	50	Brain - Cerebellar Hemisphere	Brain 
+437	8.87262553207	-10.5194019463	ZE7O	2	50	Brain - Cortex	Brain 
+438	-7.4516772778	7.19684951036	ZE7O	2	50	Brain - Frontal Cortex (BA9)	Brain 
+439	10.1126884483	16.7185816615	ZE7O	2	50	Brain - Hippocampus	Brain 
+440	6.17235099691	13.3133619566	ZE7O	2	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+441	2.07689274702	15.9825379812	ZE7O	2	50	Brain - Putamen (basal ganglia)	Brain 
+442	12.3470877751	-13.309789677	ZE7O	2	50	Brain - Caudate (basal ganglia)	Brain 
+443	-11.6030159842	-4.50781637304	ZVZQ	2	60	Brain - Cerebellar Hemisphere	Brain 
+444	0.639615381139	-11.5553376751	ZVZQ	2	60	Brain - Frontal Cortex (BA9)	Brain 
+445	10.0071361991	14.7010989264	ZVZQ	2	60	Brain - Hippocampus	Brain 
+446	4.98628501834	12.7024049781	ZVZQ	2	60	Brain - Hypothalamus	Brain 
+447	9.89903494931	-10.4360147853	ZVZQ	2	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+448	-4.11464087707	6.32372381801	ZVZQ	2	60	Brain - Putamen (basal ganglia)	Brain 
+449	-6.64356881251	6.37580226484	ZVZQ	2	60	Brain - Spinal cord (cervical c-1)	Brain 
+450	13.4847130856	-6.8399217934	ZVZQ	2	60	Brain - Amygdala	Brain 
+451	11.8343220435	-4.46441141899	ZVZQ	2	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+452	1.25236746757	13.7034138072	ZVZQ	2	60	Brain - Caudate (basal ganglia)	Brain 
+453	-19.2728663471	-10.3043137408	PVOW	1	40	Brain - Cerebellum	Brain 
+454	-3.44108490254	1.00461747946	PVOW	1	40	Brain - Cortex	Brain 
+455	6.45912010249	-0.859351026311	PVOW	1	40	Brain - Hippocampus	Brain 
+456	-9.08993400626	-7.12629337903	PVOW	1	40	Brain - Anterior cingulate cortex (BA24)	Brain 
+457	-1.82407598572	-4.43293930137	PVOW	1	40	Brain - Caudate (basal ganglia)	Brain 
+458	-18.8998854328	-12.8338183354	131YS	2	60	Brain - Cerebellar Hemisphere	Brain 
+459	-12.1947827579	-9.51172704428	131YS	2	60	Brain - Cerebellum	Brain 
+460	5.38814097668	-11.8274479397	131YS	2	60	Brain - Cortex	Brain 
+461	4.66292529644	-4.62117398925	131YS	2	60	Brain - Frontal Cortex (BA9)	Brain 
+462	6.1185153665	11.8759522515	131YS	2	60	Brain - Hippocampus	Brain 
+463	-3.47104435161	-5.95152783904	131YS	2	60	Brain - Putamen (basal ganglia)	Brain 
+464	-7.72460938902	6.50477364832	131YS	2	60	Brain - Spinal cord (cervical c-1)	Brain 
+465	7.92544706535	-3.86710194203	131YS	2	60	Brain - Amygdala	Brain 
+466	4.64352420266	-4.40873029013	131YS	2	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+467	-0.138917975966	-6.64992371018	131YS	2	60	Brain - Caudate (basal ganglia)	Brain 
+468	-14.7149157473	-14.3337422362	13N2G	1	60	Brain - Cerebellar Hemisphere	Brain 
+469	-11.6599302976	-3.58045722781	13N2G	1	60	Brain - Cerebellum	Brain 
+470	-13.059795904	-10.7906180542	13N2G	1	60	Brain - Frontal Cortex (BA9)	Brain 
+471	8.36013948213	1.71309159377	13N2G	1	60	Brain - Hippocampus	Brain 
+472	2.01994080161	-7.13498251406	13N2G	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+473	-13.0464417226	-8.33246615009	13N2G	1	60	Brain - Putamen (basal ganglia)	Brain 
+474	-9.00074584461	7.87325350621	13N2G	1	60	Brain - Spinal cord (cervical c-1)	Brain 
+475	8.7293384983	2.02883015228	13N2G	1	60	Brain - Substantia nigra	Brain 
+476	-2.77879691664	-0.214329254295	13N2G	1	60	Brain - Amygdala	Brain 
+477	-4.68102252081	-4.09285082658	13N2G	1	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+478	-3.37392976364	-11.3934536227	11ZTS	2	60	Brain - Cerebellum	Brain 
+479	0.604077983968	4.20798892218	11ZTS	2	60	Brain - Hippocampus	Brain 
+480	7.18948859995	13.7327335934	11ZTS	2	60	Brain - Hypothalamus	Brain 
+481	4.9673766397	2.64917068066	11ZTS	2	60	Brain - Substantia nigra	Brain 
+482	8.86312396119	11.0334240222	11ZTS	2	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+483	-4.80360153988	-4.24132180903	144FL	1	50	Brain - Cortex	Brain 
+484	-18.8993988223	-5.62930909243	NL3H	1	60	Brain - Cerebellar Hemisphere	Brain 
+485	-7.70923186112	14.8758947995	NL3H	1	60	Brain - Frontal Cortex (BA9)	Brain 
+486	8.71218439865	11.5539415081	NL3H	1	60	Brain - Hippocampus	Brain 
+487	-0.0297520807258	5.29154640854	NL3H	1	60	Brain - Hypothalamus	Brain 
+488	-11.1082407257	15.5445236767	NL3H	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+489	-17.1250153377	12.0750442086	NL3H	1	60	Brain - Putamen (basal ganglia)	Brain 
+490	-16.4484673929	12.2510003396	NL3H	1	60	Brain - Substantia nigra	Brain 
+491	-16.6937093633	12.2775048843	NL3H	1	60	Brain - Amygdala	Brain 
+492	-13.7809743487	14.2649907938	NL3H	1	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+493	-15.8604427684	13.4590014026	NL3H	1	60	Brain - Caudate (basal ganglia)	Brain 
+494	-11.917347324	-14.5776427857	13JUV	2	40	Brain - Cerebellar Hemisphere	Brain 
+495	-14.4293290117	-13.2052583767	13JUV	2	40	Brain - Cerebellum	Brain 
+496	7.6080120766	-11.0980270678	13JUV	2	40	Brain - Cortex	Brain 
+497	2.90483284151	-3.5896434204	13JUV	2	40	Brain - Frontal Cortex (BA9)	Brain 
+498	-9.82602804021	-4.65508796481	13JUV	2	40	Brain - Hippocampus	Brain 
+499	11.1455847004	-9.91086125544	13JUV	2	40	Brain - Nucleus accumbens (basal ganglia)	Brain 
+500	8.31876465177	14.9805927277	13JUV	2	40	Brain - Putamen (basal ganglia)	Brain 
+501	-7.48480592343	6.77375110118	13JUV	2	40	Brain - Spinal cord (cervical c-1)	Brain 
+502	-0.94159433295	-10.4484255801	13JUV	2	40	Brain - Caudate (basal ganglia)	Brain 
+503	-10.9818485118	-2.13800384371	1128S	2	60	Brain - Cerebellum	Brain 
+504	6.46614467672	-12.6753622895	1128S	2	60	Brain - Cortex	Brain 
+505	3.36841676269	17.7831489756	13O1R	1	60	Brain - Spinal cord (cervical c-1)	Brain 
+506	-12.0484736212	-4.32078700125	RU72	2	50	Brain - Cerebellar Hemisphere	Brain 
+507	-7.17319163321	14.7674860753	RU72	2	50	Brain - Cerebellum	Brain 
+508	8.82896963941	-11.9705837738	RU72	2	50	Brain - Cortex	Brain 
+509	-10.0272719896	15.0824264371	RU72	2	50	Brain - Hypothalamus	Brain 
+510	-14.099800591	13.728946576	RU72	2	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+511	-16.7107025119	12.1969477874	RU72	2	50	Brain - Putamen (basal ganglia)	Brain 
+512	-13.2810539523	9.56620750173	RU72	2	50	Brain - Spinal cord (cervical c-1)	Brain 
+513	-14.7543041331	12.3135635305	RU72	2	50	Brain - Substantia nigra	Brain 
+514	-13.8335437475	13.9110864978	RU72	2	50	Brain - Caudate (basal ganglia)	Brain 
+515	4.17960957403	-10.819175045	14A5I	2	50	Brain - Cerebellum	Brain 
+516	7.41732704406	-11.944657349	14A5I	2	50	Brain - Cortex	Brain 
+517	13.3265111305	-12.3853601083	1269C	2	60	Brain - Cerebellum	Brain 
+518	-10.6057644129	-12.0644081758	13CF2	1	60	Brain - Cerebellar Hemisphere	Brain 
+519	-11.7958211896	-3.29197663712	13CF2	1	60	Brain - Cerebellum	Brain 
+520	10.6085058775	16.3220364386	13CF2	1	60	Brain - Hippocampus	Brain 
+521	11.8492176071	-5.51097694817	13CF2	1	60	Brain - Hypothalamus	Brain 
+522	17.4002029204	-9.6853804054	13CF2	1	60	Brain - Putamen (basal ganglia)	Brain 
+523	4.04092947531	10.4944246045	13CF2	1	60	Brain - Substantia nigra	Brain 
+524	14.1077782244	-10.0145378105	13CF2	1	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+525	7.40063359671	17.8250003397	13CF2	1	60	Brain - Caudate (basal ganglia)	Brain 
+526	-19.8369066594	-11.935566088	T2IS	2	20	Brain - Cerebellar Hemisphere	Brain 
+527	-15.1597237577	-12.9459714594	T2IS	2	20	Brain - Cerebellum	Brain 
+528	2.59522113036	-15.5301560472	T2IS	2	20	Brain - Cortex	Brain 
+529	4.64912977646	-2.18136142557	T2IS	2	20	Brain - Nucleus accumbens (basal ganglia)	Brain 
+530	6.3444802426	3.98808085486	T2IS	2	20	Brain - Substantia nigra	Brain 
+531	-4.62664308027	-0.0296244220666	T2IS	2	20	Brain - Anterior cingulate cortex (BA24)	Brain 
+532	-1.83461684127	-4.45578768386	T2IS	2	20	Brain - Caudate (basal ganglia)	Brain 
+533	-19.0080842753	-7.16771671224	WVLH	1	50	Brain - Cerebellar Hemisphere	Brain 
+534	-14.3938872797	-13.1725604584	WVLH	1	50	Brain - Cerebellum	Brain 
+535	-1.60341621848	-0.268239883169	WVLH	1	50	Brain - Cortex	Brain 
+536	-15.0195113251	-11.1775309379	WVLH	1	50	Brain - Frontal Cortex (BA9)	Brain 
+537	17.184724145	-6.38501689249	WVLH	1	50	Brain - Hippocampus	Brain 
+538	7.64900134065	9.31638210066	WVLH	1	50	Brain - Hypothalamus	Brain 
+539	-5.08506037642	-2.26297513152	WVLH	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+540	5.06798718197	13.2801050387	WVLH	1	50	Brain - Putamen (basal ganglia)	Brain 
+541	6.85745852413	-1.67665804225	WVLH	1	50	Brain - Amygdala	Brain 
+542	-0.22142955059	-5.38833839276	WVLH	1	50	Brain - Caudate (basal ganglia)	Brain 
+543	6.06487736354	16.6225958168	S7PM	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+544	5.44604933628	16.6449501356	S7PM	1	60	Brain - Caudate (basal ganglia)	Brain 
+545	-19.0229315117	-6.78872454955	T6MN	1	50	Brain - Cerebellar Hemisphere	Brain 
+546	-18.6033877436	-12.1766816642	T6MN	1	50	Brain - Cerebellum	Brain 
+547	-1.82584569101	-0.526750782212	T6MN	1	50	Brain - Cortex	Brain 
+548	-9.46175449574	-13.4241379462	T6MN	1	50	Brain - Frontal Cortex (BA9)	Brain 
+549	-8.54412892097	1.81019371164	T6MN	1	50	Brain - Hippocampus	Brain 
+550	-7.41406906612	5.6746580141	T6MN	1	50	Brain - Hypothalamus	Brain 
+551	-9.56386884564	-6.02740103552	T6MN	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+552	-9.555100972	-5.9993590125	T6MN	1	50	Brain - Putamen (basal ganglia)	Brain 
+553	-3.82362673363	7.13921372546	T6MN	1	50	Brain - Spinal cord (cervical c-1)	Brain 
+554	3.27842507275	4.96002161318	T6MN	1	50	Brain - Substantia nigra	Brain 
+555	9.03238825407	-2.99757420707	T6MN	1	50	Brain - Amygdala	Brain 
+556	-8.66272367668	-4.42213755445	T6MN	1	50	Brain - Caudate (basal ganglia)	Brain 
+557	-11.6097772802	-11.1681037512	11DZ1	1	50	Brain - Cerebellum	Brain 
+558	-17.5627698311	-14.7735884852	11OF3	1	60	Brain - Cerebellar Hemisphere	Brain 
+559	-12.4113864882	-9.58192926278	11OF3	1	60	Brain - Cortex	Brain 
+560	2.80497666876	-13.8759497645	11OF3	1	60	Brain - Cerebellum	Brain 
+561	5.61579352537	-5.51038544098	11OF3	1	60	Brain - Hypothalamus	Brain 
+562	9.42129574921	-16.4206246385	11OF3	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+563	12.7540953708	-16.8434250216	11OF3	1	60	Brain - Putamen (basal ganglia)	Brain 
+564	11.7842201752	-15.7637160052	11OF3	1	60	Brain - Caudate (basal ganglia)	Brain 
+565	-10.9287743975	-13.1153882268	13RTJ	1	60	Brain - Cerebellar Hemisphere	Brain 
+566	-12.2374510998	-3.83861372618	13RTJ	1	60	Brain - Cerebellum	Brain 
+567	-5.80292594895	-1.59455545065	13RTJ	1	60	Brain - Frontal Cortex (BA9)	Brain 
+568	-7.66929420391	-11.2771290404	13RTJ	1	60	Brain - Hippocampus	Brain 
+569	8.23836910852	-0.110222408895	13RTJ	1	60	Brain - Hypothalamus	Brain 
+570	-3.77573283536	-3.96115683434	13RTJ	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+571	-5.12235136262	-5.95760421254	13RTJ	1	60	Brain - Putamen (basal ganglia)	Brain 
+572	-9.01001968111	8.71682833413	13RTJ	1	60	Brain - Spinal cord (cervical c-1)	Brain 
+573	9.15057539534	-7.34042160505	13RTJ	1	60	Brain - Substantia nigra	Brain 
+574	12.0246405432	-7.38954167737	13RTJ	1	60	Brain - Amygdala	Brain 
+575	6.41932943277	-6.45272063516	13RTJ	1	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+576	1.73617325043	-8.48958083352	13RTJ	1	60	Brain - Caudate (basal ganglia)	Brain 
+577	-17.399912306	-15.0273518778	WZTO	1	40	Brain - Cerebellar Hemisphere	Brain 
+578	-15.6194464861	-13.3987536795	WZTO	1	40	Brain - Cerebellum	Brain 
+579	-8.53160505131	-0.836116520215	WZTO	1	40	Brain - Cortex	Brain 
+580	-4.24888283093	-2.11864146294	WZTO	1	40	Brain - Frontal Cortex (BA9)	Brain 
+581	-8.39934941671	1.59567273174	WZTO	1	40	Brain - Hippocampus	Brain 
+582	-3.45206118459	-4.03555262074	WZTO	1	40	Brain - Hypothalamus	Brain 
+583	0.752650711987	-5.04130423659	WZTO	1	40	Brain - Nucleus accumbens (basal ganglia)	Brain 
+584	10.4849390768	-15.4131333738	WZTO	1	40	Brain - Putamen (basal ganglia)	Brain 
+585	-4.46026301049	-0.480485895402	WZTO	1	40	Brain - Amygdala	Brain 
+586	-9.38224496943	-6.91709030436	WZTO	1	40	Brain - Anterior cingulate cortex (BA24)	Brain 
+587	1.70141009338	-7.64222941318	WZTO	1	40	Brain - Caudate (basal ganglia)	Brain 
+588	-16.7583131606	-13.8489200448	Z93S	1	50	Brain - Cerebellar Hemisphere	Brain 
+589	-12.4849194537	-12.1101709513	Z93S	1	50	Brain - Cerebellum	Brain 
+590	3.90274726307	-12.885906646	Z93S	1	50	Brain - Cortex	Brain 
+591	3.42420461822	-3.66006960306	Z93S	1	50	Brain - Frontal Cortex (BA9)	Brain 
+592	6.61433587388	1.70915301777	Z93S	1	50	Brain - Hypothalamus	Brain 
+593	-0.954413230996	-5.10331608801	Z93S	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+594	14.2140902603	-14.2504319449	Z93S	1	50	Brain - Putamen (basal ganglia)	Brain 
+595	5.06263185015	-2.79632368091	Z93S	1	50	Brain - Anterior cingulate cortex (BA24)	Brain 
+596	10.663504166	-14.6261001237	Z93S	1	50	Brain - Caudate (basal ganglia)	Brain 
+597	-19.3902579378	-12.711137517	WL46	1	50	Brain - Cerebellar Hemisphere	Brain 
+598	-19.4856747265	-11.6203624358	WL46	1	50	Brain - Cerebellum	Brain 
+599	-1.71365783475	2.06344772243	WL46	1	50	Brain - Cortex	Brain 
+600	-7.46823080858	-0.70966357063	WL46	1	50	Brain - Frontal Cortex (BA9)	Brain 
+601	-4.9218613355	-0.380624331544	WL46	1	50	Brain - Hippocampus	Brain 
+602	-8.38180929126	0.948384865692	WL46	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+603	10.9807248814	-14.5261222042	WL46	1	50	Brain - Putamen (basal ganglia)	Brain 
+604	-8.1921870556	7.46594572686	WL46	1	50	Brain - Spinal cord (cervical c-1)	Brain 
+605	5.72437303571	-3.99246686181	WL46	1	50	Brain - Substantia nigra	Brain 
+606	-4.34076591219	-2.51950197829	WL46	1	50	Brain - Anterior cingulate cortex (BA24)	Brain 
+607	0.578889341176	-4.83416558549	WL46	1	50	Brain - Caudate (basal ganglia)	Brain 
+608	3.63173101705	14.7546080605	ZF28	1	60	Brain - Cerebellar Hemisphere	Brain 
+609	-2.25849572759	-2.06386513958	ZF28	1	60	Brain - Frontal Cortex (BA9)	Brain 
+610	8.2859007079	14.6194316723	ZF28	1	60	Brain - Hippocampus	Brain 
+611	3.72024708607	11.5238796083	ZF28	1	60	Brain - Hypothalamus	Brain 
+612	-4.9037807871	7.07154794798	ZF28	1	60	Brain - Spinal cord (cervical c-1)	Brain 
+613	5.85949331635	7.53219470704	ZF28	1	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+614	13.8464048641	-11.6415059312	ZF28	1	60	Brain - Caudate (basal ganglia)	Brain 
+615	15.5041528301	-8.86014855788	13CZV	1	60	Brain - Cerebellar Hemisphere	Brain 
+616	-8.54757592915	-1.11537587519	13CZV	1	60	Brain - Frontal Cortex (BA9)	Brain 
+617	2.29093329303	15.5244941698	13CZV	1	60	Brain - Putamen (basal ganglia)	Brain 
+618	-3.95360967667	6.61887665245	13CZV	1	60	Brain - Spinal cord (cervical c-1)	Brain 
+619	8.582140562	11.5365908935	13CZV	1	60	Brain - Amygdala	Brain 
+620	12.9636375737	-7.95085493331	13CZV	1	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+621	13.2965025257	-15.2480131145	13CZV	1	60	Brain - Caudate (basal ganglia)	Brain 
+622	-19.0941736489	-11.7503260227	Y8DK	1	60	Brain - Cerebellar Hemisphere	Brain 
+623	-13.9485279068	-13.8145656427	Y8DK	1	60	Brain - Cerebellum	Brain 
+624	0.319270289394	-15.2717047822	Y8DK	1	60	Brain - Cortex	Brain 
+625	-0.762118779891	-2.87144440872	Y8DK	1	60	Brain - Frontal Cortex (BA9)	Brain 
+626	7.56607821409	13.0561372807	Y8DK	1	60	Brain - Hippocampus	Brain 
+627	0.0658495731343	-4.61167899198	Y8DK	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+628	1.38605318716	15.0677921056	Y8DK	1	60	Brain - Putamen (basal ganglia)	Brain 
+629	5.23016486528	-2.84330551893	Y8DK	1	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+630	4.06339495856	-8.75198469888	Y8DK	1	60	Brain - Caudate (basal ganglia)	Brain 
+631	-11.2890363448	-17.0083249398	TSE9	2	60	Brain - Cerebellar Hemisphere	Brain 
+632	-11.3267426675	-17.0380468176	TSE9	2	60	Brain - Cerebellum	Brain 
+633	2.59382712619	-15.6622885036	TSE9	2	60	Brain - Cortex	Brain 
+634	8.64244255593	-2.11327925495	TSE9	2	60	Brain - Frontal Cortex (BA9)	Brain 
+635	16.8191887869	-7.55693013818	TSE9	2	60	Brain - Hippocampus	Brain 
+636	6.42792887335	0.342999918696	TSE9	2	60	Brain - Hypothalamus	Brain 
+637	8.18610665895	-5.55320744392	TSE9	2	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+638	1.40691774147	11.75299552	TSE9	2	60	Brain - Putamen (basal ganglia)	Brain 
+639	-3.2183276125	6.81489232372	TSE9	2	60	Brain - Spinal cord (cervical c-1)	Brain 
+640	11.1828805438	-4.29675866938	TSE9	2	60	Brain - Amygdala	Brain 
+641	11.5405142708	-16.9719075126	TSE9	2	60	Brain - Caudate (basal ganglia)	Brain 
+642	-8.31088116556	-2.40779689916	14BMV	1	50	Brain - Cortex	Brain 
+643	-19.6103929105	-12.0616904063	T5JC	1	20	Brain - Cerebellar Hemisphere	Brain 
+644	-19.4612776499	-11.7578173423	T5JC	1	20	Brain - Cerebellum	Brain 
+645	-6.31439400807	0.34398126876	T5JC	1	20	Brain - Cortex	Brain 
+646	-8.50891573075	-5.96643866973	T5JC	1	20	Brain - Frontal Cortex (BA9)	Brain 
+647	8.59929604046	-6.12876153558	T5JC	1	20	Brain - Hippocampus	Brain 
+648	-8.65111317614	-6.45985171619	T5JC	1	20	Brain - Hypothalamus	Brain 
+649	8.82548402805	-16.170354153	T5JC	1	20	Brain - Nucleus accumbens (basal ganglia)	Brain 
+650	7.39771978282	-5.17356535486	T5JC	1	20	Brain - Putamen (basal ganglia)	Brain 
+651	-8.98667442107	8.77835264379	T5JC	1	20	Brain - Spinal cord (cervical c-1)	Brain 
+652	6.63409807703	3.60108253405	T5JC	1	20	Brain - Substantia nigra	Brain 
+653	7.59786117799	-2.78419363766	T5JC	1	20	Brain - Amygdala	Brain 
+654	9.45952885693	-16.5002708636	T5JC	1	20	Brain - Caudate (basal ganglia)	Brain 
+655	-9.62518233861	-3.13913673118	11TTK	2	60	Brain - Cerebellum	Brain 
+656	15.1266164465	-10.3101506823	11TTK	2	60	Brain - Cortex	Brain 
+657	-18.9505661949	-11.6684279593	13X6K	2	60	Brain - Cerebellar Hemisphere	Brain 
+658	-10.8656861949	-11.5747338173	13X6K	2	60	Brain - Cerebellum	Brain 
+659	7.23013547626	-10.8638680966	13X6K	2	60	Brain - Cortex	Brain 
+660	-11.0177717331	-7.40920557776	13X6K	2	60	Brain - Frontal Cortex (BA9)	Brain 
+661	-9.99375211996	-7.42224329218	13X6K	2	60	Brain - Hypothalamus	Brain 
+662	-9.80311880987	-3.42355964463	13X6K	2	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+663	9.89547903774	-12.7841733738	13X6K	2	60	Brain - Putamen (basal ganglia)	Brain 
+664	1.42726518717	2.12931047392	13X6K	2	60	Brain - Substantia nigra	Brain 
+665	9.6226741765	-5.45722191111	13X6K	2	60	Brain - Amygdala	Brain 
+666	-10.9952293001	-7.19201454803	13X6K	2	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+667	2.08525986178	-7.73871876626	13X6K	2	60	Brain - Caudate (basal ganglia)	Brain 
+668	-12.0843095939	-9.35990231841	13X6J	1	50	Brain - Cerebellar Hemisphere	Brain 
+669	15.099357603	-9.70548641882	13X6J	1	50	Brain - Cortex	Brain 
+670	6.17752918892	-11.3087853837	13X6J	1	50	Brain - Frontal Cortex (BA9)	Brain 
+671	-1.46632241918	12.8984325319	13X6J	1	50	Brain - Hypothalamus	Brain 
+672	8.18564659906	-15.7005208319	13X6J	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+673	12.8272873086	-16.4267901861	13X6J	1	50	Brain - Putamen (basal ganglia)	Brain 
+674	16.552910571	-9.22489241331	13X6J	1	50	Brain - Amygdala	Brain 
+675	5.69002187907	-10.821577851	13X6J	1	50	Brain - Anterior cingulate cortex (BA24)	Brain 
+676	12.5053393938	-15.771729827	13X6J	1	50	Brain - Caudate (basal ganglia)	Brain 
+677	-11.420550131	-4.55318172367	13X6I	1	60	Brain - Cerebellar Hemisphere	Brain 
+678	-14.2783899093	-13.5078854341	13X6I	1	60	Brain - Cerebellum	Brain 
+679	0.429966209393	-11.7023053442	13X6I	1	60	Brain - Frontal Cortex (BA9)	Brain 
+680	12.5368682778	-8.85968772562	13X6I	1	60	Brain - Hippocampus	Brain 
+681	11.9481774804	-9.06833232419	13X6I	1	60	Brain - Hypothalamus	Brain 
+682	3.53513851155	-9.41723206763	13X6I	1	60	Brain - Putamen (basal ganglia)	Brain 
+683	-1.92325107242	6.19439726907	13X6I	1	60	Brain - Spinal cord (cervical c-1)	Brain 
+684	1.30454978209	2.53688622895	13X6I	1	60	Brain - Substantia nigra	Brain 
+685	6.70491283103	-10.2557940846	13X6I	1	60	Brain - Amygdala	Brain 
+686	11.6418141197	-7.22801124005	13X6I	1	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+687	-0.903385290086	-7.45724523236	13X6I	1	60	Brain - Caudate (basal ganglia)	Brain 
+688	7.49965843986	11.114826125	13RTL	1	40	Brain - Hippocampus	Brain 
+689	10.5195839263	16.2932895511	13RTL	1	40	Brain - Anterior cingulate cortex (BA24)	Brain 
+690	-14.4552910229	-7.40437806382	13JVG	1	60	Brain - Cerebellar Hemisphere	Brain 
+691	-11.3463294607	-17.038253827	13JVG	1	60	Brain - Cerebellum	Brain 
+692	1.30371057363	-14.0133106355	13JVG	1	60	Brain - Cortex	Brain 
+693	4.40518544578	2.66552642234	13JVG	1	60	Brain - Frontal Cortex (BA9)	Brain 
+694	12.6063396793	-10.9323426186	13JVG	1	60	Brain - Hippocampus	Brain 
+695	12.7513534907	-3.92622185837	13JVG	1	60	Brain - Hypothalamus	Brain 
+696	6.19398915328	9.04977514143	13JVG	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+697	14.5511450113	-11.3647240564	13JVG	1	60	Brain - Putamen (basal ganglia)	Brain 
+698	9.0843281797	11.0081784966	13JVG	1	60	Brain - Amygdala	Brain 
+699	6.80273194528	7.02869326282	13JVG	1	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+700	8.84119451924	-11.9828904458	13JVG	1	60	Brain - Caudate (basal ganglia)	Brain 
+701	-18.0985328344	-11.743460807	12ZZX	2	40	Brain - Cerebellar Hemisphere	Brain 
+702	-16.7904530352	-12.1280116417	12ZZX	2	40	Brain - Cerebellum	Brain 
+703	-2.56752632125	-2.34066397127	12ZZX	2	40	Brain - Cortex	Brain 
+704	-11.1156575287	-5.81360952087	12ZZX	2	40	Brain - Frontal Cortex (BA9)	Brain 
+705	0.318589379536	-0.888671835491	12ZZX	2	40	Brain - Hippocampus	Brain 
+706	1.45223638881	-11.2930164772	12ZZX	2	40	Brain - Hypothalamus	Brain 
+707	1.50545879092	-6.9937690156	12ZZX	2	40	Brain - Nucleus accumbens (basal ganglia)	Brain 
+708	0.660475660805	13.2508053391	12ZZX	2	40	Brain - Putamen (basal ganglia)	Brain 
+709	9.11123637444	1.63795442459	12ZZX	2	40	Brain - Substantia nigra	Brain 
+710	6.72486919379	-10.5985712458	12ZZX	2	40	Brain - Anterior cingulate cortex (BA24)	Brain 
+711	3.15054645641	15.0520729306	12ZZX	2	40	Brain - Caudate (basal ganglia)	Brain 
+712	-15.8131559111	-15.1515835027	12ZZY	1	60	Brain - Cerebellum	Brain 
+713	-8.09118914038	-3.25515924731	12ZZY	1	60	Brain - Cortex	Brain 
+714	-5.06427507186	-1.72619681129	12ZZY	1	60	Brain - Frontal Cortex (BA9)	Brain 
+715	8.09965608089	-15.7719997962	12ZZY	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+716	8.2609276203	-15.32188569	12ZZY	1	60	Brain - Putamen (basal ganglia)	Brain 
+717	8.30426296261	-15.4947531707	12ZZY	1	60	Brain - Caudate (basal ganglia)	Brain 
+718	-19.6270059296	-9.68894151828	P44H	1	40	Brain - Cerebellar Hemisphere	Brain 
+719	-19.6276054791	-9.75701007161	P44H	1	40	Brain - Cerebellum	Brain 
+720	7.55862002469	-1.7368850517	P44H	1	40	Brain - Frontal Cortex (BA9)	Brain 
+721	-5.7432208758	-0.0865704524792	P44H	1	40	Brain - Hippocampus	Brain 
+722	6.94430039797	-0.623156937228	P44H	1	40	Brain - Hypothalamus	Brain 
+723	13.9328499579	-4.56135485635	P44H	1	40	Brain - Amygdala	Brain 
+724	7.33150888453	-2.39755740291	P44H	1	40	Brain - Anterior cingulate cortex (BA24)	Brain 
+725	-1.92076671695	-4.32284331464	P44H	1	40	Brain - Caudate (basal ganglia)	Brain 
+726	-18.2314596643	-13.6465661296	145MH	1	50	Brain - Cerebellar Hemisphere	Brain 
+727	-14.3390943086	-15.0935442275	145MH	1	50	Brain - Cerebellum	Brain 
+728	3.37119246197	-12.7573859272	145MH	1	50	Brain - Cortex	Brain 
+729	-7.69115900928	-1.49999193235	145MH	1	50	Brain - Frontal Cortex (BA9)	Brain 
+730	6.07612059136	-9.72807299652	145MH	1	50	Brain - Hippocampus	Brain 
+731	16.5237022428	-11.0220416308	145MH	1	50	Brain - Hypothalamus	Brain 
+732	2.53490642658	-7.15446358189	145MH	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+733	2.37831859248	-8.44675040854	145MH	1	50	Brain - Putamen (basal ganglia)	Brain 
+734	-3.84317569412	-3.29241018177	145MH	1	50	Brain - Anterior cingulate cortex (BA24)	Brain 
+735	2.62189635029	-8.79495960252	145MH	1	50	Brain - Caudate (basal ganglia)	Brain 
+736	-10.3482937677	-3.43735954531	145MI	2	60	Brain - Cerebellar Hemisphere	Brain 
+737	7.67754968642	-8.28363321887	145MI	2	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+738	-8.75228370575	-3.45853686067	132Q8	1	60	Brain - Cerebellar Hemisphere	Brain 
+739	-12.5441496859	-5.81012884968	132Q8	1	60	Brain - Cerebellum	Brain 
+740	0.00866919090314	-13.5842866312	132Q8	1	60	Brain - Cortex	Brain 
+741	-7.26456808417	-1.66502828312	132Q8	1	60	Brain - Frontal Cortex (BA9)	Brain 
+742	3.62250924219	6.9700573636	132Q8	1	60	Brain - Hippocampus	Brain 
+743	4.16414692376	10.7933917716	132Q8	1	60	Brain - Hypothalamus	Brain 
+744	11.4986887327	1.68188389916	132Q8	1	60	Brain - Putamen (basal ganglia)	Brain 
+745	4.44673723594	4.61358623031	132Q8	1	60	Brain - Substantia nigra	Brain 
+746	-2.69425490641	-6.589071612	132Q8	1	60	Brain - Caudate (basal ganglia)	Brain 
+747	6.43151413043	7.77938278217	1477Z	1	60	Brain - Frontal Cortex (BA9)	Brain 
+748	8.36931381955	14.8394368354	1477Z	1	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+749	7.74252890185	18.220985212	1477Z	1	60	Brain - Caudate (basal ganglia)	Brain 
+750	-9.40832053573	15.4314427098	PWO3	2	60	Brain - Cerebellum	Brain 
+751	-16.2583859593	12.5462245796	PWO3	2	60	Brain - Cortex	Brain 
+752	-14.9273342967	12.7377777138	PWO3	2	60	Brain - Hippocampus	Brain 
+753	-10.8005716347	15.0749448674	PWO3	2	60	Brain - Hypothalamus	Brain 
+754	-12.0184211964	15.1759144249	PWO3	2	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+755	-13.6260151167	10.0739270819	PWO3	2	60	Brain - Substantia nigra	Brain 
+756	-13.6003935546	14.0592744662	PWO3	2	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+757	-15.4955428319	13.3902081128	PWO3	2	60	Brain - Caudate (basal ganglia)	Brain 
+758	-16.1926829531	-13.5261640375	14E7W	1	70	Brain - Cerebellum	Brain 
+759	13.5594380181	-9.88435330984	13FTZ	1	60	Brain - Frontal Cortex (BA9)	Brain 
+760	-8.98085876083	-2.24025666272	13FTY	2	40	Brain - Cerebellar Hemisphere	Brain 
+761	9.98210564454	17.8346766754	13FTY	2	40	Brain - Hippocampus	Brain 
+762	-3.0146644053	6.81538456511	13FTY	2	40	Brain - Spinal cord (cervical c-1)	Brain 
+763	-19.1638151164	-12.6731167414	13G51	1	60	Brain - Cerebellar Hemisphere	Brain 
+764	-12.1465944943	-9.93177983251	13G51	1	60	Brain - Cerebellum	Brain 
+765	-7.75202814274	3.30686175891	13G51	1	60	Brain - Cortex	Brain 
+766	13.1477559619	-8.72373034003	13G51	1	60	Brain - Frontal Cortex (BA9)	Brain 
+767	-7.92646949906	0.500229903071	13G51	1	60	Brain - Hippocampus	Brain 
+768	-5.75162424129	-3.67263736632	13G51	1	60	Brain - Hypothalamus	Brain 
+769	6.37437440489	-4.60990472554	13G51	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+770	2.90459668037	-7.2975559829	13G51	1	60	Brain - Putamen (basal ganglia)	Brain 
+771	4.25608883592	-0.767853248714	13G51	1	60	Brain - Substantia nigra	Brain 
+772	-3.52819267946	-6.04718387946	13G51	1	60	Brain - Caudate (basal ganglia)	Brain 
+773	-17.9952766907	-12.0554015357	11NV4	1	60	Brain - Cerebellum	Brain 
+774	8.2864407708	10.4479819231	11NV4	1	60	Brain - Cortex	Brain 
+775	9.64458327473	-16.4899185858	11NV4	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+776	12.2853149052	-16.9224938761	11NV4	1	60	Brain - Putamen (basal ganglia)	Brain 
+777	12.5933537757	-16.9307102581	11NV4	1	60	Brain - Caudate (basal ganglia)	Brain 
+778	-13.1121660951	-15.5238594391	1313W	2	50	Brain - Cerebellar Hemisphere	Brain 
+779	-14.0146271616	-15.1871354572	1313W	2	50	Brain - Cerebellum	Brain 
+780	0.745913895233	-12.8188680481	1313W	2	50	Brain - Cortex	Brain 
+781	-0.129809179794	-3.32784057597	1313W	2	50	Brain - Frontal Cortex (BA9)	Brain 
+782	7.58697247732	2.75978944482	1313W	2	50	Brain - Hippocampus	Brain 
+783	8.00874872456	2.7446811712	1313W	2	50	Brain - Hypothalamus	Brain 
+784	3.90122048372	-7.0303216626	1313W	2	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+785	12.8398571397	-16.8206893583	1313W	2	50	Brain - Putamen (basal ganglia)	Brain 
+786	8.06498538668	2.76893926478	1313W	2	50	Brain - Substantia nigra	Brain 
+787	15.6272094924	-8.17165284254	1313W	2	50	Brain - Amygdala	Brain 
+788	11.0702776782	-7.04012706245	1313W	2	50	Brain - Anterior cingulate cortex (BA24)	Brain 
+789	11.0536297831	-16.2375584606	1313W	2	50	Brain - Caudate (basal ganglia)	Brain 
+790	-8.97017764827	-2.29726657077	147F4	1	50	Brain - Cerebellum	Brain 
+791	13.6674845638	-6.88911981622	147F4	1	50	Brain - Frontal Cortex (BA9)	Brain 
+792	7.35448192471	11.3248453616	147F4	1	50	Brain - Hypothalamus	Brain 
+793	17.5274536128	-7.07886144289	147F4	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+794	-16.8117736722	-11.0065041909	ZAJG	2	50	Brain - Cerebellum	Brain 
+795	-5.97116111387	2.48942331422	ZAJG	2	50	Brain - Cortex	Brain 
+796	-16.9301298123	-12.9668722271	1399T	1	60	Brain - Cerebellar Hemisphere	Brain 
+797	-9.99289866766	-3.37609864798	1399T	1	60	Brain - Cerebellum	Brain 
+798	7.74836319973	-14.5313813708	1399T	1	60	Brain - Cortex	Brain 
+799	20.4419842346	14.5483328615	1399T	1	60	Brain - Hippocampus	Brain 
+800	5.49051186268	-5.71359945238	1399T	1	60	Brain - Hypothalamus	Brain 
+801	9.81929966415	-13.4356424889	1399T	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+802	9.15417732598	3.13987487744	1399T	1	60	Brain - Substantia nigra	Brain 
+803	6.9348373363	12.3391920251	1399T	1	60	Brain - Amygdala	Brain 
+804	2.96301370453	-8.21187823194	1399T	1	60	Brain - Caudate (basal ganglia)	Brain 
+805	-18.8215409353	-5.50020124708	RNOR	2	50	Brain - Cerebellum	Brain 
+806	-8.54142869423	15.5408092276	RNOR	2	50	Brain - Cortex	Brain 
+807	9.06329326923	-4.37943136893	RNOR	2	50	Brain - Hippocampus	Brain 
+808	-8.52566384551	15.6212233153	RNOR	2	50	Brain - Putamen (basal ganglia)	Brain 
+809	-8.71593812015	11.1796501906	RNOR	2	50	Brain - Spinal cord (cervical c-1)	Brain 
+810	7.28451761199	-1.24348052566	RNOR	2	50	Brain - Amygdala	Brain 
+811	4.63083323116	-4.21757140638	RNOR	2	50	Brain - Anterior cingulate cortex (BA24)	Brain 
+812	-18.3842882502	-13.0594350865	13VXU	1	50	Brain - Cerebellar Hemisphere	Brain 
+813	-14.2987725117	-14.9565114479	13VXU	1	50	Brain - Cerebellum	Brain 
+814	0.439899037085	-11.7681154116	13VXU	1	50	Brain - Cortex	Brain 
+815	-0.524082102609	-6.14873010615	13VXU	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+816	10.0424512126	-15.5143808269	13VXU	1	50	Brain - Putamen (basal ganglia)	Brain 
+817	-7.38785744142	6.0757800386	13VXU	1	50	Brain - Spinal cord (cervical c-1)	Brain 
+818	13.1864224823	-6.80939339532	13VXU	1	50	Brain - Amygdala	Brain 
+819	5.34909434856	-5.28658266379	13VXU	1	50	Brain - Anterior cingulate cortex (BA24)	Brain 
+820	10.3994264785	-15.6132846148	13VXU	1	50	Brain - Caudate (basal ganglia)	Brain 
+821	-18.8191920803	-8.03376914251	131XH	1	50	Brain - Cerebellar Hemisphere	Brain 
+822	-17.8164889122	-11.2637409377	131XH	1	50	Brain - Cerebellum	Brain 
+823	-9.55823960383	-7.86572511509	131XH	1	50	Brain - Frontal Cortex (BA9)	Brain 
+824	-9.51561653869	-7.8040996535	131XH	1	50	Brain - Hippocampus	Brain 
+825	-7.52830001181	0.246691468771	131XH	1	50	Brain - Hypothalamus	Brain 
+826	-8.78576777873	-4.73117259136	131XH	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+827	4.69975806684	4.67008219635	131XH	1	50	Brain - Substantia nigra	Brain 
+828	-5.86048981881	-0.167111138093	131XH	1	50	Brain - Amygdala	Brain 
+829	-6.87902962786	-0.571859672919	131XH	1	50	Brain - Anterior cingulate cortex (BA24)	Brain 
+830	10.1960278618	15.301635827	131XW	2	50	Brain - Cerebellar Hemisphere	Brain 
+831	6.3807811998	7.52672614568	131XW	2	50	Brain - Cortex	Brain 
+832	10.359722113	15.5969690301	131XW	2	50	Brain - Frontal Cortex (BA9)	Brain 
+833	10.3617141777	16.6335778217	131XW	2	50	Brain - Hypothalamus	Brain 
+834	8.89020314798	18.6932783613	131XW	2	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+835	-8.33503923288	7.08071183269	131XW	2	50	Brain - Spinal cord (cervical c-1)	Brain 
+836	-19.6811571065	-9.77458081311	QDT8	2	30	Brain - Cerebellar Hemisphere	Brain 
+837	-19.6082660439	-10.9576751648	QDT8	2	30	Brain - Cerebellum	Brain 
+838	7.58794034284	-0.927315436693	QDT8	2	30	Brain - Cortex	Brain 
+839	-15.2605785633	-10.9392391631	QDT8	2	30	Brain - Frontal Cortex (BA9)	Brain 
+840	8.69956737222	-3.34155999807	QDT8	2	30	Brain - Hippocampus	Brain 
+841	14.1955490236	-4.95216872251	QDT8	2	30	Brain - Nucleus accumbens (basal ganglia)	Brain 
+842	-8.3577183765	-5.32428704959	QDT8	2	30	Brain - Putamen (basal ganglia)	Brain 
+843	-7.87265106004	6.40869555174	QDT8	2	30	Brain - Spinal cord (cervical c-1)	Brain 
+844	6.81294193075	-0.918364358993	QDT8	2	30	Brain - Substantia nigra	Brain 
+845	7.30004292403	-1.24739878806	QDT8	2	30	Brain - Amygdala	Brain 
+846	8.45091273688	-1.96657561981	QDT8	2	30	Brain - Anterior cingulate cortex (BA24)	Brain 
+847	10.0504522353	14.634096452	11ZU8	1	60	Brain - Amygdala	Brain 
+848	-13.2435741886	-13.345502026	14BIM	2	60	Brain - Cerebellar Hemisphere	Brain 
+849	-11.7729170226	-11.8116708502	14BIM	2	60	Brain - Cerebellum	Brain 
+850	1.20820146181	-7.67457656039	14BIM	2	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+851	14.266831753	-5.75922288084	14BIM	2	60	Brain - Amygdala	Brain 
+852	-8.09366091554	-1.7681763174	14BIM	2	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+853	-1.93338958494	-6.03241538419	14BIM	2	60	Brain - Caudate (basal ganglia)	Brain 
+854	-0.717503113577	-2.86891148896	14BIL	1	50	Brain - Frontal Cortex (BA9)	Brain 
+855	-9.02372442707	8.65124342213	14BIL	1	50	Brain - Spinal cord (cervical c-1)	Brain 
+856	-7.00812015912	-3.12366356371	14BIN	2	50	Brain - Cerebellar Hemisphere	Brain 
+857	-12.1842356613	-4.15950363744	14BIN	2	50	Brain - Cerebellum	Brain 
+858	5.13415884428	-5.04439033127	14BIN	2	50	Brain - Frontal Cortex (BA9)	Brain 
+859	4.40057264782	-6.72967168088	14BIN	2	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+860	2.74537107897	13.4238884639	14BIN	2	50	Brain - Putamen (basal ganglia)	Brain 
+861	-4.11110897697	6.33298843392	14BIN	2	50	Brain - Spinal cord (cervical c-1)	Brain 
+862	7.61784621167	12.9104724816	14BIN	2	50	Brain - Substantia nigra	Brain 
+863	3.59458565632	15.1589074973	14BIN	2	50	Brain - Caudate (basal ganglia)	Brain 
+864	-9.00007653635	-3.41649873766	12WSF	1	70	Brain - Cerebellar Hemisphere	Brain 
+865	-4.17198392192	-2.30880732717	12WSF	1	70	Brain - Frontal Cortex (BA9)	Brain 
+866	9.12623868892	-8.13744071591	12WSF	1	70	Brain - Hippocampus	Brain 
+867	12.7667370429	-17.1585998896	12WSF	1	70	Brain - Nucleus accumbens (basal ganglia)	Brain 
+868	18.3277351568	18.0754538802	12WSF	1	70	Brain - Putamen (basal ganglia)	Brain 
+869	4.08396377301	10.6578615827	12WSF	1	70	Brain - Substantia nigra	Brain 
+870	17.11964047	-7.99083749962	12WSF	1	70	Brain - Amygdala	Brain 
+871	18.4324938098	-8.93084572561	12WSF	1	70	Brain - Anterior cingulate cortex (BA24)	Brain 
+872	9.26547502412	-15.7814733034	12WSF	1	70	Brain - Caudate (basal ganglia)	Brain 
+873	-13.9725765631	-15.033600486	13FXS	1	50	Brain - Cerebellar Hemisphere	Brain 
+874	-12.0154267786	-11.2327529025	13FXS	1	50	Brain - Cerebellum	Brain 
+875	-10.3429477875	-3.00432082366	13FXS	1	50	Brain - Cortex	Brain 
+876	2.34158739404	-4.43340056058	13FXS	1	50	Brain - Frontal Cortex (BA9)	Brain 
+877	6.41603282955	-3.87032960508	13FXS	1	50	Brain - Hippocampus	Brain 
+878	7.9309962806	-4.3205344023	13FXS	1	50	Brain - Hypothalamus	Brain 
+879	11.4933564932	-7.42860937581	13FXS	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+880	0.774689998362	13.3762781534	13FXS	1	50	Brain - Putamen (basal ganglia)	Brain 
+881	-8.00768643677	6.42885556743	13FXS	1	50	Brain - Spinal cord (cervical c-1)	Brain 
+882	16.8339223356	-10.2915799008	13FXS	1	50	Brain - Substantia nigra	Brain 
+883	9.80395479501	-13.9968382138	13FXS	1	50	Brain - Caudate (basal ganglia)	Brain 
+884	-16.2927014608	-15.5869479497	11ZUS	1	30	Brain - Cerebellar Hemisphere	Brain 
+885	-14.455300401	-15.220439139	11ZUS	1	30	Brain - Cerebellum	Brain 
+886	6.96815743276	-11.6961732945	11ZUS	1	30	Brain - Cortex	Brain 
+887	13.6799079633	-8.92383584055	11ZUS	1	30	Brain - Frontal Cortex (BA9)	Brain 
+888	-8.28624569011	1.07212765367	11ZUS	1	30	Brain - Hypothalamus	Brain 
+889	-7.05520934907	7.10027915493	11ZUS	1	30	Brain - Spinal cord (cervical c-1)	Brain 
+890	-8.18216501641	15.070201617	NL4W	1	50	Brain - Cerebellar Hemisphere	Brain 
+891	-14.8932140723	13.5843492903	NL4W	1	50	Brain - Frontal Cortex (BA9)	Brain 
+892	-14.2750387521	14.0098295461	NL4W	1	50	Brain - Hypothalamus	Brain 
+893	-14.2290652019	14.1747785557	NL4W	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+894	-13.6391555363	10.1406829146	NL4W	1	50	Brain - Spinal cord (cervical c-1)	Brain 
+895	-16.6161908561	12.2023129069	NL4W	1	50	Brain - Substantia nigra	Brain 
+896	-14.1273642884	13.8007202916	NL4W	1	50	Brain - Amygdala	Brain 
+897	-15.2522017176	13.7581434777	NL4W	1	50	Brain - Caudate (basal ganglia)	Brain 
+898	4.85098526035	13.9251314699	ZV68	2	50	Brain - Frontal Cortex (BA9)	Brain 
+899	5.775981196	15.1556250068	ZV68	2	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+900	5.79446886711	17.2073387718	ZV68	2	50	Brain - Putamen (basal ganglia)	Brain 
+901	0.000454913260403	5.09139079697	ZV68	2	50	Brain - Substantia nigra	Brain 
+902	3.81466994554	15.6631854412	ZV68	2	50	Brain - Caudate (basal ganglia)	Brain 
+903	-12.2690893833	-11.1675141619	117XS	1	60	Brain - Cerebellum	Brain 
+904	2.95360471904	-13.8877101112	117XS	1	60	Brain - Cortex	Brain 
+905	-17.6763622095	-10.8507362281	X4XX	1	60	Brain - Cerebellar Hemisphere	Brain 
+906	-16.8032983902	-11.5966775998	X4XX	1	60	Brain - Cerebellum	Brain 
+907	-11.347366229	-2.08298756073	X4XX	1	60	Brain - Cortex	Brain 
+908	-12.8390174599	-7.4421736721	X4XX	1	60	Brain - Frontal Cortex (BA9)	Brain 
+909	9.20771675364	-11.226175655	X4XX	1	60	Brain - Hippocampus	Brain 
+910	2.13334268563	-3.08432120564	X4XX	1	60	Brain - Hypothalamus	Brain 
+911	-0.0416222892156	-8.22298792126	X4XX	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+912	-9.26649195818	8.886569749	X4XX	1	60	Brain - Substantia nigra	Brain 
+913	13.1281237718	-11.0828795037	X4XX	1	60	Brain - Amygdala	Brain 
+914	-1.692391189	-1.1315103448	X4XX	1	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+915	-5.66068761025	2.50969234611	X4XX	1	60	Brain - Caudate (basal ganglia)	Brain 
+916	9.17718376236	15.0129388097	X4XY	1	60	Brain - Hypothalamus	Brain 
+917	-11.7170709843	-11.6017119891	11NUK	1	50	Brain - Cerebellum	Brain 
+918	0.137055985543	-12.4691638213	11NUK	1	50	Brain - Cortex	Brain 
+919	-9.94126709339	-14.6451528154	UTHO	1	60	Brain - Cerebellar Hemisphere	Brain 
+920	-16.5326875181	-12.5165422404	UTHO	1	60	Brain - Cerebellum	Brain 
+921	-3.94057021082	1.22245957961	UTHO	1	60	Brain - Cortex	Brain 
+922	9.68352041754	-1.46314405088	UTHO	1	60	Brain - Hippocampus	Brain 
+923	1.63291066152	-2.42172691199	UTHO	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+924	-7.13407599042	4.30754157821	UTHO	1	60	Brain - Substantia nigra	Brain 
+925	12.9707543637	-3.71324345977	UTHO	1	60	Brain - Amygdala	Brain 
+926	9.64709774375	-1.49096595473	UTHO	1	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+927	1.98270836642	-2.55947191118	UTHO	1	60	Brain - Caudate (basal ganglia)	Brain 
+928	-18.559379147	-11.3020006078	YFC4	2	40	Brain - Cerebellar Hemisphere	Brain 
+929	-10.963157263	-10.8922942522	YFC4	2	40	Brain - Cerebellum	Brain 
+930	-2.39481045678	-2.14641064597	YFC4	2	40	Brain - Cortex	Brain 
+931	-9.34243106086	-13.2426836915	YFC4	2	40	Brain - Frontal Cortex (BA9)	Brain 
+932	11.8328795825	-8.23735366655	YFC4	2	40	Brain - Hippocampus	Brain 
+933	6.46055055725	-1.30438399203	YFC4	2	40	Brain - Hypothalamus	Brain 
+934	4.88741616225	2.40716254391	YFC4	2	40	Brain - Nucleus accumbens (basal ganglia)	Brain 
+935	3.11433811349	11.4242048317	YFC4	2	40	Brain - Putamen (basal ganglia)	Brain 
+936	-8.31214228757	3.81156812951	YFC4	2	40	Brain - Spinal cord (cervical c-1)	Brain 
+937	4.79447734927	2.46644392493	YFC4	2	40	Brain - Substantia nigra	Brain 
+938	9.44374027826	-4.00039938131	YFC4	2	40	Brain - Amygdala	Brain 
+939	-9.40060824616	-6.93104683977	YFC4	2	40	Brain - Anterior cingulate cortex (BA24)	Brain 
+940	14.6874381062	-12.159435941	YFC4	2	40	Brain - Caudate (basal ganglia)	Brain 
+941	-14.6752055163	13.7092974324	OXRO	2	60	Brain - Frontal Cortex (BA9)	Brain 
+942	-3.07195421557	6.0490692856	OXRO	2	60	Brain - Spinal cord (cervical c-1)	Brain 
+943	0.0131108626029	4.4952294252	OXRO	2	60	Brain - Substantia nigra	Brain 
+944	-14.6245042927	13.6883060031	OXRN	1	50	Brain - Cortex	Brain 
+945	-13.7261574405	14.1343757312	OXRN	1	50	Brain - Frontal Cortex (BA9)	Brain 
+946	-16.735369523	12.2981858289	OXRN	1	50	Brain - Caudate (basal ganglia)	Brain 
+947	-1.43168638164	-11.6076672668	11WQC	1	60	Brain - Cerebellar Hemisphere	Brain 
+948	9.62470565745	-11.0082737133	11WQC	1	60	Brain - Frontal Cortex (BA9)	Brain 
+949	13.8004538596	-7.92244534306	11WQC	1	60	Brain - Hypothalamus	Brain 
+950	4.45474081218	15.9162596078	11WQC	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+951	7.11449508806	18.0233682566	11WQC	1	60	Brain - Putamen (basal ganglia)	Brain 
+952	2.20062985332	14.3568345146	11WQC	1	60	Brain - Caudate (basal ganglia)	Brain 
+953	3.09853299496	-14.4590480838	11WQK	1	50	Brain - Cortex	Brain 
+954	12.8019584996	-4.97514907765	11WQK	1	50	Brain - Frontal Cortex (BA9)	Brain 
+955	10.0940623653	14.3558467612	11WQK	1	50	Brain - Hypothalamus	Brain 
+956	-2.64770741746	6.72029802956	11WQK	1	50	Brain - Spinal cord (cervical c-1)	Brain 
+957	-18.0964720425	-9.58462323463	13NYS	1	60	Brain - Cerebellar Hemisphere	Brain 
+958	-10.0652781434	-2.00705744595	13NYS	1	60	Brain - Cortex	Brain 
+959	-11.2179869483	-7.68908465053	13NYS	1	60	Brain - Frontal Cortex (BA9)	Brain 
+960	6.77923144858	1.53810583926	13NYS	1	60	Brain - Hippocampus	Brain 
+961	12.2885030312	0.059628688068	13NYS	1	60	Brain - Hypothalamus	Brain 
+962	-5.74958110325	-4.50552226067	13NYS	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+963	-7.45002719955	5.42008065784	13NYS	1	60	Brain - Spinal cord (cervical c-1)	Brain 
+964	12.0780164649	0.299176751025	13NYS	1	60	Brain - Substantia nigra	Brain 
+965	12.4227143326	-0.109319668599	13NYS	1	60	Brain - Amygdala	Brain 
+966	-0.358884178755	-13.9903472028	13NYS	1	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+967	0.246483173422	-8.69927408432	13NYS	1	60	Brain - Caudate (basal ganglia)	Brain 
+968	-17.450667872	-14.2605483815	13NYB	1	40	Brain - Cerebellar Hemisphere	Brain 
+969	-19.3746866579	-10.2037506487	13NYB	1	40	Brain - Cerebellum	Brain 
+970	8.01479164439	-0.424398067989	13NYB	1	40	Brain - Cortex	Brain 
+971	6.61962776003	-6.5414437704	13NYB	1	40	Brain - Frontal Cortex (BA9)	Brain 
+972	3.91498058555	-0.700391521535	13NYB	1	40	Brain - Hippocampus	Brain 
+973	8.39327027232	-0.0736067119917	13NYB	1	40	Brain - Hypothalamus	Brain 
+974	0.942346547589	-2.50483077041	13NYB	1	40	Brain - Nucleus accumbens (basal ganglia)	Brain 
+975	3.88823691113	-0.681254200695	13NYB	1	40	Brain - Putamen (basal ganglia)	Brain 
+976	-3.43554650886	7.17714347008	13NYB	1	40	Brain - Spinal cord (cervical c-1)	Brain 
+977	-9.28343071003	7.06785561452	13NYB	1	40	Brain - Substantia nigra	Brain 
+978	9.01754424358	1.80243168598	13NYB	1	40	Brain - Caudate (basal ganglia)	Brain 
+979	-12.6199155879	-7.308740358	13NYC	1	60	Brain - Cortex	Brain 
+980	-11.0190952639	-12.8437575591	13S7M	2	60	Brain - Cerebellar Hemisphere	Brain 
+981	-12.9140150008	-14.2084248619	13S7M	2	60	Brain - Cerebellum	Brain 
+982	13.3012313776	-5.77277183815	13S7M	2	60	Brain - Cortex	Brain 
+983	-3.12382762703	-2.12214387471	13S7M	2	60	Brain - Frontal Cortex (BA9)	Brain 
+984	16.4095416905	-9.29618628555	13S7M	2	60	Brain - Hippocampus	Brain 
+985	4.4971468804	13.2766764079	13S7M	2	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+986	3.79297901238	14.5396127771	13S7M	2	60	Brain - Putamen (basal ganglia)	Brain 
+987	0.605080140694	4.19303899205	13S7M	2	60	Brain - Spinal cord (cervical c-1)	Brain 
+988	15.4604855586	-8.68264289386	13S7M	2	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+989	14.5108140587	-12.8692172777	13S7M	2	60	Brain - Caudate (basal ganglia)	Brain 
+990	-11.1828944313	-10.3002614409	111FC	1	60	Brain - Cerebellum	Brain 
+991	-0.422023961345	-0.847438866141	111FC	1	60	Brain - Cortex	Brain 
+992	-18.1819869765	-8.61617843295	13SLX	2	50	Brain - Cerebellar Hemisphere	Brain 
+993	-1.36419206824	-1.3529676769	13SLX	2	50	Brain - Cortex	Brain 
+994	-3.62683499901	-1.21368541724	13SLX	2	50	Brain - Frontal Cortex (BA9)	Brain 
+995	5.87586065228	3.13564504622	13SLX	2	50	Brain - Hypothalamus	Brain 
+996	-0.408071812982	-5.01356929059	13SLX	2	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+997	-7.41367637704	5.73794438978	13SLX	2	50	Brain - Spinal cord (cervical c-1)	Brain 
+998	8.40658979358	2.52133059956	13SLX	2	50	Brain - Substantia nigra	Brain 
+999	16.3887153481	-5.44773081299	13SLX	2	50	Brain - Amygdala	Brain 
+1000	3.3870111637	-9.16191380603	13SLX	2	50	Brain - Caudate (basal ganglia)	Brain 
+1001	0.679886103095	15.9922084598	13PDP	1	60	Brain - Hippocampus	Brain 
+1002	3.40176988603	11.6024614406	13PDP	1	60	Brain - Hypothalamus	Brain 
+1003	6.34568660088	18.0665274239	13PDP	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+1004	-12.2937122724	-15.7093379815	13SLW	1	70	Brain - Cerebellar Hemisphere	Brain 
+1005	3.48938042486	-13.8614164688	13SLW	1	70	Brain - Frontal Cortex (BA9)	Brain 
+1006	6.79034020945	8.71872732047	13SLW	1	70	Brain - Hippocampus	Brain 
+1007	-2.38008746532	-0.187606802418	13SLW	1	70	Brain - Hypothalamus	Brain 
+1008	6.80857056432	13.3966765004	13SLW	1	70	Brain - Nucleus accumbens (basal ganglia)	Brain 
+1009	4.38226639486	2.53801138168	13SLW	1	70	Brain - Spinal cord (cervical c-1)	Brain 
+1010	8.58105151237	10.8187964219	13SLW	1	70	Brain - Substantia nigra	Brain 
+1011	6.63811284071	8.65497330946	13SLW	1	70	Brain - Amygdala	Brain 
+1012	7.21826929213	8.50898925721	13SLW	1	70	Brain - Anterior cingulate cortex (BA24)	Brain 
+1013	8.37539905156	-13.0963603252	13SLW	1	70	Brain - Caudate (basal ganglia)	Brain 
+1014	2.05979927308	-14.3842612601	13IVO	1	70	Brain - Cortex	Brain 
+1015	5.05371937189	7.63084253931	13IVO	1	70	Brain - Frontal Cortex (BA9)	Brain 
+1016	11.0456130122	-10.2777341369	13IVO	1	70	Brain - Hypothalamus	Brain 
+1017	5.19305685112	17.3920439705	13IVO	1	70	Brain - Nucleus accumbens (basal ganglia)	Brain 
+1018	3.65465710049	18.9720456889	13IVO	1	70	Brain - Anterior cingulate cortex (BA24)	Brain 
+1019	-14.2359913583	-15.6089713061	1192X	1	50	Brain - Cerebellum	Brain 
+1020	-12.3792897526	-6.86415442211	1192X	1	50	Brain - Cortex	Brain 
+1021	13.7583034037	-11.1454619932	147GR	1	60	Brain - Cortex	Brain 
+1022	0.715827336751	-9.99465896431	147GR	1	60	Brain - Frontal Cortex (BA9)	Brain 
+1023	5.45397031245	-10.0881351317	147GR	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+1024	1.67015834999	15.3936270934	147GR	1	60	Brain - Putamen (basal ganglia)	Brain 
+1025	-7.86205929391	6.54049182504	147GR	1	60	Brain - Spinal cord (cervical c-1)	Brain 
+1026	0.642341104497	3.82179628862	147GR	1	60	Brain - Substantia nigra	Brain 
+1027	16.3349256309	-7.48345780012	147GR	1	60	Brain - Amygdala	Brain 
+1028	9.08823664275	18.8579623632	12584	1	40	Brain - Nucleus accumbens (basal ganglia)	Brain 
+1029	-9.0674581918	-2.23690323495	13OW8	1	60	Brain - Cerebellar Hemisphere	Brain 
+1030	-11.0011922983	-2.65506612026	13OW8	1	60	Brain - Cerebellum	Brain 
+1031	-1.66912881863	-1.84685102199	13OW8	1	60	Brain - Cortex	Brain 
+1032	3.9947784276	-12.2210371342	13OW8	1	60	Brain - Frontal Cortex (BA9)	Brain 
+1033	4.95353611106	11.4271901187	13OW8	1	60	Brain - Hippocampus	Brain 
+1034	8.4092808493	15.4278796808	13OW8	1	60	Brain - Hypothalamus	Brain 
+1035	6.19633310947	8.70770888322	13OW8	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+1036	1.59331211974	15.0964155256	13OW8	1	60	Brain - Putamen (basal ganglia)	Brain 
+1037	4.31410411744	10.0067507103	13OW8	1	60	Brain - Substantia nigra	Brain 
+1038	12.234978591	-5.02740271877	13OW8	1	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+1039	8.04872666564	-10.3979766981	13OW8	1	60	Brain - Caudate (basal ganglia)	Brain 
+1040	-10.8711199169	-12.4624546082	13OW7	1	50	Brain - Cerebellar Hemisphere	Brain 
+1041	-10.9974012653	-3.05068193806	13OW7	1	50	Brain - Cerebellum	Brain 
+1042	14.7874594339	-10.1711593632	13OW7	1	50	Brain - Cortex	Brain 
+1043	2.21292353437	-4.50134903602	13OW7	1	50	Brain - Frontal Cortex (BA9)	Brain 
+1044	16.2247486112	-8.44142209541	13OW7	1	50	Brain - Hippocampus	Brain 
+1045	-2.27239593081	-2.92972436837	13OW7	1	50	Brain - Hypothalamus	Brain 
+1046	9.92069113087	14.2321394821	13OW7	1	50	Brain - Amygdala	Brain 
+1047	7.41027109282	11.5960812499	13OW7	1	50	Brain - Anterior cingulate cortex (BA24)	Brain 
+1048	13.1168006286	-15.3376977767	13OW7	1	50	Brain - Caudate (basal ganglia)	Brain 
+1049	-18.731497405	-8.25564068742	13OW6	1	50	Brain - Cerebellar Hemisphere	Brain 
+1050	-17.2287157636	-11.0437320842	13OW6	1	50	Brain - Cerebellum	Brain 
+1051	-9.99678472326	-0.902554094816	13OW6	1	50	Brain - Cortex	Brain 
+1052	-3.2430876092	-2.18875101197	13OW6	1	50	Brain - Frontal Cortex (BA9)	Brain 
+1053	0.298192231188	-0.798533376519	13OW6	1	50	Brain - Hippocampus	Brain 
+1054	-10.6073117513	-4.62665936961	13OW6	1	50	Brain - Hypothalamus	Brain 
+1055	-10.1508373402	-3.30065792161	13OW6	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+1056	3.65057071233	-9.56966560666	13OW6	1	50	Brain - Putamen (basal ganglia)	Brain 
+1057	7.66008836417	1.1915898389	13OW6	1	50	Brain - Substantia nigra	Brain 
+1058	8.43321650752	10.99255705	13OW6	1	50	Brain - Amygdala	Brain 
+1059	0.297192268009	-8.21425349429	13OW6	1	50	Brain - Caudate (basal ganglia)	Brain 
+1060	-16.6958233591	-12.4353549013	13OW5	1	60	Brain - Cerebellar Hemisphere	Brain 
+1061	-11.7538548183	-2.93905606082	13OW5	1	60	Brain - Cerebellum	Brain 
+1062	-8.27825840622	4.09597790617	13OW5	1	60	Brain - Hippocampus	Brain 
+1063	17.1155802238	-8.89484771833	13OW5	1	60	Brain - Hypothalamus	Brain 
+1064	-0.0965203150769	-7.83723637111	13OW5	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+1065	3.61677376103	15.2370753189	13OW5	1	60	Brain - Putamen (basal ganglia)	Brain 
+1066	-8.35113870177	3.72993896776	13OW5	1	60	Brain - Spinal cord (cervical c-1)	Brain 
+1067	11.4803629483	-9.60555559325	13OW5	1	60	Brain - Amygdala	Brain 
+1068	4.02131125422	-5.03711130452	13OW5	1	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+1069	13.2473204604	-14.7131076628	13OW5	1	60	Brain - Caudate (basal ganglia)	Brain 
+1070	3.57599567681	-11.183222434	13PVQ	1	50	Brain - Cerebellar Hemisphere	Brain 
+1071	-1.44597182277	-11.8584924705	13PVQ	1	50	Brain - Cerebellum	Brain 
+1072	11.7320090843	-9.06489025695	13PVQ	1	50	Brain - Cortex	Brain 
+1073	11.8400720461	-15.5316715037	13PVQ	1	50	Brain - Putamen (basal ganglia)	Brain 
+1074	-2.53103495881	6.49868057995	13PVQ	1	50	Brain - Spinal cord (cervical c-1)	Brain 
+1075	7.21756236877	9.08460729843	13PVQ	1	50	Brain - Amygdala	Brain 
+1076	6.3806188475	9.13327684419	13PVQ	1	50	Brain - Anterior cingulate cortex (BA24)	Brain 
+1077	1.06883492601	13.784052116	13PVQ	1	50	Brain - Caudate (basal ganglia)	Brain 
+1078	-14.8832383563	-14.771349838	12ZZZ	1	60	Brain - Cerebellar Hemisphere	Brain 
+1079	-11.3169970041	-11.4281840581	12ZZZ	1	60	Brain - Cerebellum	Brain 
+1080	0.987043218051	-13.4974413668	12ZZZ	1	60	Brain - Cortex	Brain 
+1081	4.22948054294	-12.2878766604	12ZZZ	1	60	Brain - Frontal Cortex (BA9)	Brain 
+1082	14.9353561002	-13.6295394221	12ZZZ	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+1083	14.5495740807	-13.8787757465	12ZZZ	1	60	Brain - Putamen (basal ganglia)	Brain 
+1084	9.11803597389	14.5883625244	12ZZZ	1	60	Brain - Amygdala	Brain 
+1085	15.3381069918	-8.32349479707	12ZZZ	1	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+1086	3.32580222623	-9.26990326555	12ZZZ	1	60	Brain - Caudate (basal ganglia)	Brain 
+1087	-12.4653833463	-13.3352051597	11PRG	1	50	Brain - Cerebellum	Brain 
+1088	5.27402979549	-12.0241994141	11PRG	1	50	Brain - Cortex	Brain 
+1089	-12.3092916577	-14.5969676078	Y111	1	50	Brain - Cerebellum	Brain 
+1090	2.53760055012	-15.4250318445	Y111	1	50	Brain - Cortex	Brain 
+1091	10.3042939341	-14.8164303618	ZE9C	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+1092	10.6559879544	-14.7413019413	ZE9C	1	60	Brain - Putamen (basal ganglia)	Brain 
+1093	-9.49040384539	7.04734595055	ZE9C	1	60	Brain - Spinal cord (cervical c-1)	Brain 
+1094	12.755916766	-15.9552473925	ZE9C	1	60	Brain - Caudate (basal ganglia)	Brain 
+1095	-1.97122779489	-11.6146748058	11ZVC	2	50	Brain - Cerebellum	Brain 
+1096	7.93007637787	11.1168042346	11ZVC	2	50	Brain - Hippocampus	Brain 
+1097	-2.29326966226	6.47474082699	11ZVC	2	50	Brain - Spinal cord (cervical c-1)	Brain 
+1098	8.18446950666	10.1091102388	11ZVC	2	50	Brain - Amygdala	Brain 
+1099	9.89222363462	15.1293143411	11ZVC	2	50	Brain - Anterior cingulate cortex (BA24)	Brain 
+1100	-18.6168824474	-11.8024461724	ZAB4	1	40	Brain - Cerebellar Hemisphere	Brain 
+1101	-12.53629356	-4.59882706988	ZAB4	1	40	Brain - Cerebellum	Brain 
+1102	-5.15993692728	-1.50482043497	ZAB4	1	40	Brain - Frontal Cortex (BA9)	Brain 
+1103	1.08860239446	-0.561371866088	ZAB4	1	40	Brain - Hippocampus	Brain 
+1104	5.58868908228	2.77139437147	ZAB4	1	40	Brain - Hypothalamus	Brain 
+1105	9.83883038159	-6.99214688002	ZAB4	1	40	Brain - Nucleus accumbens (basal ganglia)	Brain 
+1106	-3.48142346046	-6.07868580372	ZAB4	1	40	Brain - Putamen (basal ganglia)	Brain 
+1107	-7.93096848305	5.22788449898	ZAB4	1	40	Brain - Spinal cord (cervical c-1)	Brain 
+1108	-8.19092784396	4.60989011211	ZAB4	1	40	Brain - Substantia nigra	Brain 
+1109	7.45190994882	-4.20560215409	ZAB4	1	40	Brain - Amygdala	Brain 
+1110	-3.71929504126	-3.43137149336	ZAB4	1	40	Brain - Anterior cingulate cortex (BA24)	Brain 
+1111	-3.3477990317	-6.19018688427	ZAB4	1	40	Brain - Caudate (basal ganglia)	Brain 
+1112	-9.81457146438	-14.0404003824	QMR6	1	50	Brain - Cerebellar Hemisphere	Brain 
+1113	-9.9488625751	-14.5828718902	QMR6	1	50	Brain - Cerebellum	Brain 
+1114	-4.00410557098	1.29330340243	QMR6	1	50	Brain - Cortex	Brain 
+1115	-5.06917136454	0.387357809055	QMR6	1	50	Brain - Frontal Cortex (BA9)	Brain 
+1116	-3.40426539202	12.068564239	QMR6	1	50	Brain - Hippocampus	Brain 
+1117	-9.74088876192	-13.953200649	QMR6	1	50	Brain - Hypothalamus	Brain 
+1118	-8.17099261202	-5.17235967971	QMR6	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+1119	14.99620666	-5.0385610024	QMR6	1	50	Brain - Putamen (basal ganglia)	Brain 
+1120	6.56984257435	-0.37444490516	QMR6	1	50	Brain - Substantia nigra	Brain 
+1121	5.03603178214	0.00786882304922	QMR6	1	50	Brain - Amygdala	Brain 
+1122	9.9253632165	-6.30625453824	QMR6	1	50	Brain - Caudate (basal ganglia)	Brain 
+1123	-9.09316953009	-13.5414506021	ZDXO	1	60	Brain - Cerebellar Hemisphere	Brain 
+1124	-8.18792394621	1.57862069032	ZDXO	1	60	Brain - Frontal Cortex (BA9)	Brain 
+1125	14.4169921968	-6.13372548704	ZDXO	1	60	Brain - Hypothalamus	Brain 
+1126	5.67069020946	-9.7114946874	ZDXO	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+1127	5.313998128	13.5802529765	ZDXO	1	60	Brain - Putamen (basal ganglia)	Brain 
+1128	-4.07310006937	7.54891633748	148VJ	1	70	Brain - Spinal cord (cervical c-1)	Brain 
+1129	-10.6469120866	-10.9177467934	12WSH	1	50	Brain - Cerebellar Hemisphere	Brain 
+1130	-11.7055259984	-11.2602683382	12WSH	1	50	Brain - Cerebellum	Brain 
+1131	6.5264617233	-12.4775265737	12WSH	1	50	Brain - Cortex	Brain 
+1132	-3.14627594374	-1.52651840984	12WSH	1	50	Brain - Frontal Cortex (BA9)	Brain 
+1133	5.01122242876	0.87738874435	12WSH	1	50	Brain - Hippocampus	Brain 
+1134	9.32857592317	-14.8614815709	12WSH	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+1135	-8.4891514322	7.13201005802	12WSH	1	50	Brain - Spinal cord (cervical c-1)	Brain 
+1136	0.890005139581	3.9874681895	12WSH	1	50	Brain - Substantia nigra	Brain 
+1137	4.95730256243	1.10439685632	12WSH	1	50	Brain - Amygdala	Brain 
+1138	6.96079789669	12.7063640485	12WSH	1	50	Brain - Caudate (basal ganglia)	Brain 
+1139	-19.0426404459	-13.1289613446	12WSI	1	50	Brain - Cerebellar Hemisphere	Brain 
+1140	0.702629804486	-6.1160033573	12WSI	1	50	Brain - Putamen (basal ganglia)	Brain 
+1141	-14.9077504744	-14.6099735213	12WSM	1	60	Brain - Cerebellar Hemisphere	Brain 
+1142	-12.3811347529	-4.47434166182	12WSM	1	60	Brain - Cerebellum	Brain 
+1143	-0.467467414516	-10.9583826124	12WSM	1	60	Brain - Frontal Cortex (BA9)	Brain 
+1144	7.29935975224	9.82867801007	12WSM	1	60	Brain - Hippocampus	Brain 
+1145	15.8628447187	-12.1446003356	12WSM	1	60	Brain - Hypothalamus	Brain 
+1146	3.9335570386	13.1206783624	12WSM	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+1147	4.56608960233	15.2962818735	12WSM	1	60	Brain - Putamen (basal ganglia)	Brain 
+1148	11.1010299683	-6.08751136955	12WSM	1	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+1149	12.8828521149	-13.8073833615	12WSM	1	60	Brain - Caudate (basal ganglia)	Brain 
+1150	3.35991339849	13.5761640158	12WSA	1	60	Brain - Cortex	Brain 
+1151	17.1538207652	-10.0435888392	12WSA	1	60	Brain - Frontal Cortex (BA9)	Brain 
+1152	8.86097236385	3.34439765948	12WSA	1	60	Brain - Hypothalamus	Brain 
+1153	17.4922132429	-10.6249611416	12WSA	1	60	Brain - Putamen (basal ganglia)	Brain 
+1154	2.24420728091	1.84584257217	12WSA	1	60	Brain - Substantia nigra	Brain 
+1155	8.38822208022	13.1843923954	12WSA	1	60	Brain - Amygdala	Brain 
+1156	8.00123016134	2.78473209176	12WSA	1	60	Brain - Caudate (basal ganglia)	Brain 
+1157	16.5464182743	-8.36819257851	12WSB	2	60	Brain - Cerebellar Hemisphere	Brain 
+1158	-1.01422052999	-11.3148475326	12WSB	2	60	Brain - Cerebellum	Brain 
+1159	6.99715284901	11.0846502095	12WSB	2	60	Brain - Hippocampus	Brain 
+1160	17.2717134061	-7.30370884095	12WSB	2	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+1161	11.5016904761	1.65282211079	12WSB	2	60	Brain - Putamen (basal ganglia)	Brain 
+1162	5.64091124631	-9.45091401941	12WSB	2	60	Brain - Caudate (basal ganglia)	Brain 
+1163	-12.8387979277	-15.6188986473	12WSC	1	50	Brain - Cerebellar Hemisphere	Brain 
+1164	-12.3173254275	-10.8024242749	12WSC	1	50	Brain - Cerebellum	Brain 
+1165	6.46599910119	-11.8293545686	12WSC	1	50	Brain - Cortex	Brain 
+1166	2.57159118209	-4.45669263655	12WSC	1	50	Brain - Frontal Cortex (BA9)	Brain 
+1167	1.48012125839	-5.36221658432	12WSC	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+1168	-0.633366092286	-5.79030728252	12WSC	1	50	Brain - Putamen (basal ganglia)	Brain 
+1169	3.19733892454	2.50507579724	12WSC	1	50	Brain - Spinal cord (cervical c-1)	Brain 
+1170	10.2337441787	-6.86317850043	12WSC	1	50	Brain - Anterior cingulate cortex (BA24)	Brain 
+1171	3.49873203627	-7.64094022676	12WSC	1	50	Brain - Caudate (basal ganglia)	Brain 
+1172	-12.5731639899	-5.98231718981	12WSD	2	60	Brain - Cerebellum	Brain 
+1173	13.1084531644	-9.65862433542	12WSD	2	60	Brain - Cortex	Brain 
+1174	10.2878909804	-3.83610071654	12WSD	2	60	Brain - Frontal Cortex (BA9)	Brain 
+1175	14.8011835723	-6.45379833634	12WSD	2	60	Brain - Hippocampus	Brain 
+1176	4.74768112579	-12.4045058836	12WSD	2	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+1177	15.17054121	-12.4317101444	12WSD	2	60	Brain - Putamen (basal ganglia)	Brain 
+1178	-5.52450692377	7.27172144664	12WSD	2	60	Brain - Spinal cord (cervical c-1)	Brain 
+1179	10.3717987058	15.9341138255	12WSD	2	60	Brain - Substantia nigra	Brain 
+1180	14.3228528928	-6.58044705152	12WSD	2	60	Brain - Amygdala	Brain 
+1181	8.27217585589	11.2694088808	12WSD	2	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+1182	1.07302645709	13.2145370035	12WSD	2	60	Brain - Caudate (basal ganglia)	Brain 
+1183	-18.7681836538	-10.5821827487	12WSE	1	20	Brain - Cerebellar Hemisphere	Brain 
+1184	-16.8706363712	-13.0473657341	12WSE	1	20	Brain - Cerebellum	Brain 
+1185	-7.77318734805	-2.48883752745	12WSE	1	20	Brain - Frontal Cortex (BA9)	Brain 
+1186	7.6554553285	-4.13459820459	12WSE	1	20	Brain - Hippocampus	Brain 
+1187	6.59650940185	11.7594428369	12WSE	1	20	Brain - Nucleus accumbens (basal ganglia)	Brain 
+1188	9.12906223662	19.0897213001	12WSE	1	20	Brain - Putamen (basal ganglia)	Brain 
+1189	-18.7284374306	-10.6494154028	13O3Q	1	50	Brain - Cerebellar Hemisphere	Brain 
+1190	-14.3605519945	-14.7305656466	13O3Q	1	50	Brain - Cerebellum	Brain 
+1191	6.29054642941	-11.1560743935	13O3Q	1	50	Brain - Cortex	Brain 
+1192	-5.7361970443	-3.00781368804	13O3Q	1	50	Brain - Frontal Cortex (BA9)	Brain 
+1193	11.364673031	-14.2375437064	13O3Q	1	50	Brain - Hippocampus	Brain 
+1194	-5.78939510154	-3.83672123575	13O3Q	1	50	Brain - Hypothalamus	Brain 
+1195	-0.225607005488	-6.54014886427	13O3Q	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+1196	8.97310756147	-15.0215576713	13O3Q	1	50	Brain - Putamen (basal ganglia)	Brain 
+1197	8.43392805548	2.682571094	13O3Q	1	50	Brain - Substantia nigra	Brain 
+1198	5.10553829784	0.498001386038	13O3Q	1	50	Brain - Amygdala	Brain 
+1199	5.56141970596	-10.1459693114	13O3Q	1	50	Brain - Anterior cingulate cortex (BA24)	Brain 
+1200	-1.05071421156	-7.26533956833	13O3Q	1	50	Brain - Caudate (basal ganglia)	Brain 
+1201	-11.7312044733	-12.6551922909	13O3O	2	60	Brain - Cerebellar Hemisphere	Brain 
+1202	-11.1989110951	-11.7626547948	13O3O	2	60	Brain - Cerebellum	Brain 
+1203	8.91305702274	-13.6856971456	13O3O	2	60	Brain - Cortex	Brain 
+1204	-4.00585069196	-1.02490225708	13O3O	2	60	Brain - Frontal Cortex (BA9)	Brain 
+1205	6.65825944219	-1.57846023891	13O3O	2	60	Brain - Hippocampus	Brain 
+1206	14.5208000397	-5.77510390613	13O3O	2	60	Brain - Hypothalamus	Brain 
+1207	4.15594397797	-9.32455146675	13O3O	2	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+1208	14.3571492568	-12.9877138947	13O3O	2	60	Brain - Putamen (basal ganglia)	Brain 
+1209	0.917206507027	2.21701183018	13O3O	2	60	Brain - Substantia nigra	Brain 
+1210	11.3930556516	-7.69966370789	13O3O	2	60	Brain - Amygdala	Brain 
+1211	12.9535818868	-7.54367326578	13O3O	2	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+1212	8.60291942933	-13.0616899825	13O3O	2	60	Brain - Caudate (basal ganglia)	Brain 
+1213	4.39988996556	18.0189101677	13NZ8	2	60	Brain - Hypothalamus	Brain 
+1214	-18.861654736	-5.83510822562	N7MS	1	60	Brain - Cerebellar Hemisphere	Brain 
+1215	-6.77288482417	14.586336457	N7MS	1	60	Brain - Cerebellum	Brain 
+1216	-11.9973131932	14.1990521123	N7MS	1	60	Brain - Frontal Cortex (BA9)	Brain 
+1217	-12.4618550142	13.535415657	N7MS	1	60	Brain - Hippocampus	Brain 
+1218	-9.62159211924	8.70804029324	N7MS	1	60	Brain - Hypothalamus	Brain 
+1219	-9.81512575984	14.8095088489	N7MS	1	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+1220	-16.3842036053	13.02235065	N7MS	1	60	Brain - Putamen (basal ganglia)	Brain 
+1221	-9.93252666128	10.8106717711	N7MS	1	60	Brain - Substantia nigra	Brain 
+1222	-10.0143161534	10.081358125	N7MS	1	60	Brain - Amygdala	Brain 
+1223	-4.1773878875	-0.675071879594	N7MS	1	60	Brain - Anterior cingulate cortex (BA24)	Brain 
+1224	-11.831498225	14.6316919792	N7MS	1	60	Brain - Caudate (basal ganglia)	Brain 
+1225	-8.10712779259	15.0733418153	N7MT	2	60	Brain - Cerebellum	Brain 
+1226	5.67678096713	2.69505371651	N7MT	2	60	Brain - Cortex	Brain 
+1227	-11.9857626379	14.891195842	N7MT	2	60	Brain - Frontal Cortex (BA9)	Brain 
+1228	10.2827366493	-6.44466817617	N7MT	2	60	Brain - Hippocampus	Brain 
+1229	-11.4588697738	11.8848115326	N7MT	2	60	Brain - Hypothalamus	Brain 
+1230	-11.0319618642	15.3053871768	N7MT	2	60	Brain - Nucleus accumbens (basal ganglia)	Brain 
+1231	-12.873472102	14.8168838801	N7MT	2	60	Brain - Putamen (basal ganglia)	Brain 
+1232	-9.59882418523	9.88420485459	N7MT	2	60	Brain - Substantia nigra	Brain 
+1233	-15.5191884134	12.7715197499	N7MT	2	60	Brain - Amygdala	Brain 
+1234	-11.2963100614	15.2343836662	N7MT	2	60	Brain - Caudate (basal ganglia)	Brain 
+1235	-12.399301426	-10.8903036686	11DXY	1	60	Brain - Cerebellum	Brain 
+1236	-0.0973519422349	-11.3632290322	11DXY	1	60	Brain - Cortex	Brain 
+1237	-11.0068215795	-11.2188581238	11DXW	1	40	Brain - Cerebellum	Brain 
+1238	6.19870799256	-11.5020991874	11DXW	1	40	Brain - Cortex	Brain 
+1239	-14.4305484073	-7.33130700331	XOTO	1	50	Brain - Cerebellar Hemisphere	Brain 
+1240	-10.5991299516	-1.91606818801	XOTO	1	50	Brain - Cerebellum	Brain 
+1241	0.273980949614	-12.8906161887	XOTO	1	50	Brain - Cortex	Brain 
+1242	6.48796351765	-2.00990063294	XOTO	1	50	Brain - Hippocampus	Brain 
+1243	14.5910297338	-7.89994444213	XOTO	1	50	Brain - Hypothalamus	Brain 
+1244	15.6388851848	-10.5979464783	XOTO	1	50	Brain - Nucleus accumbens (basal ganglia)	Brain 
+1245	14.4858871037	-14.1132971965	XOTO	1	50	Brain - Putamen (basal ganglia)	Brain 
+1246	0.751011529286	4.60405025193	XOTO	1	50	Brain - Spinal cord (cervical c-1)	Brain 
+1247	4.79658846768	-3.24569748005	XOTO	1	50	Brain - Anterior cingulate cortex (BA24)	Brain 
+1248	1.03136465025	13.4024150229	XOTO	1	50	Brain - Caudate (basal ganglia)	Brain 
+1249	-11.576477886	-10.1179619825	14C5O	1	60	Brain - Cerebellum	Brain 
+1250	10.3118868903	-8.5010198142	1117F	2	60	Brain - Cortex	Brain 
+1251	-16.9536481817	-11.6220888998	11O72	1	40	Brain - Cerebellum	Brain 
+1252	9.93646492815	-11.4504160025	11O72	1	40	Brain - Cortex	Brain 
+1253	3.5680820013	-10.9113906211	13NZA	1	60	Brain - Cerebellar Hemisphere	Brain 
+1254	7.0107353825	14.6211525355	13NZA	1	60	Brain - Frontal Cortex (BA9)	Brain 
+1255	9.01007715347	13.8387381282	13NZA	1	60	Brain - Hippocampus	Brain 
+1256	15.0542785952	-8.86291288187	13NZA	1	60	Brain - Hypothalamus	Brain 
+1257	-4.48559636248	6.51530210665	13NZA	1	60	Brain - Spinal cord (cervical c-1)	Brain 
+1258	9.74986489167	19.2566835978	13NZA	1	60	Brain - Caudate (basal ganglia)	Brain 

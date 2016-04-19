@@ -1,0 +1,21 @@
+GTEX-ZE7O-0226-SM-5S2N1	Adipose - Subcutaneous
+GTEX-ZE7O-1526-SM-5J1NH	Adipose - Visceral (Omentum)
+GTEX-ZE7O-0011-R11a-SM-57WBC	Brain - Cerebellar Hemisphere
+GTEX-ZE7O-3126-SM-5HL5X	Brain - Cortex
+GTEX-ZE7O-0011-R10a-SM-57WAZ	Brain - Frontal Cortex (BA9)
+GTEX-ZE7O-0011-R1a-SM-57WDM	Brain - Hippocampus
+GTEX-ZE7O-0011-R6a-SM-57WCI	Brain - Nucleus accumbens (basal ganglia)
+GTEX-ZE7O-0011-R7a-SM-57WCU	Brain - Putamen (basal ganglia)
+GTEX-ZE7O-0008-SM-4E3JQ	Cells - Transformed fibroblasts
+GTEX-ZE7O-2626-SM-51MSS	Colon - Sigmoid
+GTEX-ZE7O-0626-SM-57WCD	Heart - Atrial Appendage
+GTEX-ZE7O-0826-SM-57WCP	Lung
+GTEX-ZE7O-2926-SM-51MSG	Minor Salivary Gland
+GTEX-ZE7O-0326-SM-51MTH	Muscle - Skeletal
+GTEX-ZE7O-2726-SM-51MT5	Skin - Not Sun Exposed (Suprapubic)
+GTEX-ZE7O-0126-SM-57WC1	Skin - Sun Exposed (Lower leg)
+GTEX-ZE7O-3026-SM-51MS4	Stomach
+GTEX-ZE7O-1126-SM-57WC8	Thyroid
+GTEX-ZE7O-2426-SM-57WD7	Vagina
+GTEX-ZE7O-0006-SM-51MTA	Whole Blood
+GTEX-ZE7O-0011-R5a-SM-57WBO	Brain - Caudate (basal ganglia)

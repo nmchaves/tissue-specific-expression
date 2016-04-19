@@ -1,0 +1,20 @@
+GTEX-12WSL-1126-SM-5CVNK	Adipose - Visceral (Omentum)
+GTEX-12WSL-0326-SM-5CVMK	Adrenal Gland
+GTEX-12WSL-1826-SM-5LZW9	Colon - Sigmoid
+GTEX-12WSL-1626-SM-5GCMU	Colon - Transverse
+GTEX-12WSL-1226-SM-5DUXE	Esophagus - Gastroesophageal Junction
+GTEX-12WSL-1526-SM-5GCP8	Esophagus - Mucosa
+GTEX-12WSL-1326-SM-5LZVW	Esophagus - Muscularis
+GTEX-12WSL-0226-SM-5CVMJ	Liver
+GTEX-12WSL-1026-SM-5CVNJ	Lung
+GTEX-12WSL-2126-SM-5GCNG	Minor Salivary Gland
+GTEX-12WSL-2726-SM-5CVNL	Muscle - Skeletal
+GTEX-12WSL-2826-SM-5LZWL	Nerve - Tibial
+GTEX-12WSL-0926-SM-5N9EK	Artery - Coronary
+GTEX-12WSL-0426-SM-5GCNX	Pancreas
+GTEX-12WSL-2026-SM-5GCML	Skin - Not Sun Exposed (Suprapubic)
+GTEX-12WSL-2526-SM-5GCNJ	Skin - Sun Exposed (Lower leg)
+GTEX-12WSL-2326-SM-5DUXQ	Testis
+GTEX-12WSL-0626-SM-5GCOY	Thyroid
+GTEX-12WSL-2626-SM-5GCNV	Artery - Tibial
+GTEX-12WSL-0005-SM-5NQAD	Whole Blood

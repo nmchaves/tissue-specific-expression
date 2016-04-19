@@ -1,0 +1,16 @@
+GTEX-QDVJ-1826-SM-2S1P3	Adipose - Subcutaneous
+GTEX-QDVJ-1126-SM-48U1U	Adrenal Gland
+GTEX-QDVJ-0008-SM-48U2E	Cells - Transformed fibroblasts
+GTEX-QDVJ-1326-SM-48U1X	Colon - Transverse
+GTEX-QDVJ-0726-SM-48U1W	Esophagus - Mucosa
+GTEX-QDVJ-0826-SM-48U1S	Esophagus - Muscularis
+GTEX-QDVJ-0626-SM-48U1T	Artery - Aorta
+GTEX-QDVJ-0426-SM-2I5FW	Heart - Left Ventricle
+GTEX-QDVJ-0926-SM-2I5FU	Lung
+GTEX-QDVJ-1926-SM-2S1PJ	Muscle - Skeletal
+GTEX-QDVJ-1226-SM-48U1V	Pancreas
+GTEX-QDVJ-1726-SM-2I5FX	Skin - Sun Exposed (Lower leg)
+GTEX-QDVJ-1426-SM-48U1Y	Stomach
+GTEX-QDVJ-0226-SM-2I5FV	Thyroid
+GTEX-QDVJ-2126-SM-5S2U2	Artery - Tibial
+GTEX-QDVJ-0005-SM-2TC5X	Whole Blood

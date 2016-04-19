@@ -1,0 +1,17 @@
+GTEX-11ZVC-2626-SM-5FQTA	Adipose - Subcutaneous
+GTEX-11ZVC-3026-SM-59HJM	Brain - Cerebellum
+GTEX-11ZVC-0011-R1b-SM-5BC6M	Brain - Hippocampus
+GTEX-11ZVC-0011-R9a-SM-57WC5	Brain - Spinal cord (cervical c-1)
+GTEX-11ZVC-2126-SM-5EGJ1	Colon - Transverse
+GTEX-11ZVC-0326-SM-5CVLC	Artery - Aorta
+GTEX-11ZVC-0426-SM-5CVLD	Heart - Left Ventricle
+GTEX-11ZVC-0726-SM-5FQT9	Liver
+GTEX-11ZVC-2726-SM-5FQSZ	Muscle - Skeletal
+GTEX-11ZVC-2826-SM-5FQTC	Nerve - Tibial
+GTEX-11ZVC-1426-SM-5EGGA	Ovary
+GTEX-11ZVC-3226-SM-5FQV1	Pituitary
+GTEX-11ZVC-2526-SM-5FQTE	Skin - Sun Exposed (Lower leg)
+GTEX-11ZVC-0126-SM-5986G	Thyroid
+GTEX-11ZVC-2926-SM-5986H	Artery - Tibial
+GTEX-11ZVC-0011-R4a-SM-5BC6Z	Brain - Amygdala
+GTEX-11ZVC-0011-R3a-SM-5BC6V	Brain - Anterior cingulate cortex (BA24)

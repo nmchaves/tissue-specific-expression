@@ -1,0 +1,24 @@
+GTEX-11ZUS-0726-SM-59886	Adipose - Subcutaneous
+GTEX-11ZUS-1826-SM-5FQTR	Adipose - Visceral (Omentum)
+GTEX-11ZUS-0011-R11b-SM-5BC7B	Brain - Cerebellar Hemisphere
+GTEX-11ZUS-2826-SM-5EQKW	Brain - Cerebellum
+GTEX-11ZUS-2926-SM-5FQSL	Brain - Cortex
+GTEX-11ZUS-0011-R10b-SM-5BC79	Brain - Frontal Cortex (BA9)
+GTEX-11ZUS-0011-R8a-SM-5BC73	Brain - Hypothalamus
+GTEX-11ZUS-0011-R9b-SM-5BC76	Brain - Spinal cord (cervical c-1)
+GTEX-11ZUS-0826-SM-5FQUY	Breast - Mammary Tissue
+GTEX-11ZUS-0008-SM-5S2UO	Cells - Transformed fibroblasts
+GTEX-11ZUS-0926-SM-5FQSY	Esophagus - Muscularis
+GTEX-11ZUS-0326-SM-5EQ4W	Heart - Atrial Appendage
+GTEX-11ZUS-0226-SM-5FQT8	Heart - Left Ventricle
+GTEX-11ZUS-2526-SM-59872	Liver
+GTEX-11ZUS-0126-SM-5EQM5	Lung
+GTEX-11ZUS-1426-SM-5FQSP	Muscle - Skeletal
+GTEX-11ZUS-1226-SM-5FQU8	Nerve - Tibial
+GTEX-11ZUS-0526-SM-59884	Artery - Coronary
+GTEX-11ZUS-3026-SM-5EGI4	Pituitary
+GTEX-11ZUS-2126-SM-5N9E6	Prostate
+GTEX-11ZUS-2626-SM-5FQUR	Skin - Not Sun Exposed (Suprapubic)
+GTEX-11ZUS-2726-SM-5FQUA	Testis
+GTEX-11ZUS-1326-SM-5FQUC	Artery - Tibial
+GTEX-11ZUS-0006-SM-5O9AJ	Whole Blood

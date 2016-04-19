@@ -1,0 +1,13 @@
+GTEX-ZAK1-0226-SM-5CVMX	Adipose - Subcutaneous
+GTEX-ZAK1-2926-SM-5HL9S	Brain - Cerebellum
+GTEX-ZAK1-3026-SM-5S2MJ	Brain - Cortex
+GTEX-ZAK1-1826-SM-5HL93	Esophagus - Gastroesophageal Junction
+GTEX-ZAK1-1226-SM-5Q5AA	Artery - Aorta
+GTEX-ZAK1-1126-SM-5PNXU	Heart - Atrial Appendage
+GTEX-ZAK1-0526-SM-5K7X4	Muscle - Skeletal
+GTEX-ZAK1-3126-SM-5S2O8	Pituitary
+GTEX-ZAK1-0626-SM-5HL8E	Skin - Not Sun Exposed (Suprapubic)
+GTEX-ZAK1-0126-SM-5IJD3	Skin - Sun Exposed (Lower leg)
+GTEX-ZAK1-0726-SM-5HL8Q	Thyroid
+GTEX-ZAK1-0426-SM-5J1MS	Artery - Tibial
+GTEX-ZAK1-2526-SM-5S2N7	Uterus

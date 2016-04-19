@@ -1,0 +1,27 @@
+GTEX-13O3O-0011-R11b-SM-5KM4G	Brain - Cerebellar Hemisphere
+GTEX-13O3O-3026-SM-5KM42	Brain - Cerebellum
+GTEX-13O3O-3126-SM-5KM3H	Brain - Cortex
+GTEX-13O3O-0011-R10a-SM-5LUA9	Brain - Frontal Cortex (BA9)
+GTEX-13O3O-0011-R1b-SM-5KM2K	Brain - Hippocampus
+GTEX-13O3O-0011-R8b-SM-5LUAL	Brain - Hypothalamus
+GTEX-13O3O-0011-R6b-SM-5P9GY	Brain - Nucleus accumbens (basal ganglia)
+GTEX-13O3O-0011-R7b-SM-5P9GZ	Brain - Putamen (basal ganglia)
+GTEX-13O3O-0011-R2b-SM-5P9H1	Brain - Substantia nigra
+GTEX-13O3O-1626-SM-5KM1O	Adrenal Gland
+GTEX-13O3O-0826-SM-5K7WE	Breast - Mammary Tissue
+GTEX-13O3O-2526-SM-5L3DR	Colon - Transverse
+GTEX-13O3O-1126-SM-5KM4Q	Artery - Aorta
+GTEX-13O3O-1426-SM-5KM2S	Heart - Atrial Appendage
+GTEX-13O3O-1526-SM-5KM1C	Heart - Left Ventricle
+GTEX-13O3O-1826-SM-5IFGW	Liver
+GTEX-13O3O-0726-SM-5J1N7	Lung
+GTEX-13O3O-0526-SM-5J1NL	Muscle - Skeletal
+GTEX-13O3O-0326-SM-5K7W2	Nerve - Tibial
+GTEX-13O3O-2726-SM-5KM35	Ovary
+GTEX-13O3O-2326-SM-5IJD6	Skin - Not Sun Exposed (Suprapubic)
+GTEX-13O3O-0126-SM-5KM4E	Skin - Sun Exposed (Lower leg)
+GTEX-13O3O-0926-SM-5KM1F	Thyroid
+GTEX-13O3O-0426-SM-5KM2Y	Artery - Tibial
+GTEX-13O3O-0011-R4b-SM-5KM3F	Brain - Amygdala
+GTEX-13O3O-0011-R3b-SM-5KM3R	Brain - Anterior cingulate cortex (BA24)
+GTEX-13O3O-0011-R5b-SM-5KM44	Brain - Caudate (basal ganglia)

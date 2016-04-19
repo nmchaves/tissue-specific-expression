@@ -1,0 +1,16 @@
+GTEX-WYVS-0626-SM-4SOJY	Adipose - Visceral (Omentum)
+GTEX-WYVS-1726-SM-3NMAY	Breast - Mammary Tissue
+GTEX-WYVS-1126-SM-4SOJX	Colon - Sigmoid
+GTEX-WYVS-1026-SM-4SOJW	Esophagus - Gastroesophageal Junction
+GTEX-WYVS-0826-SM-4RTXB	Esophagus - Muscularis
+GTEX-WYVS-1926-SM-4PQZ2	Liver
+GTEX-WYVS-0526-SM-3NM9W	Lung
+GTEX-WYVS-2026-SM-4RGNS	Minor Salivary Gland
+GTEX-WYVS-2326-SM-3NMAI	Muscle - Skeletal
+GTEX-WYVS-2426-SM-3NMA9	Nerve - Tibial
+GTEX-WYVS-0926-SM-4SOJV	Pancreas
+GTEX-WYVS-1626-SM-3NM9R	Skin - Not Sun Exposed (Suprapubic)
+GTEX-WYVS-2126-SM-3NMA3	Skin - Sun Exposed (Lower leg)
+GTEX-WYVS-0326-SM-3NM9V	Thyroid
+GTEX-WYVS-2526-SM-3NMAT	Artery - Tibial
+GTEX-WYVS-0006-SM-3NMA7	Whole Blood

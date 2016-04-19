@@ -1,0 +1,15 @@
+GTEX-14753-0326-SM-5QGQB	Adipose - Subcutaneous
+GTEX-14753-2526-SM-5LU97	Adipose - Visceral (Omentum)
+GTEX-14753-0011-R10b-SM-5S2WE	Brain - Frontal Cortex (BA9)
+GTEX-14753-0011-R8b-SM-5S2U1	Brain - Hypothalamus
+GTEX-14753-2426-SM-5LU8U	Breast - Mammary Tissue
+GTEX-14753-1926-SM-5NQAA	Esophagus - Muscularis
+GTEX-14753-1626-SM-5NQ9L	Liver
+GTEX-14753-0526-SM-5QGPR	Muscle - Skeletal
+GTEX-14753-0126-SM-5S2TX	Nerve - Tibial
+GTEX-14753-2926-SM-5LU9J	Pituitary
+GTEX-14753-0726-SM-5QGQO	Skin - Not Sun Exposed (Suprapubic)
+GTEX-14753-0426-SM-5NQAM	Skin - Sun Exposed (Lower leg)
+GTEX-14753-0626-SM-5Q5CY	Testis
+GTEX-14753-0926-SM-5Q5BI	Thyroid
+GTEX-14753-0226-SM-5Q5CH	Artery - Tibial

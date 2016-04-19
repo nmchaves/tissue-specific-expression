@@ -1,0 +1,16 @@
+GTEX-132Q8-1726-SM-5EGK8	Adipose - Visceral (Omentum)
+GTEX-132Q8-0011-R11b-SM-5DUW9	Brain - Cerebellar Hemisphere
+GTEX-132Q8-2926-SM-5IFFP	Brain - Cerebellum
+GTEX-132Q8-3026-SM-5PNVG	Brain - Cortex
+GTEX-132Q8-0011-R10b-SM-5DUWZ	Brain - Frontal Cortex (BA9)
+GTEX-132Q8-0011-R1a-SM-5EGLK	Brain - Hippocampus
+GTEX-132Q8-0011-R8b-SM-5DUWX	Brain - Hypothalamus
+GTEX-132Q8-0011-R7b-SM-5N9F1	Brain - Putamen (basal ganglia)
+GTEX-132Q8-0011-R2b-SM-5EQ5Z	Brain - Substantia nigra
+GTEX-132Q8-1426-SM-5EGK7	Breast - Mammary Tissue
+GTEX-132Q8-1826-SM-5EGIY	Esophagus - Mucosa
+GTEX-132Q8-1126-SM-5K7XS	Heart - Atrial Appendage
+GTEX-132Q8-0626-SM-5L3F3	Muscle - Skeletal
+GTEX-132Q8-0526-SM-5IJBQ	Artery - Tibial
+GTEX-132Q8-0006-SM-5NQA4	Whole Blood
+GTEX-132Q8-0011-R5a-SM-5IJDM	Brain - Caudate (basal ganglia)

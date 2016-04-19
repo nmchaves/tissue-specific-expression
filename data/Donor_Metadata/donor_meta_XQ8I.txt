@@ -1,0 +1,23 @@
+GTEX-XQ8I-0526-SM-4BOPS	Adipose - Subcutaneous
+GTEX-XQ8I-1426-SM-4BOPW	Adipose - Visceral (Omentum)
+GTEX-XQ8I-2426-SM-4WAXY	Breast - Mammary Tissue
+GTEX-XQ8I-0008-SM-4WAWM	Cells - Transformed fibroblasts
+GTEX-XQ8I-2326-SM-4BOQC	Colon - Sigmoid
+GTEX-XQ8I-2126-SM-4BOOM	Colon - Transverse
+GTEX-XQ8I-1826-SM-4BOOJ	Esophagus - Gastroesophageal Junction
+GTEX-XQ8I-1526-SM-4BOOH	Esophagus - Mucosa
+GTEX-XQ8I-1626-SM-4BOOI	Esophagus - Muscularis
+GTEX-XQ8I-1326-SM-4BOPV	Artery - Aorta
+GTEX-XQ8I-0226-SM-4BOPM	Heart - Atrial Appendage
+GTEX-XQ8I-0126-SM-4BOPL	Heart - Left Ventricle
+GTEX-XQ8I-1126-SM-4BOO2	Lung
+GTEX-XQ8I-0626-SM-4BOPT	Muscle - Skeletal
+GTEX-XQ8I-0726-SM-4BOPU	Nerve - Tibial
+GTEX-XQ8I-0326-SM-4BOPN	Artery - Coronary
+GTEX-XQ8I-1926-SM-4BOOK	Pancreas
+GTEX-XQ8I-0926-SM-4BOOF	Skin - Not Sun Exposed (Suprapubic)
+GTEX-XQ8I-0426-SM-4BOPO	Skin - Sun Exposed (Lower leg)
+GTEX-XQ8I-1726-SM-4BOQB	Spleen
+GTEX-XQ8I-2026-SM-4BOOL	Stomach
+GTEX-XQ8I-0826-SM-4BOOE	Artery - Tibial
+GTEX-XQ8I-0006-SM-4BOQ5	Whole Blood

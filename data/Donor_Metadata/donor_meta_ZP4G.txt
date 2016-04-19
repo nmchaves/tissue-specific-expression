@@ -1,0 +1,22 @@
+GTEX-ZP4G-2326-SM-57WEM	Adipose - Subcutaneous
+GTEX-ZP4G-1326-SM-5EGIW	Adipose - Visceral (Omentum)
+GTEX-ZP4G-0126-SM-4YCE3	Adrenal Gland
+GTEX-ZP4G-0003-SM-4WWED	Cells - EBV-transformed lymphocytes
+GTEX-ZP4G-0008-SM-4E3I4	Cells - Transformed fibroblasts
+GTEX-ZP4G-1526-SM-57WE5	Colon - Sigmoid
+GTEX-ZP4G-1726-SM-4WWCM	Colon - Transverse
+GTEX-ZP4G-1126-SM-4WWCI	Esophagus - Gastroesophageal Junction
+GTEX-ZP4G-0926-SM-4WWF4	Esophagus - Muscularis
+GTEX-ZP4G-0526-SM-4YCED	Artery - Aorta
+GTEX-ZP4G-1926-SM-57WDZ	Minor Salivary Gland
+GTEX-ZP4G-2226-SM-57WFB	Nerve - Tibial
+GTEX-ZP4G-0626-SM-4WWF1	Ovary
+GTEX-ZP4G-0426-SM-4YCER	Pancreas
+GTEX-ZP4G-1426-SM-4WWCL	Skin - Not Sun Exposed (Suprapubic)
+GTEX-ZP4G-1626-SM-57WGD	Small Intestine - Terminal Ileum
+GTEX-ZP4G-0326-SM-4YCEF	Spleen
+GTEX-ZP4G-1226-SM-4WWCJ	Stomach
+GTEX-ZP4G-2126-SM-57WEA	Artery - Tibial
+GTEX-ZP4G-0726-SM-4WWF2	Uterus
+GTEX-ZP4G-0826-SM-4WWF3	Vagina
+GTEX-ZP4G-0006-SM-4WWE6	Whole Blood

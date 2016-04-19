@@ -1,0 +1,10 @@
+GTEX-XMD2-0226-SM-4WWEE	Adipose - Subcutaneous
+GTEX-XMD2-0926-SM-4WWEF	Breast - Mammary Tissue
+GTEX-XMD2-0008-SM-4WWE7	Cells - Transformed fibroblasts
+GTEX-XMD2-1326-SM-4YCET	Esophagus - Mucosa
+GTEX-XMD2-1026-SM-4WWE8	Lung
+GTEX-XMD2-0526-SM-4YCDI	Muscle - Skeletal
+GTEX-XMD2-0326-SM-4YCD6	Nerve - Tibial
+GTEX-XMD2-2126-SM-4YCF8	Skin - Not Sun Exposed (Suprapubic)
+GTEX-XMD2-0126-SM-4YCDU	Skin - Sun Exposed (Lower leg)
+GTEX-XMD2-0006-SM-4WWEG	Whole Blood

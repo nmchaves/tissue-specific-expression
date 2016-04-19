@@ -1,0 +1,12 @@
+GTEX-R55D-0326-SM-48FES	Adipose - Subcutaneous
+GTEX-R55D-0826-SM-48FEA	Breast - Mammary Tissue
+GTEX-R55D-0008-SM-48FEV	Cells - Transformed fibroblasts
+GTEX-R55D-1826-SM-48FEF	Colon - Transverse
+GTEX-R55D-1126-SM-48FEB	Esophagus - Mucosa
+GTEX-R55D-1226-SM-48FE9	Esophagus - Muscularis
+GTEX-R55D-0926-SM-3GAEU	Lung
+GTEX-R55D-0626-SM-3GAD5	Muscle - Skeletal
+GTEX-R55D-1426-SM-48FEN	Pancreas
+GTEX-R55D-1526-SM-48FEJ	Stomach
+GTEX-R55D-0126-SM-48FEL	Testis
+GTEX-R55D-0006-SM-3GIJS	Whole Blood

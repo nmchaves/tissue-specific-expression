@@ -1,0 +1,11 @@
+GTEX-14ABY-0011-R11a-SM-5SI7C	Brain - Cerebellar Hemisphere
+GTEX-14ABY-0011-R6a-SM-5PNWR	Brain - Nucleus accumbens (basal ganglia)
+GTEX-14ABY-0011-R7b-SM-5PNWS	Brain - Putamen (basal ganglia)
+GTEX-14ABY-0011-R9a-SM-5PNZK	Brain - Spinal cord (cervical c-1)
+GTEX-14ABY-2126-SM-5QGQZ	Breast - Mammary Tissue
+GTEX-14ABY-1126-SM-5Q5F8	Lung
+GTEX-14ABY-0726-SM-5Q5DF	Prostate
+GTEX-14ABY-0626-SM-5Q5C9	Testis
+GTEX-14ABY-0926-SM-5Q5DY	Thyroid
+GTEX-14ABY-0011-R4b-SM-5S2VN	Brain - Amygdala
+GTEX-14ABY-0011-R5b-SM-5SI7B	Brain - Caudate (basal ganglia)

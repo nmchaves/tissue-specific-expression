@@ -1,0 +1,16 @@
+GTEX-13SLX-0426-SM-5QGRC	Adipose - Subcutaneous
+GTEX-13SLX-0011-R11b-SM-5O9C8	Brain - Cerebellar Hemisphere
+GTEX-13SLX-3126-SM-5S2Q5	Brain - Cortex
+GTEX-13SLX-0011-R10a-SM-5P9HV	Brain - Frontal Cortex (BA9)
+GTEX-13SLX-0011-R8b-SM-5PNWZ	Brain - Hypothalamus
+GTEX-13SLX-0011-R6a-SM-5PNX4	Brain - Nucleus accumbens (basal ganglia)
+GTEX-13SLX-0011-R9b-SM-5SI6X	Brain - Spinal cord (cervical c-1)
+GTEX-13SLX-0011-R2b-SM-5S2VP	Brain - Substantia nigra
+GTEX-13SLX-0926-SM-5S2NM	Heart - Atrial Appendage
+GTEX-13SLX-1226-SM-5S2Q6	Liver
+GTEX-13SLX-0326-SM-5Q5E4	Muscle - Skeletal
+GTEX-13SLX-0126-SM-5S2MM	Nerve - Tibial
+GTEX-13SLX-3026-SM-5RQJU	Pituitary
+GTEX-13SLX-0526-SM-5S2ON	Skin - Sun Exposed (Lower leg)
+GTEX-13SLX-0011-R4a-SM-5O9BJ	Brain - Amygdala
+GTEX-13SLX-0011-R5a-SM-5O9BV	Brain - Caudate (basal ganglia)

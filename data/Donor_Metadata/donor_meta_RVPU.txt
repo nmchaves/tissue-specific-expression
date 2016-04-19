@@ -1,0 +1,12 @@
+GTEX-RVPU-2326-SM-2TF6R	Adipose - Subcutaneous
+GTEX-RVPU-0011-R10A-SM-2XCAH	Brain - Frontal Cortex (BA9)
+GTEX-RVPU-0011-R8A-SM-5SI8I	Brain - Hypothalamus
+GTEX-RVPU-0011-R7A-SM-2XCAB	Brain - Putamen (basal ganglia)
+GTEX-RVPU-0011-R9A-SM-3NM8E	Brain - Spinal cord (cervical c-1)
+GTEX-RVPU-0008-SM-3NM8B	Cells - Transformed fibroblasts
+GTEX-RVPU-2426-SM-2XCAR	Muscle - Skeletal
+GTEX-RVPU-2226-SM-2XCAQ	Skin - Sun Exposed (Lower leg)
+GTEX-RVPU-1526-SM-47JXQ	Artery - Tibial
+GTEX-RVPU-0005-SM-2TF6L	Whole Blood
+GTEX-RVPU-0011-R3A-SM-2XCAE	Brain - Anterior cingulate cortex (BA24)
+GTEX-RVPU-0011-R5A-SM-2XCAD	Brain - Caudate (basal ganglia)

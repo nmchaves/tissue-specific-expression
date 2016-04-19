@@ -1,0 +1,21 @@
+GTEX-Y9LG-1226-SM-4VBQA	Adipose - Visceral (Omentum)
+GTEX-Y9LG-0126-SM-5Q59W	Adrenal Gland
+GTEX-Y9LG-1426-SM-5IFJZ	Breast - Mammary Tissue
+GTEX-Y9LG-0001-SM-4VBRQ	Cells - EBV-transformed lymphocytes
+GTEX-Y9LG-0008-SM-4VBRJ	Cells - Transformed fibroblasts
+GTEX-Y9LG-1326-SM-4VBQB	Colon - Sigmoid
+GTEX-Y9LG-1526-SM-4WWDR	Colon - Transverse
+GTEX-Y9LG-0926-SM-4VDS6	Esophagus - Gastroesophageal Junction
+GTEX-Y9LG-0626-SM-4WWDH	Esophagus - Mucosa
+GTEX-Y9LG-0226-SM-4VBS4	Artery - Aorta
+GTEX-Y9LG-0526-SM-4VBRY	Lung
+GTEX-Y9LG-1926-SM-5IFHY	Muscle - Skeletal
+GTEX-Y9LG-2226-SM-4VDS9	Nerve - Tibial
+GTEX-Y9LG-0726-SM-4VDS3	Pancreas
+GTEX-Y9LG-1826-SM-4VBQC	Prostate
+GTEX-Y9LG-1126-SM-4VBQ7	Skin - Not Sun Exposed (Suprapubic)
+GTEX-Y9LG-1626-SM-5IFHM	Small Intestine - Terminal Ileum
+GTEX-Y9LG-1026-SM-5IFJN	Stomach
+GTEX-Y9LG-1726-SM-4VBQE	Testis
+GTEX-Y9LG-0426-SM-4VBRT	Thyroid
+GTEX-Y9LG-0006-SM-4VBRK	Whole Blood

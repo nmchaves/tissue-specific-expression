@@ -1,0 +1,16 @@
+GTEX-12WSA-0326-SM-5BC6I	Adipose - Subcutaneous
+GTEX-12WSA-1626-SM-5EGJV	Adipose - Visceral (Omentum)
+GTEX-12WSA-2926-SM-5EQ4D	Brain - Cortex
+GTEX-12WSA-0011-R10b-SM-5P9ET	Brain - Frontal Cortex (BA9)
+GTEX-12WSA-0011-R8a-SM-5P9EX	Brain - Hypothalamus
+GTEX-12WSA-0011-R7b-SM-5GU5U	Brain - Putamen (basal ganglia)
+GTEX-12WSA-0011-R2a-SM-57WDK	Brain - Substantia nigra
+GTEX-12WSA-1426-SM-5EGJU	Esophagus - Mucosa
+GTEX-12WSA-1126-SM-5EGKU	Heart - Atrial Appendage
+GTEX-12WSA-1026-SM-5EGHN	Lung
+GTEX-12WSA-0726-SM-5FQU2	Muscle - Skeletal
+GTEX-12WSA-0426-SM-5EQ5X	Skin - Not Sun Exposed (Suprapubic)
+GTEX-12WSA-0226-SM-5BC5V	Skin - Sun Exposed (Lower leg)
+GTEX-12WSA-0005-SM-5O9BM	Whole Blood
+GTEX-12WSA-0011-R4a-SM-57WB7	Brain - Amygdala
+GTEX-12WSA-0011-R5b-SM-5GU5I	Brain - Caudate (basal ganglia)

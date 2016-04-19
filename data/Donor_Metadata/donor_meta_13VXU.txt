@@ -1,0 +1,24 @@
+GTEX-13VXU-0226-SM-5SI9R	Adipose - Subcutaneous
+GTEX-13VXU-1026-SM-5KLZE	Adipose - Visceral (Omentum)
+GTEX-13VXU-0011-R11b-SM-5O9DJ	Brain - Cerebellar Hemisphere
+GTEX-13VXU-3026-SM-5LU3K	Brain - Cerebellum
+GTEX-13VXU-2926-SM-5LU5C	Brain - Cortex
+GTEX-13VXU-0011-R6a-SM-5SI71	Brain - Nucleus accumbens (basal ganglia)
+GTEX-13VXU-0011-R7b-SM-5SI72	Brain - Putamen (basal ganglia)
+GTEX-13VXU-0011-R9b-SM-5SI73	Brain - Spinal cord (cervical c-1)
+GTEX-13VXU-1126-SM-5LU3U	Esophagus - Gastroesophageal Junction
+GTEX-13VXU-0926-SM-5IFFH	Liver
+GTEX-13VXU-2726-SM-5LU4N	Lung
+GTEX-13VXU-0326-SM-5LU36	Muscle - Skeletal
+GTEX-13VXU-0426-SM-5LU3I	Nerve - Tibial
+GTEX-13VXU-1926-SM-5LU5J	Artery - Coronary
+GTEX-13VXU-3126-SM-5SIA4	Pituitary
+GTEX-13VXU-0626-SM-5L3F9	Skin - Not Sun Exposed (Suprapubic)
+GTEX-13VXU-0126-SM-5SI9F	Skin - Sun Exposed (Lower leg)
+GTEX-13VXU-0726-SM-5J2O7	Testis
+GTEX-13VXU-0826-SM-5KLZ2	Thyroid
+GTEX-13VXU-0526-SM-5K7V1	Artery - Tibial
+GTEX-13VXU-0006-SM-5N9FF	Whole Blood
+GTEX-13VXU-0011-R4b-SM-5O9CI	Brain - Amygdala
+GTEX-13VXU-0011-R3b-SM-5O9CU	Brain - Anterior cingulate cortex (BA24)
+GTEX-13VXU-0011-R5a-SM-5O9D7	Brain - Caudate (basal ganglia)

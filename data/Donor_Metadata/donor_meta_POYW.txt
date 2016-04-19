@@ -1,0 +1,8 @@
+GTEX-POYW-0726-SM-2XCEO	Adipose - Subcutaneous
+GTEX-POYW-0008-SM-48TE4	Cells - Transformed fibroblasts
+GTEX-POYW-1126-SM-48TCI	Artery - Aorta
+GTEX-POYW-1226-SM-2XCEP	Lung
+GTEX-POYW-0526-SM-2XCEY	Muscle - Skeletal
+GTEX-POYW-0426-SM-2XCEV	Nerve - Tibial
+GTEX-POYW-0826-SM-2XCEM	Thyroid
+GTEX-POYW-0006-SM-2XCF4	Whole Blood

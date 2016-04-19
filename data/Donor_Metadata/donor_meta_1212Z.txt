@@ -1,0 +1,20 @@
+GTEX-1212Z-2426-SM-5EQ5D	Adipose - Subcutaneous
+GTEX-1212Z-0526-SM-5FQSQ	Adipose - Visceral (Omentum)
+GTEX-1212Z-0011-R1b-SM-5BC72	Brain - Hippocampus
+GTEX-1212Z-0002-SM-5SI6W	Cells - EBV-transformed lymphocytes
+GTEX-1212Z-1826-SM-5FQSH	Colon - Sigmoid
+GTEX-1212Z-2126-SM-5FQTM	Esophagus - Mucosa
+GTEX-1212Z-2026-SM-5N9EA	Esophagus - Muscularis
+GTEX-1212Z-0826-SM-5EQ51	Artery - Aorta
+GTEX-1212Z-0726-SM-5EGI5	Heart - Atrial Appendage
+GTEX-1212Z-0626-SM-5FQTB	Heart - Left Ventricle
+GTEX-1212Z-0226-SM-59HLF	Liver
+GTEX-1212Z-1026-SM-5EGJ8	Lung
+GTEX-1212Z-2726-SM-5EQ59	Nerve - Tibial
+GTEX-1212Z-2926-SM-59HKV	Pituitary
+GTEX-1212Z-0126-SM-59HK4	Skin - Not Sun Exposed (Suprapubic)
+GTEX-1212Z-2526-SM-5EGKP	Skin - Sun Exposed (Lower leg)
+GTEX-1212Z-0326-SM-5FQSJ	Testis
+GTEX-1212Z-0426-SM-5FQT6	Thyroid
+GTEX-1212Z-2826-SM-59HJ5	Artery - Tibial
+GTEX-1212Z-0006-SM-5NQ8M	Whole Blood

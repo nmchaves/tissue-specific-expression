@@ -1,0 +1,22 @@
+GTEX-XGQ4-2226-SM-4AT4Y	Adipose - Subcutaneous
+GTEX-XGQ4-1026-SM-4AT4L	Adipose - Visceral (Omentum)
+GTEX-XGQ4-0926-SM-4AT4U	Breast - Mammary Tissue
+GTEX-XGQ4-0004-SM-4AT5S	Cells - EBV-transformed lymphocytes
+GTEX-XGQ4-0008-SM-4AT3Z	Cells - Transformed fibroblasts
+GTEX-XGQ4-1226-SM-4AT67	Colon - Transverse
+GTEX-XGQ4-1626-SM-4AT6J	Esophagus - Gastroesophageal Junction
+GTEX-XGQ4-1526-SM-4AT6H	Esophagus - Mucosa
+GTEX-XGQ4-0526-SM-4AT6C	Heart - Atrial Appendage
+GTEX-XGQ4-0326-SM-4GIEE	Heart - Left Ventricle
+GTEX-XGQ4-0826-SM-4AT4T	Lung
+GTEX-XGQ4-2626-SM-4AT6B	Minor Salivary Gland
+GTEX-XGQ4-2526-SM-4AT57	Nerve - Tibial
+GTEX-XGQ4-0626-SM-4AT56	Artery - Coronary
+GTEX-XGQ4-0226-SM-4GIDS	Pancreas
+GTEX-XGQ4-1826-SM-4AT6F	Prostate
+GTEX-XGQ4-1326-SM-4GIDU	Small Intestine - Terminal Ileum
+GTEX-XGQ4-0126-SM-4AT4H	Spleen
+GTEX-XGQ4-2026-SM-4AT6G	Testis
+GTEX-XGQ4-0426-SM-4AT4I	Thyroid
+GTEX-XGQ4-2426-SM-4AT55	Artery - Tibial
+GTEX-XGQ4-0005-SM-4AT5U	Whole Blood

@@ -1,0 +1,14 @@
+GTEX-148VJ-0011-R9b-SM-5SI77	Brain - Spinal cord (cervical c-1)
+GTEX-148VJ-2426-SM-5NQ9Y	Colon - Sigmoid
+GTEX-148VJ-2626-SM-5QGPI	Colon - Transverse
+GTEX-148VJ-1026-SM-5LU98	Esophagus - Mucosa
+GTEX-148VJ-1126-SM-5NQBZ	Esophagus - Muscularis
+GTEX-148VJ-0826-SM-5LU8V	Lung
+GTEX-148VJ-0326-SM-5QGQE	Muscle - Skeletal
+GTEX-148VJ-2926-SM-5Q5DA	Pituitary
+GTEX-148VJ-1826-SM-5Q5DV	Prostate
+GTEX-148VJ-0626-SM-5LUAW	Skin - Not Sun Exposed (Suprapubic)
+GTEX-148VJ-2226-SM-5NQ9M	Small Intestine - Terminal Ileum
+GTEX-148VJ-0726-SM-5LU8J	Thyroid
+GTEX-148VJ-0426-SM-5S2V8	Artery - Tibial
+GTEX-148VJ-0006-SM-5NQB1	Whole Blood

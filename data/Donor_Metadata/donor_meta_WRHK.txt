@@ -1,0 +1,12 @@
+GTEX-WRHK-0826-SM-3MJFG	Adipose - Visceral (Omentum)
+GTEX-WRHK-0001-SM-4WWDD	Cells - EBV-transformed lymphocytes
+GTEX-WRHK-0008-SM-4MVPA	Cells - Transformed fibroblasts
+GTEX-WRHK-0526-SM-4MVOF	Esophagus - Mucosa
+GTEX-WRHK-0426-SM-4MVOG	Esophagus - Muscularis
+GTEX-WRHK-1626-SM-3MJFH	Muscle - Skeletal
+GTEX-WRHK-0226-SM-4MVOH	Pancreas
+GTEX-WRHK-1426-SM-3MJF9	Skin - Sun Exposed (Lower leg)
+GTEX-WRHK-1026-SM-4MVOD	Small Intestine - Terminal Ileum
+GTEX-WRHK-0626-SM-4MVOE	Stomach
+GTEX-WRHK-1726-SM-3MJFK	Artery - Tibial
+GTEX-WRHK-0005-SM-3MJF5	Whole Blood

@@ -1,0 +1,16 @@
+GTEX-ZYW4-0226-SM-5E44M	Adipose - Subcutaneous
+GTEX-ZYW4-2226-SM-5GZYG	Adipose - Visceral (Omentum)
+GTEX-ZYW4-0826-SM-5GIDG	Breast - Mammary Tissue
+GTEX-ZYW4-1626-SM-5GIE6	Esophagus - Gastroesophageal Junction
+GTEX-ZYW4-1326-SM-5E45N	Esophagus - Mucosa
+GTEX-ZYW4-1426-SM-5SIAX	Esophagus - Muscularis
+GTEX-ZYW4-1226-SM-5E45B	Artery - Aorta
+GTEX-ZYW4-0926-SM-59HJS	Heart - Left Ventricle
+GTEX-ZYW4-1526-SM-5SIBA	Lung
+GTEX-ZYW4-0526-SM-5GZZ5	Muscle - Skeletal
+GTEX-ZYW4-0326-SM-5E44Y	Nerve - Tibial
+GTEX-ZYW4-2126-SM-59HJ9	Pancreas
+GTEX-ZYW4-0626-SM-59HJR	Skin - Not Sun Exposed (Suprapubic)
+GTEX-ZYW4-0126-SM-5E44A	Skin - Sun Exposed (Lower leg)
+GTEX-ZYW4-1126-SM-5SI99	Thyroid
+GTEX-ZYW4-0426-SM-5GZYS	Artery - Tibial

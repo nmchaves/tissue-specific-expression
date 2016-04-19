@@ -1,0 +1,19 @@
+GTEX-RNOR-2226-SM-2TF5O	Brain - Cerebellum
+GTEX-RNOR-2326-SM-2TF4I	Brain - Cortex
+GTEX-RNOR-0011-R1A-SM-5SI8F	Brain - Hippocampus
+GTEX-RNOR-0011-R7A-SM-2TF4V	Brain - Putamen (basal ganglia)
+GTEX-RNOR-0011-R9A-SM-2TF52	Brain - Spinal cord (cervical c-1)
+GTEX-RNOR-0008-SM-48FEY	Cells - Transformed fibroblasts
+GTEX-RNOR-1226-SM-48FDQ	Esophagus - Mucosa
+GTEX-RNOR-1326-SM-48FDE	Esophagus - Muscularis
+GTEX-RNOR-0826-SM-2TF5C	Heart - Left Ventricle
+GTEX-RNOR-1426-SM-48FDJ	Liver
+GTEX-RNOR-0526-SM-2TF4O	Muscle - Skeletal
+GTEX-RNOR-0326-SM-2TF51	Nerve - Tibial
+GTEX-RNOR-2426-SM-48FDY	Pituitary
+GTEX-RNOR-0126-SM-2TF57	Skin - Sun Exposed (Lower leg)
+GTEX-RNOR-0926-SM-2TF56	Thyroid
+GTEX-RNOR-0426-SM-2TF4U	Artery - Tibial
+GTEX-RNOR-0005-SM-2TF4Z	Whole Blood
+GTEX-RNOR-0011-R4A-SM-3GAD3	Brain - Amygdala
+GTEX-RNOR-0011-R3A-SM-5SI8E	Brain - Anterior cingulate cortex (BA24)

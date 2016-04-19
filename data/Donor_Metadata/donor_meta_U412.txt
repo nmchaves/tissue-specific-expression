@@ -1,0 +1,8 @@
+GTEX-U412-0526-SM-3DB9I	Adipose - Subcutaneous
+GTEX-U412-1826-SM-4DXTJ	Breast - Mammary Tissue
+GTEX-U412-0008-SM-4DXTE	Cells - Transformed fibroblasts
+GTEX-U412-0826-SM-3DB9K	Lung
+GTEX-U412-0326-SM-3DB9L	Muscle - Skeletal
+GTEX-U412-2026-SM-4DXSI	Prostate
+GTEX-U412-0426-SM-3DB9O	Skin - Sun Exposed (Lower leg)
+GTEX-U412-0226-SM-3NMC8	Artery - Tibial

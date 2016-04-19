@@ -1,0 +1,14 @@
+GTEX-X4EO-0426-SM-4QASA	Adipose - Subcutaneous
+GTEX-X4EO-1726-SM-4QARN	Adrenal Gland
+GTEX-X4EO-0008-SM-4QASS	Cells - Transformed fibroblasts
+GTEX-X4EO-2726-SM-4E3HS	Colon - Sigmoid
+GTEX-X4EO-1226-SM-4QARR	Esophagus - Mucosa
+GTEX-X4EO-1026-SM-4QARP	Artery - Aorta
+GTEX-X4EO-1126-SM-4QARQ	Liver
+GTEX-X4EO-0926-SM-3P5Z2	Lung
+GTEX-X4EO-0526-SM-3P5Z3	Muscle - Skeletal
+GTEX-X4EO-0126-SM-3P5YN	Nerve - Tibial
+GTEX-X4EO-2426-SM-4QASD	Ovary
+GTEX-X4EO-2926-SM-4E3JH	Skin - Not Sun Exposed (Suprapubic)
+GTEX-X4EO-0326-SM-3P5YO	Skin - Sun Exposed (Lower leg)
+GTEX-X4EO-0006-SM-3P5ZF	Whole Blood

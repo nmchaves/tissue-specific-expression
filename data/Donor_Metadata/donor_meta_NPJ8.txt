@@ -1,0 +1,29 @@
+GTEX-NPJ8-0226-SM-48TBN	Adipose - Subcutaneous
+GTEX-NPJ8-0011-R11A-SM-2YUMS	Brain - Cerebellar Hemisphere
+GTEX-NPJ8-2626-SM-2D7W2	Brain - Cerebellum
+GTEX-NPJ8-1526-SM-2D7VU	Brain - Cortex
+GTEX-NPJ8-0011-R10A-SM-2YUMO	Brain - Frontal Cortex (BA9)
+GTEX-NPJ8-0011-R1a-SM-33HCB	Brain - Hippocampus
+GTEX-NPJ8-0011-R8a-SM-2HMLG	Brain - Hypothalamus
+GTEX-NPJ8-0011-R6a-SM-2HMKB	Brain - Nucleus accumbens (basal ganglia)
+GTEX-NPJ8-0011-R7a-SM-2HMJV	Brain - Putamen (basal ganglia)
+GTEX-NPJ8-0011-R9a-SM-2YUN5	Brain - Spinal cord (cervical c-1)
+GTEX-NPJ8-0011-R2a-SM-2TC6M	Brain - Substantia nigra
+GTEX-NPJ8-1926-SM-3MJGB	Esophagus - Mucosa
+GTEX-NPJ8-2026-SM-3TW91	Esophagus - Muscularis
+GTEX-NPJ8-0526-SM-3MJHN	Artery - Aorta
+GTEX-NPJ8-0426-SM-2HMK6	Heart - Left Ventricle
+GTEX-NPJ8-2226-SM-3TW8D	Kidney - Cortex
+GTEX-NPJ8-0326-SM-2D7VV	Lung
+GTEX-NPJ8-1626-SM-2HMIY	Muscle - Skeletal
+GTEX-NPJ8-1726-SM-2YUNB	Nerve - Tibial
+GTEX-NPJ8-1326-SM-3LK6B	Artery - Coronary
+GTEX-NPJ8-2126-SM-3MJGK	Pancreas
+GTEX-NPJ8-1426-SM-3MJHR	Pituitary
+GTEX-NPJ8-2426-SM-3MJHL	Prostate
+GTEX-NPJ8-0126-SM-2YUNR	Skin - Sun Exposed (Lower leg)
+GTEX-NPJ8-2526-SM-2HML8	Thyroid
+GTEX-NPJ8-1826-SM-2YUNC	Artery - Tibial
+GTEX-NPJ8-0011-R4a-SM-2HML3	Brain - Amygdala
+GTEX-NPJ8-0011-R3a-SM-2HMIW	Brain - Anterior cingulate cortex (BA24)
+GTEX-NPJ8-0011-R5a-SM-2HMJY	Brain - Caudate (basal ganglia)

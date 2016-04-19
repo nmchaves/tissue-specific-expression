@@ -1,0 +1,9 @@
+GTEX-144GO-0011-R1a-SM-5PNWO	Brain - Hippocampus
+GTEX-144GO-0011-R6b-SM-5S2V7	Brain - Nucleus accumbens (basal ganglia)
+GTEX-144GO-0011-R7b-SM-5S2TT	Brain - Putamen (basal ganglia)
+GTEX-144GO-2726-SM-5O9A2	Esophagus - Mucosa
+GTEX-144GO-0226-SM-5LUB1	Lung
+GTEX-144GO-1326-SM-5Q5EL	Muscle - Skeletal
+GTEX-144GO-2026-SM-5O99P	Skin - Not Sun Exposed (Suprapubic)
+GTEX-144GO-0126-SM-5LUAO	Thyroid
+GTEX-144GO-0011-R5a-SM-5PNUR	Brain - Caudate (basal ganglia)

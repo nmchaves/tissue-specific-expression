@@ -1,0 +1,13 @@
+GTEX-XBEC-0326-SM-4AT4M	Adipose - Subcutaneous
+GTEX-XBEC-1826-SM-4QASN	Adipose - Visceral (Omentum)
+GTEX-XBEC-0008-SM-4AT3X	Cells - Transformed fibroblasts
+GTEX-XBEC-1226-SM-4AT65	Heart - Atrial Appendage
+GTEX-XBEC-1326-SM-4AT69	Heart - Left Ventricle
+GTEX-XBEC-1526-SM-4AT68	Liver
+GTEX-XBEC-1026-SM-4QASM	Lung
+GTEX-XBEC-0626-SM-4QARY	Muscle - Skeletal
+GTEX-XBEC-0426-SM-4QART	Nerve - Tibial
+GTEX-XBEC-0726-SM-4QARZ	Skin - Not Sun Exposed (Suprapubic)
+GTEX-XBEC-0126-SM-4GIDT	Testis
+GTEX-XBEC-0526-SM-4QARU	Artery - Tibial
+GTEX-XBEC-0006-SM-4AT5T	Whole Blood

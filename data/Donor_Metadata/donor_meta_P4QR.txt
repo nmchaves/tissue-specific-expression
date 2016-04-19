@@ -1,0 +1,7 @@
+GTEX-P4QR-0426-SM-2S1NV	Adipose - Subcutaneous
+GTEX-P4QR-0008-SM-48TE2	Cells - Transformed fibroblasts
+GTEX-P4QR-1026-SM-2I5GP	Lung
+GTEX-P4QR-0726-SM-2I5GO	Muscle - Skeletal
+GTEX-P4QR-0326-SM-5SI8P	Skin - Sun Exposed (Lower leg)
+GTEX-P4QR-0226-SM-3NMCH	Testis
+GTEX-P4QR-0006-SM-2I5GN	Whole Blood

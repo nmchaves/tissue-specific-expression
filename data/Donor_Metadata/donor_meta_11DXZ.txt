@@ -1,0 +1,22 @@
+GTEX-11DXZ-1426-SM-5H12A	Adipose - Visceral (Omentum)
+GTEX-11DXZ-0226-SM-5EGGZ	Adrenal Gland
+GTEX-11DXZ-1926-SM-5GZZL	Breast - Mammary Tissue
+GTEX-11DXZ-1626-SM-5GIDI	Colon - Sigmoid
+GTEX-11DXZ-1726-SM-5H12M	Colon - Transverse
+GTEX-11DXZ-1026-SM-5N9D5	Esophagus - Gastroesophageal Junction
+GTEX-11DXZ-1226-SM-5H11L	Esophagus - Mucosa
+GTEX-11DXZ-0426-SM-5987Y	Artery - Aorta
+GTEX-11DXZ-0326-SM-5EGH1	Heart - Atrial Appendage
+GTEX-11DXZ-0626-SM-5GU77	Heart - Left Ventricle
+GTEX-11DXZ-0126-SM-5EGGY	Liver
+GTEX-11DXZ-0726-SM-5N9C4	Lung
+GTEX-11DXZ-2426-SM-5N9DT	Muscle - Skeletal
+GTEX-11DXZ-2526-SM-5N9BG	Nerve - Tibial
+GTEX-11DXZ-0526-SM-5GU7J	Artery - Coronary
+GTEX-11DXZ-2026-SM-5987S	Skin - Not Sun Exposed (Suprapubic)
+GTEX-11DXZ-2326-SM-5EGGV	Skin - Sun Exposed (Lower leg)
+GTEX-11DXZ-1326-SM-5H11X	Small Intestine - Terminal Ileum
+GTEX-11DXZ-2126-SM-59881	Testis
+GTEX-11DXZ-0926-SM-5N9CG	Thyroid
+GTEX-11DXZ-2626-SM-59882	Artery - Tibial
+GTEX-11DXZ-0006-SM-5LZZH	Whole Blood

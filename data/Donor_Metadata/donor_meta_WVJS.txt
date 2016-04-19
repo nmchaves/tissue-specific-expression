@@ -1,0 +1,4 @@
+GTEX-WVJS-0226-SM-4MVOU	Adipose - Subcutaneous
+GTEX-WVJS-0008-SM-4MVPC	Cells - Transformed fibroblasts
+GTEX-WVJS-0826-SM-4MVNR	Lung
+GTEX-WVJS-0126-SM-4MVOT	Skin - Sun Exposed (Lower leg)

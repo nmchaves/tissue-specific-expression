@@ -1,0 +1,22 @@
+GTEX-11ONC-2526-SM-5986W	Adipose - Subcutaneous
+GTEX-11ONC-3026-SM-5985W	Brain - Cerebellum
+GTEX-11ONC-2926-SM-5P9JM	Brain - Cortex
+GTEX-11ONC-0011-R1a-SM-57WD4	Brain - Hippocampus
+GTEX-11ONC-0011-R8b-SM-5NQ87	Brain - Hypothalamus
+GTEX-11ONC-0011-R9b-SM-5NQ8J	Brain - Spinal cord (cervical c-1)
+GTEX-11ONC-2126-SM-5HL6E	Breast - Mammary Tissue
+GTEX-11ONC-0008-SM-5S2MG	Cells - Transformed fibroblasts
+GTEX-11ONC-1926-SM-5GU75	Colon - Sigmoid
+GTEX-11ONC-2026-SM-5HL61	Colon - Transverse
+GTEX-11ONC-1526-SM-5GU6S	Esophagus - Mucosa
+GTEX-11ONC-1426-SM-5N9F4	Esophagus - Muscularis
+GTEX-11ONC-0926-SM-5BC5E	Artery - Aorta
+GTEX-11ONC-1026-SM-5GU64	Heart - Atrial Appendage
+GTEX-11ONC-2426-SM-5GU7H	Muscle - Skeletal
+GTEX-11ONC-2326-SM-5HL6P	Nerve - Tibial
+GTEX-11ONC-1126-SM-5GU6G	Artery - Coronary
+GTEX-11ONC-0526-SM-5BC57	Pancreas
+GTEX-11ONC-2826-SM-5P9GQ	Pituitary
+GTEX-11ONC-2226-SM-5HL6D	Testis
+GTEX-11ONC-2726-SM-5N9DZ	Artery - Tibial
+GTEX-11ONC-0005-SM-5O9CY	Whole Blood

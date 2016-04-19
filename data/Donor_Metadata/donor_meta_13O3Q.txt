@@ -1,0 +1,24 @@
+GTEX-13O3Q-2326-SM-5KM3G	Adipose - Subcutaneous
+GTEX-13O3Q-1126-SM-5K7YK	Adipose - Visceral (Omentum)
+GTEX-13O3Q-0011-R11b-SM-5KM2W	Brain - Cerebellar Hemisphere
+GTEX-13O3Q-3026-SM-5IJGD	Brain - Cerebellum
+GTEX-13O3Q-2926-SM-5KM45	Brain - Cortex
+GTEX-13O3Q-0011-R10b-SM-5KM39	Brain - Frontal Cortex (BA9)
+GTEX-13O3Q-0011-R1b-SM-5KM3L	Brain - Hippocampus
+GTEX-13O3Q-0011-R8b-SM-5KM2J	Brain - Hypothalamus
+GTEX-13O3Q-0011-R6a-SM-5KM2V	Brain - Nucleus accumbens (basal ganglia)
+GTEX-13O3Q-0011-R7a-SM-5KM38	Brain - Putamen (basal ganglia)
+GTEX-13O3Q-0011-R2b-SM-5KM3K	Brain - Substantia nigra
+GTEX-13O3Q-2226-SM-5KM4O	Breast - Mammary Tissue
+GTEX-13O3Q-0826-SM-5IFGF	Esophagus - Mucosa
+GTEX-13O3Q-0526-SM-5KM18	Lung
+GTEX-13O3Q-2726-SM-5KM51	Muscle - Skeletal
+GTEX-13O3Q-2626-SM-5KM3S	Nerve - Tibial
+GTEX-13O3Q-0126-SM-5KM34	Skin - Not Sun Exposed (Suprapubic)
+GTEX-13O3Q-2426-SM-5IJBR	Skin - Sun Exposed (Lower leg)
+GTEX-13O3Q-2126-SM-5KM4C	Stomach
+GTEX-13O3Q-0626-SM-5IJG1	Thyroid
+GTEX-13O3Q-2526-SM-5IJC4	Artery - Tibial
+GTEX-13O3Q-0011-R4a-SM-5P9H2	Brain - Amygdala
+GTEX-13O3Q-0011-R3a-SM-5P9H3	Brain - Anterior cingulate cortex (BA24)
+GTEX-13O3Q-0011-R5b-SM-5P9H4	Brain - Caudate (basal ganglia)

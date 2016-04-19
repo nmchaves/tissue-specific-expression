@@ -1,0 +1,14 @@
+GTEX-13FTY-0626-SM-5L3F8	Adipose - Subcutaneous
+GTEX-13FTY-0011-R11a-SM-5IJEA	Brain - Cerebellar Hemisphere
+GTEX-13FTY-0011-R1a-SM-5LZXE	Brain - Hippocampus
+GTEX-13FTY-0011-R9b-SM-5KM2U	Brain - Spinal cord (cervical c-1)
+GTEX-13FTY-2226-SM-5J1ND	Breast - Mammary Tissue
+GTEX-13FTY-0126-SM-5J2NZ	Lung
+GTEX-13FTY-0226-SM-5IJBW	Muscle - Skeletal
+GTEX-13FTY-0326-SM-5L3DN	Nerve - Tibial
+GTEX-13FTY-2826-SM-5J2ML	Pituitary
+GTEX-13FTY-2126-SM-5IFFB	Skin - Not Sun Exposed (Suprapubic)
+GTEX-13FTY-0526-SM-5L3EV	Skin - Sun Exposed (Lower leg)
+GTEX-13FTY-0726-SM-5J2OH	Thyroid
+GTEX-13FTY-0426-SM-5IJC2	Artery - Tibial
+GTEX-13FTY-0005-SM-5NQ78	Whole Blood

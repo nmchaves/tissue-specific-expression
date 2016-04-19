@@ -1,0 +1,16 @@
+GTEX-QEL4-0326-SM-3GAE5	Adipose - Subcutaneous
+GTEX-QEL4-2126-SM-447AE	Breast - Mammary Tissue
+GTEX-QEL4-0008-SM-447AZ	Cells - Transformed fibroblasts
+GTEX-QEL4-1926-SM-4R1JI	Colon - Transverse
+GTEX-QEL4-1426-SM-447AC	Esophagus - Mucosa
+GTEX-QEL4-1526-SM-447AB	Esophagus - Muscularis
+GTEX-QEL4-1126-SM-4R1JJ	Artery - Aorta
+GTEX-QEL4-0926-SM-3GAD1	Heart - Left Ventricle
+GTEX-QEL4-1226-SM-447A4	Liver
+GTEX-QEL4-0826-SM-3GAF2	Lung
+GTEX-QEL4-0626-SM-3GIJM	Muscle - Skeletal
+GTEX-QEL4-0426-SM-3GACZ	Nerve - Tibial
+GTEX-QEL4-1026-SM-4R1JK	Artery - Coronary
+GTEX-QEL4-1326-SM-447AD	Pancreas
+GTEX-QEL4-0726-SM-3GIJ5	Thyroid
+GTEX-QEL4-0526-SM-3GIJ4	Artery - Tibial

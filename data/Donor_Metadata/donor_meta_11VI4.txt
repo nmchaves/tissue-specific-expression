@@ -1,0 +1,19 @@
+GTEX-11VI4-1226-SM-5EQMP	Adipose - Visceral (Omentum)
+GTEX-11VI4-0001-SM-5S2OI	Cells - EBV-transformed lymphocytes
+GTEX-11VI4-1526-SM-5EQKC	Colon - Transverse
+GTEX-11VI4-0826-SM-5GU5N	Esophagus - Gastroesophageal Junction
+GTEX-11VI4-0526-SM-5EQ48	Esophagus - Mucosa
+GTEX-11VI4-0626-SM-5EQLO	Esophagus - Muscularis
+GTEX-11VI4-1926-SM-5CVLI	Muscle - Skeletal
+GTEX-11VI4-2126-SM-5EGI1	Nerve - Tibial
+GTEX-11VI4-1026-SM-5EQM1	Ovary
+GTEX-11VI4-0426-SM-5EGHZ	Pancreas
+GTEX-11VI4-1126-SM-5EQMD	Skin - Not Sun Exposed (Suprapubic)
+GTEX-11VI4-1726-SM-5CVLH	Skin - Sun Exposed (Lower leg)
+GTEX-11VI4-1626-SM-5EQKO	Small Intestine - Terminal Ileum
+GTEX-11VI4-0126-SM-5GU6Z	Spleen
+GTEX-11VI4-0326-SM-5EQ6L	Stomach
+GTEX-11VI4-0226-SM-5GU6C	Thyroid
+GTEX-11VI4-2026-SM-5CVLJ	Artery - Tibial
+GTEX-11VI4-0726-SM-5GU5B	Vagina
+GTEX-11VI4-0006-SM-5N9D8	Whole Blood

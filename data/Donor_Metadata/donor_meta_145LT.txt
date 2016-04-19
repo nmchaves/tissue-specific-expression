@@ -1,0 +1,16 @@
+GTEX-145LT-1826-SM-5QGP4	Adipose - Subcutaneous
+GTEX-145LT-1526-SM-5O98P	Adipose - Visceral (Omentum)
+GTEX-145LT-0126-SM-5S2QJ	Adrenal Gland
+GTEX-145LT-0726-SM-5S2VM	Breast - Mammary Tissue
+GTEX-145LT-0926-SM-5LU9C	Colon - Transverse
+GTEX-145LT-1126-SM-5LUA1	Esophagus - Mucosa
+GTEX-145LT-1226-SM-5Q5BZ	Esophagus - Muscularis
+GTEX-145LT-0326-SM-5LUAD	Lung
+GTEX-145LT-1626-SM-5O992	Muscle - Skeletal
+GTEX-145LT-1926-SM-5QGP5	Nerve - Tibial
+GTEX-145LT-0626-SM-5O99E	Prostate
+GTEX-145LT-0526-SM-5LUB2	Skin - Not Sun Exposed (Suprapubic)
+GTEX-145LT-1726-SM-5QGP3	Skin - Sun Exposed (Lower leg)
+GTEX-145LT-1026-SM-5LU9O	Small Intestine - Terminal Ileum
+GTEX-145LT-1426-SM-5O9B3	Stomach
+GTEX-145LT-0426-SM-5LUAP	Testis

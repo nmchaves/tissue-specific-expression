@@ -1,0 +1,22 @@
+GTEX-13RTJ-2526-SM-5S2Q3	Adipose - Subcutaneous
+GTEX-13RTJ-0011-R11a-SM-5O9CK	Brain - Cerebellar Hemisphere
+GTEX-13RTJ-3126-SM-5S2Q4	Brain - Cerebellum
+GTEX-13RTJ-0011-R10b-SM-5O9CW	Brain - Frontal Cortex (BA9)
+GTEX-13RTJ-0011-R1a-SM-5O9D9	Brain - Hippocampus
+GTEX-13RTJ-0011-R8b-SM-5O9DL	Brain - Hypothalamus
+GTEX-13RTJ-0011-R6a-SM-5SI74	Brain - Nucleus accumbens (basal ganglia)
+GTEX-13RTJ-0011-R7b-SM-5P9JS	Brain - Putamen (basal ganglia)
+GTEX-13RTJ-0011-R9a-SM-5Q5AY	Brain - Spinal cord (cervical c-1)
+GTEX-13RTJ-0011-R2a-SM-5PNW9	Brain - Substantia nigra
+GTEX-13RTJ-0726-SM-5QGQN	Heart - Left Ventricle
+GTEX-13RTJ-2226-SM-5S2Q1	Kidney - Cortex
+GTEX-13RTJ-1126-SM-5S2UJ	Lung
+GTEX-13RTJ-2826-SM-5QGQH	Nerve - Tibial
+GTEX-13RTJ-0626-SM-5S2NB	Artery - Coronary
+GTEX-13RTJ-2926-SM-5Q5DE	Pituitary
+GTEX-13RTJ-2126-SM-5S2PZ	Prostate
+GTEX-13RTJ-0126-SM-5S2NN	Skin - Not Sun Exposed (Suprapubic)
+GTEX-13RTJ-2426-SM-5S2Q2	Skin - Sun Exposed (Lower leg)
+GTEX-13RTJ-0011-R4b-SM-5PNX1	Brain - Amygdala
+GTEX-13RTJ-0011-R3a-SM-5PNX7	Brain - Anterior cingulate cortex (BA24)
+GTEX-13RTJ-0011-R5a-SM-5P9HR	Brain - Caudate (basal ganglia)

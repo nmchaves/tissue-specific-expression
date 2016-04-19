@@ -1,0 +1,16 @@
+GTEX-ZLWG-2226-SM-5DUWO	Adipose - Subcutaneous
+GTEX-ZLWG-0726-SM-5S2NG	Adipose - Visceral (Omentum)
+GTEX-ZLWG-0126-SM-4WWC5	Adrenal Gland
+GTEX-ZLWG-0004-SM-4WWD5	Cells - EBV-transformed lymphocytes
+GTEX-ZLWG-0008-SM-4E3J4	Cells - Transformed fibroblasts
+GTEX-ZLWG-1226-SM-4WWFS	Esophagus - Muscularis
+GTEX-ZLWG-0626-SM-4WWFR	Lung
+GTEX-ZLWG-2526-SM-57WDS	Nerve - Tibial
+GTEX-ZLWG-0926-SM-4WWC3	Ovary
+GTEX-ZLWG-0326-SM-4WWC7	Pancreas
+GTEX-ZLWG-0826-SM-59888	Skin - Not Sun Exposed (Suprapubic)
+GTEX-ZLWG-0426-SM-4WWFA	Spleen
+GTEX-ZLWG-0526-SM-4WWFB	Thyroid
+GTEX-ZLWG-2426-SM-57WG6	Artery - Tibial
+GTEX-ZLWG-1026-SM-4WWC4	Uterus
+GTEX-ZLWG-1126-SM-4WWFQ	Vagina

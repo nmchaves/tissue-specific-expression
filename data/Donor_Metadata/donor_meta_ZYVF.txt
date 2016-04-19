@@ -1,0 +1,14 @@
+GTEX-ZYVF-0226-SM-5GIEG	Adipose - Subcutaneous
+GTEX-ZYVF-1026-SM-5E44V	Adipose - Visceral (Omentum)
+GTEX-ZYVF-2826-SM-5GIDK	Colon - Transverse
+GTEX-ZYVF-2526-SM-5E45C	Esophagus - Gastroesophageal Junction
+GTEX-ZYVF-2226-SM-5GIDD	Esophagus - Mucosa
+GTEX-ZYVF-2326-SM-5E44Z	Esophagus - Muscularis
+GTEX-ZYVF-1826-SM-5E44F	Heart - Atrial Appendage
+GTEX-ZYVF-1726-SM-5E443	Lung
+GTEX-ZYVF-0926-SM-5E44J	Skin - Not Sun Exposed (Suprapubic)
+GTEX-ZYVF-2726-SM-5GID4	Stomach
+GTEX-ZYVF-1126-SM-5E458	Thyroid
+GTEX-ZYVF-0826-SM-5E447	Artery - Tibial
+GTEX-ZYVF-0526-SM-5E43E	Uterus
+GTEX-ZYVF-0326-SM-5GIES	Vagina

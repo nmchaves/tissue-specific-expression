@@ -1,0 +1,11 @@
+GTEX-ZG7Y-1626-SM-5S2NO	Adipose - Visceral (Omentum)
+GTEX-ZG7Y-0003-SM-4WWEJ	Cells - EBV-transformed lymphocytes
+GTEX-ZG7Y-1826-SM-4WWD3	Colon - Sigmoid
+GTEX-ZG7Y-1126-SM-4WWEZ	Esophagus - Mucosa
+GTEX-ZG7Y-1326-SM-4WWBL	Esophagus - Muscularis
+GTEX-ZG7Y-0126-SM-4WWEX	Artery - Aorta
+GTEX-ZG7Y-1426-SM-4WWBM	Heart - Atrial Appendage
+GTEX-ZG7Y-0926-SM-5EQ6O	Heart - Left Ventricle
+GTEX-ZG7Y-1026-SM-4WWDG	Lung
+GTEX-ZG7Y-0326-SM-4WWEY	Pancreas
+GTEX-ZG7Y-0006-SM-4WWEA	Whole Blood

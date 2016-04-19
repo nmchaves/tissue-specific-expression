@@ -1,0 +1,11 @@
+GTEX-ZDTS-0226-SM-5HL7Q	Adipose - Subcutaneous
+GTEX-ZDTS-1826-SM-5S2N6	Adipose - Visceral (Omentum)
+GTEX-ZDTS-0001-SM-4WAXW	Cells - EBV-transformed lymphocytes
+GTEX-ZDTS-0008-SM-4E3I8	Cells - Transformed fibroblasts
+GTEX-ZDTS-2726-SM-5L3E2	Colon - Sigmoid
+GTEX-ZDTS-1426-SM-5K7WC	Artery - Aorta
+GTEX-ZDTS-0326-SM-5HL83	Nerve - Tibial
+GTEX-ZDTS-0126-SM-4WAY5	Skin - Sun Exposed (Lower leg)
+GTEX-ZDTS-0926-SM-4WAXG	Thyroid
+GTEX-ZDTS-0426-SM-4WAYH	Artery - Tibial
+GTEX-ZDTS-0006-SM-4WAYZ	Whole Blood

@@ -1,0 +1,9 @@
+GTEX-14BIL-0226-SM-5SI9E	Adipose - Subcutaneous
+GTEX-14BIL-2426-SM-5QGQR	Adipose - Visceral (Omentum)
+GTEX-14BIL-0011-R10a-SM-5SI75	Brain - Frontal Cortex (BA9)
+GTEX-14BIL-0011-R9a-SM-5SI7A	Brain - Spinal cord (cervical c-1)
+GTEX-14BIL-0326-SM-5SI9Q	Muscle - Skeletal
+GTEX-14BIL-0426-SM-5SIA3	Nerve - Tibial
+GTEX-14BIL-2926-SM-5SIAF	Pituitary
+GTEX-14BIL-0126-SM-5SI92	Skin - Sun Exposed (Lower leg)
+GTEX-14BIL-0006-SM-5N9F2	Whole Blood

@@ -1,0 +1,5 @@
+GTEX-1399Q-1126-SM-5P9JA	Esophagus - Mucosa
+GTEX-1399Q-2426-SM-5J2MO	Muscle - Skeletal
+GTEX-1399Q-2326-SM-5KM2X	Skin - Not Sun Exposed (Suprapubic)
+GTEX-1399Q-2826-SM-5IJEZ	Testis
+GTEX-1399Q-0005-SM-5NQAG	Whole Blood

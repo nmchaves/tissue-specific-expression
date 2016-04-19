@@ -1,0 +1,8 @@
+GTEX-WXYG-0926-SM-3NB2O	Adipose - Visceral (Omentum)
+GTEX-WXYG-2226-SM-4E3IM	Breast - Mammary Tissue
+GTEX-WXYG-0004-SM-4MVOS	Cells - EBV-transformed lymphocytes
+GTEX-WXYG-2526-SM-3NB3F	Muscle - Skeletal
+GTEX-WXYG-2026-SM-4E3IY	Skin - Not Sun Exposed (Suprapubic)
+GTEX-WXYG-2326-SM-4E3I6	Skin - Sun Exposed (Lower leg)
+GTEX-WXYG-0226-SM-3NB2Y	Thyroid
+GTEX-WXYG-0005-SM-3NB3M	Whole Blood

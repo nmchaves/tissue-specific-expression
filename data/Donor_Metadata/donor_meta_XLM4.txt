@@ -1,0 +1,20 @@
+GTEX-XLM4-0226-SM-4AT4N	Adipose - Subcutaneous
+GTEX-XLM4-1026-SM-4AT51	Adipose - Visceral (Omentum)
+GTEX-XLM4-2926-SM-4AT59	Brain - Cerebellum
+GTEX-XLM4-3026-SM-4AT6L	Brain - Cortex
+GTEX-XLM4-0011-R10A-SM-4AT5P	Brain - Frontal Cortex (BA9)
+GTEX-XLM4-0011-R6A-SM-4AT4B	Brain - Nucleus accumbens (basal ganglia)
+GTEX-XLM4-0011-R7A-SM-4AT5L	Brain - Putamen (basal ganglia)
+GTEX-XLM4-0011-R9A-SM-4AT45	Brain - Spinal cord (cervical c-1)
+GTEX-XLM4-0011-R2B-SM-4AT5Z	Brain - Substantia nigra
+GTEX-XLM4-0004-SM-4AT5I	Cells - EBV-transformed lymphocytes
+GTEX-XLM4-0008-SM-4AT4W	Cells - Transformed fibroblasts
+GTEX-XLM4-2326-SM-4TT2D	Esophagus - Mucosa
+GTEX-XLM4-2026-SM-4AT4X	Heart - Atrial Appendage
+GTEX-XLM4-3126-SM-4AT6M	Pituitary
+GTEX-XLM4-1526-SM-4AT6D	Testis
+GTEX-XLM4-0726-SM-4AT64	Thyroid
+GTEX-XLM4-0426-SM-4AT54	Artery - Tibial
+GTEX-XLM4-0005-SM-4AT4P	Whole Blood
+GTEX-XLM4-0011-R4B-SM-4AT5C	Brain - Amygdala
+GTEX-XLM4-0011-R3B-SM-4AT6E	Brain - Anterior cingulate cortex (BA24)

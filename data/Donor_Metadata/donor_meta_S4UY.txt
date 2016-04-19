@@ -1,0 +1,13 @@
+GTEX-S4UY-0226-SM-3K2AP	Adipose - Subcutaneous
+GTEX-S4UY-0726-SM-4AD6X	Breast - Mammary Tissue
+GTEX-S4UY-0008-SM-3NM8H	Cells - Transformed fibroblasts
+GTEX-S4UY-1426-SM-4AD6Y	Cervix - Ectocervix
+GTEX-S4UY-0826-SM-4AD4Z	Colon - Transverse
+GTEX-S4UY-0526-SM-3K2AN	Muscle - Skeletal
+GTEX-S4UY-0126-SM-3K2BB	Skin - Sun Exposed (Lower leg)
+GTEX-S4UY-1626-SM-4AD55	Stomach
+GTEX-S4UY-0426-SM-3K2AF	Artery - Tibial
+GTEX-S4UY-1226-SM-4AD51	Uterus
+GTEX-S4UY-1326-SM-4AD4X	Vagina
+GTEX-S4UY-0006-SM-3K2A7	Whole Blood
+GTEX-S4UY-0926-SM-4AD6O	Bladder

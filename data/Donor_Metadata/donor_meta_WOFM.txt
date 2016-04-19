@@ -1,0 +1,14 @@
+GTEX-WOFM-0726-SM-3MJF8	Adipose - Visceral (Omentum)
+GTEX-WOFM-0001-SM-4OOT2	Cells - EBV-transformed lymphocytes
+GTEX-WOFM-0008-SM-4OOSY	Cells - Transformed fibroblasts
+GTEX-WOFM-2026-SM-4OOSQ	Colon - Transverse
+GTEX-WOFM-0626-SM-4OOS3	Esophagus - Mucosa
+GTEX-WOFM-0526-SM-4OOS2	Esophagus - Muscularis
+GTEX-WOFM-0126-SM-3MJFE	Lung
+GTEX-WOFM-2126-SM-4OOSR	Minor Salivary Gland
+GTEX-WOFM-1326-SM-3MJFR	Muscle - Skeletal
+GTEX-WOFM-1626-SM-3MJFX	Nerve - Tibial
+GTEX-WOFM-0326-SM-4OOSL	Prostate
+GTEX-WOFM-1126-SM-4OOSB	Testis
+GTEX-WOFM-1726-SM-3MJFA	Artery - Tibial
+GTEX-WOFM-0005-SM-3MJF3	Whole Blood

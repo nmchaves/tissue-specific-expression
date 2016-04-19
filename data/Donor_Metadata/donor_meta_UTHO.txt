@@ -1,0 +1,17 @@
+GTEX-UTHO-0426-SM-5SI7N	Adipose - Subcutaneous
+GTEX-UTHO-0011-R11A-SM-3GIJE	Brain - Cerebellar Hemisphere
+GTEX-UTHO-2926-SM-3P5Z9	Brain - Cerebellum
+GTEX-UTHO-3026-SM-3GAFB	Brain - Cortex
+GTEX-UTHO-0011-R1A-SM-3GIJO	Brain - Hippocampus
+GTEX-UTHO-0011-R6A-SM-3GIJW	Brain - Nucleus accumbens (basal ganglia)
+GTEX-UTHO-0011-R2A-SM-3GIKC	Brain - Substantia nigra
+GTEX-UTHO-1026-SM-3GAF7	Breast - Mammary Tissue
+GTEX-UTHO-0008-SM-4JBID	Cells - Transformed fibroblasts
+GTEX-UTHO-2426-SM-4JBHD	Liver
+GTEX-UTHO-0726-SM-3GAEN	Muscle - Skeletal
+GTEX-UTHO-3126-SM-3P5ZB	Pituitary
+GTEX-UTHO-2726-SM-4JBH9	Prostate
+GTEX-UTHO-0006-SM-3NMCC	Whole Blood
+GTEX-UTHO-0011-R4A-SM-3GIJP	Brain - Amygdala
+GTEX-UTHO-0011-R3A-SM-3GIK8	Brain - Anterior cingulate cortex (BA24)
+GTEX-UTHO-0011-R5A-SM-3GIJD	Brain - Caudate (basal ganglia)

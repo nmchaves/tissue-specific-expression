@@ -1,0 +1,18 @@
+GTEX-WWYW-0011-R11A-SM-3NB38	Brain - Cerebellar Hemisphere
+GTEX-WWYW-3026-SM-3NB36	Brain - Cerebellum
+GTEX-WWYW-3126-SM-3NB39	Brain - Cortex
+GTEX-WWYW-0011-R10A-SM-3NB35	Brain - Frontal Cortex (BA9)
+GTEX-WWYW-0011-R1A-SM-3TW8G	Brain - Hippocampus
+GTEX-WWYW-0011-R8A-SM-3NB3S	Brain - Hypothalamus
+GTEX-WWYW-0011-R6A-SM-3NB3G	Brain - Nucleus accumbens (basal ganglia)
+GTEX-WWYW-0011-R7A-SM-3NB3H	Brain - Putamen (basal ganglia)
+GTEX-WWYW-0008-SM-4MVPF	Cells - Transformed fibroblasts
+GTEX-WWYW-1326-SM-3NB2S	Heart - Left Ventricle
+GTEX-WWYW-0926-SM-3NB2Z	Lung
+GTEX-WWYW-0526-SM-3NB2W	Muscle - Skeletal
+GTEX-WWYW-2726-SM-4MVOP	Ovary
+GTEX-WWYW-0826-SM-3NB2X	Thyroid
+GTEX-WWYW-0426-SM-3NB31	Artery - Tibial
+GTEX-WWYW-2826-SM-4MVOQ	Uterus
+GTEX-WWYW-0005-SM-3NB3K	Whole Blood
+GTEX-WWYW-0011-R5A-SM-3NB3E	Brain - Caudate (basal ganglia)

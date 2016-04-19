@@ -1,0 +1,12 @@
+GTEX-13X6H-1726-SM-5Q5EH	Adipose - Visceral (Omentum)
+GTEX-13X6H-1526-SM-5Q5E2	Esophagus - Gastroesophageal Junction
+GTEX-13X6H-1326-SM-5LU42	Esophagus - Mucosa
+GTEX-13X6H-1426-SM-5SI91	Esophagus - Muscularis
+GTEX-13X6H-0426-SM-5LU4E	Heart - Left Ventricle
+GTEX-13X6H-1026-SM-5SIBE	Ovary
+GTEX-13X6H-0626-SM-5LU53	Pancreas
+GTEX-13X6H-0926-SM-5SIB2	Skin - Not Sun Exposed (Suprapubic)
+GTEX-13X6H-0726-SM-5Q5BX	Spleen
+GTEX-13X6H-1626-SM-5Q5CT	Stomach
+GTEX-13X6H-0526-SM-5LU4Q	Thyroid
+GTEX-13X6H-2526-SM-5QGOT	Artery - Tibial

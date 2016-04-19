@@ -1,0 +1,20 @@
+GTEX-Y111-0226-SM-4SOIW	Adipose - Subcutaneous
+GTEX-Y111-0926-SM-4SOIU	Adipose - Visceral (Omentum)
+GTEX-Y111-2826-SM-4TT3O	Brain - Cerebellum
+GTEX-Y111-2726-SM-4TT3N	Brain - Cortex
+GTEX-Y111-2026-SM-4SOJA	Breast - Mammary Tissue
+GTEX-Y111-0008-SM-4SOJ3	Cells - Transformed fibroblasts
+GTEX-Y111-1826-SM-4SOIR	Esophagus - Gastroesophageal Junction
+GTEX-Y111-1626-SM-57WCY	Esophagus - Mucosa
+GTEX-Y111-1726-SM-4SOIQ	Esophagus - Muscularis
+GTEX-Y111-1026-SM-4TT22	Lung
+GTEX-Y111-2626-SM-4TT24	Minor Salivary Gland
+GTEX-Y111-0326-SM-4SOIX	Muscle - Skeletal
+GTEX-Y111-0526-SM-4TT3M	Nerve - Tibial
+GTEX-Y111-2926-SM-4TT25	Pituitary
+GTEX-Y111-0626-SM-4SOIT	Skin - Not Sun Exposed (Suprapubic)
+GTEX-Y111-0126-SM-4SOIV	Skin - Sun Exposed (Lower leg)
+GTEX-Y111-2426-SM-4TT23	Testis
+GTEX-Y111-1926-SM-4SOIS	Thyroid
+GTEX-Y111-0426-SM-4TT3K	Artery - Tibial
+GTEX-Y111-0006-SM-4SOIO	Whole Blood
