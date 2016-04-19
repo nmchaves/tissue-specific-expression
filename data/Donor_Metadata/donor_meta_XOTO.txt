@@ -1,0 +1,21 @@
+GTEX-XOTO-0226-SM-4B66H	Adipose - Subcutaneous
+GTEX-XOTO-0011-R11B-SM-4B64O	Brain - Cerebellar Hemisphere
+GTEX-XOTO-2926-SM-4B65G	Brain - Cerebellum
+GTEX-XOTO-3026-SM-4B65M	Brain - Cortex
+GTEX-XOTO-0011-R1B-SM-4B65C	Brain - Hippocampus
+GTEX-XOTO-0011-R8A-SM-4B65J	Brain - Hypothalamus
+GTEX-XOTO-0011-R6B-SM-4B65X	Brain - Nucleus accumbens (basal ganglia)
+GTEX-XOTO-0011-R7B-SM-4B64R	Brain - Putamen (basal ganglia)
+GTEX-XOTO-0011-R9A-SM-4GICI	Brain - Spinal cord (cervical c-1)
+GTEX-XOTO-0008-SM-4GICE	Cells - Transformed fibroblasts
+GTEX-XOTO-2126-SM-4B64U	Esophagus - Mucosa
+GTEX-XOTO-0826-SM-4B65O	Liver
+GTEX-XOTO-0526-SM-4B662	Muscle - Skeletal
+GTEX-XOTO-0326-SM-4B66K	Nerve - Tibial
+GTEX-XOTO-2826-SM-4B65I	Prostate
+GTEX-XOTO-0726-SM-4B659	Skin - Not Sun Exposed (Suprapubic)
+GTEX-XOTO-0126-SM-4B66N	Skin - Sun Exposed (Lower leg)
+GTEX-XOTO-0426-SM-4B66A	Artery - Tibial
+GTEX-XOTO-0006-SM-4B64T	Whole Blood
+GTEX-XOTO-0011-R3A-SM-4B64W	Brain - Anterior cingulate cortex (BA24)
+GTEX-XOTO-0011-R5A-SM-4B657	Brain - Caudate (basal ganglia)

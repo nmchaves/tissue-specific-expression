@@ -1,0 +1,2 @@
+GTEX-ZAKK-0326-SM-5EGHA	Muscle - Skeletal
+GTEX-ZAKK-0526-SM-5EGHC	Nerve - Tibial

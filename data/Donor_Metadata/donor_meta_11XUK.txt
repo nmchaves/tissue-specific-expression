@@ -1,0 +1,17 @@
+GTEX-11XUK-2126-SM-5EQLR	Adipose - Subcutaneous
+GTEX-11XUK-1726-SM-5GU61	Adipose - Visceral (Omentum)
+GTEX-11XUK-0126-SM-5CVLK	Adrenal Gland
+GTEX-11XUK-0008-SM-5S2WD	Cells - Transformed fibroblasts
+GTEX-11XUK-0926-SM-5EQL3	Esophagus - Gastroesophageal Junction
+GTEX-11XUK-0826-SM-5GU6P	Esophagus - Mucosa
+GTEX-11XUK-0726-SM-5EQMX	Esophagus - Muscularis
+GTEX-11XUK-2226-SM-5CVLL	Muscle - Skeletal
+GTEX-11XUK-2326-SM-5CVLM	Nerve - Tibial
+GTEX-11XUK-1626-SM-5GU5O	Ovary
+GTEX-11XUK-0626-SM-5N9ES	Pancreas
+GTEX-11XUK-2026-SM-5EQLF	Skin - Sun Exposed (Lower leg)
+GTEX-11XUK-1426-SM-5EQMG	Small Intestine - Terminal Ileum
+GTEX-11XUK-0426-SM-5EQML	Spleen
+GTEX-11XUK-2426-SM-5GU72	Artery - Tibial
+GTEX-11XUK-1326-SM-5EQM4	Vagina
+GTEX-11XUK-0005-SM-5LU9F	Whole Blood

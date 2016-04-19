@@ -1,0 +1,23 @@
+GTEX-N7MS-0326-SM-4E3K2	Adipose - Subcutaneous
+GTEX-N7MS-0011-R11A-SM-2HMJS	Brain - Cerebellar Hemisphere
+GTEX-N7MS-2526-SM-2D7W3	Brain - Cerebellum
+GTEX-N7MS-0011-R10A-SM-2HMJK	Brain - Frontal Cortex (BA9)
+GTEX-N7MS-0011-R1a-SM-2HMJG	Brain - Hippocampus
+GTEX-N7MS-0011-R8a-SM-2YUMK	Brain - Hypothalamus
+GTEX-N7MS-0011-R6a-SM-2HMJ4	Brain - Nucleus accumbens (basal ganglia)
+GTEX-N7MS-0011-R7a-SM-2HMKN	Brain - Putamen (basal ganglia)
+GTEX-N7MS-0011-R2a-SM-2HML6	Brain - Substantia nigra
+GTEX-N7MS-0008-SM-4E3JI	Cells - Transformed fibroblasts
+GTEX-N7MS-0826-SM-2HML4	Heart - Left Ventricle
+GTEX-N7MS-1626-SM-3LK5F	Kidney - Cortex
+GTEX-N7MS-0926-SM-2HMIZ	Lung
+GTEX-N7MS-0426-SM-2YUN6	Muscle - Skeletal
+GTEX-N7MS-0526-SM-4E3JP	Nerve - Tibial
+GTEX-N7MS-2625-SM-3LK77	Pituitary
+GTEX-N7MS-0126-SM-3TW8O	Testis
+GTEX-N7MS-2326-SM-2HMLD	Thyroid
+GTEX-N7MS-0626-SM-2YUN7	Artery - Tibial
+GTEX-N7MS-0007-SM-2D7W1	Whole Blood
+GTEX-N7MS-0011-R4a-SM-2HMKW	Brain - Amygdala
+GTEX-N7MS-0011-R3a-SM-33HC6	Brain - Anterior cingulate cortex (BA24)
+GTEX-N7MS-0011-R5a-SM-2HMK8	Brain - Caudate (basal ganglia)

@@ -1,0 +1,19 @@
+GTEX-13X6I-1526-SM-5SIAC	Adipose - Visceral (Omentum)
+GTEX-13X6I-0011-R11a-SM-5P9HN	Brain - Cerebellar Hemisphere
+GTEX-13X6I-2926-SM-5Q5C3	Brain - Cerebellum
+GTEX-13X6I-0011-R10a-SM-5PNWI	Brain - Frontal Cortex (BA9)
+GTEX-13X6I-0011-R1b-SM-5PNZC	Brain - Hippocampus
+GTEX-13X6I-0011-R8a-SM-5PNZF	Brain - Hypothalamus
+GTEX-13X6I-0011-R7b-SM-5PNWP	Brain - Putamen (basal ganglia)
+GTEX-13X6I-0011-R9b-SM-5PNZJ	Brain - Spinal cord (cervical c-1)
+GTEX-13X6I-0011-R2b-SM-5PNWQ	Brain - Substantia nigra
+GTEX-13X6I-2726-SM-5Q5ET	Colon - Sigmoid
+GTEX-13X6I-1026-SM-5LU4C	Esophagus - Mucosa
+GTEX-13X6I-0926-SM-5LUAB	Artery - Aorta
+GTEX-13X6I-1426-SM-5SI9Z	Heart - Left Ventricle
+GTEX-13X6I-0526-SM-5QGP8	Muscle - Skeletal
+GTEX-13X6I-1826-SM-5SIAO	Skin - Not Sun Exposed (Suprapubic)
+GTEX-13X6I-0626-SM-5QGP9	Skin - Sun Exposed (Lower leg)
+GTEX-13X6I-0011-R4b-SM-5PNU9	Brain - Amygdala
+GTEX-13X6I-0011-R3b-SM-5P9HM	Brain - Anterior cingulate cortex (BA24)
+GTEX-13X6I-0011-R5a-SM-5PNWW	Brain - Caudate (basal ganglia)

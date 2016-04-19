@@ -1,0 +1,9 @@
+GTEX-NL4W-0011-R11A-SM-2I3DW	Brain - Cerebellar Hemisphere
+GTEX-NL4W-0011-R10A-SM-2I3DY	Brain - Frontal Cortex (BA9)
+GTEX-NL4W-0011-R8a-SM-2I3G4	Brain - Hypothalamus
+GTEX-NL4W-0011-R6a-SM-2I3GA	Brain - Nucleus accumbens (basal ganglia)
+GTEX-NL4W-0011-R9a-SM-2I3G1	Brain - Spinal cord (cervical c-1)
+GTEX-NL4W-0011-R2a-SM-2I5GV	Brain - Substantia nigra
+GTEX-NL4W-0008-SM-4E3I2	Cells - Transformed fibroblasts
+GTEX-NL4W-0011-R4a-SM-2I5GZ	Brain - Amygdala
+GTEX-NL4W-0011-R5a-SM-2I3GD	Brain - Caudate (basal ganglia)

@@ -1,0 +1,21 @@
+GTEX-X585-2526-SM-4QAS1	Adipose - Visceral (Omentum)
+GTEX-X585-0011-R11B-SM-46MUZ	Brain - Cerebellar Hemisphere
+GTEX-X585-3026-SM-46MWF	Brain - Cortex
+GTEX-X585-0011-R10A-SM-46MUY	Brain - Frontal Cortex (BA9)
+GTEX-X585-0011-R1B-SM-46MVE	Brain - Hippocampus
+GTEX-X585-0011-R8A-SM-46MUX	Brain - Hypothalamus
+GTEX-X585-0011-R6A-SM-46MVJ	Brain - Nucleus accumbens (basal ganglia)
+GTEX-X585-0011-R2B-SM-46MVF	Brain - Substantia nigra
+GTEX-X585-0002-SM-46MVA	Cells - EBV-transformed lymphocytes
+GTEX-X585-0008-SM-46MU4	Cells - Transformed fibroblasts
+GTEX-X585-1226-SM-46MW7	Esophagus - Mucosa
+GTEX-X585-1026-SM-46MW6	Lung
+GTEX-X585-0426-SM-4E3JZ	Nerve - Tibial
+GTEX-X585-3126-SM-4QASH	Pituitary
+GTEX-X585-2426-SM-46MW2	Skin - Not Sun Exposed (Suprapubic)
+GTEX-X585-0226-SM-4QAS2	Skin - Sun Exposed (Lower leg)
+GTEX-X585-1826-SM-4QAS3	Spleen
+GTEX-X585-0005-SM-46MV3	Whole Blood
+GTEX-X585-0011-R4B-SM-46MVH	Brain - Amygdala
+GTEX-X585-0011-R3B-SM-46MVG	Brain - Anterior cingulate cortex (BA24)
+GTEX-X585-0011-R5A-SM-46MVI	Brain - Caudate (basal ganglia)

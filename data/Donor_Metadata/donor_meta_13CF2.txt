@@ -1,0 +1,19 @@
+GTEX-13CF2-2626-SM-5LZZA	Adipose - Subcutaneous
+GTEX-13CF2-0011-R11b-SM-5LZXO	Brain - Cerebellar Hemisphere
+GTEX-13CF2-3026-SM-5IFFX	Brain - Cerebellum
+GTEX-13CF2-0011-R1a-SM-5LZY1	Brain - Hippocampus
+GTEX-13CF2-0011-R8b-SM-5IJCX	Brain - Hypothalamus
+GTEX-13CF2-0011-R7b-SM-5K7UV	Brain - Putamen (basal ganglia)
+GTEX-13CF2-0011-R2a-SM-5L3DC	Brain - Substantia nigra
+GTEX-13CF2-2026-SM-5K7VI	Breast - Mammary Tissue
+GTEX-13CF2-1826-SM-5N9GK	Colon - Sigmoid
+GTEX-13CF2-0226-SM-5L3DV	Heart - Atrial Appendage
+GTEX-13CF2-0426-SM-5KM1H	Heart - Left Ventricle
+GTEX-13CF2-2426-SM-5LZYL	Minor Salivary Gland
+GTEX-13CF2-2726-SM-5LZWW	Muscle - Skeletal
+GTEX-13CF2-2826-SM-5LZX9	Nerve - Tibial
+GTEX-13CF2-3226-SM-5IFF6	Pituitary
+GTEX-13CF2-2526-SM-5LZYX	Skin - Sun Exposed (Lower leg)
+GTEX-13CF2-0006-SM-5O99L	Whole Blood
+GTEX-13CF2-0011-R3b-SM-5LZZ6	Brain - Anterior cingulate cortex (BA24)
+GTEX-13CF2-0011-R5a-SM-5LZWS	Brain - Caudate (basal ganglia)

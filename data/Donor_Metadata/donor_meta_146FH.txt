@@ -1,0 +1,20 @@
+GTEX-146FH-0226-SM-5QGPQ	Adipose - Subcutaneous
+GTEX-146FH-2026-SM-5SI9I	Adipose - Visceral (Omentum)
+GTEX-146FH-0826-SM-5SI8T	Breast - Mammary Tissue
+GTEX-146FH-2426-SM-5Q5EW	Colon - Sigmoid
+GTEX-146FH-1926-SM-5Q5B2	Esophagus - Gastroesophageal Junction
+GTEX-146FH-1726-SM-5QGQ2	Esophagus - Mucosa
+GTEX-146FH-1626-SM-5NQ9H	Esophagus - Muscularis
+GTEX-146FH-1326-SM-5NQBI	Artery - Aorta
+GTEX-146FH-1126-SM-5NQAT	Heart - Atrial Appendage
+GTEX-146FH-1026-SM-5RQIF	Heart - Left Ventricle
+GTEX-146FH-1526-SM-5NQBU	Liver
+GTEX-146FH-1226-SM-5NQB6	Lung
+GTEX-146FH-0526-SM-5QGQ3	Muscle - Skeletal
+GTEX-146FH-0326-SM-5QGPT	Nerve - Tibial
+GTEX-146FH-2526-SM-5Q5BP	Ovary
+GTEX-146FH-0926-SM-5SI96	Artery - Coronary
+GTEX-146FH-0126-SM-5QGPP	Skin - Sun Exposed (Lower leg)
+GTEX-146FH-2126-SM-5SI9U	Stomach
+GTEX-146FH-0426-SM-5QGPS	Artery - Tibial
+GTEX-146FH-2626-SM-5Q5E1	Vagina

@@ -1,0 +1,3 @@
+GTEX-ZU9S-1926-SM-5NQBP	Breast - Mammary Tissue
+GTEX-ZU9S-1826-SM-5NQ9E	Skin - Not Sun Exposed (Suprapubic)
+GTEX-ZU9S-0226-SM-5E441	Skin - Sun Exposed (Lower leg)

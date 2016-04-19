@@ -1,0 +1,15 @@
+GTEX-ZV6S-1626-SM-5NQ81	Adipose - Visceral (Omentum)
+GTEX-ZV6S-1826-SM-5NQ8D	Breast - Mammary Tissue
+GTEX-ZV6S-0003-SM-4YCCT	Cells - EBV-transformed lymphocytes
+GTEX-ZV6S-0008-SM-4YCF9	Cells - Transformed fibroblasts
+GTEX-ZV6S-1126-SM-57WE9	Colon - Sigmoid
+GTEX-ZV6S-1226-SM-59HLH	Colon - Transverse
+GTEX-ZV6S-0726-SM-57WFY	Esophagus - Gastroesophageal Junction
+GTEX-ZV6S-2126-SM-4YCEM	Muscle - Skeletal
+GTEX-ZV6S-2326-SM-4YCEY	Skin - Sun Exposed (Lower leg)
+GTEX-ZV6S-0826-SM-5NQ6Z	Spleen
+GTEX-ZV6S-0926-SM-57WGB	Stomach
+GTEX-ZV6S-0226-SM-59HJT	Thyroid
+GTEX-ZV6S-2026-SM-5NQ8P	Artery - Tibial
+GTEX-ZV6S-1526-SM-5NQ7O	Uterus
+GTEX-ZV6S-1326-SM-59HJA	Vagina

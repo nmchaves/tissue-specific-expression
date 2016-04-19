@@ -1,0 +1,22 @@
+GTEX-Z93S-0226-SM-5HL7R	Adipose - Subcutaneous
+GTEX-Z93S-0011-R11a-SM-4RGNN	Brain - Cerebellar Hemisphere
+GTEX-Z93S-2826-SM-57WBL	Brain - Cerebellum
+GTEX-Z93S-2926-SM-57WB9	Brain - Cortex
+GTEX-Z93S-0011-R10a-SM-4RGNM	Brain - Frontal Cortex (BA9)
+GTEX-Z93S-0011-R8a-SM-4RGNL	Brain - Hypothalamus
+GTEX-Z93S-0011-R6b-SM-4RGNJ	Brain - Nucleus accumbens (basal ganglia)
+GTEX-Z93S-0011-R7b-SM-4RGNK	Brain - Putamen (basal ganglia)
+GTEX-Z93S-0008-SM-4RGM5	Cells - Transformed fibroblasts
+GTEX-Z93S-2626-SM-57WBX	Colon - Sigmoid
+GTEX-Z93S-2426-SM-5HL8N	Colon - Transverse
+GTEX-Z93S-0326-SM-5HL84	Heart - Atrial Appendage
+GTEX-Z93S-1326-SM-5CVMR	Muscle - Skeletal
+GTEX-Z93S-0826-SM-5HL7Y	Nerve - Tibial
+GTEX-Z93S-3026-SM-5CVMS	Pituitary
+GTEX-Z93S-1626-SM-5CVMB	Skin - Not Sun Exposed (Suprapubic)
+GTEX-Z93S-0126-SM-5HL7M	Skin - Sun Exposed (Lower leg)
+GTEX-Z93S-1726-SM-5HL8G	Testis
+GTEX-Z93S-0926-SM-5HL8B	Artery - Tibial
+GTEX-Z93S-0005-SM-4RGLW	Whole Blood
+GTEX-Z93S-0011-R3b-SM-4RGNH	Brain - Anterior cingulate cortex (BA24)
+GTEX-Z93S-0011-R5b-SM-4RGNI	Brain - Caudate (basal ganglia)

@@ -1,0 +1,21 @@
+GTEX-RWS6-1926-SM-47JXY	Breast - Mammary Tissue
+GTEX-RWS6-0001-SM-3NMAL	Cells - EBV-transformed lymphocytes
+GTEX-RWS6-0008-SM-47JYV	Cells - Transformed fibroblasts
+GTEX-RWS6-1826-SM-47JXX	Colon - Transverse
+GTEX-RWS6-0826-SM-47JXF	Esophagus - Mucosa
+GTEX-RWS6-0726-SM-47JXI	Esophagus - Muscularis
+GTEX-RWS6-0526-SM-4GIAJ	Artery - Aorta
+GTEX-RWS6-0326-SM-2XCAP	Heart - Left Ventricle
+GTEX-RWS6-0226-SM-2XCA9	Lung
+GTEX-RWS6-2126-SM-2XCAV	Muscle - Skeletal
+GTEX-RWS6-2426-SM-2XCB9	Nerve - Tibial
+GTEX-RWS6-1026-SM-47JXD	Ovary
+GTEX-RWS6-0426-SM-47JXH	Artery - Coronary
+GTEX-RWS6-1126-SM-47JXC	Pancreas
+GTEX-RWS6-2026-SM-2XCB5	Skin - Sun Exposed (Lower leg)
+GTEX-RWS6-0926-SM-47JXE	Stomach
+GTEX-RWS6-0626-SM-2XCAS	Thyroid
+GTEX-RWS6-2326-SM-2XCB4	Artery - Tibial
+GTEX-RWS6-1326-SM-47JXB	Uterus
+GTEX-RWS6-1726-SM-47JXP	Vagina
+GTEX-RWS6-0005-SM-2XCAN	Whole Blood

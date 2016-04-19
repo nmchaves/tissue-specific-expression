@@ -1,0 +1,15 @@
+GTEX-SNMC-1326-SM-2XCFK	Adipose - Subcutaneous
+GTEX-SNMC-0008-SM-4DM5A	Cells - Transformed fibroblasts
+GTEX-SNMC-1126-SM-4DM5M	Colon - Transverse
+GTEX-SNMC-0526-SM-4DM69	Esophagus - Mucosa
+GTEX-SNMC-0426-SM-4DM5Y	Esophagus - Muscularis
+GTEX-SNMC-0126-SM-2XCFO	Heart - Left Ventricle
+GTEX-SNMC-1426-SM-2XCFM	Muscle - Skeletal
+GTEX-SNMC-1626-SM-4DM52	Nerve - Tibial
+GTEX-SNMC-0226-SM-4DM6F	Artery - Coronary
+GTEX-SNMC-0926-SM-4DM5U	Prostate
+GTEX-SNMC-1226-SM-2XCFP	Skin - Sun Exposed (Lower leg)
+GTEX-SNMC-0626-SM-4DM6H	Stomach
+GTEX-SNMC-1026-SM-4DM7K	Testis
+GTEX-SNMC-1526-SM-2XCFN	Artery - Tibial
+GTEX-SNMC-0826-SM-4DM66	Bladder

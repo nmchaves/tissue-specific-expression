@@ -1,0 +1,13 @@
+GTEX-ZGAY-1326-SM-5S2NS	Adipose - Visceral (Omentum)
+GTEX-ZGAY-2126-SM-4YCFB	Colon - Transverse
+GTEX-ZGAY-1526-SM-4WWEO	Esophagus - Gastroesophageal Junction
+GTEX-ZGAY-1126-SM-4WWBS	Esophagus - Mucosa
+GTEX-ZGAY-0226-SM-4WWAL	Heart - Atrial Appendage
+GTEX-ZGAY-0326-SM-57WF5	Heart - Left Ventricle
+GTEX-ZGAY-0826-SM-4WWEP	Nerve - Tibial
+GTEX-ZGAY-0426-SM-4WWAM	Artery - Coronary
+GTEX-ZGAY-0526-SM-4WWBB	Skin - Sun Exposed (Lower leg)
+GTEX-ZGAY-1026-SM-4WWBR	Thyroid
+GTEX-ZGAY-0926-SM-4WWBQ	Artery - Tibial
+GTEX-ZGAY-2226-SM-4YCCX	Vagina
+GTEX-ZGAY-0006-SM-4WWAQ	Whole Blood

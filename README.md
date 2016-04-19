@@ -10,6 +10,13 @@ Team memebers: Nico Chaves, Noam Weinberger and Junjie (Jason) Zhu
 
 `/ipython_notebook`: includes ipython notebooks used to display main results of this project in an interactive fashion
 
+## Instructions
+
+`git pull`
+`git add --all`
+`git commit -m "MESSAGE"`
+`git push`
+
 ## Data Preprocessing
 
 We downloaded the Transcript RPKM file (`GTEx_Analysis_v6_RNA-seq_Flux1.6_transcript_rpkm.txt.gz`) and meta-information (`GTEx_Data_V6_Annotations_SampleAttributesDS.txt`) from [GTExPortal](http://www.gtexportal.org/home/datasets) where the former includes expression values and the latter includes information about donor IDs and tissue types of each sample. Then we filtered out transcripts according to the following procedure:

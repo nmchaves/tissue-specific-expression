@@ -1,0 +1,18 @@
+GTEX-XMK1-2226-SM-4B673	Adipose - Subcutaneous
+GTEX-XMK1-0926-SM-4B66X	Adipose - Visceral (Omentum)
+GTEX-XMK1-0226-SM-4B65D	Adrenal Gland
+GTEX-XMK1-1126-SM-4IHJ8	Breast - Mammary Tissue
+GTEX-XMK1-0001-SM-4B64F	Cells - EBV-transformed lymphocytes
+GTEX-XMK1-0008-SM-4GICF	Cells - Transformed fibroblasts
+GTEX-XMK1-1726-SM-4B64Z	Colon - Transverse
+GTEX-XMK1-1326-SM-4B65Q	Esophagus - Mucosa
+GTEX-XMK1-2626-SM-4B65R	Minor Salivary Gland
+GTEX-XMK1-2426-SM-4B66I	Nerve - Tibial
+GTEX-XMK1-0326-SM-4B652	Pancreas
+GTEX-XMK1-1026-SM-4B65H	Prostate
+GTEX-XMK1-1826-SM-4B66F	Small Intestine - Terminal Ileum
+GTEX-XMK1-0126-SM-4B65F	Spleen
+GTEX-XMK1-2026-SM-4B65K	Testis
+GTEX-XMK1-0626-SM-4B65A	Thyroid
+GTEX-XMK1-2526-SM-4B666	Artery - Tibial
+GTEX-XMK1-0005-SM-4B665	Whole Blood

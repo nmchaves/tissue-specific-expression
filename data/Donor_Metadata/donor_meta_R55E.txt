@@ -1,0 +1,21 @@
+GTEX-R55E-0011-R11A-SM-2TC6I	Brain - Cerebellar Hemisphere
+GTEX-R55E-2526-SM-2TC6H	Brain - Cerebellum
+GTEX-R55E-0011-R1A-SM-2TC6N	Brain - Hippocampus
+GTEX-R55E-0011-R8A-SM-2TC66	Brain - Hypothalamus
+GTEX-R55E-0011-R6A-SM-2TC5T	Brain - Nucleus accumbens (basal ganglia)
+GTEX-R55E-0011-R7A-SM-2TC5Z	Brain - Putamen (basal ganglia)
+GTEX-R55E-0011-R9A-SM-2TC6C	Brain - Spinal cord (cervical c-1)
+GTEX-R55E-0008-SM-48FCG	Cells - Transformed fibroblasts
+GTEX-R55E-1326-SM-48FCR	Esophagus - Mucosa
+GTEX-R55E-1126-SM-48FDZ	Artery - Aorta
+GTEX-R55E-1026-SM-2TC5S	Heart - Left Ventricle
+GTEX-R55E-0526-SM-2TC6B	Muscle - Skeletal
+GTEX-R55E-0426-SM-2TC65	Nerve - Tibial
+GTEX-R55E-2726-SM-48FCX	Pituitary
+GTEX-R55E-0126-SM-2TC5Y	Skin - Sun Exposed (Lower leg)
+GTEX-R55E-0726-SM-48FCZ	Testis
+GTEX-R55E-0826-SM-2TC5M	Thyroid
+GTEX-R55E-0326-SM-48FD2	Artery - Tibial
+GTEX-R55E-0006-SM-2TC5G	Whole Blood
+GTEX-R55E-0011-R4A-SM-2TC5H	Brain - Amygdala
+GTEX-R55E-0011-R5A-SM-2TC5N	Brain - Caudate (basal ganglia)

@@ -1,0 +1,10 @@
+GTEX-SIU8-0226-SM-2XCDS	Adipose - Subcutaneous
+GTEX-SIU8-0008-SM-4BRUC	Cells - Transformed fibroblasts
+GTEX-SIU8-0826-SM-2XCDQ	Heart - Left Ventricle
+GTEX-SIU8-0926-SM-5SI87	Lung
+GTEX-SIU8-0526-SM-2XCDP	Muscle - Skeletal
+GTEX-SIU8-0326-SM-2XCDR	Nerve - Tibial
+GTEX-SIU8-0126-SM-2XCDT	Skin - Sun Exposed (Lower leg)
+GTEX-SIU8-0626-SM-2XCDN	Thyroid
+GTEX-SIU8-0426-SM-4BRUE	Artery - Tibial
+GTEX-SIU8-0006-SM-2XCE5	Whole Blood

@@ -1,0 +1,28 @@
+GTEX-T5JC-0526-SM-32PM7	Adipose - Subcutaneous
+GTEX-T5JC-0011-R11A-SM-32PMB	Brain - Cerebellar Hemisphere
+GTEX-T5JC-2326-SM-32PMR	Brain - Cerebellum
+GTEX-T5JC-2426-SM-3NMDB	Brain - Cortex
+GTEX-T5JC-0011-R10A-SM-32PM2	Brain - Frontal Cortex (BA9)
+GTEX-T5JC-0011-R1A-SM-32PM6	Brain - Hippocampus
+GTEX-T5JC-0011-R8A-SM-32PLM	Brain - Hypothalamus
+GTEX-T5JC-0011-R6A-SM-5SI89	Brain - Nucleus accumbens (basal ganglia)
+GTEX-T5JC-0011-R7A-SM-32PME	Brain - Putamen (basal ganglia)
+GTEX-T5JC-0011-R9A-SM-32PLV	Brain - Spinal cord (cervical c-1)
+GTEX-T5JC-0011-R2A-SM-32PLZ	Brain - Substantia nigra
+GTEX-T5JC-2126-SM-32PMO	Breast - Mammary Tissue
+GTEX-T5JC-0001-SM-3NMAK	Cells - EBV-transformed lymphocytes
+GTEX-T5JC-0008-SM-4DM6A	Cells - Transformed fibroblasts
+GTEX-T5JC-1726-SM-4DM6U	Esophagus - Mucosa
+GTEX-T5JC-1826-SM-4DM6E	Esophagus - Muscularis
+GTEX-T5JC-0326-SM-4DM5C	Artery - Aorta
+GTEX-T5JC-1526-SM-4DM68	Kidney - Cortex
+GTEX-T5JC-0826-SM-32PMC	Lung
+GTEX-T5JC-0626-SM-3NMA6	Muscle - Skeletal
+GTEX-T5JC-2526-SM-4DM6G	Pituitary
+GTEX-T5JC-0426-SM-32PLO	Skin - Sun Exposed (Lower leg)
+GTEX-T5JC-1926-SM-4DM6Q	Stomach
+GTEX-T5JC-0726-SM-4DM55	Testis
+GTEX-T5JC-0226-SM-32PMA	Artery - Tibial
+GTEX-T5JC-0005-SM-4DM7B	Whole Blood
+GTEX-T5JC-0011-R4A-SM-32PLT	Brain - Amygdala
+GTEX-T5JC-0011-R5A-SM-32PLK	Brain - Caudate (basal ganglia)

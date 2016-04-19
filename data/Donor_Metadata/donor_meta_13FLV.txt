@@ -1,0 +1,20 @@
+GTEX-13FLV-0011-R11a-SM-5LZZ7	Brain - Cerebellar Hemisphere
+GTEX-13FLV-0011-R10b-SM-5LZZ2	Brain - Frontal Cortex (BA9)
+GTEX-13FLV-0011-R8a-SM-5LZZE	Brain - Hypothalamus
+GTEX-13FLV-0011-R6a-SM-5KLZ4	Brain - Nucleus accumbens (basal ganglia)
+GTEX-13FLV-0011-R7b-SM-5K7WW	Brain - Putamen (basal ganglia)
+GTEX-13FLV-0011-R9b-SM-5L3DA	Brain - Spinal cord (cervical c-1)
+GTEX-13FLV-1326-SM-5L3EJ	Esophagus - Gastroesophageal Junction
+GTEX-13FLV-1126-SM-5J2NO	Esophagus - Mucosa
+GTEX-13FLV-1226-SM-5IJBZ	Esophagus - Muscularis
+GTEX-13FLV-1426-SM-5J1N4	Artery - Aorta
+GTEX-13FLV-0926-SM-5L3DZ	Heart - Left Ventricle
+GTEX-13FLV-0326-SM-5N9DJ	Liver
+GTEX-13FLV-0426-SM-5KLZA	Lung
+GTEX-13FLV-2326-SM-5K7UK	Nerve - Tibial
+GTEX-13FLV-0626-SM-5IFEY	Pancreas
+GTEX-13FLV-0126-SM-5K7WT	Skin - Not Sun Exposed (Suprapubic)
+GTEX-13FLV-0226-SM-5J2OF	Thyroid
+GTEX-13FLV-0011-R4a-SM-5LZYU	Brain - Amygdala
+GTEX-13FLV-0011-R3b-SM-5LZYP	Brain - Anterior cingulate cortex (BA24)
+GTEX-13FLV-0011-R5a-SM-5LZWT	Brain - Caudate (basal ganglia)

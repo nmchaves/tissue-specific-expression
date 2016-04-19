@@ -1,0 +1,18 @@
+GTEX-U3ZH-1426-SM-4DXSR	Breast - Mammary Tissue
+GTEX-U3ZH-0002-SM-3NMDD	Cells - EBV-transformed lymphocytes
+GTEX-U3ZH-0008-SM-4DXT2	Cells - Transformed fibroblasts
+GTEX-U3ZH-1326-SM-4DXSF	Colon - Transverse
+GTEX-U3ZH-1026-SM-4DXUZ	Esophagus - Mucosa
+GTEX-U3ZH-1126-SM-4DXUG	Esophagus - Muscularis
+GTEX-U3ZH-0626-SM-4DXT3	Artery - Aorta
+GTEX-U3ZH-0326-SM-3DB7A	Heart - Left Ventricle
+GTEX-U3ZH-0526-SM-3DB75	Lung
+GTEX-U3ZH-1926-SM-4DXTR	Muscle - Skeletal
+GTEX-U3ZH-1626-SM-3DB74	Nerve - Tibial
+GTEX-U3ZH-0426-SM-4DXSE	Artery - Coronary
+GTEX-U3ZH-2026-SM-3DB78	Skin - Sun Exposed (Lower leg)
+GTEX-U3ZH-0126-SM-4DXUK	Spleen
+GTEX-U3ZH-1526-SM-4DXV1	Testis
+GTEX-U3ZH-0226-SM-3DB7B	Thyroid
+GTEX-U3ZH-1726-SM-3DB79	Artery - Tibial
+GTEX-U3ZH-0005-SM-3DB72	Whole Blood

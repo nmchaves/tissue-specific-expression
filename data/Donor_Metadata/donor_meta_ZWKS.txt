@@ -1,0 +1,4 @@
+GTEX-ZWKS-2826-SM-5NQ74	Breast - Mammary Tissue
+GTEX-ZWKS-0326-SM-5NQ7G	Muscle - Skeletal
+GTEX-ZWKS-0626-SM-5GIDV	Skin - Not Sun Exposed (Suprapubic)
+GTEX-ZWKS-0126-SM-5SIAA	Skin - Sun Exposed (Lower leg)

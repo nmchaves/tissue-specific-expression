@@ -1,0 +1,16 @@
+GTEX-ZTSS-2026-SM-5987K	Adipose - Subcutaneous
+GTEX-ZTSS-1026-SM-5985N	Adipose - Visceral (Omentum)
+GTEX-ZTSS-0326-SM-5987M	Adrenal Gland
+GTEX-ZTSS-0004-SM-4YCCS	Cells - EBV-transformed lymphocytes
+GTEX-ZTSS-0008-SM-4YCE8	Cells - Transformed fibroblasts
+GTEX-ZTSS-1226-SM-51MSZ	Colon - Sigmoid
+GTEX-ZTSS-1126-SM-5985O	Colon - Transverse
+GTEX-ZTSS-0826-SM-5985L	Esophagus - Gastroesophageal Junction
+GTEX-ZTSS-0626-SM-59867	Esophagus - Mucosa
+GTEX-ZTSS-0726-SM-51MSN	Esophagus - Muscularis
+GTEX-ZTSS-1426-SM-5985P	Skin - Not Sun Exposed (Suprapubic)
+GTEX-ZTSS-1926-SM-57WEW	Skin - Sun Exposed (Lower leg)
+GTEX-ZTSS-0926-SM-59865	Small Intestine - Terminal Ileum
+GTEX-ZTSS-1526-SM-51MTC	Testis
+GTEX-ZTSS-0226-SM-59877	Thyroid
+GTEX-ZTSS-0005-SM-4YCDR	Whole Blood

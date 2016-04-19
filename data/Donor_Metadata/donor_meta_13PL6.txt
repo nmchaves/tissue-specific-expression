@@ -1,0 +1,10 @@
+GTEX-13PL6-0926-SM-5KLYY	Adipose - Visceral (Omentum)
+GTEX-13PL6-3126-SM-5LUAR	Brain - Cortex
+GTEX-13PL6-0011-R6a-SM-5O9C5	Brain - Nucleus accumbens (basal ganglia)
+GTEX-13PL6-0011-R9b-SM-5O9CH	Brain - Spinal cord (cervical c-1)
+GTEX-13PL6-2926-SM-5L3I2	Breast - Mammary Tissue
+GTEX-13PL6-0826-SM-5IJBI	Heart - Atrial Appendage
+GTEX-13PL6-0326-SM-5IJCP	Muscle - Skeletal
+GTEX-13PL6-1126-SM-5L3IE	Skin - Not Sun Exposed (Suprapubic)
+GTEX-13PL6-1026-SM-5L3E5	Thyroid
+GTEX-13PL6-0526-SM-5L3G6	Artery - Tibial

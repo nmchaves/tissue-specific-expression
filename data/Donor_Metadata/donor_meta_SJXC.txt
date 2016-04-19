@@ -1,0 +1,9 @@
+GTEX-SJXC-0226-SM-2XCDU	Adipose - Subcutaneous
+GTEX-SJXC-0008-SM-4DM7G	Cells - Transformed fibroblasts
+GTEX-SJXC-1226-SM-4DM78	Liver
+GTEX-SJXC-0526-SM-2XCFG	Muscle - Skeletal
+GTEX-SJXC-2026-SM-4DM6N	Prostate
+GTEX-SJXC-0126-SM-2XCFF	Skin - Sun Exposed (Lower leg)
+GTEX-SJXC-0726-SM-2XCFJ	Thyroid
+GTEX-SJXC-0426-SM-2XCFH	Artery - Tibial
+GTEX-SJXC-0005-SM-2XCE7	Whole Blood

@@ -1,0 +1,11 @@
+GTEX-ZF28-0226-SM-5S2OE	Adipose - Subcutaneous
+GTEX-ZF28-1426-SM-5S2OG	Adipose - Visceral (Omentum)
+GTEX-ZF28-0011-R11a-SM-4WWEI	Brain - Cerebellar Hemisphere
+GTEX-ZF28-0011-R10a-SM-4WWEH	Brain - Frontal Cortex (BA9)
+GTEX-ZF28-0011-R1a-SM-4WWD1	Brain - Hippocampus
+GTEX-ZF28-0011-R8a-SM-4WWFW	Brain - Hypothalamus
+GTEX-ZF28-0011-R9a-SM-4WWDY	Brain - Spinal cord (cervical c-1)
+GTEX-ZF28-0008-SM-4E3K3	Cells - Transformed fibroblasts
+GTEX-ZF28-2526-SM-57WFH	Colon - Sigmoid
+GTEX-ZF28-0011-R3a-SM-4WWDA	Brain - Anterior cingulate cortex (BA24)
+GTEX-ZF28-0011-R5a-SM-4WWCZ	Brain - Caudate (basal ganglia)

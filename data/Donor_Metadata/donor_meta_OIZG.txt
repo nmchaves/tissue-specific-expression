@@ -1,0 +1,10 @@
+GTEX-OIZG-0008-SM-4E3J2	Cells - Transformed fibroblasts
+GTEX-OIZG-1026-SM-3LK5X	Esophagus - Mucosa
+GTEX-OIZG-0926-SM-3LK5Y	Esophagus - Muscularis
+GTEX-OIZG-0426-SM-3LK5W	Artery - Aorta
+GTEX-OIZG-1126-SM-2HMIU	Heart - Left Ventricle
+GTEX-OIZG-0526-SM-2HMLF	Lung
+GTEX-OIZG-1326-SM-2HMIQ	Muscle - Skeletal
+GTEX-OIZG-0726-SM-33HBL	Skin - Sun Exposed (Lower leg)
+GTEX-OIZG-0226-SM-2TC5L	Thyroid
+GTEX-OIZG-0005-SM-2HMJC	Whole Blood

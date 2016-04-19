@@ -1,0 +1,12 @@
+GTEX-139D8-0326-SM-5IJCJ	Adipose - Subcutaneous
+GTEX-139D8-1626-SM-5IJFZ	Adipose - Visceral (Omentum)
+GTEX-139D8-2926-SM-5IJBM	Colon - Sigmoid
+GTEX-139D8-1426-SM-5IJEX	Esophagus - Muscularis
+GTEX-139D8-1226-SM-5L3ED	Artery - Aorta
+GTEX-139D8-0726-SM-5P9GJ	Muscle - Skeletal
+GTEX-139D8-2426-SM-5KM3A	Ovary
+GTEX-139D8-1126-SM-5LU8W	Skin - Not Sun Exposed (Suprapubic)
+GTEX-139D8-0226-SM-5KLZO	Skin - Sun Exposed (Lower leg)
+GTEX-139D8-2326-SM-5IFGE	Stomach
+GTEX-139D8-2526-SM-5N9G3	Uterus
+GTEX-139D8-0006-SM-5LZX8	Whole Blood

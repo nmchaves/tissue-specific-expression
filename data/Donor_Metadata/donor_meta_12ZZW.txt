@@ -1,0 +1,14 @@
+GTEX-12ZZW-2326-SM-5DUW2	Adipose - Visceral (Omentum)
+GTEX-12ZZW-2926-SM-5LZUP	Brain - Cortex
+GTEX-12ZZW-0011-R10b-SM-5HL9X	Brain - Frontal Cortex (BA9)
+GTEX-12ZZW-0011-R6a-SM-5DUVZ	Brain - Nucleus accumbens (basal ganglia)
+GTEX-12ZZW-0011-R7a-SM-5DUWC	Brain - Putamen (basal ganglia)
+GTEX-12ZZW-2426-SM-5DUWE	Colon - Sigmoid
+GTEX-12ZZW-1726-SM-5DUVD	Esophagus - Mucosa
+GTEX-12ZZW-0926-SM-5LZUD	Lung
+GTEX-12ZZW-3026-SM-5LZW7	Pituitary
+GTEX-12ZZW-0426-SM-5GCO9	Artery - Tibial
+GTEX-12ZZW-0005-SM-5O9BY	Whole Blood
+GTEX-12ZZW-0011-R4a-SM-5DUX9	Brain - Amygdala
+GTEX-12ZZW-0011-R3a-SM-5DUWW	Brain - Anterior cingulate cortex (BA24)
+GTEX-12ZZW-0011-R5a-SM-5DUVN	Brain - Caudate (basal ganglia)

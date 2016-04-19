@@ -1,0 +1,21 @@
+GTEX-13OW7-0226-SM-5MR3N	Adipose - Subcutaneous
+GTEX-13OW7-1126-SM-5K7V6	Adipose - Visceral (Omentum)
+GTEX-13OW7-0011-R11a-SM-5O9DY	Brain - Cerebellar Hemisphere
+GTEX-13OW7-2926-SM-5MR3Z	Brain - Cerebellum
+GTEX-13OW7-3026-SM-5L3GY	Brain - Cortex
+GTEX-13OW7-0011-R10a-SM-5L3H3	Brain - Frontal Cortex (BA9)
+GTEX-13OW7-0011-R1b-SM-5L3HF	Brain - Hippocampus
+GTEX-13OW7-0011-R8b-SM-5L3HR	Brain - Hypothalamus
+GTEX-13OW7-2726-SM-5L3HN	Adrenal Gland
+GTEX-13OW7-1926-SM-5LUB4	Esophagus - Gastroesophageal Junction
+GTEX-13OW7-1626-SM-5IJDH	Heart - Atrial Appendage
+GTEX-13OW7-0326-SM-5J1MP	Muscle - Skeletal
+GTEX-13OW7-0526-SM-5J1N2	Nerve - Tibial
+GTEX-13OW7-3126-SM-5L3HB	Pituitary
+GTEX-13OW7-0426-SM-5K7VK	Skin - Not Sun Exposed (Suprapubic)
+GTEX-13OW7-0126-SM-5MR3B	Skin - Sun Exposed (Lower leg)
+GTEX-13OW7-0826-SM-5L3EL	Thyroid
+GTEX-13OW7-0626-SM-5K7UD	Artery - Tibial
+GTEX-13OW7-0011-R4b-SM-5O9CX	Brain - Amygdala
+GTEX-13OW7-0011-R3a-SM-5O9DA	Brain - Anterior cingulate cortex (BA24)
+GTEX-13OW7-0011-R5b-SM-5O9DM	Brain - Caudate (basal ganglia)

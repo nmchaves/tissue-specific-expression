@@ -1,0 +1,20 @@
+GTEX-11DXY-0326-SM-5H12F	Adipose - Visceral (Omentum)
+GTEX-11DXY-3126-SM-5N9BT	Brain - Cerebellum
+GTEX-11DXY-3226-SM-5GIDE	Brain - Cortex
+GTEX-11DXY-1626-SM-5H12L	Adrenal Gland
+GTEX-11DXY-2326-SM-5GICW	Breast - Mammary Tissue
+GTEX-11DXY-0008-SM-5QGR4	Cells - Transformed fibroblasts
+GTEX-11DXY-2026-SM-5N9CZ	Colon - Sigmoid
+GTEX-11DXY-1326-SM-5987Z	Esophagus - Gastroesophageal Junction
+GTEX-11DXY-1426-SM-5N9CN	Esophagus - Mucosa
+GTEX-11DXY-1526-SM-5H129	Esophagus - Muscularis
+GTEX-11DXY-1026-SM-5987V	Heart - Atrial Appendage
+GTEX-11DXY-0826-SM-5EGGR	Heart - Left Ventricle
+GTEX-11DXY-0526-SM-5EGGQ	Liver
+GTEX-11DXY-2726-SM-5GID2	Muscle - Skeletal
+GTEX-11DXY-1126-SM-5987W	Artery - Coronary
+GTEX-11DXY-3026-SM-5N9CB	Pituitary
+GTEX-11DXY-0126-SM-5H11Q	Skin - Not Sun Exposed (Suprapubic)
+GTEX-11DXY-2626-SM-5GIE7	Skin - Sun Exposed (Lower leg)
+GTEX-11DXY-0426-SM-5H12R	Thyroid
+GTEX-11DXY-0006-SM-5NQ8N	Whole Blood

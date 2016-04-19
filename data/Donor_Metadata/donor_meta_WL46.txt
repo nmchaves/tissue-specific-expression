@@ -1,0 +1,22 @@
+GTEX-WL46-0326-SM-3LK6Y	Adipose - Subcutaneous
+GTEX-WL46-2026-SM-3LK7U	Adipose - Visceral (Omentum)
+GTEX-WL46-0011-R11A-SM-3MJFT	Brain - Cerebellar Hemisphere
+GTEX-WL46-2826-SM-3LK81	Brain - Cerebellum
+GTEX-WL46-2926-SM-3LK82	Brain - Cortex
+GTEX-WL46-0011-R10A-SM-3MJFQ	Brain - Frontal Cortex (BA9)
+GTEX-WL46-0011-R1A-SM-3LK6M	Brain - Hippocampus
+GTEX-WL46-0011-R6A-SM-3LK6X	Brain - Nucleus accumbens (basal ganglia)
+GTEX-WL46-0011-R7A-SM-3LK7X	Brain - Putamen (basal ganglia)
+GTEX-WL46-0011-R9A-SM-3MJFP	Brain - Spinal cord (cervical c-1)
+GTEX-WL46-0011-R2A-SM-3LK6O	Brain - Substantia nigra
+GTEX-WL46-0008-SM-4OOSW	Cells - Transformed fibroblasts
+GTEX-WL46-0726-SM-3LK5Z	Heart - Atrial Appendage
+GTEX-WL46-0926-SM-3LK7T	Heart - Left Ventricle
+GTEX-WL46-0626-SM-3LK7R	Muscle - Skeletal
+GTEX-WL46-0426-SM-3TW8J	Nerve - Tibial
+GTEX-WL46-3026-SM-3LK7Z	Pituitary
+GTEX-WL46-0126-SM-3TW8I	Thyroid
+GTEX-WL46-0526-SM-3LK7W	Artery - Tibial
+GTEX-WL46-0006-SM-4OOS5	Whole Blood
+GTEX-WL46-0011-R3A-SM-3TW8E	Brain - Anterior cingulate cortex (BA24)
+GTEX-WL46-0011-R5A-SM-3LK6V	Brain - Caudate (basal ganglia)

@@ -1,0 +1,14 @@
+GTEX-OOBK-0226-SM-2YUMF	Adipose - Subcutaneous
+GTEX-OOBK-3125-SM-3LK5R	Adrenal Gland
+GTEX-OOBK-0008-SM-3NB27	Cells - Transformed fibroblasts
+GTEX-OOBK-0625-SM-3LK5P	Esophagus - Mucosa
+GTEX-OOBK-0726-SM-3LK5Q	Esophagus - Muscularis
+GTEX-OOBK-0425-SM-3LK5O	Artery - Aorta
+GTEX-OOBK-0526-SM-2HMJJ	Lung
+GTEX-OOBK-1626-SM-2HMKG	Muscle - Skeletal
+GTEX-OOBK-1026-SM-48TC2	Pancreas
+GTEX-OOBK-2025-SM-3LK5S	Prostate
+GTEX-OOBK-0126-SM-2YUND	Skin - Sun Exposed (Lower leg)
+GTEX-OOBK-2126-SM-3LK5T	Testis
+GTEX-OOBK-2626-SM-2HMKY	Thyroid
+GTEX-OOBK-0005-SM-2YUMG	Whole Blood

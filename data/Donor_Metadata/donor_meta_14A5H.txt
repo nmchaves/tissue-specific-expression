@@ -1,0 +1,7 @@
+GTEX-14A5H-1626-SM-5SIAN	Colon - Sigmoid
+GTEX-14A5H-0326-SM-5RQIB	Muscle - Skeletal
+GTEX-14A5H-3026-SM-5RQHV	Pituitary
+GTEX-14A5H-0826-SM-5QGPJ	Skin - Not Sun Exposed (Suprapubic)
+GTEX-14A5H-0426-SM-5QGQF	Skin - Sun Exposed (Lower leg)
+GTEX-14A5H-0726-SM-5Q5DW	Thyroid
+GTEX-14A5H-0006-SM-5O9AI	Whole Blood

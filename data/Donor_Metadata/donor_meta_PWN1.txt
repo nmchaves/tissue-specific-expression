@@ -1,0 +1,15 @@
+GTEX-PWN1-0226-SM-5SI7O	Adipose - Subcutaneous
+GTEX-PWN1-0008-SM-48TEA	Cells - Transformed fibroblasts
+GTEX-PWN1-1426-SM-48TDF	Colon - Transverse
+GTEX-PWN1-0626-SM-48TDT	Esophagus - Mucosa
+GTEX-PWN1-0726-SM-48TDR	Esophagus - Muscularis
+GTEX-PWN1-1626-SM-2S1OL	Muscle - Skeletal
+GTEX-PWN1-1726-SM-2S1O9	Nerve - Tibial
+GTEX-PWN1-2426-SM-48TDD	Ovary
+GTEX-PWN1-0126-SM-2I3FK	Skin - Sun Exposed (Lower leg)
+GTEX-PWN1-1526-SM-48TDA	Stomach
+GTEX-PWN1-2626-SM-2I3FH	Thyroid
+GTEX-PWN1-1826-SM-2S1PE	Artery - Tibial
+GTEX-PWN1-2026-SM-48TD9	Uterus
+GTEX-PWN1-2526-SM-48TDS	Vagina
+GTEX-PWN1-0006-SM-5SI7T	Whole Blood

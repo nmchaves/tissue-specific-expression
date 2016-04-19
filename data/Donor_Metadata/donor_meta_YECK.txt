@@ -1,0 +1,14 @@
+GTEX-YECK-0226-SM-4W215	Adipose - Subcutaneous
+GTEX-YECK-1426-SM-5IFHE	Adipose - Visceral (Omentum)
+GTEX-YECK-2826-SM-5IFHF	Colon - Sigmoid
+GTEX-YECK-1626-SM-5IFHQ	Esophagus - Mucosa
+GTEX-YECK-1726-SM-5IFI3	Esophagus - Muscularis
+GTEX-YECK-1326-SM-4W1ZF	Artery - Aorta
+GTEX-YECK-1226-SM-4W21G	Heart - Atrial Appendage
+GTEX-YECK-1926-SM-4W21H	Liver
+GTEX-YECK-0926-SM-4W214	Lung
+GTEX-YECK-0626-SM-4W1ZE	Muscle - Skeletal
+GTEX-YECK-0426-SM-4W1Z5	Nerve - Tibial
+GTEX-YECK-0326-SM-4W1YS	Skin - Not Sun Exposed (Suprapubic)
+GTEX-YECK-0526-SM-4W1ZD	Artery - Tibial
+GTEX-YECK-0005-SM-4W217	Whole Blood

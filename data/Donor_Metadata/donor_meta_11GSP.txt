@@ -1,0 +1,29 @@
+GTEX-11GSP-0011-R11b-SM-5NQ7V	Brain - Cerebellar Hemisphere
+GTEX-11GSP-3126-SM-5A5LL	Brain - Cerebellum
+GTEX-11GSP-3226-SM-5986O	Brain - Cortex
+GTEX-11GSP-0011-R10a-SM-5NQ7J	Brain - Frontal Cortex (BA9)
+GTEX-11GSP-0011-R8b-SM-5NQ79	Brain - Hypothalamus
+GTEX-11GSP-0011-R6b-SM-57WBQ	Brain - Nucleus accumbens (basal ganglia)
+GTEX-11GSP-0011-R7b-SM-57WC3	Brain - Putamen (basal ganglia)
+GTEX-11GSP-0011-R9b-SM-5NQ77	Brain - Spinal cord (cervical c-1)
+GTEX-11GSP-0326-SM-5A5KW	Adrenal Gland
+GTEX-11GSP-0008-SM-5Q5DM	Cells - Transformed fibroblasts
+GTEX-11GSP-1626-SM-5986N	Colon - Transverse
+GTEX-11GSP-1826-SM-5N9DQ	Esophagus - Mucosa
+GTEX-11GSP-1726-SM-5A5LI	Esophagus - Muscularis
+GTEX-11GSP-1126-SM-5A5LM	Artery - Aorta
+GTEX-11GSP-1226-SM-5985M	Heart - Atrial Appendage
+GTEX-11GSP-1326-SM-5A5KY	Heart - Left Ventricle
+GTEX-11GSP-0626-SM-5986T	Liver
+GTEX-11GSP-0726-SM-5986L	Lung
+GTEX-11GSP-2726-SM-5A5LJ	Muscle - Skeletal
+GTEX-11GSP-2826-SM-5A5LK	Nerve - Tibial
+GTEX-11GSP-0226-SM-5A5KV	Ovary
+GTEX-11GSP-2326-SM-5HL63	Skin - Not Sun Exposed (Suprapubic)
+GTEX-11GSP-2526-SM-5N9BP	Skin - Sun Exposed (Lower leg)
+GTEX-11GSP-2126-SM-5HL5E	Stomach
+GTEX-11GSP-2926-SM-5N9C2	Artery - Tibial
+GTEX-11GSP-2426-SM-5N9BD	Uterus
+GTEX-11GSP-2226-SM-5HL5Q	Vagina
+GTEX-11GSP-0006-SM-5N9EL	Whole Blood
+GTEX-11GSP-0011-R5a-SM-57WBE	Brain - Caudate (basal ganglia)

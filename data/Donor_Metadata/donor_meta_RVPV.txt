@@ -1,0 +1,9 @@
+GTEX-RVPV-0011-R11A-SM-2TF6F	Brain - Cerebellar Hemisphere
+GTEX-RVPV-0008-SM-47JYW	Cells - Transformed fibroblasts
+GTEX-RVPV-0526-SM-47JYL	Esophagus - Mucosa
+GTEX-RVPV-1726-SM-5SI8C	Lung
+GTEX-RVPV-1226-SM-2TF73	Thyroid
+GTEX-RVPV-0226-SM-2TF6W	Artery - Tibial
+GTEX-RVPV-0006-SM-2TF6Q	Whole Blood
+GTEX-RVPV-0011-R3A-SM-2TF63	Brain - Anterior cingulate cortex (BA24)
+GTEX-RVPV-0011-R5A-SM-2TF69	Brain - Caudate (basal ganglia)

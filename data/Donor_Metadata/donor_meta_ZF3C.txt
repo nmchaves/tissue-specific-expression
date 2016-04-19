@@ -1,0 +1,13 @@
+GTEX-ZF3C-0226-SM-4WWB3	Adipose - Subcutaneous
+GTEX-ZF3C-1026-SM-5S2OC	Adipose - Visceral (Omentum)
+GTEX-ZF3C-2326-SM-5S2MZ	Breast - Mammary Tissue
+GTEX-ZF3C-0001-SM-4WWAW	Cells - EBV-transformed lymphocytes
+GTEX-ZF3C-0008-SM-4E3IL	Cells - Transformed fibroblasts
+GTEX-ZF3C-1626-SM-4WWB4	Esophagus - Mucosa
+GTEX-ZF3C-1426-SM-4WWCD	Artery - Aorta
+GTEX-ZF3C-1126-SM-57WEG	Heart - Atrial Appendage
+GTEX-ZF3C-0326-SM-4WWBF	Muscle - Skeletal
+GTEX-ZF3C-1326-SM-5A5MF	Artery - Coronary
+GTEX-ZF3C-2026-SM-4WWB5	Pancreas
+GTEX-ZF3C-0526-SM-4WWBG	Artery - Tibial
+GTEX-ZF3C-0005-SM-4WWAR	Whole Blood

@@ -1,0 +1,7 @@
+GTEX-14C39-2526-SM-5S2UH	Adipose - Subcutaneous
+GTEX-14C39-1626-SM-5S2P4	Colon - Sigmoid
+GTEX-14C39-0726-SM-5RQIK	Heart - Atrial Appendage
+GTEX-14C39-2426-SM-5S2U5	Muscle - Skeletal
+GTEX-14C39-1726-SM-5RQIL	Skin - Not Sun Exposed (Suprapubic)
+GTEX-14C39-2626-SM-5S2QD	Artery - Tibial
+GTEX-14C39-0005-SM-5NQBR	Whole Blood

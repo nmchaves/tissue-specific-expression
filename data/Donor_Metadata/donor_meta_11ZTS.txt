@@ -1,0 +1,24 @@
+GTEX-11ZTS-0226-SM-5EQKD	Adipose - Subcutaneous
+GTEX-11ZTS-1326-SM-5EQMA	Adipose - Visceral (Omentum)
+GTEX-11ZTS-3226-SM-5EGID	Brain - Cerebellum
+GTEX-11ZTS-0011-R1a-SM-5BC71	Brain - Hippocampus
+GTEX-11ZTS-0011-R8a-SM-57WDI	Brain - Hypothalamus
+GTEX-11ZTS-0011-R2b-SM-5BC75	Brain - Substantia nigra
+GTEX-11ZTS-0008-SM-5S2VC	Cells - Transformed fibroblasts
+GTEX-11ZTS-1526-SM-5N9G7	Colon - Sigmoid
+GTEX-11ZTS-2726-SM-5EQLU	Esophagus - Gastroesophageal Junction
+GTEX-11ZTS-2626-SM-5EGIC	Esophagus - Mucosa
+GTEX-11ZTS-0826-SM-5EQ49	Artery - Aorta
+GTEX-11ZTS-1426-SM-5EQMM	Liver
+GTEX-11ZTS-1226-SM-5EQMQ	Lung
+GTEX-11ZTS-3026-SM-5EQM7	Minor Salivary Gland
+GTEX-11ZTS-0526-SM-5CVL9	Muscle - Skeletal
+GTEX-11ZTS-1926-SM-5CVLA	Ovary
+GTEX-11ZTS-1026-SM-5LU8O	Artery - Coronary
+GTEX-11ZTS-3326-SM-5LU9Y	Pituitary
+GTEX-11ZTS-0126-SM-5EQ6M	Skin - Sun Exposed (Lower leg)
+GTEX-11ZTS-1126-SM-5LU9X	Thyroid
+GTEX-11ZTS-0326-SM-5EQKP	Artery - Tibial
+GTEX-11ZTS-2326-SM-5EQMY	Uterus
+GTEX-11ZTS-0005-SM-5NQ8A	Whole Blood
+GTEX-11ZTS-0011-R3a-SM-5BC78	Brain - Anterior cingulate cortex (BA24)

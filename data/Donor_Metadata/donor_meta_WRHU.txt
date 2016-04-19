@@ -1,0 +1,14 @@
+GTEX-WRHU-0326-SM-3MJFY	Breast - Mammary Tissue
+GTEX-WRHU-0008-SM-4MVPB	Cells - Transformed fibroblasts
+GTEX-WRHU-1326-SM-4E3K7	Artery - Aorta
+GTEX-WRHU-1026-SM-4E3ID	Heart - Atrial Appendage
+GTEX-WRHU-1226-SM-4E3IJ	Heart - Left Ventricle
+GTEX-WRHU-0226-SM-3MJFV	Lung
+GTEX-WRHU-0826-SM-3MJFN	Muscle - Skeletal
+GTEX-WRHU-0626-SM-3MJFI	Nerve - Tibial
+GTEX-WRHU-1126-SM-4E3I1	Artery - Coronary
+GTEX-WRHU-2826-SM-3MJG8	Skin - Not Sun Exposed (Suprapubic)
+GTEX-WRHU-0926-SM-4E3IG	Thyroid
+GTEX-WRHU-0726-SM-3MJFL	Artery - Tibial
+GTEX-WRHU-2926-SM-4MVNQ	Vagina
+GTEX-WRHU-0006-SM-3MJF6	Whole Blood

@@ -1,0 +1,20 @@
+GTEX-T6MO-1726-SM-33HB8	Adipose - Subcutaneous
+GTEX-T6MO-0126-SM-4DM6X	Adrenal Gland
+GTEX-T6MO-0326-SM-32QOK	Breast - Mammary Tissue
+GTEX-T6MO-0003-SM-3NMAG	Cells - EBV-transformed lymphocytes
+GTEX-T6MO-0008-SM-4DM6T	Cells - Transformed fibroblasts
+GTEX-T6MO-1426-SM-4DM73	Cervix - Endocervix
+GTEX-T6MO-0826-SM-4DM51	Colon - Transverse
+GTEX-T6MO-0526-SM-4DM6R	Esophagus - Mucosa
+GTEX-T6MO-0626-SM-4DM6P	Esophagus - Muscularis
+GTEX-T6MO-1026-SM-4DM72	Fallopian Tube
+GTEX-T6MO-0426-SM-32QOI	Lung
+GTEX-T6MO-2026-SM-33HB4	Nerve - Tibial
+GTEX-T6MO-1126-SM-4DM5D	Ovary
+GTEX-T6MO-1626-SM-32QOM	Skin - Sun Exposed (Lower leg)
+GTEX-T6MO-0726-SM-4DM58	Stomach
+GTEX-T6MO-0226-SM-32QOL	Thyroid
+GTEX-T6MO-1926-SM-32QOJ	Artery - Tibial
+GTEX-T6MO-1526-SM-4DM57	Uterus
+GTEX-T6MO-1226-SM-4DM5S	Vagina
+GTEX-T6MO-0006-SM-32QOU	Whole Blood

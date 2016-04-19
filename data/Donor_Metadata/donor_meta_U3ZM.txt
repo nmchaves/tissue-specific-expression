@@ -1,0 +1,14 @@
+GTEX-U3ZM-0226-SM-4DXTA	Adrenal Gland
+GTEX-U3ZM-0002-SM-3NMDM	Cells - EBV-transformed lymphocytes
+GTEX-U3ZM-0008-SM-4DXTQ	Cells - Transformed fibroblasts
+GTEX-U3ZM-1126-SM-4DXUB	Colon - Transverse
+GTEX-U3ZM-0526-SM-4DXTB	Esophagus - Mucosa
+GTEX-U3ZM-0626-SM-4DXTV	Esophagus - Muscularis
+GTEX-U3ZM-0326-SM-4DXUJ	Artery - Aorta
+GTEX-U3ZM-0426-SM-3DB73	Lung
+GTEX-U3ZM-1226-SM-3DB9G	Muscle - Skeletal
+GTEX-U3ZM-0926-SM-4DXSW	Prostate
+GTEX-U3ZM-1526-SM-3DB9D	Skin - Sun Exposed (Lower leg)
+GTEX-U3ZM-1626-SM-4DXSK	Testis
+GTEX-U3ZM-0126-SM-3DB8M	Thyroid
+GTEX-U3ZM-0826-SM-4DXU6	Bladder

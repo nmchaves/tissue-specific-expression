@@ -1,0 +1,17 @@
+GTEX-12WSH-0011-R11a-SM-5LZVM	Brain - Cerebellar Hemisphere
+GTEX-12WSH-3126-SM-5LZW8	Brain - Cerebellum
+GTEX-12WSH-3026-SM-5CVNI	Brain - Cortex
+GTEX-12WSH-0011-R10a-SM-5LZUS	Brain - Frontal Cortex (BA9)
+GTEX-12WSH-0011-R1a-SM-5GU5V	Brain - Hippocampus
+GTEX-12WSH-0011-R6b-SM-5P9F4	Brain - Nucleus accumbens (basal ganglia)
+GTEX-12WSH-0011-R9b-SM-5LZUG	Brain - Spinal cord (cervical c-1)
+GTEX-12WSH-0011-R2a-SM-5GU68	Brain - Substantia nigra
+GTEX-12WSH-0008-SM-5S2V1	Cells - Transformed fibroblasts
+GTEX-12WSH-2526-SM-5CVNH	Muscle - Skeletal
+GTEX-12WSH-1526-SM-5BC5W	Skin - Not Sun Exposed (Suprapubic)
+GTEX-12WSH-0326-SM-5GCNH	Testis
+GTEX-12WSH-0226-SM-5GCOG	Thyroid
+GTEX-12WSH-2826-SM-5GCP5	Artery - Tibial
+GTEX-12WSH-0005-SM-5NQ9P	Whole Blood
+GTEX-12WSH-0011-R4a-SM-5GU6K	Brain - Amygdala
+GTEX-12WSH-0011-R5b-SM-5P9F3	Brain - Caudate (basal ganglia)

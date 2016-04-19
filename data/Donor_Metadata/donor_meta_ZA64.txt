@@ -1,0 +1,17 @@
+GTEX-ZA64-0926-SM-5HL7H	Adipose - Visceral (Omentum)
+GTEX-ZA64-0226-SM-5HL9C	Adrenal Gland
+GTEX-ZA64-1526-SM-5CVMD	Breast - Mammary Tissue
+GTEX-ZA64-1426-SM-5CVMC	Colon - Sigmoid
+GTEX-ZA64-0626-SM-5HL9O	Esophagus - Mucosa
+GTEX-ZA64-0526-SM-5HL9I	Esophagus - Muscularis
+GTEX-ZA64-0126-SM-5HL8Z	Artery - Aorta
+GTEX-ZA64-0326-SM-5HL8T	Lung
+GTEX-ZA64-1726-SM-5CVMF	Minor Salivary Gland
+GTEX-ZA64-2026-SM-5PNXT	Muscle - Skeletal
+GTEX-ZA64-2126-SM-5Q5A8	Nerve - Tibial
+GTEX-ZA64-1026-SM-5HL8R	Skin - Not Sun Exposed (Suprapubic)
+GTEX-ZA64-1226-SM-5HL7B	Small Intestine - Terminal Ileum
+GTEX-ZA64-0826-SM-5HL9U	Stomach
+GTEX-ZA64-1626-SM-5CVME	Testis
+GTEX-ZA64-0426-SM-5HL96	Thyroid
+GTEX-ZA64-2226-SM-5Q5A9	Artery - Tibial

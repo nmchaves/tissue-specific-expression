@@ -1,0 +1,12 @@
+GTEX-O5YV-0226-SM-48TBY	Adipose - Subcutaneous
+GTEX-O5YV-1126-SM-3LK73	Adrenal Gland
+GTEX-O5YV-0008-SM-4E3HP	Cells - Transformed fibroblasts
+GTEX-O5YV-1026-SM-3LK72	Esophagus - Mucosa
+GTEX-O5YV-0626-SM-3LK64	Artery - Aorta
+GTEX-O5YV-0326-SM-2I5H2	Heart - Left Ventricle
+GTEX-O5YV-0526-SM-2I5GE	Lung
+GTEX-O5YV-2026-SM-2D7VS	Muscle - Skeletal
+GTEX-O5YV-1826-SM-2YUNI	Nerve - Tibial
+GTEX-O5YV-0426-SM-3LK66	Artery - Coronary
+GTEX-O5YV-1626-SM-2YUNJ	Artery - Tibial
+GTEX-O5YV-0006-SM-2I5GX	Whole Blood

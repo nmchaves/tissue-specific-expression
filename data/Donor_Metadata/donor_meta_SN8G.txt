@@ -1,0 +1,9 @@
+GTEX-SN8G-0226-SM-4DM6B	Adipose - Subcutaneous
+GTEX-SN8G-0001-SM-3NM8L	Cells - EBV-transformed lymphocytes
+GTEX-SN8G-0008-SM-4DM4X	Cells - Transformed fibroblasts
+GTEX-SN8G-0926-SM-4DM5I	Lung
+GTEX-SN8G-0326-SM-32PLG	Muscle - Skeletal
+GTEX-SN8G-0126-SM-32PLI	Skin - Sun Exposed (Lower leg)
+GTEX-SN8G-1526-SM-4DM79	Thyroid
+GTEX-SN8G-0526-SM-32PLE	Artery - Tibial
+GTEX-SN8G-0006-SM-32PLD	Whole Blood

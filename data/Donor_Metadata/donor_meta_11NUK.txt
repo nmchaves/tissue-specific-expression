@@ -1,0 +1,20 @@
+GTEX-11NUK-2026-SM-5PNVZ	Adipose - Visceral (Omentum)
+GTEX-11NUK-3026-SM-5986K	Brain - Cerebellum
+GTEX-11NUK-2926-SM-5A5MD	Brain - Cortex
+GTEX-11NUK-0008-SM-5Q5B9	Cells - Transformed fibroblasts
+GTEX-11NUK-1726-SM-5A5L2	Esophagus - Gastroesophageal Junction
+GTEX-11NUK-1326-SM-5P9GN	Esophagus - Mucosa
+GTEX-11NUK-0726-SM-5A5ME	Artery - Aorta
+GTEX-11NUK-0926-SM-5HL57	Heart - Atrial Appendage
+GTEX-11NUK-1226-SM-5P9GM	Liver
+GTEX-11NUK-0826-SM-5HL4U	Lung
+GTEX-11NUK-0226-SM-5A5L4	Muscle - Skeletal
+GTEX-11NUK-0426-SM-5HL5V	Nerve - Tibial
+GTEX-11NUK-3126-SM-5986M	Pituitary
+GTEX-11NUK-2726-SM-5A5MC	Skin - Not Sun Exposed (Suprapubic)
+GTEX-11NUK-0126-SM-5A5L3	Skin - Sun Exposed (Lower leg)
+GTEX-11NUK-2426-SM-5BC4U	Stomach
+GTEX-11NUK-2626-SM-5A5MB	Testis
+GTEX-11NUK-1026-SM-5HL5J	Thyroid
+GTEX-11NUK-0526-SM-5A5L5	Artery - Tibial
+GTEX-11NUK-0005-SM-5MR5F	Whole Blood

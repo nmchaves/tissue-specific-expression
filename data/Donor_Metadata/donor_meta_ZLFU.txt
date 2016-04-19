@@ -1,0 +1,15 @@
+GTEX-ZLFU-0826-SM-4WWBP	Adrenal Gland
+GTEX-ZLFU-2126-SM-4WWEV	Breast - Mammary Tissue
+GTEX-ZLFU-1426-SM-4WWEU	Colon - Sigmoid
+GTEX-ZLFU-1026-SM-5EQMZ	Esophagus - Muscularis
+GTEX-ZLFU-0326-SM-4WWBK	Heart - Atrial Appendage
+GTEX-ZLFU-0226-SM-4WWFH	Heart - Left Ventricle
+GTEX-ZLFU-0926-SM-5P9F8	Kidney - Cortex
+GTEX-ZLFU-0126-SM-5EQMN	Artery - Coronary
+GTEX-ZLFU-0726-SM-57WF6	Pancreas
+GTEX-ZLFU-1726-SM-4WWBU	Prostate
+GTEX-ZLFU-1826-SM-4WWBV	Skin - Not Sun Exposed (Suprapubic)
+GTEX-ZLFU-1526-SM-4WWBT	Small Intestine - Terminal Ileum
+GTEX-ZLFU-0526-SM-4WWBN	Spleen
+GTEX-ZLFU-1326-SM-4WWET	Stomach
+GTEX-ZLFU-0626-SM-4WWBO	Thyroid

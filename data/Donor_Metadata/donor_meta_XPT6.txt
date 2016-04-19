@@ -1,0 +1,11 @@
+GTEX-XPT6-0001-SM-4B64G	Cells - EBV-transformed lymphocytes
+GTEX-XPT6-0008-SM-4B64Q	Cells - Transformed fibroblasts
+GTEX-XPT6-0326-SM-4B66V	Artery - Aorta
+GTEX-XPT6-0226-SM-4B65L	Heart - Atrial Appendage
+GTEX-XPT6-0126-SM-4B65S	Heart - Left Ventricle
+GTEX-XPT6-2026-SM-4B64V	Muscle - Skeletal
+GTEX-XPT6-2126-SM-4B66P	Nerve - Tibial
+GTEX-XPT6-0426-SM-4B672	Artery - Coronary
+GTEX-XPT6-1626-SM-4B655	Testis
+GTEX-XPT6-2226-SM-4B66R	Artery - Tibial
+GTEX-XPT6-0006-SM-4B66Q	Whole Blood

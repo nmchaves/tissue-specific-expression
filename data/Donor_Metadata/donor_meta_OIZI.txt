@@ -1,0 +1,12 @@
+GTEX-OIZI-0226-SM-2XCEE	Adipose - Subcutaneous
+GTEX-OIZI-0008-SM-2XCFD	Cells - Transformed fibroblasts
+GTEX-OIZI-1426-SM-3NB1T	Esophagus - Mucosa
+GTEX-OIZI-1326-SM-3NB1B	Esophagus - Muscularis
+GTEX-OIZI-1126-SM-3NB1F	Artery - Aorta
+GTEX-OIZI-1026-SM-3NB1K	Lung
+GTEX-OIZI-0626-SM-2XCEH	Muscle - Skeletal
+GTEX-OIZI-0426-SM-2XCEF	Nerve - Tibial
+GTEX-OIZI-0126-SM-3NB13	Testis
+GTEX-OIZI-0726-SM-2XCEI	Thyroid
+GTEX-OIZI-0526-SM-2XCEG	Artery - Tibial
+GTEX-OIZI-0005-SM-2XCED	Whole Blood
