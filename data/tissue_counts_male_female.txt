@@ -1,0 +1,54 @@
+Tissue_Name	Total_Samples	Male_Samples	Female_Samples
+Adipose - Subcutaneous	350	219	131
+Adipose - Visceral (Omentum)	227	145	82
+Brain - Cerebellar Hemisphere	105	74	31
+Brain - Cerebellum	125	84	41
+Brain - Cortex	114	77	37
+Brain - Frontal Cortex (BA9)	108	77	31
+Brain - Hippocampus	94	65	29
+Brain - Hypothalamus	96	71	25
+Brain - Nucleus accumbens (basal ganglia)	113	79	34
+Brain - Putamen (basal ganglia)	97	69	28
+Brain - Spinal cord (cervical c-1)	71	43	28
+Brain - Substantia nigra	63	39	24
+Adrenal Gland	145	81	64
+Breast - Mammary Tissue	214	124	90
+Cells - EBV-transformed lymphocytes	118	75	43
+Cells - Transformed fibroblasts	284	181	103
+Cervix - Ectocervix	6	0	6
+Cervix - Endocervix	5	0	5
+Colon - Sigmoid	149	88	61
+Colon - Transverse	196	115	81
+Esophagus - Gastroesophageal Junction	153	94	59
+Esophagus - Mucosa	286	179	107
+Esophagus - Muscularis	247	157	90
+Artery - Aorta	224	138	86
+Fallopian Tube	6	0	6
+Heart - Atrial Appendage	194	126	68
+Heart - Left Ventricle	218	142	76
+Kidney - Cortex	32	25	7
+Liver	119	78	41
+Lung	320	213	107
+Minor Salivary Gland	57	38	19
+Muscle - Skeletal	430	274	156
+Nerve - Tibial	304	199	105
+Ovary	97	0	97
+Artery - Coronary	133	77	56
+Pancreas	171	102	69
+Pituitary	103	74	29
+Prostate	106	106	0
+Skin - Not Sun Exposed (Suprapubic)	250	164	86
+Skin - Sun Exposed (Lower leg)	357	226	131
+Small Intestine - Terminal Ileum	88	51	37
+Spleen	104	60	44
+Stomach	193	111	82
+Testis	172	172	0
+Thyroid	323	211	112
+Artery - Tibial	332	213	119
+Uterus	83	0	83
+Vagina	96	0	96
+Whole Blood	393	249	144
+Bladder	11	6	5
+Brain - Amygdala	72	50	22
+Brain - Anterior cingulate cortex (BA24)	84	61	23
+Brain - Caudate (basal ganglia)	117	85	32
