@@ -1,0 +1,5 @@
+Donor_ID	Gender	Age	DTHHRDY	Mean_Expression_Over_All_Tissues	Num_Samples
+O5YU	1	60-69	4	53.5723895817	1
+----------
+Sample_ID	Tissue	Mean_Expression	Std_Dev	Min	25th_Pct	75th_Pct	Max
+GTEX-O5YU-0008-SM-4E3I7	Cells - Transformed fibroblasts	53.5723895817	265.029406899	0.0	0.02993125	35.9456625	9001.902344

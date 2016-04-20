@@ -1,0 +1,6 @@
+Donor_ID	Gender	Age	DTHHRDY	Mean_Expression_Over_All_Tissues	Num_Samples
+13RTL	1	40-49	4	76.668786316	2
+----------
+Sample_ID	Tissue	Mean_Expression	Std_Dev	Min	25th_Pct	75th_Pct	Max
+GTEX-13RTL-0011-R1a-SM-5PNZ8	Brain - Hippocampus	71.9297072616	1791.06617095	0.0	0.3458525	15.569535	106100.75
+GTEX-13RTL-0011-R3a-SM-5P9JP	Brain - Anterior cingulate cortex (BA24)	81.4078653705	2363.9311607	0.0	0.1846455	11.53268825	134595.765625
