@@ -1,9 +1,0 @@
-GTEX-UPJH-0001-SM-3NMDE	Cells - EBV-transformed lymphocytes
-GTEX-UPJH-0926-SM-4IHKA	Artery - Aorta
-GTEX-UPJH-0526-SM-4IHK8	Muscle - Skeletal
-GTEX-UPJH-0626-SM-4IHJN	Nerve - Tibial
-GTEX-UPJH-0226-SM-3GADV	Skin - Not Sun Exposed (Suprapubic)
-GTEX-UPJH-0326-SM-3GADU	Skin - Sun Exposed (Lower leg)
-GTEX-UPJH-0126-SM-4IHLL	Testis
-GTEX-UPJH-0726-SM-4IHJW	Artery - Tibial
-GTEX-UPJH-0006-SM-3GACW	Whole Blood

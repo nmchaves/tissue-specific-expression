@@ -1,7 +1,0 @@
-GTEX-14E6C-0226-SM-5S2N3	Adipose - Subcutaneous
-GTEX-14E6C-2226-SM-5QGQG	Colon - Sigmoid
-GTEX-14E6C-0326-SM-5Q5EE	Heart - Atrial Appendage
-GTEX-14E6C-1026-SM-5SI6P	Nerve - Tibial
-GTEX-14E6C-2426-SM-5S2NF	Skin - Not Sun Exposed (Suprapubic)
-GTEX-14E6C-2626-SM-5RQJP	Thyroid
-GTEX-14E6C-0005-SM-5O98N	Whole Blood

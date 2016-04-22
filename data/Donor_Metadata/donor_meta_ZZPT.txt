@@ -1,7 +1,0 @@
-GTEX-ZZPT-2926-SM-5EQ5S	Brain - Cerebellum
-GTEX-ZZPT-3026-SM-5GZXH	Brain - Cortex
-GTEX-ZZPT-1426-SM-5N9C5	Esophagus - Mucosa
-GTEX-ZZPT-0926-SM-5GICZ	Heart - Atrial Appendage
-GTEX-ZZPT-1326-SM-5E43H	Lung
-GTEX-ZZPT-0626-SM-5GZXT	Muscle - Skeletal
-GTEX-ZZPT-0226-SM-5E43X	Skin - Sun Exposed (Lower leg)

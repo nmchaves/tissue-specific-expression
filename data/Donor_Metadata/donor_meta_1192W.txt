@@ -1,6 +1,0 @@
-GTEX-1192W-0008-SM-5QGRE	Cells - Transformed fibroblasts
-GTEX-1192W-0226-SM-5EGGT	Heart - Atrial Appendage
-GTEX-1192W-3026-SM-5GZZV	Pituitary
-GTEX-1192W-2626-SM-5Q5AF	Skin - Sun Exposed (Lower leg)
-GTEX-1192W-0126-SM-5EGGS	Thyroid
-GTEX-1192W-0005-SM-5NQBQ	Whole Blood

@@ -24,8 +24,9 @@ if __name__ == "__main__":
         else:
             gene_counts[gene_id] = 1
 
-    gene_counts_file = open('../data/num_transcripts_per_gene.txt', 'w')
-    gene_counts_file.write('Gene_Symbol\tNum_TargetIDs\n')
+    #gene_counts_file = open('../data/num_transcripts_per_gene.txt', 'w')
+    #gene_counts_file.write('Gene_Symbol\tNum_TargetIDs\n')
 
-    for gene_id in gene_counts.keys():
-        gene_counts_file.write(gene_id + '\t' + str(gene_counts[gene_id]) + '\n')
+    print len(gene_counts.keys())
+    #for gene_id in gene_counts.keys():
+    #    gene_counts_file.write(gene_id + '\t' + str(gene_counts[gene_id]) + '\n')

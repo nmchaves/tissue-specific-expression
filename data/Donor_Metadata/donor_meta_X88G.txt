@@ -1,7 +1,0 @@
-GTEX-X88G-0226-SM-4GIE4	Adipose - Subcutaneous
-GTEX-X88G-0004-SM-47JZ6	Cells - EBV-transformed lymphocytes
-GTEX-X88G-0008-SM-47JWN	Cells - Transformed fibroblasts
-GTEX-X88G-0326-SM-47JZ4	Muscle - Skeletal
-GTEX-X88G-0126-SM-47JZ3	Skin - Sun Exposed (Lower leg)
-GTEX-X88G-0426-SM-47JZ5	Artery - Tibial
-GTEX-X88G-0006-SM-47JX5	Whole Blood

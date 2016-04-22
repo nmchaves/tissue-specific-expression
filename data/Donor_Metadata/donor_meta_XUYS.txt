@@ -1,7 +1,0 @@
-GTEX-XUYS-0226-SM-47JX1	Adipose - Subcutaneous
-GTEX-XUYS-0002-SM-47JXL	Cells - EBV-transformed lymphocytes
-GTEX-XUYS-0008-SM-47JYZ	Cells - Transformed fibroblasts
-GTEX-XUYS-0326-SM-47JX2	Muscle - Skeletal
-GTEX-XUYS-0126-SM-47JWZ	Skin - Sun Exposed (Lower leg)
-GTEX-XUYS-0426-SM-47JX3	Artery - Tibial
-GTEX-XUYS-0005-SM-47JZ2	Whole Blood

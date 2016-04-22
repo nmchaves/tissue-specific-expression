@@ -1,4 +1,0 @@
-GTEX-U3ZG-0001-SM-47JYF	Cells - EBV-transformed lymphocytes
-GTEX-U3ZG-0008-SM-47JWL	Cells - Transformed fibroblasts
-GTEX-U3ZG-0326-SM-47JXN	Muscle - Skeletal
-GTEX-U3ZG-0006-SM-47JWX	Whole Blood

@@ -1,7 +1,0 @@
-GTEX-144FL-0226-SM-5Q5D4	Adipose - Subcutaneous
-GTEX-144FL-3026-SM-5O99C	Brain - Cortex
-GTEX-144FL-2726-SM-5O98Z	Esophagus - Mucosa
-GTEX-144FL-0326-SM-5O99O	Muscle - Skeletal
-GTEX-144FL-0426-SM-5O9A1	Nerve - Tibial
-GTEX-144FL-1526-SM-5Q5CA	Pancreas
-GTEX-144FL-0626-SM-5LU43	Skin - Not Sun Exposed (Suprapubic)

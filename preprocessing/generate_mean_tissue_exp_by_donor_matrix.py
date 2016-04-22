@@ -31,6 +31,7 @@ def getArrayFromFile(path):
 *********************
 """
 if __name__ == "__main__":
+    # TODO: log(exp+1)
 
     tissues = sorted(getArrayFromFile('../data/tissues.txt'))
     num_tissues = len(tissues)

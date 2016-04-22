@@ -1,9 +1,0 @@
-GTEX-R55F-1426-SM-2TF53	Adipose - Subcutaneous
-GTEX-R55F-1226-SM-2TF59	Brain - Cerebellum
-GTEX-R55F-1326-SM-5S2V4	Brain - Cortex
-GTEX-R55F-0011-R8A-SM-2TF4F	Brain - Hypothalamus
-GTEX-R55F-0011-R6A-SM-2TF4L	Brain - Nucleus accumbens (basal ganglia)
-GTEX-R55F-1726-SM-2TF4R	Breast - Mammary Tissue
-GTEX-R55F-1526-SM-2TF4X	Muscle - Skeletal
-GTEX-R55F-0226-SM-48FCI	Nerve - Tibial
-GTEX-R55F-0126-SM-48FCK	Skin - Sun Exposed (Lower leg)

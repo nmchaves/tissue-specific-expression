@@ -1,4 +1,0 @@
-GTEX-T2YK-2226-SM-32QPT	Breast - Mammary Tissue
-GTEX-T2YK-0008-SM-4DM6M	Cells - Transformed fibroblasts
-GTEX-T2YK-0326-SM-4DM7D	Nerve - Tibial
-GTEX-T2YK-0005-SM-32QOV	Whole Blood
