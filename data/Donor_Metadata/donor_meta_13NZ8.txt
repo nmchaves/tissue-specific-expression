@@ -1,8 +1,0 @@
-GTEX-13NZ8-0926-SM-5MR3U	Adipose - Subcutaneous
-GTEX-13NZ8-0011-R8b-SM-5KM48	Brain - Hypothalamus
-GTEX-13NZ8-0126-SM-5IJCT	Breast - Mammary Tissue
-GTEX-13NZ8-2126-SM-5L3EO	Muscle - Skeletal
-GTEX-13NZ8-1226-SM-5KM4A	Skin - Not Sun Exposed (Suprapubic)
-GTEX-13NZ8-0826-SM-5MR3I	Skin - Sun Exposed (Lower leg)
-GTEX-13NZ8-0226-SM-5J2OK	Thyroid
-GTEX-13NZ8-1626-SM-5IJBC	Artery - Tibial

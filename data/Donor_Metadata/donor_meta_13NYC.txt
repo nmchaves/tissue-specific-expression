@@ -1,8 +1,0 @@
-GTEX-13NYC-2826-SM-5K7WR	Brain - Cortex
-GTEX-13NYC-2626-SM-5K7VN	Minor Salivary Gland
-GTEX-13NYC-0726-SM-5J2NQ	Muscle - Skeletal
-GTEX-13NYC-0626-SM-5K7U8	Nerve - Tibial
-GTEX-13NYC-0126-SM-5L3F4	Skin - Not Sun Exposed (Suprapubic)
-GTEX-13NYC-0326-SM-5K7WP	Skin - Sun Exposed (Lower leg)
-GTEX-13NYC-2426-SM-5MR3K	Thyroid
-GTEX-13NYC-0826-SM-5N9FP	Artery - Tibial

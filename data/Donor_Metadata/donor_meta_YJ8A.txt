@@ -1,8 +1,0 @@
-GTEX-YJ8A-0526-SM-5IFHT	Adipose - Subcutaneous
-GTEX-YJ8A-1726-SM-5P9IQ	Colon - Sigmoid
-GTEX-YJ8A-1426-SM-5PNV7	Esophagus - Gastroesophageal Junction
-GTEX-YJ8A-1226-SM-5IFHH	Esophagus - Muscularis
-GTEX-YJ8A-1126-SM-5IFJU	Prostate
-GTEX-YJ8A-0426-SM-5IFID	Skin - Sun Exposed (Lower leg)
-GTEX-YJ8A-1526-SM-5P9FT	Stomach
-GTEX-YJ8A-0826-SM-5Q5A7	Artery - Tibial

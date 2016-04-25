@@ -1,7 +1,0 @@
-GTEX-WYBS-0926-SM-3NM94	Breast - Mammary Tissue
-GTEX-WYBS-1226-SM-3NM9N	Heart - Atrial Appendage
-GTEX-WYBS-1126-SM-3NMAM	Lung
-GTEX-WYBS-0326-SM-3NM8S	Nerve - Tibial
-GTEX-WYBS-0626-SM-3NMAS	Skin - Not Sun Exposed (Suprapubic)
-GTEX-WYBS-1926-SM-3NM8N	Thyroid
-GTEX-WYBS-0426-SM-3NM9M	Artery - Tibial

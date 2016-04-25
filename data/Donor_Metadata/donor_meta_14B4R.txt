@@ -1,6 +1,0 @@
-GTEX-14B4R-0526-SM-5QGQT	Adipose - Visceral (Omentum)
-GTEX-14B4R-0426-SM-5Q5EI	Esophagus - Muscularis
-GTEX-14B4R-1426-SM-5Q5CG	Minor Salivary Gland
-GTEX-14B4R-1326-SM-5Q5EZ	Skin - Not Sun Exposed (Suprapubic)
-GTEX-14B4R-2026-SM-5QGQL	Artery - Tibial
-GTEX-14B4R-0006-SM-5O9A7	Whole Blood

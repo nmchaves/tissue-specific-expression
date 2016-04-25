@@ -1,5 +1,0 @@
-GTEX-YBZK-0008-SM-59HL6	Cells - Transformed fibroblasts
-GTEX-YBZK-0326-SM-59HLN	Muscle - Skeletal
-GTEX-YBZK-0426-SM-59HLM	Nerve - Tibial
-GTEX-YBZK-0226-SM-59HLO	Artery - Tibial
-GTEX-YBZK-0005-SM-59HKG	Whole Blood

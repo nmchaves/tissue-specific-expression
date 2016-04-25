@@ -1,3 +1,0 @@
-GTEX-ZVE1-0008-SM-51MS9	Cells - Transformed fibroblasts
-GTEX-ZVE1-0526-SM-5NQ71	Muscle - Skeletal
-GTEX-ZVE1-0726-SM-51MRN	Skin - Not Sun Exposed (Suprapubic)

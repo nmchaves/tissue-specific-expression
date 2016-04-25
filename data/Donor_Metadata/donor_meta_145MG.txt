@@ -1,8 +1,0 @@
-GTEX-145MG-3126-SM-5Q5D3	Brain - Cerebellum
-GTEX-145MG-3026-SM-5RQJA	Brain - Cortex
-GTEX-145MG-0011-R10a-SM-5PNWG	Brain - Frontal Cortex (BA9)
-GTEX-145MG-0011-R7b-SM-5P9JY	Brain - Putamen (basal ganglia)
-GTEX-145MG-1526-SM-5Q5EM	Skin - Not Sun Exposed (Suprapubic)
-GTEX-145MG-0826-SM-5Q5C2	Thyroid
-GTEX-145MG-0011-R3b-SM-5SI67	Brain - Anterior cingulate cortex (BA24)
-GTEX-145MG-0011-R5b-SM-5S2VU	Brain - Caudate (basal ganglia)

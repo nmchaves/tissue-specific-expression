@@ -1,8 +1,0 @@
-GTEX-145MI-0426-SM-5O99V	Adipose - Subcutaneous
-GTEX-145MI-0826-SM-5SI95	Adipose - Visceral (Omentum)
-GTEX-145MI-0011-R11a-SM-5P9JZ	Brain - Cerebellar Hemisphere
-GTEX-145MI-0011-R6a-SM-5PNZA	Brain - Nucleus accumbens (basal ganglia)
-GTEX-145MI-0326-SM-5Q5EV	Muscle - Skeletal
-GTEX-145MI-0626-SM-5SI8S	Skin - Not Sun Exposed (Suprapubic)
-GTEX-145MI-0526-SM-5O9A8	Skin - Sun Exposed (Lower leg)
-GTEX-145MI-1126-SM-5O9AK	Thyroid

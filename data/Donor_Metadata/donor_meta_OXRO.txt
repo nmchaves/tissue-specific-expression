@@ -1,9 +1,0 @@
-GTEX-OXRO-0226-SM-3LK6F	Adipose - Subcutaneous
-GTEX-OXRO-0011-R10A-SM-2I5EH	Brain - Frontal Cortex (BA9)
-GTEX-OXRO-0011-R9A-SM-3NB1X	Brain - Spinal cord (cervical c-1)
-GTEX-OXRO-0011-R2A-SM-3NB1W	Brain - Substantia nigra
-GTEX-OXRO-0326-SM-33HBM	Lung
-GTEX-OXRO-0126-SM-2YUN4	Skin - Sun Exposed (Lower leg)
-GTEX-OXRO-1226-SM-48TDL	Thyroid
-GTEX-OXRO-1926-SM-2S1O3	Artery - Tibial
-GTEX-OXRO-0006-SM-2I5EM	Whole Blood

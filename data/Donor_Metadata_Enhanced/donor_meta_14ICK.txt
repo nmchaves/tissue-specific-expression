@@ -1,0 +1,5 @@
+Donor_ID	Gender	Age	DTHHRDY	Mean_Expression_Over_All_Tissues	Num_Samples
+14ICK	1	40-49	0	83.1979813587	1
+----------
+Sample_ID	Tissue	Mean_Expression	Std_Dev	Min	25th_Pct	75th_Pct	Max
+GTEX-14ICK-0006-SM-5NQB5	Whole Blood	83.1979813587	1327.39229241	0.0	0.0	24.973822	84106.242188

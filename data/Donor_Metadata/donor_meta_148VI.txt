@@ -1,6 +1,0 @@
-GTEX-148VI-1726-SM-5S2W9	Adipose - Subcutaneous
-GTEX-148VI-1226-SM-5RQJR	Esophagus - Gastroesophageal Junction
-GTEX-148VI-0326-SM-5RQK7	Heart - Left Ventricle
-GTEX-148VI-0226-SM-5RQKA	Lung
-GTEX-148VI-1626-SM-5SI6E	Skin - Sun Exposed (Lower leg)
-GTEX-148VI-0006-SM-5O9A6	Whole Blood

@@ -1,0 +1,5 @@
+Donor_ID	Gender	Age	DTHHRDY	Mean_Expression_Over_All_Tissues	Num_Samples
+13CZU	1	20-29	0	71.4364581636	1
+----------
+Sample_ID	Tissue	Mean_Expression	Std_Dev	Min	25th_Pct	75th_Pct	Max
+GTEX-13CZU-0005-SM-5LU8K	Whole Blood	71.4364581636	1439.4724952	0.0	0.00703675	22.6254275	97695.507813

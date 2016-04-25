@@ -1,8 +1,0 @@
-GTEX-12WSI-1526-SM-5GCNM	Adipose - Visceral (Omentum)
-GTEX-12WSI-0011-R11b-SM-5P9EZ	Brain - Cerebellar Hemisphere
-GTEX-12WSI-0011-R7b-SM-5GU78	Brain - Putamen (basal ganglia)
-GTEX-12WSI-0426-SM-5EQ5J	Heart - Atrial Appendage
-GTEX-12WSI-0226-SM-5GCNA	Liver
-GTEX-12WSI-0826-SM-5EGKD	Lung
-GTEX-12WSI-2126-SM-5GCMV	Testis
-GTEX-12WSI-0005-SM-5O99K	Whole Blood

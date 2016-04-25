@@ -1,0 +1,5 @@
+Donor_ID	Gender	Age	DTHHRDY	Mean_Expression_Over_All_Tissues	Num_Samples
+14E6D	1	50-59	2	104.430018704	1
+----------
+Sample_ID	Tissue	Mean_Expression	Std_Dev	Min	25th_Pct	75th_Pct	Max
+GTEX-14E6D-0005-SM-5N9D7	Whole Blood	104.430018704	3973.58796932	0.0	0.0	20.88060025	264371.71875

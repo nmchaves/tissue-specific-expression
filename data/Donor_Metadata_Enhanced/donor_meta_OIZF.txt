@@ -1,0 +1,5 @@
+Donor_ID	Gender	Age	DTHHRDY	Mean_Expression_Over_All_Tissues	Num_Samples
+OIZF	1	60-69	0	66.4824804998	1
+----------
+Sample_ID	Tissue	Mean_Expression	Std_Dev	Min	25th_Pct	75th_Pct	Max
+GTEX-OIZF-0006-SM-2I5GQ	Whole Blood	66.4824804998	1484.32070392	0.0	0.0	21.8613265	106654.945313

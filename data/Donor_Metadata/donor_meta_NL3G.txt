@@ -1,5 +1,0 @@
-GTEX-NL3G-0226-SM-4RGLU	Adipose - Subcutaneous
-GTEX-NL3G-0008-SM-4E3JX	Cells - Transformed fibroblasts
-GTEX-NL3G-0526-SM-4RTWW	Lung
-GTEX-NL3G-2526-SM-4SOIE	Vagina
-GTEX-NL3G-0007-SM-4SOIF	Whole Blood

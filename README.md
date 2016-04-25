@@ -1,6 +1,6 @@
 # CS 341 GTEx Project  
 
-Team memebers: Nico Chaves, Noam Weinberger and Junjie (Jason) Zhu
+Team members: Nico Chaves, Noam Weinberger and Junjie (Jason) Zhu
 
 ## Structure
 

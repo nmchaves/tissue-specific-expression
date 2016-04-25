@@ -1,0 +1,5 @@
+Donor_ID	Gender	Age	DTHHRDY	Mean_Expression_Over_All_Tissues	Num_Samples
+13OVK	1	40-49	0	220.479986206	1
+----------
+Sample_ID	Tissue	Mean_Expression	Std_Dev	Min	25th_Pct	75th_Pct	Max
+GTEX-13OVK-0006-SM-5O9B7	Whole Blood	220.479986206	12417.095859	0.0	0.0	7.41998075	1032510.75
