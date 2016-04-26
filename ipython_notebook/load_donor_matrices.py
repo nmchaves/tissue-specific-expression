@@ -146,7 +146,7 @@ def construct_matrix(spec_donors=[],reject_donors=[],donor_sex=None,donor_age=[]
 
 # In[ ]:
 
-multi_matrix, point_ID, point_sex, point_age, point_tissue, point_tissue_group = construct_matrix()
+# multi_matrix, point_ID, point_sex, point_age, point_tissue, point_tissue_group = construct_matrix()
 
 
 # In[ ]:
