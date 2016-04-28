@@ -62,7 +62,7 @@ def get_ensembl_ids(go_process_id, biomart_fpath):
 
     entrez_to_ensembl = map_entrez_to_ensembl(biomart_fpath)
 
-    gene2go = 'data/gene2go' # If file doesn't exist, use download_ncbi_associations()
+    gene2go = 'data/gene2go' # If file doesn't exist, then replace this line with gene2go = download_ncbi_associations()
     # taxids=[9606] means select only human.
     # TODO: ask Marinka if we should use EXP code for evidence!!
     go_to_entrez_ids_human = read_ncbi_gene2go(gene2go, taxids=[9606], go2geneids=True)
