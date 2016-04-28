@@ -1,8 +1,0 @@
-GTEX-11UD1-0226-SM-5EQKL	Adipose - Subcutaneous
-GTEX-11UD1-0011-R1b-SM-5BC7D	Brain - Hippocampus
-GTEX-11UD1-0011-R2b-SM-5BC6O	Brain - Substantia nigra
-GTEX-11UD1-0008-SM-5S2P6	Cells - Transformed fibroblasts
-GTEX-11UD1-0326-SM-5EQKX	Muscle - Skeletal
-GTEX-11UD1-0126-SM-5PNYG	Skin - Sun Exposed (Lower leg)
-GTEX-11UD1-0011-R3a-SM-5BC6S	Brain - Anterior cingulate cortex (BA24)
-GTEX-11UD1-0011-R5b-SM-5P9FP	Brain - Caudate (basal ganglia)

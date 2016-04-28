@@ -1,9 +1,0 @@
-GTEX-ZVT4-0226-SM-51MSD	Adipose - Subcutaneous
-GTEX-ZVT4-1026-SM-57WC4	Breast - Mammary Tissue
-GTEX-ZVT4-0008-SM-57WCA	Cells - Transformed fibroblasts
-GTEX-ZVT4-2626-SM-5N9GJ	Colon - Sigmoid
-GTEX-ZVT4-0626-SM-5E45T	Liver
-GTEX-ZVT4-0326-SM-51MS5	Muscle - Skeletal
-GTEX-ZVT4-2426-SM-5GIEI	Skin - Not Sun Exposed (Suprapubic)
-GTEX-ZVT4-0126-SM-51MS1	Skin - Sun Exposed (Lower leg)
-GTEX-ZVT4-0006-SM-57WB8	Whole Blood

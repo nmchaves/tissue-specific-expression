@@ -1,4 +1,0 @@
-GTEX-WWTW-1326-SM-4MVNT	Adipose - Visceral (Omentum)
-GTEX-WWTW-0002-SM-4MVNH	Cells - EBV-transformed lymphocytes
-GTEX-WWTW-0008-SM-4MVPE	Cells - Transformed fibroblasts
-GTEX-WWTW-0626-SM-4MVNS	Muscle - Skeletal

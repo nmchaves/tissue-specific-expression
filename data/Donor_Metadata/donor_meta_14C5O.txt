@@ -1,9 +1,0 @@
-GTEX-14C5O-0226-SM-5SI6O	Adipose - Subcutaneous
-GTEX-14C5O-2926-SM-5RQI1	Brain - Cerebellum
-GTEX-14C5O-2626-SM-5RQI5	Colon - Sigmoid
-GTEX-14C5O-1726-SM-5RQI9	Esophagus - Muscularis
-GTEX-14C5O-1326-SM-5S2UW	Heart - Left Ventricle
-GTEX-14C5O-1426-SM-5RQI8	Artery - Coronary
-GTEX-14C5O-2826-SM-5RQI6	Prostate
-GTEX-14C5O-0126-SM-5SI6N	Skin - Sun Exposed (Lower leg)
-GTEX-14C5O-0005-SM-5P9ER	Whole Blood

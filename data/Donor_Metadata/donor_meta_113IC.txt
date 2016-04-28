@@ -1,5 +1,0 @@
-GTEX-113IC-0226-SM-5HL5C	Adipose - Subcutaneous
-GTEX-113IC-0008-SM-5QGRF	Cells - Transformed fibroblasts
-GTEX-113IC-0526-SM-5HL76	Nerve - Tibial
-GTEX-113IC-0426-SM-5HL5O	Artery - Tibial
-GTEX-113IC-0006-SM-5NQ9C	Whole Blood

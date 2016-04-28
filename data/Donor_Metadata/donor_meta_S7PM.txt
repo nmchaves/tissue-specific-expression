@@ -1,8 +1,0 @@
-GTEX-S7PM-0011-R6A-SM-3NM8F	Brain - Nucleus accumbens (basal ganglia)
-GTEX-S7PM-0008-SM-3NM9Q	Cells - Transformed fibroblasts
-GTEX-S7PM-0526-SM-3NM92	Muscle - Skeletal
-GTEX-S7PM-0126-SM-4AD6S	Skin - Sun Exposed (Lower leg)
-GTEX-S7PM-0626-SM-4AD4Q	Testis
-GTEX-S7PM-0426-SM-3NM91	Artery - Tibial
-GTEX-S7PM-0006-SM-3NM8C	Whole Blood
-GTEX-S7PM-0011-R5A-SM-3NM8G	Brain - Caudate (basal ganglia)

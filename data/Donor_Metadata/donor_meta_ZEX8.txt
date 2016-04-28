@@ -1,8 +1,0 @@
-GTEX-ZEX8-2326-SM-5S2MN	Adipose - Subcutaneous
-GTEX-ZEX8-1226-SM-5S2OK	Adipose - Visceral (Omentum)
-GTEX-ZEX8-2226-SM-57WC6	Breast - Mammary Tissue
-GTEX-ZEX8-0008-SM-4E3JU	Cells - Transformed fibroblasts
-GTEX-ZEX8-1526-SM-4WWBE	Esophagus - Gastroesophageal Junction
-GTEX-ZEX8-1326-SM-4WWEW	Esophagus - Muscularis
-GTEX-ZEX8-0426-SM-4WWEN	Heart - Left Ventricle
-GTEX-ZEX8-1826-SM-57WBH	Small Intestine - Terminal Ileum

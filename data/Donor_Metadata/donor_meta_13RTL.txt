@@ -1,2 +1,0 @@
-GTEX-13RTL-0011-R1a-SM-5PNZ8	Brain - Hippocampus
-GTEX-13RTL-0011-R3a-SM-5P9JP	Brain - Anterior cingulate cortex (BA24)

@@ -1,6 +1,0 @@
-GTEX-Y8E5-0226-SM-57WCM	Adipose - Subcutaneous
-GTEX-Y8E5-0002-SM-57WD9	Cells - EBV-transformed lymphocytes
-GTEX-Y8E5-0008-SM-57WBA	Cells - Transformed fibroblasts
-GTEX-Y8E5-0326-SM-57WBM	Muscle - Skeletal
-GTEX-Y8E5-0526-SM-57WBY	Nerve - Tibial
-GTEX-Y8E5-0006-SM-47JWQ	Whole Blood

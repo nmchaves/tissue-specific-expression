@@ -1,7 +1,0 @@
-GTEX-X638-0226-SM-47JZ9	Adipose - Subcutaneous
-GTEX-X638-0003-SM-47JZ1	Cells - EBV-transformed lymphocytes
-GTEX-X638-0008-SM-47JZ7	Cells - Transformed fibroblasts
-GTEX-X638-0326-SM-47JY1	Muscle - Skeletal
-GTEX-X638-0426-SM-47JY2	Nerve - Tibial
-GTEX-X638-0126-SM-47JZ8	Skin - Sun Exposed (Lower leg)
-GTEX-X638-0005-SM-47JX6	Whole Blood

@@ -1,8 +1,0 @@
-GTEX-13QJ3-0426-SM-5RQHP	Adipose - Subcutaneous
-GTEX-13QJ3-1926-SM-5QGQM	Esophagus - Gastroesophageal Junction
-GTEX-13QJ3-1726-SM-5RQK9	Esophagus - Mucosa
-GTEX-13QJ3-1826-SM-5S2PT	Esophagus - Muscularis
-GTEX-13QJ3-1026-SM-5QGQU	Lung
-GTEX-13QJ3-0726-SM-5SI68	Muscle - Skeletal
-GTEX-13QJ3-2726-SM-5SI6L	Stomach
-GTEX-13QJ3-0626-SM-5SI6G	Artery - Tibial

@@ -1,6 +1,0 @@
-GTEX-ZF29-2226-SM-4WWB9	Adipose - Subcutaneous
-GTEX-ZF29-0826-SM-5S2NP	Adipose - Visceral (Omentum)
-GTEX-ZF29-1926-SM-5S2P1	Breast - Mammary Tissue
-GTEX-ZF29-1326-SM-4WWB6	Esophagus - Mucosa
-GTEX-ZF29-2026-SM-4WWB7	Liver
-GTEX-ZF29-2626-SM-4WWBA	Nerve - Tibial

@@ -1,6 +1,0 @@
-GTEX-14E7W-2926-SM-5S2R8	Brain - Cerebellum
-GTEX-14E7W-1926-SM-5S2R9	Esophagus - Gastroesophageal Junction
-GTEX-14E7W-1326-SM-5RQIV	Lung
-GTEX-14E7W-0426-SM-5S2O4	Nerve - Tibial
-GTEX-14E7W-0526-SM-5S2W8	Artery - Tibial
-GTEX-14E7W-0006-SM-5N9GG	Whole Blood

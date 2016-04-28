@@ -1,9 +1,0 @@
-GTEX-145LV-1026-SM-5O9AE	Adipose - Visceral (Omentum)
-GTEX-145LV-1326-SM-5S2QI	Esophagus - Mucosa
-GTEX-145LV-1426-SM-5Q5BV	Esophagus - Muscularis
-GTEX-145LV-0226-SM-5S2QG	Heart - Atrial Appendage
-GTEX-145LV-0326-SM-5Q5BW	Heart - Left Ventricle
-GTEX-145LV-2326-SM-5LU8Z	Muscle - Skeletal
-GTEX-145LV-2526-SM-5S2VA	Nerve - Tibial
-GTEX-145LV-1226-SM-5S2QH	Prostate
-GTEX-145LV-2126-SM-5LU8N	Skin - Sun Exposed (Lower leg)
