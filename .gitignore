@@ -1,4 +1,3 @@
-data/GTEx_Analysis_v6_* 
-data/transcript_rpkm_*
+data/gene2go
 .DS_Store
 
