@@ -3,14 +3,10 @@
 
 # In[9]:
 
-get_ipython().magic(u'matplotlib inline')
-from collections import Counter
-import numpy as np
+# get_ipython().magic(u'matplotlib inline')
 # from sklearn import decomposition
 # from sklearn import manifold
-import matplotlib.pyplot as plt
-import pandas as pd
-import itertools as its
+# import matplotlib.pyplot as plt
 
 
 # In[ ]:
@@ -146,7 +142,7 @@ def construct_matrix(spec_donors=[],reject_donors=[],donor_sex=None,donor_age=[]
 
 # In[ ]:
 
-multi_matrix, point_ID, point_sex, point_age, point_tissue, point_tissue_group = construct_matrix()
+# multi_matrix, point_ID, point_sex, point_age, point_tissue, point_tissue_group = construct_matrix()
 
 
 # In[ ]:
