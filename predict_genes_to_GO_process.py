@@ -111,6 +111,9 @@ def get_positive_examples(rpkm_path, ens_ids):
                 positive_example_rows.append(i)
                 gene_ids_ordered.append(cur_ens_id)
                 exp_levels_str = line.rstrip().split('\t')[4:]
+                # TODO Jason: compute avg of exp_levels by tissue
+                # function that takes map from columns to tissues or whatever and return vector of averages for each tissue
+                #
                 exp_levels = [float(exp_level) for exp_level in exp_levels_str]
                 gene_features = np.append(gene_features, [exp_levels], axis=0)
         i += 1
@@ -212,7 +215,9 @@ if __name__ == "__main__":
     gene_count_file_path = 'data/GO_term_gene_counts.txt'
     GO_PROCESS_IDs = get_go_terms(biomart_file_path, gene2go_file_path, gene_count_file_path, top=10)
 
-    (GO_PROCESS_ID, ensembl_ids) = GO_PROCESS_IDs[9]
+    # GO:0007596
+    (GO_PROCESS_ID, ensembl_ids) = GO_PROCESS_IDs[7]
+    print GO_PROCESS_ID
     #GO_PROCESS_ID = 'GO:0001889'  # Biological Process ID in Gene Ontology
 
     #rpkm_file_path = '../../../Documents/Stanford/CS341_Data/transcript_rpkm_top_10000_var.txt'
