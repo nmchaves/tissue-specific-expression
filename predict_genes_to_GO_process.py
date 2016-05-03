@@ -61,6 +61,7 @@ def map_entrez_to_ensembl(path):
     return dict
 
 
+
 def get_ensembl_ids(go_process_id, biomart_fpath, ev_codes=None):
 
     entrez_to_ensembl = map_entrez_to_ensembl(biomart_fpath)
@@ -167,6 +168,38 @@ def print_prediction_results(model, labels, predictions, other_info=None):
         print other_info
 
 
+def get_go_terms(biomart_fpath, gene2go_fpath, gene_count_fpath, top=1):
+
+    entrez_to_ensembl = map_entrez_to_ensembl(biomart_fpath)
+
+    # taxids=[9606] means select only human.
+    go_to_entrez_ids_human = read_ncbi_gene2go(gene2go_fpath, taxids=[9606], go2geneids=True)
+    print("{N} GO terms associated with human NCBI Entrez GeneIDs".format(N=len(go_to_entrez_ids_human)))
+
+    # Get the |top| GO terms with the most gene annotations
+    gene_cnt_file = open(gene_count_fpath)
+    top_GO_ids = []
+    atLine = 0
+    skipLines = 1
+    for line in gene_cnt_file:
+        if atLine < skipLines:
+            atLine += 1
+            continue
+        elif atLine > top:
+            break
+        atLine += 1
+        GO_id = line.split('\t')[0]
+        entrez_ids = go_to_entrez_ids_human[GO_id]
+        #print '# of Entrez IDs associated with ', GO_id, ' = ', len(entrez_ids)
+        ensembl_ids = []
+        for ent_id in entrez_ids:
+            if str(ent_id) in entrez_to_ensembl:
+                ensembl_ids.append(entrez_to_ensembl[str(ent_id)])
+        top_GO_ids.append((GO_id, ensembl_ids))
+        #print '# of Ensembl IDs associated with ', GO_id, ' = ', len(ensembl_ids)
+
+    return top_GO_ids
+
 """
 *********************
         Main
@@ -174,12 +207,18 @@ def print_prediction_results(model, labels, predictions, other_info=None):
 """
 if __name__ == "__main__":
 
-    GO_PROCESS_ID = 'GO:0001889'  # Biological Process ID in Gene Ontology
     biomart_file_path = 'data/biomart_ensembl_to_entrez.txt'
+    gene2go_file_path = 'data/gene2go.txt' # If file doesn't exist, then run gene2go = download_ncbi_associations()
+    gene_count_file_path = 'data/GO_term_gene_counts.txt'
+    GO_PROCESS_IDs = get_go_terms(biomart_file_path, gene2go_file_path, gene_count_file_path, top=10)
+
+    (GO_PROCESS_ID, ensembl_ids) = GO_PROCESS_IDs[9]
+    #GO_PROCESS_ID = 'GO:0001889'  # Biological Process ID in Gene Ontology
+
     #rpkm_file_path = '../../../Documents/Stanford/CS341_Data/transcript_rpkm_top_10000_var.txt'
     rpkm_file_path = '../../../Downloads/GTEx_Analysis_v6_RNA-seq_Flux1.6_transcript_rpkm.txt'
     go_evidence_codes = ['EXP', 'IDA', 'IPI', 'IMP', 'IGI', 'IEP']
-    ensembl_ids = get_ensembl_ids(GO_PROCESS_ID, biomart_file_path, ev_codes=go_evidence_codes)
+    #ensembl_ids = get_ensembl_ids(GO_PROCESS_ID, biomart_file_path, ev_codes=go_evidence_codes)
 
     NUM_SAMPLES = 8555
 
@@ -228,32 +267,34 @@ if __name__ == "__main__":
             labels_test.append(labels[idx])
             gene_ids_ordered_test.append(gene_ids_ordered[idx])
 
-    print 'Dimensionality of training data: ',gene_features_train.shape
+    print 'Dimensionality of training set: ', gene_features_train.shape
+    print 'Dimensionality of test set: ', gene_features_test.shape
 
+    '''
     logreg = linear_model.LogisticRegression(C=1e5)
     logreg.fit(gene_features_train, labels_train)
+    pred_lr = logreg.predict(gene_features_test)
+    print_prediction_results('Logistic Regression', labels_test, pred_lr)
+    '''
 
-    pred = logreg.predict(gene_features_test)
-    print_prediction_results('Logistic Regression', labels_test, pred)
-
-    # Logistic Regression with Cross-Validation
+    # Logistic Regression with Cross-Validation, L1 Norm (must use liblinear solver for L1)
     #costs = []
-    num_folds = 10   # number of folds to use for cross-validation
+    '''
+    num_folds = 5   # number of folds to use for cross-validation
     loss_function = 'l1'  # Loss function to use. Must be either 'l1' or 'l2'
-    logreg_cv = linear_model.LogisticRegressionCV(cv=num_folds, penalty=loss_function)
-    logreg.fit(gene_features_train, labels_train)
+    logreg_cv_L1 = linear_model.LogisticRegressionCV(cv=num_folds, penalty=loss_function, solver='liblinear')
+    logreg_cv_L1.fit(gene_features_train, labels_train)
+    pred_lr_cv_L1 = logreg_cv_L1.predict(gene_features_test)
+    print_prediction_results('Cross-Validated Logistic Regression', labels_test, pred_lr_cv_L1,
+                             other_info='Norm: ' + loss_function + ', # of Folds: ' + str(num_folds))
+    '''
 
-    pred = logreg.predict(gene_features_test)
-    print_prediction_results('Cross-Validated Logistic Regression', labels_test, pred,
-                              other_info='Norm: ' + loss_function + ', # of Folds: ' + str(num_folds))
-
-    num_folds = 10   # number of folds to use for cross-validation
+    num_folds = 5   # number of folds to use for cross-validation
     loss_function = 'l2'  # Loss function to use. Must be either 'l1' or 'l2'
-    logreg_cv = linear_model.LogisticRegressionCV(cv=num_folds, penalty=loss_function)
-    logreg.fit(gene_features_train, labels_train)
-
-    pred = logreg.predict(gene_features_test)
-    print_prediction_results('Cross-Validated Logistic Regression', labels_test, pred
+    logreg_cv_L2 = linear_model.LogisticRegressionCV(cv=num_folds, penalty=loss_function)
+    logreg_cv_L2.fit(gene_features_train, labels_train)
+    pred_lr_cv_L2 = logreg_cv_L2.predict(gene_features_test)
+    print_prediction_results('Cross-Validated Logistic Regression', labels_test, pred_lr_cv_L2
                              , other_info='Norm: ' + loss_function + ', # of Folds: ' + str(num_folds))
 
     # SVM
@@ -261,4 +302,6 @@ if __name__ == "__main__":
     clf.fit(gene_features_train, labels_train)
 
     pred_svm = clf.predict(gene_features_test)
-    print_prediction_results('SVM', labels_test, pred)
+    print_prediction_results('SVM', labels_test, pred_svm)
+
+
