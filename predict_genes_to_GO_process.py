@@ -83,16 +83,64 @@ def get_ensembl_ids(go_process_id, biomart_fpath, ev_codes=None):
     return ensembl_ids
 
 
-def get_positive_examples(rpkm_path, ens_ids):
+def refine_expression(exp_levels, tissue_index_map):
+    new_levels = []
+    tissue_names = []
+    for tissue in sorted(tissue_index_map):
+        tissue_names.append(tissue)
+        # take average
+        tissue_exp_levels = [exp_levels[i] for i in tissue_index_map[tissue]] 
+        new_levels.append(np.mean(tissue_exp_levels))
+        if np.isnan(np.mean(tissue_exp_levels)):
+            print 'invalid_mean in:', tissue
+            print tissue_index_map[tissue]
+            exit(1)
+                
+    return tissue_names, new_levels
+        
 
-    gene_features = np.empty((0, NUM_SAMPLES))
+def get_positive_examples(rpkm_path, sample_tissue_path, ens_ids):
+
+    gene_features = np.empty((0, NUM_FEATURES))
     positive_example_rows = []
     gene_ids_ordered = []
     i = 0
+
+    # TODO move elsewhere
+    # load sample to tissue map
+    sample_tissue_map = {}
+    sample_tissue_file = open(sample_tissue_path)
+    firstLine = True
+    for line in sample_tissue_file:
+        if firstLine:
+            firstLine = False
+            continue
+        terms = line.split('\t')
+        tissue = terms[1].split('\n')[0]
+        sample_tissue_map[terms[0]] = tissue 
+    sample_tissue_file.close()
+    tissue_index_map = {}
+
     rpkm_file = open(rpkm_file_path)
     firstLine = True
     for line in rpkm_file:
         if firstLine:
+            # TODO: move elsewhere
+            # get sample ids
+            sampleIDs = line.rstrip().split('\t')[4:]
+            # create mapping
+            for i in range(len(sampleIDs)):
+                sampleID = sampleIDs[i] 
+                if sampleID not in sample_tissue_map:
+                    print sampleID, 'not found'
+                    exit(1)
+                else:
+                    tissue = sample_tissue_map[sampleID];
+                    if tissue not in tissue_index_map:
+                        tissue_index_map[tissue] = []
+                    else:
+                        tissue_index_map[tissue].append(i)
+            # print tissue_index_map
             firstLine = False
             continue
 
@@ -111,10 +159,11 @@ def get_positive_examples(rpkm_path, ens_ids):
                 positive_example_rows.append(i)
                 gene_ids_ordered.append(cur_ens_id)
                 exp_levels_str = line.rstrip().split('\t')[4:]
-                # TODO Jason: compute avg of exp_levels by tissue
-                # function that takes map from columns to tissues or whatever and return vector of averages for each tissue
-                #
                 exp_levels = [float(exp_level) for exp_level in exp_levels_str]
+                # TODO Jason: compute avg of exp_levels by tissue
+                tissue_names, exp_levels = refine_expression(exp_levels, tissue_index_map)
+                # print len(exp_levels)
+                # function that takes map from columns to tissues or whatever and return vector of averages for each tissue
                 gene_features = np.append(gene_features, [exp_levels], axis=0)
         i += 1
     rpkm_file.close()
@@ -122,15 +171,49 @@ def get_positive_examples(rpkm_path, ens_ids):
     return gene_features, positive_example_rows, gene_ids_ordered, i
 
 
-def get_negative_examples(rpkm_path, neg_ex_rows):
+def get_negative_examples(rpkm_path, sample_tissue_path, neg_ex_rows):
+    # TODO move elsewhere
+    # load sample to tissue map
+    sample_tissue_map = {}
+    sample_tissue_file = open(sample_tissue_path)
 
-    gene_features_neg = np.empty((0, NUM_SAMPLES))
+    firstLine = True
+    for line in sample_tissue_file:
+        if firstLine:
+            firstLine = False
+            continue
+        terms = line.split('\t')
+        tissue = terms[1].split('\n')[0]
+        sample_tissue_map[terms[0]] = tissue 
+    sample_tissue_file.close()
+
+    tissue_index_map = {}
+
+    gene_features_neg = np.empty((0, NUM_FEATURES))
+    
     gene_ids_ordered_neg = []
     rpkm_file = open(rpkm_file_path)
+
     i = 0
     firstLine = True
     for line in rpkm_file:
         if firstLine:
+            # TODO: move elsewhere
+            # get sample ids
+            sampleIDs = line.rstrip().split('\t')[4:]
+            # create mapping
+            for i in range(len(sampleIDs)):
+                sampleID = sampleIDs[i] 
+                if sampleID not in sample_tissue_map:
+                    print sampleID, 'not found'
+                    exit(1)
+                else:
+                    tissue = sample_tissue_map[sampleID];
+                    if tissue not in tissue_index_map:
+                        tissue_index_map[tissue] = []
+                    else:
+                        tissue_index_map[tissue].append(i)
+            # print tissue_index_map
             firstLine = False
             continue
 
@@ -144,6 +227,11 @@ def get_negative_examples(rpkm_path, neg_ex_rows):
             gene_ids_ordered_neg.append(cur_ens_id)
             exp_levels_str = vals[4:]
             exp_levels = [float(exp_level) for exp_level in exp_levels_str]
+
+            # TODO Jason: compute avg of exp_levels by tissue
+            tissue_names, exp_levels = refine_expression(exp_levels, tissue_index_map)
+            # print len(exp_levels)
+
             gene_features_neg = np.append(gene_features_neg, [exp_levels], axis=0)
         i += 1
 
@@ -210,9 +298,15 @@ def get_go_terms(biomart_fpath, gene2go_fpath, gene_count_fpath, top=1):
 """
 if __name__ == "__main__":
 
-    biomart_file_path = 'data/biomart_ensembl_to_entrez.txt'
-    gene2go_file_path = 'data/gene2go.txt' # If file doesn't exist, then run gene2go = download_ncbi_associations()
+    # biomart_file_path = 'data/biomart_ensembl_to_entrez.txt'
+    # gene2go_file_path = 'data/gene2go.txt' # If file doesn't exist, then run gene2go = download_ncbi_associations()
+    # rpkm_file_path = '../../../Downloads/GTEx_Analysis_v6_RNA-seq_Flux1.6_transcript_rpkm.txt'
     gene_count_file_path = 'data/GO_term_gene_counts.txt'
+    biomart_file_path = 'data/biomart_ensembl_to_entrez.txt'
+    gene2go_file_path = '../local_data/gene2go.txt' # If file doesn't exist, then run gene2go = download_ncbi_associations()
+    rpkm_file_path = '../local_data/transcript_rpkm_in_go.txt'
+    sample_tissue_path = 'data/sampleID_tissue.txt'
+
     GO_PROCESS_IDs = get_go_terms(biomart_file_path, gene2go_file_path, gene_count_file_path, top=10)
 
     # GO:0007596
@@ -221,14 +315,14 @@ if __name__ == "__main__":
     #GO_PROCESS_ID = 'GO:0001889'  # Biological Process ID in Gene Ontology
 
     #rpkm_file_path = '../../../Documents/Stanford/CS341_Data/transcript_rpkm_top_10000_var.txt'
-    rpkm_file_path = '../../../Downloads/GTEx_Analysis_v6_RNA-seq_Flux1.6_transcript_rpkm.txt'
     go_evidence_codes = ['EXP', 'IDA', 'IPI', 'IMP', 'IGI', 'IEP']
     #ensembl_ids = get_ensembl_ids(GO_PROCESS_ID, biomart_file_path, ev_codes=go_evidence_codes)
 
-    NUM_SAMPLES = 8555
+    # NUM_FEATURES = 8555
+    NUM_FEATURES = 53
 
     # 1st Pass Through Dataset: Obtain positive training examples
-    gene_features, positive_example_rows, gene_ids_ordered, num_transcripts = get_positive_examples(rpkm_file_path, ensembl_ids)
+    gene_features, positive_example_rows, gene_ids_ordered, num_transcripts = get_positive_examples(rpkm_file_path, sample_tissue_path, ensembl_ids)
 
     print 'After pass 1 (inserting positive examples), gene feature matrix has dimension: ', gene_features.shape
     num_positive_examples = len(positive_example_rows)
@@ -239,7 +333,7 @@ if __name__ == "__main__":
     max_row_id = num_transcripts-1
     negative_example_rows = rand_sample_exclude(range(0, max_row_id+1), num_positive_examples, exclude=positive_example_rows)
 
-    gene_features_neg, gene_ids_ordered_neg = get_negative_examples(rpkm_file_path, negative_example_rows)
+    gene_features_neg, gene_ids_ordered_neg = get_negative_examples(rpkm_file_path, sample_tissue_path, negative_example_rows)
     gene_features = np.append(gene_features, gene_features_neg, axis=0)
     gene_ids_ordered += gene_ids_ordered_neg
 
@@ -255,12 +349,13 @@ if __name__ == "__main__":
     num_train_examples = int(math.ceil(TRAIN_SET_SIZE*num_examples))
     train_indeces = random.sample(range(0, num_examples), num_train_examples)
 
-    gene_features_train = np.empty((0, NUM_SAMPLES))
-    gene_features_test = np.empty((0, NUM_SAMPLES))
+    gene_features_train = np.empty((0, NUM_FEATURES))
+    gene_features_test = np.empty((0, NUM_FEATURES))
     labels_train = []
     labels_test = []
     gene_ids_ordered_train = []
     gene_ids_ordered_test = []
+    num_examples = 315
     print 'num ex: ', num_examples
     for idx in range(0, num_examples):
         if idx in train_indeces:
