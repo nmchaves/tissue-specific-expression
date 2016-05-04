@@ -1,3 +1,9 @@
+'''
+   After running this code using the input file transcript_rpkm_in_go.txt,
+    the new file should have 64429 transcripts.
+
+'''
+
 
 """
 *********************
@@ -12,6 +18,7 @@ if __name__ == "__main__":
     new_rpkm_file = open(path_to_new_rpkm_file, 'w')
 
     firstLine = True
+    num_rows_retained = 0
     for line in rpkm_file:
         if firstLine:
             firstLine = False
@@ -26,4 +33,7 @@ if __name__ == "__main__":
                 break
 
         if nonzero:
+            num_rows_retained += 1
             new_rpkm_file.write(line)
+
+    print num_rows_retained
