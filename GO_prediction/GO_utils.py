@@ -8,9 +8,30 @@ import math
 from sklearn.metrics import roc_auc_score
 from sklearn.metrics import mean_squared_error
 from sklearn.svm import SVC
+from goatools.go_search import GoSearch
 
 #from goatools.base import download
 #obo_fname = download_go_basic_obo()
+
+
+class GOterm:
+    def __init__(self, id):
+        self.id = id
+        self.descendants_ids = []
+        self.genes = set()
+
+    def add_descendants(self, srchhelp):
+        self.descendants_ids = list(srchhelp.add_children_gos(gos=[self.id]))
+
+
+def sort_go_terms(terms):
+    """
+    Sort a list of GOterm objects in decreasing order of #
+    of genes
+    :param terms: The list GOterm objects
+    :return: The sorted list
+    """
+    return sorted(terms, key=lambda term: len(term.genes), reverse=True)
 
 
 def map_entrez_to_ensembl(path):
@@ -26,12 +47,41 @@ def map_entrez_to_ensembl(path):
     return ent_to_ens
 
 
-def get_supp_go_terms():
-    """
-    Get the list of GO terms in the supplementary file
+def get_go_terms_descendants(biomart_fpath, gene2go_fpath, gene_count_fpath, obo_fpath, ev_codes=None):
 
-    :return:
-    """
+    entrez_to_ensembl = map_entrez_to_ensembl(biomart_fpath)
+
+    # taxids=[9606] means select only human.
+    if ev_codes:
+        go_to_entrez_ids_human = read_ncbi_gene2go(gene2go_fpath, taxids=[9606], go2geneids=True, evidence_set=ev_codes)
+    else:
+        go_to_entrez_ids_human = read_ncbi_gene2go(gene2go_fpath, taxids=[9606], go2geneids=True)
+    print("{N} GO terms associated with human NCBI Entrez GeneIDs".format(N=len(go_to_entrez_ids_human)))
+    srchhelp = GoSearch(obo_fpath, go2items=go_to_entrez_ids_human)
+
+    # Get the GO terms
+    gene_cnt_file = open(gene_count_fpath)
+    GO_terms = []
+    atLine = 0
+    skipLines = 1
+    for line in gene_cnt_file:
+        if atLine < skipLines:
+            atLine += 1
+            continue
+        GO_id = line.split('\t')[0]
+        term = GOterm(GO_id)
+        term.add_descendants(srchhelp)
+
+        for id in [GO_id] + term.descendants_ids:
+            entrez_ids = go_to_entrez_ids_human[id]
+            for ent_id in entrez_ids:
+                if str(ent_id) in entrez_to_ensembl:
+                    ens_id = entrez_to_ensembl[str(ent_id)]
+                    term.genes.add(ens_id)
+        GO_terms.append(term)
+
+    return GO_terms
+
 
 def get_go_terms(biomart_fpath, gene2go_fpath, gene_count_fpath, top=1):
     """
@@ -86,24 +136,24 @@ def get_ensembl_ids(go_process_id, biomart_fpath, ev_codes=None):
     go_to_entrez_ids_human = read_ncbi_gene2go(gene2go, taxids=[9606], go2geneids=True)
     print("{N} GO terms associated with human NCBI Entrez GeneIDs".format(N=len(go_to_entrez_ids_human)))
 
-    entrez_ids = go_to_entrez_ids_human[GO_PROCESS_ID]
-    print '# of Entrez IDs associated with ', GO_PROCESS_ID, ' = ', len(entrez_ids)
+    entrez_ids = go_to_entrez_ids_human[go_process_id]
+    print '# of Entrez IDs associated with ', go_process_id, ' = ', len(entrez_ids)
     ensembl_ids = []
     for ent_id in entrez_ids:
         if str(ent_id) in entrez_to_ensembl:
             ensembl_ids.append(entrez_to_ensembl[str(ent_id)])
 
-    print '# of Ensembl IDs associated with ', GO_PROCESS_ID, ' = ', len(ensembl_ids)
+    print '# of Ensembl IDs associated with ', go_process_id, ' = ', len(ensembl_ids)
     return ensembl_ids
 
 
-def get_positive_examples(rpkm_path, ens_ids):
+def get_positive_examples(rpkm_path, ens_ids, num_features):
 
-    gene_features = np.empty((0, NUM_SAMPLES))
+    gene_features = np.empty((0, num_features))
     positive_example_rows = []
     gene_ids_ordered = []
     i = 0
-    rpkm_file = open(rpkm_file_path)
+    rpkm_file = open(rpkm_path)
     firstLine = True
     for line in rpkm_file:
         if firstLine:
@@ -136,11 +186,11 @@ def get_positive_examples(rpkm_path, ens_ids):
     return gene_features, positive_example_rows, gene_ids_ordered, i
 
 
-def get_negative_examples(rpkm_path, neg_ex_rows):
+def get_negative_examples(rpkm_path, neg_ex_rows, num_features):
 
-    gene_features_neg = np.empty((0, NUM_SAMPLES))
+    gene_features_neg = np.empty((0, num_features))
     gene_ids_ordered_neg = []
-    rpkm_file = open(rpkm_file_path)
+    rpkm_file = open(rpkm_path)
     i = 0
     firstLine = True
     for line in rpkm_file:

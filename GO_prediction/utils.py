@@ -19,7 +19,7 @@ class GeneData:
 
 
 def split_data(gene_features, labels, gene_ids_ordered, train_set_size=0.7):
-    # Fraction of genes used for training set
+    # train_set_size: Fraction of genes used for training set
 
     num_examples = len(labels)
     num_features = gene_features.shape[1]
@@ -29,13 +29,10 @@ def split_data(gene_features, labels, gene_ids_ordered, train_set_size=0.7):
     train = GeneData(num_features)
     test = GeneData(num_features)
 
-    num_examples = 315
-
     print 'num examples: ', num_examples
     for idx in range(0, num_examples):
         if idx in train_indeces:
             train.append_example(gene_features[idx], labels[idx], gene_ids_ordered[idx])
-
         else:
             test.append_example(gene_features[idx], labels[idx], gene_ids_ordered[idx])
 
