@@ -147,7 +147,7 @@ def get_ensembl_ids(go_process_id, biomart_fpath, ev_codes=None):
     return ensembl_ids
 
 
-def get_positive_examples(rpkm_path, ens_ids, num_features):
+def get_positive_examples(rpkm_path, ens_ids_dict, num_features):
 
     gene_features = np.empty((0, num_features))
     positive_example_rows = []
@@ -167,7 +167,7 @@ def get_positive_examples(rpkm_path, ens_ids, num_features):
         if '.' in cur_ens_id:
             cur_ens_id = cur_ens_id[0:cur_ens_id.index('.')]
 
-        if cur_ens_id in ens_ids:
+        if cur_ens_id in ens_ids_dict:
             # This is IF condition prevents using the same gene for multiple
             # features. TODO: better method for accounting for multiple transcripts
             # mapping to same gene.
@@ -175,9 +175,7 @@ def get_positive_examples(rpkm_path, ens_ids, num_features):
                 positive_example_rows.append(i)
                 gene_ids_ordered.append(cur_ens_id)
                 exp_levels_str = line.rstrip().split('\t')[4:]
-                # TODO Jason: compute avg of exp_levels by tissue
-                # function that takes map from columns to tissues or whatever and return vector of averages for each tissue
-                #
+                # TODO: function that takes map from columns to tissues or whatever and return vector of averages for each tissue
                 exp_levels = [float(exp_level) for exp_level in exp_levels_str]
                 gene_features = np.append(gene_features, [exp_levels], axis=0)
         i += 1

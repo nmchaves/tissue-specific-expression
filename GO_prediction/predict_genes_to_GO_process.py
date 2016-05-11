@@ -50,12 +50,16 @@ if __name__ == "__main__":
     term = GO_terms[0]
 
     ensembl_ids = term.genes
+    ens_ids_dict = {}
+    for id in ensembl_ids:
+        ens_ids_dict[id] = True
+
     print 'Analyzing GO term: ', term.id
     print 'This terms has ', len(ensembl_ids), ' genes associated with it.'
     print len(set(ensembl_ids))
     # 1st Pass Through Dataset: Obtain positive training examples
     gene_features, positive_example_rows, gene_ids_ordered, num_transcripts = \
-        GO_utils.get_positive_examples(rpkm_file_path, ensembl_ids, NUM_FEATURES)
+        GO_utils.get_positive_examples(rpkm_file_path, ens_ids_dict, NUM_FEATURES)
 
     print 'After pass 1 (inserted positive examples), gene feature matrix has dimension: ', gene_features.shape
     num_positive_examples = len(positive_example_rows)
@@ -103,7 +107,7 @@ if __name__ == "__main__":
     '''
 
     svc = SVC(kernel='rbf')
-    Cs = np.logspace(-6, -1, 10)
+    Cs = np.logspace(-2, 4, 10)
     clf = GridSearchCV(estimator=svc, param_grid=dict(C=Cs),n_jobs=-1)
     clf.fit(train.gene_features, train.labels)
     print 'Best score: ', clf.best_score_
@@ -114,9 +118,6 @@ if __name__ == "__main__":
     clf.fit(train.gene_features, train.labels)
     pred_svm = clf.predict(test.gene_features)
     utils.print_prediction_results('SVM', test.labels, pred_svm)
-
-
-
 
 
 
