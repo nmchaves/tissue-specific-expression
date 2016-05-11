@@ -44,45 +44,17 @@ if __name__ == "__main__":
 
     GO_terms = GO_utils.get_go_terms_descendants(biomart_file_path, gene2go_file_path, gene_count_file_path, obo_file_path, ev_codes=None)
     GO_terms = GO_utils.sort_go_terms(GO_terms)
-    print 'Top GO terms'
+
+    term = GO_terms[350]
+    utils.predict(term, NUM_FEATURES, rpkm_file_path)
+    '''
     for t in GO_terms[0:10]:
         print t.id, ' ', len(t.genes)
-    term = GO_terms[0]
 
-    ensembl_ids = term.genes
-    ens_ids_dict = {}
-    for id in ensembl_ids:
-        ens_ids_dict[id] = True
-
-    print 'Analyzing GO term: ', term.id
-    print 'This terms has ', len(ensembl_ids), ' genes associated with it.'
-    print len(set(ensembl_ids))
-    # 1st Pass Through Dataset: Obtain positive training examples
-    gene_features, positive_example_rows, gene_ids_ordered, num_transcripts = \
-        GO_utils.get_positive_examples(rpkm_file_path, ens_ids_dict, NUM_FEATURES)
-
-    print 'After pass 1 (inserted positive examples), gene feature matrix has dimension: ', gene_features.shape
-    num_positive_examples = len(positive_example_rows)
-    num_negative_examples = num_positive_examples
-    num_examples = num_positive_examples + num_negative_examples
-    print 'num pos: ', num_positive_examples
-    print 'num neg: ', num_negative_examples
-
-    # 2nd Pass through dataset: Obtain an equal number of negative training exmaples
-    neg_rows = utils.rand_sample_exclude(range(0, num_transcripts), num_negative_examples, exclude=positive_example_rows)
-
-    gene_features_neg, gene_ids_ordered_neg = \
-        GO_utils.get_negative_examples(rpkm_file_path, neg_rows, NUM_FEATURES)
-    gene_features = np.append(gene_features, gene_features_neg, axis=0)
-    gene_ids_ordered += gene_ids_ordered_neg
-
-    print 'After pass 2 (inserted negative examples), gene feature matrix has dimension: ', gene_features.shape
-
-    # Vector of labels for each example
-    labels = num_positive_examples * [1] + num_negative_examples * [0]
-
-    train, test = utils.split_data(gene_features, labels, gene_ids_ordered, train_set_size=0.7)
-
+    for term in GO_terms:
+        utils.predict(term)
+        break
+    '''
 
     # Logistic Regression with Cross-Validation, L1 Norm (must use liblinear solver for L1)
     #costs = []
@@ -106,6 +78,7 @@ if __name__ == "__main__":
 
     '''
 
+    '''
     svc = SVC(kernel='rbf')
     Cs = np.logspace(-2, 4, 10)
     clf = GridSearchCV(estimator=svc, param_grid=dict(C=Cs),n_jobs=-1)
@@ -118,6 +91,7 @@ if __name__ == "__main__":
     clf.fit(train.gene_features, train.labels)
     pred_svm = clf.predict(test.gene_features)
     utils.print_prediction_results('SVM', test.labels, pred_svm)
+    '''
 
 
 

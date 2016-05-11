@@ -3,18 +3,19 @@ import numpy as np
 import random
 from math import sqrt, ceil
 from sklearn.metrics import roc_auc_score
-
+import GO_utils
+from sklearn import linear_model
 
 class GeneData:
     def __init__(self, num_features):
         self.gene_features = np.empty((0, num_features))
         self.labels = []
-        self.gene_ids_ordered = []
+        self.gene_ids = []
 
     def append_example(self, example, label, gene_id):
         self.gene_features = np.append(self.gene_features, [example], axis=0)
         self.labels.append(label)
-        self.gene_ids_ordered.append(gene_id)
+        self.gene_ids.append(gene_id)
 
 
 def split_data(gene_features, labels, gene_ids_ordered, train_set_size=0.7):
@@ -80,7 +81,7 @@ def save_prediction_results(fname, GO_id, model, test_data, preds, n_folds=None,
     :param other_info: Other info to store in header of output file
     :return: None
     """
-    """
+
     out_file = open(fname, 'w')
     out_file.write('# Prediction results for GO term: ' + GO_id + '\n')
     out_file.write('# Model used: ' + model + '\n')
@@ -102,12 +103,11 @@ def save_prediction_results(fname, GO_id, model, test_data, preds, n_folds=None,
 
     # Writ out the predictions
     out_file.write('# Gene ID\tLabel\tPrediction\n')
-    for id,label,pred in zip(test_data.gene_ids_ordered, test_data.labels, preds):
+    for id,label,pred in zip(test_data.gene_ids, test_data.labels, preds):
         out_file.write(id + '\t' + str(label) + '\t' + str(pred) + '\n')
 
     out_file.close()
-    """
-    print 'hi'
+
 
 
 def rand_sample_exclude(li, num_samples, exclude=None):
@@ -134,3 +134,72 @@ def rand_sample_exclude(li, num_samples, exclude=None):
                 samples.append(sample)
 
     return samples
+
+
+def logistic_regresssion_L1(term, train, test):
+    num_folds = 10   # number of folds to use for cross-validation
+    loss_function = 'l1'  # Loss function to use. Must be either 'l1' or 'l2'
+    costs = np.logspace(-4, 4, 20)  # 10^(-start) to 10^stop in 10 logarithmic steps
+    logreg_cv_L1 = linear_model.LogisticRegressionCV(Cs=costs, cv=num_folds, penalty=loss_function, solver='liblinear', tol=0.0001)
+    logreg_cv_L1.fit(train.gene_features, train.labels)
+    best_c = logreg_cv_L1.C_
+    pred_lr_cv_L1 = logreg_cv_L1.predict(test.gene_features)
+    print_prediction_results('Cross-Validated Logistic Regression', test.labels, pred_lr_cv_L1,
+                                   other_info='Norm: ' + loss_function + ', # of Folds: ' + str(num_folds))
+    print 'Best cost (after inverting to obtain true cost): ', 1.0 / best_c
+
+    # Save results
+    out_fname = '../data/result_logreg_' + term.id + '.txt'
+    save_prediction_results(out_fname, term.id, 'Logistic Regresion with L1 Penalty',
+                            test, pred_lr_cv_L1, num_folds,
+                            tissue_set=None, best_cost=best_c)
+
+
+def predict(term, num_features, rpkm_path):
+    """
+    Predict GO associations for |term|.
+    :param term: The GO term
+    :return: None
+    """
+
+    ensembl_ids = term.genes
+    ens_ids_dict = {}
+    for id in ensembl_ids:
+        ens_ids_dict[id] = True
+
+    print 'Analyzing GO term: ', term.id
+    print 'This terms has ', len(ensembl_ids), ' genes associated with it.'
+    print len(set(ensembl_ids))
+    # 1st Pass Through Dataset: Obtain positive training examples
+    gene_features, positive_example_rows, gene_ids_ordered, num_transcripts = \
+        GO_utils.get_positive_examples(rpkm_path, ens_ids_dict, num_features)
+
+    print 'After pass 1 (inserted positive examples), gene feature matrix has dimension: ', gene_features.shape
+    num_positive_examples = len(positive_example_rows)
+    num_negative_examples = num_positive_examples
+    num_examples = num_positive_examples + num_negative_examples
+    print 'num pos: ', num_positive_examples
+    print 'num neg: ', num_negative_examples
+
+    # 2nd Pass through dataset: Obtain an equal number of negative training exmaples
+    neg_rows = rand_sample_exclude(range(0, num_transcripts), num_negative_examples, exclude=positive_example_rows)
+
+    gene_features_neg, gene_ids_ordered_neg = \
+        GO_utils.get_negative_examples(rpkm_path, neg_rows, num_features)
+    gene_features = np.append(gene_features, gene_features_neg, axis=0)
+    gene_ids_ordered += gene_ids_ordered_neg
+
+    print 'After pass 2 (inserted negative examples), gene feature matrix has dimension: ', gene_features.shape
+
+    # Vector of labels for each example
+    labels = num_positive_examples * [1] + num_negative_examples * [0]
+
+    train, test = split_data(gene_features, labels, gene_ids_ordered, train_set_size=0.7)
+
+    # Run Logistic Regression
+    logistic_regresssion_L1(term, train, test)
+
+
+
+
+
