@@ -321,28 +321,26 @@ def generateDonorMetaFiles(rpkm_path, attributes_path):
 
 def generateTissueMetaFiles(rpkm_path, attributes_path):
 
-    tissues = getArrayFromFile('tissues.txt')
+    tissues = getArrayFromFile('../data/tissues.txt')
     sampleToTissues = generateSamplesToTissuesDict(attributes_path)
     tissueToSamples = {}
 
     for tissue in tissues:
-        firstSample = True
         tissueToSamples[tissue] = []
-        tissue_metafile = open('tissue_metadata/tissue_meta_' + tissue + '.txt', 'w')
+        tissue_metafile = open('../data/tissue_metadata/tissue_meta_' + tissue + '.txt', 'w')
+        tissue_metafile.write('# Sample Index\tSample ID\n')
         rpkm_file = open(rpkm_path)
         for line in rpkm_file:
+            line = line.rstrip()
             sampleIds = line.split('\t')[4:]
             break
-        sampleIds[-1] = sampleIds[-1][:-1]
+        #sampleIds[-1] = sampleIds[-1][:-1]
 
-        for sampleId in sampleIds:
+        for (i, sampleId) in enumerate(sampleIds):
             sampleTissue = sampleToTissues[sampleId]
             if sampleTissue == tissue:
-                if firstSample:
-                    tissue_metafile.write(sampleId)
-                    firstSample = False
-                else:
-                    tissue_metafile.write('\t' + sampleId)
+                tissue_metafile.write(str(i) + '\t' + sampleId + '\n')
+
         tissue_metafile.close()
         rpkm_file.close()
 
@@ -353,7 +351,7 @@ def getArrayFromFile(path):
     text file and converts that file into an array.
 
     :param path: Path to the file
-    :return: The text file
+    :return: The array
     """
     f = open(path)
     for line in f:
@@ -375,10 +373,10 @@ if __name__ == "__main__":
     path_to_top_10000_rpkm = '../../../../Documents/Stanford/CS341_Data/transcript_rpkm_top_10000_var.txt'
 
     #generateDonorsFile(path_to_rpkm_file)
-    generateDonorMetaFiles(path_to_top_10000_rpkm, path_to_attributes_file)
+    #generateDonorMetaFiles(path_to_top_10000_rpkm, path_to_attributes_file)
     #generateDonorTissuesFile(path_to_rpkm_file, path_to_attributes_file)
     #generateTargetIdFiles(path_to_rpkm_file)
-    #generateTissueMetaFiles(path_to_rpkm_file, path_to_attributes_file)
+    generateTissueMetaFiles(path_to_rpkm_file, path_to_attributes_file)
 
 
 
