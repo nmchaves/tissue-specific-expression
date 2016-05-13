@@ -18,7 +18,6 @@ import GO_utils
 import utils
 from sklearn.grid_search import GridSearchCV
 
-
 """
 *********************
         Main
@@ -35,17 +34,22 @@ if __name__ == "__main__":
     sample_tissue_path = '../data/sampleID_tissue.txt'
     obo_file_path = '../data/go-basic.obo'
 
-    '''
-    go_exp_evidence_codes = ['EXP', 'IDA', 'IPI', 'IMP', 'IGI', 'IEP']
-    ev_codes = go_exp_evidence_codes + ...
-    '''
+    # GO Evidence Codes
+    exp_ev_codes = ['EXP', 'IDA', 'IPI', 'IMP', 'IGI', 'IEP']
+    comp_an_ev_codes = ['ISS', 'ISO', 'ISA', 'ISM', 'IGC', 'IBA', 'IBD', 'IKR', 'IRD', 'RCA']
+    auth_stmt_ev_codes = ['TAS', 'NAS']
+    cur_ev_codes = ['IC', 'ND']
+    elec_ev_codes = ['IEA']
+
+
     NUM_FEATURES = 8555
     #NUM_FEATURES = 53
 
-    GO_terms = GO_utils.get_go_terms_descendants(biomart_file_path, gene2go_file_path, gene_count_file_path, obo_file_path, ev_codes=None)
+    ev_codes = exp_ev_codes + comp_an_ev_codes + auth_stmt_ev_codes + cur_ev_codes
+    GO_terms = GO_utils.get_go_terms_descendants(biomart_file_path, gene2go_file_path, gene_count_file_path, obo_file_path, ev_codes=ev_codes)
     GO_terms = GO_utils.sort_go_terms(GO_terms)
 
-    term = GO_terms[350]
+    term = GO_terms[0]
     utils.predict(term, NUM_FEATURES, rpkm_file_path)
     '''
     for t in GO_terms[0:10]:

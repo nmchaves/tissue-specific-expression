@@ -376,7 +376,10 @@ if __name__ == "__main__":
     #generateDonorMetaFiles(path_to_top_10000_rpkm, path_to_attributes_file)
     #generateDonorTissuesFile(path_to_rpkm_file, path_to_attributes_file)
     #generateTargetIdFiles(path_to_rpkm_file)
-    generateTissueMetaFiles(path_to_rpkm_file, path_to_attributes_file)
+    #generateTissueMetaFiles(path_to_rpkm_file, path_to_attributes_file)
+
+    sampleToTissues = generateSamplesToTissuesDict(path_to_attributes_file)
+    print sampleToTissues['GTEX-Z93S-0011-R5b-SM-4RGNI']
 
 
 

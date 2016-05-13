@@ -66,7 +66,7 @@ def print_prediction_results(model, labels, predictions, other_info=None):
 
 
 def save_prediction_results(fname, GO_id, model, test_data, preds, n_folds=None,
-                            tissue_set=None, best_cost=None, other_info=None):
+                            tissue_set=None, costs=None, best_cost=None, other_info=None):
     """
     Save results of prediction for a given GO term to a text file.
 
@@ -77,6 +77,7 @@ def save_prediction_results(fname, GO_id, model, test_data, preds, n_folds=None,
     :param preds: Binary predictions for test data
     :param n_folds: # of folds used for cross-validation
     :param tissue_set: Set of tissues used. If no option is specified, it's assumed that all tissues were used
+    :param costs: If applicable, range of costs used
     :param best_cost: If applicable, the best cost parameter (as determined by cross-validation)
     :param other_info: Other info to store in header of output file
     :return: None
@@ -96,6 +97,8 @@ def save_prediction_results(fname, GO_id, model, test_data, preds, n_folds=None,
         out_file.write('# All tissues were included\n')
     if n_folds:
         out_file.write('# Number of folds used for cross-validation: ' + str(n_folds) + '\n')
+    if costs is not None:
+        out_file.write('# Range of cost parameters: ' + str(costs) + '\n')
     if best_cost:
         out_file.write('# Best cost parameter (determined by CV): ' + str(best_cost) + '\n')
     if other_info:
@@ -137,7 +140,7 @@ def rand_sample_exclude(li, num_samples, exclude=None):
 
 
 def logistic_regresssion_L1(term, train, test):
-    num_folds = 10   # number of folds to use for cross-validation
+    num_folds = 3   # number of folds to use for cross-validation
     loss_function = 'l1'  # Loss function to use. Must be either 'l1' or 'l2'
     costs = np.logspace(-4, 4, 20)  # 10^(-start) to 10^stop in 10 logarithmic steps
     logreg_cv_L1 = linear_model.LogisticRegressionCV(Cs=costs, cv=num_folds, penalty=loss_function, solver='liblinear', tol=0.0001)
@@ -152,7 +155,7 @@ def logistic_regresssion_L1(term, train, test):
     out_fname = '../data/result_logreg_' + term.id + '.txt'
     save_prediction_results(out_fname, term.id, 'Logistic Regresion with L1 Penalty',
                             test, pred_lr_cv_L1, num_folds,
-                            tissue_set=None, best_cost=best_c)
+                            tissue_set=None, costs=costs, best_cost=best_c)
 
 
 def predict(term, num_features, rpkm_path):
