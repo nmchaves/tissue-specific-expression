@@ -1,3 +1,4 @@
+#! /home/ec2-user/anaconda2/bin/python
 """
     File for predicting whether a given GO term is associated with
     various genes.
@@ -12,6 +13,7 @@
 
 """
 
+import os
 import numpy as np
 from sklearn.cross_validation import train_test_split
 from sklearn import linear_model
@@ -84,10 +86,26 @@ def logistic_regresssion_L1(term, x_tr, x_te, y_tr, y_te, gene_ids_test, idx_te,
     directory_path = 'results_server_' + str(server)
     if not os.path.exists(directory_path):
         os.makedirs(directory_path)
-    out_fname = directory_path + '/new_result_logreg_' + term + '.txt'
-    save_prediction_results(out_fname, term, 'Logistic Regresion with L1 Penalty',
+    out_fname = directory_path + '/result_logreg_' + term + '.txt'
+    save_prediction_results(out_fname, term, 'Logistic Regression with L1 Penalty',
                             y_te, pred_lr_cv_L1, gene_ids_test, num_folds,
                             tissue_set=None, costs=costs, best_cost=best_c)
+
+    copy_results_to_S3(out_fname, server)
+
+
+def copy_results_to_S3(out_fname, server):
+    print 'Copying ', out_fname, ' back to S3.'
+    os.system('aws s3 cp ' + out_fname + ' s3://stanfordgtex/GO_Prediction/GO_Prediction_Results/' + out_fname)
+
+
+def copy_zipped_results_to_S3(server):
+    # Create tarball
+    os.system('tar -zcvf results_server_' + str(server) + '.tar.gz results_server_' + str(server))
+
+    # Send the whole compressed directory to S3
+    os.system('aws s3 cp results_server_' + str(server) + '.tar.gz ' +
+              's3://stanfordgtex/GO_Prediction/GO_Prediction_Results/results_server_' + str(server) + '.tar.gz')
 
 
 def print_prediction_results(model, labels, predictions, other_info=None):
@@ -183,7 +201,8 @@ if __name__ == "__main__":
     GO_terms = get_go_terms()
     GO_terms.reverse()   # Process GO terms in order from least # of genes to most
 
-    print 'This program will process approximately ', len(GO_terms)/num_servers, ' GO terms'
+    terms_to_process = len(GO_terms)/num_servers
+    print 'This program will process approximately ', terms_to_process, ' GO terms'
 
     for (idx, GO_term) in enumerate(GO_terms):
 
@@ -191,17 +210,15 @@ if __name__ == "__main__":
             # Not for this server
             continue
 
-        print GO_term
+        print idx, 'th GO term: ', GO_term
+        print 'Approximately ', (terms_to_process-idx), ' terms left to process'
 
         genes_train_test, train_test = get_data(GO_term)
         X_train, X_test, y_train, y_test, idx_train, idx_test = train_test
         # Arrange gene ids to match ordering of test set
         test_genes = [genes_train_test[idx] for idx in idx_test]
 
-        print idx_test
-        print y_train
-        print y_test
-        print test_genes
-
         # Run Logistic Regression
         logistic_regresssion_L1(GO_term, X_train, X_test, y_train, y_test, test_genes, idx_test, server_no)
+
+    copy_zipped_results_to_S3(server_no)
