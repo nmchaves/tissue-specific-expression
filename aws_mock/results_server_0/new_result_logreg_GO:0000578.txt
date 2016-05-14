@@ -1,0 +1,22 @@
+# Prediction results for GO term: GO:0000578
+# Model used: Logistic Regresion with L1 Penalty
+# ROC AUC Score: 0.5
+# All tissues were included
+# Number of folds used for cross-validation: 3
+# Range of cost parameters: [  1.00000000e-04   2.63665090e-04   6.95192796e-04   1.83298071e-03
+   4.83293024e-03   1.27427499e-02   3.35981829e-02   8.85866790e-02
+   2.33572147e-01   6.15848211e-01   1.62377674e+00   4.28133240e+00
+   1.12883789e+01   2.97635144e+01   7.84759970e+01   2.06913808e+02
+   5.45559478e+02   1.43844989e+03   3.79269019e+03   1.00000000e+04]
+# Best cost parameter (determined by CV): [ 0.01274275]
+# Gene ID	Label	Prediction
+ENSG00000104435	0	0
+ENSG00000125084	1	0
+ENSG00000133422	0	0
+ENSG00000163251	1	0
+ENSG00000154764	1	0
+ENSG00000135111	1	0
+ENSG00000122254	0	0
+ENSG00000169045	0	0
+ENSG00000175387	1	0
+ENSG00000147223	1	0
