@@ -2,6 +2,30 @@ rm(list=ls())
 library(grplasso)
 ## ISSUE NO CV EASILY USABLE
 ## Perform the Logistic Group Lasso on a random dataset
+
+cv.grplasso <- function(x,y,index,nfolds = 5) {
+  # select the parameters
+  lambda <- lambdamax(x, y = y, index = index, penscale = sqrt, model = LogReg()) * 0.1^(0:10)
+  N <- nrow(x)
+  y <- drop(y)
+  if (nfolds < 3) 
+    stop("nfolds must be bigger than 3; nfolds=5 recommended")
+
+  # fit the model and store the outputs
+  foldid <- sample(rep(seq(nfolds), length = N))
+  outlist <- as.list(seq(nfolds))
+  for (i in seq(nfolds)) {
+    which <- foldid == i
+    y_sub <- y[!which]
+    x_sub <- x[!which, , drop = FALSE]
+    fit <- grplasso(x = x_sub, y = y_sub, index = index, lambda = lambda, model = LogReg(), penscale = sqrt,
+                    control = grpl.control(update.hess = "lambda", trace = 0))
+    coeffs <- fit$coefficients
+    # compute the auc for each of the lambda parameters
+  }
+  print(outlist)
+}
+
 set.seed(1)
 n <- 50  ## observations
 p <- 4   ## variables
@@ -30,7 +54,7 @@ fit <- grplasso(x, y = y, index = index, lambda = lambda, model = LogReg(), pens
 plot(fit)
 
 pred <- predict(fit)
-pred.resp <- predict(fit, type='response')
+
 plot(pred,pred.resp)
 
 pred <- predict(fit, x,type='response')
