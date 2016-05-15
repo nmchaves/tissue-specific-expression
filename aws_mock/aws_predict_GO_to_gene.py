@@ -28,7 +28,7 @@ def get_data(term, num_features=8555):
     gene_ids = []
 
     # Get positive examples
-    pos_file_name = 'experiment_inputs_subset/' + term + '_pos.txt'
+    pos_file_name = 'experiment_inputs/' + term + '_pos.txt'
     pos_file = open(pos_file_name)
     skipLines = 2
     for (i, line) in enumerate(pos_file):
@@ -44,7 +44,7 @@ def get_data(term, num_features=8555):
     num_pos_examples = gene_features.shape[0]
 
     # Add on the negative examples
-    neg_file_name = 'experiment_inputs_subset/' + term + '_neg_0.txt'
+    neg_file_name = 'experiment_inputs/' + term + '_neg_0.txt'
     neg_file = open(neg_file_name)
     skipLines = 2
     for (i, line) in enumerate(neg_file):
@@ -165,7 +165,7 @@ def save_prediction_results(fname, GO_id, model, test_labels, preds, gene_ids_te
 
 
 def get_go_terms():
-    f_name = 'GO_terms_final_gene_counts_subset.txt'
+    f_name = 'GO_terms_final_gene_counts.txt'
     GO_counts_file = open(f_name)
 
     terms = []
@@ -211,7 +211,7 @@ if __name__ == "__main__":
             continue
 
         print idx, 'th GO term: ', GO_term
-        print 'Approximately ', (terms_to_process-idx), ' terms left to process'
+        print 'Approximately ', (terms_to_process-idx/num_servers), ' terms left to process'
 
         genes_train_test, train_test = get_data(GO_term)
         X_train, X_test, y_train, y_test, idx_train, idx_test = train_test

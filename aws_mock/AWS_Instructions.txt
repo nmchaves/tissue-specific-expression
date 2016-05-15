@@ -4,13 +4,15 @@ Starting an AWS Server
 
 1) In the AWS web interface, navigate to Services->EC2
 2) Launch instance -> Amazon Linux
-3) Continue using defaults (unless you have some other preference)
-4) In “Configure Security Group”, select one of the existing security groups (e.g. launch-wizard-1)
-5) Review and Launch -> Launch
-6) In the popup, select “Choose an existing key pair” and use “cs341_test1”. Click Launch Instances.
-7) When the instance launches and receives a public ip, open a terminal and enter:
+3) Choose an instance type. It doesn’t really matter which one. t2.micro is nice since it’s basically free, but something like t2.medium is faster.  
+4) In Add Storage, change the size to 30 GiB
+5) In “Configure Security Group”, select one of the existing security groups (e.g. launch-wizard-1)
+6) Review and Launch -> Launch
+7) In the popup, select “Choose an existing key pair” and use “cs341_test1”. Click Launch Instances. Scroll down and click View Instances.
+8) When the instance launches and receives a public ip, open a terminal and enter:
 $ ssh -i pathToPemFile/pemFile.pem ec2-user@ipOfTheMachine
 In my case, the pem file is located in Downloads and the AWS machine was assigned a public IP address of 52.38.77.88. So I entered:
+
 $ ssh -i ~/Downloads/cs341_test1.pem ec2-user@52.38.77.88
 
 8) In the same terminal, enter:
@@ -23,7 +25,8 @@ H9YaX3l+aZGVU3PnT38hAETa/WwhziP4osBbuHT0
 10) Just hit Enter for the default region/output. (Note: if you decide to use a Ubuntu server instead of Amazon, then you must specify the default region, e.g. us-west-2a). 
 
 ==========================================
-Viewing/Accessing Files from our S3 Bucket
+How to View/Access Files from our S3 Bucket
+(Don’t actually need to execute these commands)
 ==========================================
 List the buckets in S3:
 $ aws s3 ls
@@ -40,6 +43,28 @@ Now, you can access this file like any normal file in your current directory.
 how to copy from EC2 back to S3 **
 
 ===================================
+Copying the files from S3 to EC2
+===================================
+
+1) Copy data from S3 to EC2
+$ aws s3 cp s3://stanfordgtex/GO_Prediction/aws_predict_GO_to_gene.py .
+$ aws s3 cp s3://stanfordgtex/GO_Prediction/GO_terms_final_gene_counts.txt .
+$ aws s3 cp s3://stanfordgtex/GO_Prediction/experiment_inputs.zip .
+$ aws s3 cp --recursive s3://stanfordgtex/GO_Prediction .
+
+2) Check that the 1st line of the python script (aws_predict_GO_to_gene.py) is a shebang with the path to where we will install anaconda’s version of python:
+#! /home/ec2-user/anaconda2/bin/python
+
+3) Add permissions to python file:
+$ chmod +777 aws_predict_GO_to_gene.py
+
+4) Unzip the experiment input files (these files contain the positive and negative training examples):
+$ unzip -a experiment_inputs.zip
+
+Delete the archive, which is no longer needed:
+$ rm experiment_input.zip
+
+===================================
 Downloading and Installing Anaconda
 (needed to use numpy, etc)
 ===================================
@@ -48,32 +73,13 @@ $ wget http://repo.continuum.io/archive/Anaconda2-4.0.0-Linux-x86_64.sh
 
 2) Install
 $ bash Anaconda2-4.0.0-Linux-x86_64.sh
+
 Then press Enter, q, yes, Enter
  
 3) Do you wish the installer to prepend the Anaconda2 install location
 to PATH in your /home/ec2-user/.bashrc ? [yes|no]
 [no] >>> yes
 
-===================================
-Copying the files from S3 to EC2
-===================================
-
-1) Copy directory
-$ aws s3 cp --recursive s3://stanfordgtex/GO_Prediction .
-
-In particular, we need the following files in the home directory:
-aws_predict_GO_to_gene.py
-GO_terms_final_gene_counts.txt
-experiment_inputs.zip
-
-2) Add path to anaconda to the first line of the python file (i.e. aws_predict_GO_to_gene.py):
-#! /home/ec2-user/anaconda2/bin/python
-
-3) Add permissions to python file:
-$ sudo chmod +777 aws_predict_GO_to_gene.py
-
-4) Unzip the experiment input files (these files contain the positive and negative training examples):
-$ unzip -a experiment_inputs.zip
 
 ====================
 Executing the Code
