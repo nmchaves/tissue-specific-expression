@@ -16,7 +16,6 @@ cv.grplasso <- function(x, y, index,nfolds = 5, nlamdas = 20, plot.error=FALSE) 
 
   # fit the model and store the outputs
   foldid <- sample(rep(seq(nfolds), length = N))
-  outlist <- as.list(seq(nfolds))
   aucs <- matrix(,nrow=nfolds,ncol=length(lambda))
   for (i in seq(nfolds)) {
     which <- foldid == i
@@ -53,6 +52,20 @@ cv.grplasso <- function(x, y, index,nfolds = 5, nlamdas = 20, plot.error=FALSE) 
   return(list(lambda = lambda.opt, error=cv.error))
 }
 
+split_data <- function(gene_features, labels, gene_ids_ordered, train_set_size=0.7) {
+  # train_set_size: Fraction of genes used for training set
+  num_samples = length(labels)
+  num_features = dim(gene_features)[1]
+  num_train_samples = ceiling(train_set_size*num_samples)
+  sample_order = sample(1:num_samples, num_samples) # permute the samples
+  train_idx = sample_order[1:num_train_samples]
+  test_idx =  sample_order[(num_train_samples+1):num_samples]
+
+  train = list(x=gene_features[train_idx,],y=labels[train_idx],ids=gene_ids_ordered[train_idx])
+  test = list(x=gene_features[test_idx,],y=labels[test_idx],ids=gene_ids_ordered[test_idx])
+  return(list(train=train, test=test))
+}
+
 set.seed(1)
 n <- 50  ## observations
 p <- 4   ## variables
@@ -68,16 +81,30 @@ prob <- 1 / (1 + exp(-x %*% par))
 mean(pmin(prob, 1 - prob)) ## Bayes risk
 y <- rbinom(n, size = 1, prob = prob) ## binary response vector
 
-# 
+data <- split_data(x,y,y)
+cat('----------------------------------------\n')
+cat('dimensionality of data: ',dim(data$train$x)[2],'\n')
+cat('# of training samples:  ',length(data$train$y),'\n')
+cat('# of test samples:      ',length(data$test$y),'\n')
 
 # apply cv for grplasso
+cat('----------------------------------------\n')
+cat('Training group lasso classifier...')
+x <- data$train$x
+y <- data$train$y
 cv.result <- cv.grplasso(x,y,index,plot.error=TRUE)
-print(cv.result)
-
 ## Re-fit the model with the best tuning paramter from cross-validation
 fit <- grplasso(x, y = y, index = index, lambda = cv.result$lambda, model = LogReg(), penscale = sqrt,
                 control = grpl.control(update.hess = "lambda", trace = 0))
+cat('done\n')
+cat('cross-validaiton error:',cv.result$error,'\n')
+cat('parameter (lambda) tuned as:',cv.result$lambda,'\n')
 
 ## compute the test error
+cat('----------------------------------------\n')
+prediction <- predict(fit, data$test$x, type = "response")
+auc.val <- auc(accuracy(prediction,as.factor(data$test$y)))
+cat('Test Error:',auc.val,'\n')
+
 
 
