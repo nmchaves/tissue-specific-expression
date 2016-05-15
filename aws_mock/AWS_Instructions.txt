@@ -17,12 +17,9 @@ $ ssh -i ~/Downloads/cs341_test1.pem ec2-user@52.38.77.88
 
 8) In the same terminal, enter:
 $ aws configure
-9) Enter the ID from the credentials file that Jason sent via email: 
-AKIAICHYRLAVPTPQB4CQ
-10) Enter the secret access key: 
-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
-
-10) Just hit Enter for the default region/output. (Note: if you decide to use a Ubuntu server instead of Amazon, then you must specify the default region, e.g. us-west-2a). 
+9) Enter the ID from the credentials file that Jason sent via email.
+10) Enter the secret access ke.
+11) Just hit Enter for the default region/output. (Note: if you decide to use a Ubuntu server instead of Amazon, then you must specify the default region, e.g. us-west-2a). 
 
 ==========================================
 How to View/Access Files from our S3 Bucket
