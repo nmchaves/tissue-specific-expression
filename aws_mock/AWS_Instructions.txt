@@ -5,7 +5,7 @@ Starting an AWS Server
 1) In the AWS web interface, navigate to Services->EC2
 2) Launch instance -> Amazon Linux
 3) Choose an instance type. It doesn’t really matter which one. t2.micro is nice since it’s basically free, but something like t2.medium is faster.  
-4) In Add Storage, change the size to at least 10 GiB. I’d recommend using 20 GiB to be safe.
+4) In Add Storage, change the size to 30 GiB
 5) In “Configure Security Group”, select one of the existing security groups (e.g. launch-wizard-1)
 6) Review and Launch -> Launch
 7) In the popup, select “Choose an existing key pair” and use “cs341_test1”. Click Launch Instances. Scroll down and click View Instances.
@@ -18,9 +18,9 @@ $ ssh -i ~/Downloads/cs341_test1.pem ec2-user@52.38.77.88
 8) In the same terminal, enter:
 $ aws configure
 9) Enter the ID from the credentials file that Jason sent via email: 
-
+AKIAICHYRLAVPTPQB4CQ
 10) Enter the secret access key: 
-
+H9YaX3l+aZGVU3PnT38hAETa/WwhziP4osBbuHT0
 
 10) Just hit Enter for the default region/output. (Note: if you decide to use a Ubuntu server instead of Amazon, then you must specify the default region, e.g. us-west-2a). 
 
@@ -50,6 +50,7 @@ Copying the files from S3 to EC2
 $ aws s3 cp s3://stanfordgtex/GO_Prediction/aws_predict_GO_to_gene.py .
 $ aws s3 cp s3://stanfordgtex/GO_Prediction/GO_terms_final_gene_counts.txt .
 $ aws s3 cp s3://stanfordgtex/GO_Prediction/experiment_inputs.zip .
+$ aws s3 cp --recursive s3://stanfordgtex/GO_Prediction .
 
 2) Check that the 1st line of the python script (aws_predict_GO_to_gene.py) is a shebang with the path to where we will install anaconda’s version of python:
 #! /home/ec2-user/anaconda2/bin/python
