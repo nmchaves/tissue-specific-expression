@@ -7,7 +7,7 @@ library(ggplot2)
 
 cv.grplasso <- function(x, y, index, nfolds = 5, nlamdas = 20, plot.error=FALSE) {
   # select the parameters
-  lambda <- lambdamax(x, y = y, index = index, penscale = sqrt, model = LogReg()) * 0.5^seq(0,4,len=nlamdas)
+  lambda <- lambdamax(x, y = y, index = index, penscale = sqrt, model = LogReg()) * 0.5^seq(0,5,len=nlamdas)
   N <- nrow(x)
   y <- drop(y)
   if (nfolds < 3) 
@@ -40,7 +40,7 @@ cv.grplasso <- function(x, y, index, nfolds = 5, nlamdas = 20, plot.error=FALSE)
     error.high = error.mean + error.sd
     error.low = error.mean - error.sd
     plot(lambda,error.mean,
-       xlab="Lambda (log)",ylab="CV Error", 
+       xlab="Lambda (log)",ylab="CV AUC Score", 
        log="x",xlim=rev(range(lambda)),ylim = c(0,1))
     arrows(lambda,error.high,lambda,error.low,col=2,angle=90,length=0.05,code=3)
   }
@@ -54,7 +54,6 @@ cv.grplasso <- function(x, y, index, nfolds = 5, nlamdas = 20, plot.error=FALSE)
 split_data <- function(gene_features, labels, train_set_size=0.67) {
   # train_set_size: Fraction of genes used for training set
   num_samples = length(labels)
-  print(num_samples)
   num_features = dim(gene_features)[1]
   num_train_samples = ceiling(train_set_size*num_samples)
   sample_order = sample(1:num_samples, num_samples) # permute the samples
@@ -66,45 +65,119 @@ split_data <- function(gene_features, labels, train_set_size=0.67) {
   return(list(train=train, test=test))
 }
 
-load.pos.neg.sets <- function(dir.name,pos.name,neg.name,grp.name) {
-  pos.data <- read.table(paste(dir.name,pos.name,sep=''),sep='\t',row.names = 1,skip=2)
-  neg.data <- read.table(paste(dir.name,neg.name,sep=''),sep='\t',row.names = 1,skip=2)
-  response = c(rep(1,dim(pos.data)[1]),rep(0,dim(neg.data)[1]))
-  # TODO: CHANGE GROUP
-  group = sample(54,dim(pos.data)[2],replace = TRUE) # random group selection
-  # print(response)
-  # print(dim(pos.data))
-  # print(rownames(pos.data))
-  # print(rownames(neg.data))
-  return(list(x=rbind(pos.data,neg.data),y=response,group=group))
+group.to.int <- function(group2col, specific=TRUE) {
+  if (specific) {
+    group = group2col[,2]
+  } else {
+    group = group2col[,1]
+  }
+  type.names = unique(group)
+  type.counts = rep(0,length(type.names))
+  group.idx = rep(0,dim(group2col)[1])
+  for (i in 1:length(group.idx)) {
+    type.idx = which(type.names == group[i])
+    group.idx[i] = type.idx
+    type.counts[type.idx] = type.counts[type.idx] + 1
+  }
+  names(type.counts) = type.names
+  return(list(types=type.counts,idx=group.idx))
 }
 
+load.pos.neg.sets <- function(pos.name,neg.name,grp.name,specific=TRUE) {
+  pos.data <- read.table(pos.name,sep='\t',row.names = 1,skip=2)
+  neg.data <- read.table(neg.name,sep='\t',row.names = 1,skip=2)
+  group <- read.table(grp.name,sep='\t',row.names = 1, skip=1) 
+  # group: tissue type, tissue specific type
+  data = rbind(pos.data,neg.data)
+  response = c(rep(1,dim(pos.data)[1]),rep(0,dim(neg.data)[1]))
+  group.info <- group.to.int(group,specific)
+  return(list(x=data,
+              y=response,
+              group=group.info$idx,
+              types=group.info$types))
+}
 
+reduce.features <- function(grouped.data, ndim=6) {
+  # reduce the dimension of each feature to ndim, and remove features that have less than ndim
+  type.counts <- grouped.data$types
+  x <- grouped.data$x
+  if (dim(x)[1] < ndim) {
+    stop('Error: # of samples is less than # of subtype dimentions: ', dim(x)[1],'<',ndim)
+  }
+  nusable <- 0
+  for (i in 1:length(type.counts)) {
+    if (type.counts[i] < ndim) {
+      cat('Warning: ',names(type.counts)[i],' has too few dimensions and not included in the model\n')
+    } else {
+      nusable = nusable + 1
+    }
+  }
+  new.x <- matrix(nrow=dim(x)[1], ncol=ndim*nusable)
+  new.groups <- numeric(ndim*nusable)
+  new.types <- numeric(0)
+  for (i in 1:length(type.counts)) {
+    if (type.counts[i] < ndim) {
+      next
+    } else {
+      new.types <- c(names(type.counts)[i],new.types)
+    }
+    i.type <- length(new.types)
+    sel <- which(grouped.data$group == i)
+    # check if any columns are zero
+    remove <- numeric(0)
+    for (j in 1:length(sel)) {
+      if ( sd(x[,sel[j]]) < 0.001) {
+        # print(x[,sel[j]])
+        remove <- c(remove,j) # remove the entry
+      }
+    }
+    if (length(remove)>0) { 
+      sel <- sel[-remove] 
+      # cat('Warning: removed columns: ',remove,' with zero variance\n')
+    } 
+    pca <- prcomp(x[ ,sel],center = TRUE, scale. = TRUE) 
+    new.x[ ,((i.type-1)*ndim+1):(i.type*ndim)] <- pca$x[ ,1:ndim]
+    new.groups[((i.type-1)*ndim+1):(i.type*ndim)] <- rep(i.type,ndim)
+  }
+  # print(new.types)
+  # print(new.groups)
+  # print(dim(new.x))
+  # stop('lol')
+  return(list(x=new.x,
+              y=grouped.data$y,
+              group=new.groups,
+              types=new.types))
+}
+
+plot.coefficient.path <- function(x,y,index) {
+  lambda <- lambdamax(x, y = y, index = index, penscale = sqrt, model = LogReg()) * 0.5^seq(0,5,len=10)
+  fit <- grplasso(x = x, y = y, index = index, lambda = lambda, model = LogReg(), penscale = sqrt,
+                  control = grpl.control(update.hess = "lambda", trace = 0))
+  plot(fit,log='x')
+}
+
+## set seed for reproducability
 set.seed(1)
-n <- 50  ## observations
-p <- 4   ## variables
-## First variable (intercept) not penalized, two groups having 2 degrees
-## of freedom each
-
-## Create a random design matrix, including the intercept (first column)
-x <- cbind(1, matrix(rnorm(p * n), nrow = n))
-colnames(x) <- c("Intercept", paste("X", 1:4, sep = ""))
-par <- c(0, 2.1, -1.8, 0, 0)
-prob <- 1 / (1 + exp(-x %*% par))
-mean(pmin(prob, 1 - prob)) ## Bayes risk
-y <- rbinom(n, size = 1, prob = prob) ## binary response vector
 
 ## load all data
 cat('----------------------------------------\n')
-cat('Loading data...\n')
+cat('Loading raw data...\n')
 dir.name <- '/Users/jjzhu/Documents/GTEx/CS341_Code/aws_mock/experiment_inputs_subset/'
-pos.name <- 'GO:0000578_pos.txt'  # filename for positive set
-neg.name <- 'GO:0000578_neg_0.txt' # filename for negative set
-grp.name <- '
-full.data <- load.pos.neg.sets(dir.name,pos.name,neg.name)
-index <- c(NA, full.data$group)
-full.x <- cbind(1, full.data$x)  # add intercept
-full.y <- full.data$y
+pos.name <- paste(dir.name,'GO:0000578_pos.txt',sep='')  # filename for positive set
+neg.name <- paste(dir.name,'GO:0000578_neg_0.txt',sep='') # filename for negative set
+grp.name <- '/Users/jjzhu/Documents/GTEx/CS341_Code/data/samples_to_tissues_map.txt'
+full.data <- load.pos.neg.sets(pos.name,neg.name,grp.name)
+
+## feature extraction for each tissue type
+cat('----------------------------------------\n')
+cat('Reducing dimension of group features\n')
+dim.red <- reduce.features(full.data)
+index <- c(NA, dim.red$group)
+full.x <- cbind(1, dim.red$x)  # add intercept
+full.y <- dim.red$y
+
+## fit the data with coefficient path
+plot.coefficient.path(full.x,full.y,index)
 
 ## split data
 cat('----------------------------------------\n')
@@ -132,5 +205,6 @@ prediction <- predict(fit, data$test$x, type = "response")
 auc.val <- auc(accuracy(prediction,as.factor(data$test$y)))
 cat('Test Error:',auc.val,'\n')
 
+cat('----------------------------------------\n')
 
 
