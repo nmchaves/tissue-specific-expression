@@ -83,21 +83,36 @@ group.to.int <- function(group2col, specific=TRUE) {
   return(list(types=type.counts,idx=group.idx))
 }
 
-load.pos.neg.sets <- function(pos.name,neg.name,grp.name,specific=TRUE) {
+load.pos.neg.sets <- function(pos.name,neg.name,grp.name,specific=TRUE,transform=FALSE) {
   pos.data <- read.table(pos.name,sep='\t',row.names = 1,skip=2)
   neg.data <- read.table(neg.name,sep='\t',row.names = 1,skip=2)
   group <- read.table(grp.name,sep='\t',row.names = 1, skip=1) 
   # group: tissue type, tissue specific type
-  data = rbind(pos.data,neg.data)
-  response = c(rep(1,dim(pos.data)[1]),rep(0,dim(neg.data)[1]))
+  data <- rbind(pos.data,neg.data)
+  response <- c(rep(1,dim(pos.data)[1]),rep(0,dim(neg.data)[1]))
   group.info <- group.to.int(group,specific)
+  
+  if (transform) {
+    # log10(x+1) and standardize each feature
+    # iterate through each column
+    for (i in 1:dim(data)[2]) {
+      feature <- data[,i] 
+      log.feat <- apply(t(feature),1,function(x) log10(x+1))
+      log.feat <- log.feat - mean(log.feat)  # centering
+      if (sd(log.feat) > 1e-10)  {           # scaling
+        log.feat <- log.feat / sd(log.feat)
+      }
+      data[,i] <- log.feat  # update the feature
+    }
+  }
+  
   return(list(x=data,
               y=response,
               group=group.info$idx,
               types=group.info$types))
 }
 
-reduce.features <- function(grouped.data, ndim=6) {
+reduce.features <- function(grouped.data, ndim=3) {
   # reduce the dimension of each feature to ndim, and remove features that have less than ndim
   type.counts <- grouped.data$types
   x <- grouped.data$x
@@ -162,11 +177,17 @@ set.seed(1)
 ## load all data
 cat('----------------------------------------\n')
 cat('Loading raw data...\n')
-dir.name <- '/Users/jjzhu/Documents/GTEx/CS341_Code/aws_mock/experiment_inputs_subset/'
-pos.name <- paste(dir.name,'GO:0000578_pos.txt',sep='')  # filename for positive set
-neg.name <- paste(dir.name,'GO:0000578_neg_0.txt',sep='') # filename for negative set
-grp.name <- '/Users/jjzhu/Documents/GTEx/CS341_Code/data/samples_to_tissues_map.txt'
-full.data <- load.pos.neg.sets(pos.name,neg.name,grp.name)
+main <- '/Users/jasonzhu/Documents/CS341_Code/'
+dir.name <- paste(main,'data/experiment_inputs_subset/',sep='')
+grp.name <- paste(main,'data/samples_to_tissues_map.txt',sep='')
+all.go.name <- paste(main,'data/GO_terms_final_gene_counts.txt',sep='')
+go.names <- read.table(all.go.name,sep='\t',row.names=1,skip=2)
+
+go.term <- 'GO:0000578'
+
+pos.name <- paste(dir.name,paste(go.term,'_pos.txt',sep=''),sep='')   # filename for positive set
+neg.name <- paste(dir.name,paste(go.term,'_neg_0.txt',sep=''),sep='') # filename for negative set
+full.data <- load.pos.neg.sets(pos.name,neg.name,grp.name,specific=TRUE,transform=TRUE)
 
 ## feature extraction for each tissue type
 cat('----------------------------------------\n')
@@ -204,6 +225,14 @@ cat('----------------------------------------\n')
 prediction <- predict(fit, data$test$x, type = "response")
 auc.val <- auc(accuracy(prediction,as.factor(data$test$y)))
 cat('Test Error:',auc.val,'\n')
+
+## store the coefficients of the fit
+cat('----------------------------------------\n')
+model <- 'group_lasso'
+cat('# Prediction results for GO term: ',go.term,'\n')
+cat('# Model used: ',model,'\n')
+cat('# ROC AUC Score: ',auc.val,'\n')
+grplasso.ceoff <- fit$coefficients
 
 cat('----------------------------------------\n')
 
