@@ -1,0 +1,108 @@
+========================
+Starting an AWS Server
+========================
+
+1) In the AWS web interface, navigate to Services->EC2
+2) Launch instance -> Amazon Linux
+3) Choose an instance type. It doesn’t really matter which one. t2.micro is nice since it’s basically free, but something like t2.medium is faster.  
+4) In Add Storage, change the size to 30 GiB
+5) In “Configure Security Group”, select one of the existing security groups (e.g. launch-wizard-1)
+6) Review and Launch -> Launch
+7) In the popup, select “Choose an existing key pair” and use “cs341_test1”. Click Launch Instances. Scroll down and click View Instances.
+8) When the instance launches and receives a public ip, open a terminal and enter:
+$ ssh -i pathToPemFile/pemFile.pem ec2-user@ipOfTheMachine
+In my case, the pem file is located in Downloads and the AWS machine was assigned a public IP address of 52.38.77.88. So I entered:
+
+$ ssh -i ~/Downloads/cs341_test1.pem ec2-user@52.38.77.88
+
+8) In the same terminal, enter:
+$ aws configure
+9) Enter the ID from the credentials file that Jason sent via email: 
+AKIAICHYRLAVPTPQB4CQ
+10) Enter the secret access key: 
+H9YaX3l+aZGVU3PnT38hAETa/WwhziP4osBbuHT0
+
+10) Just hit Enter for the default region/output. (Note: if you decide to use a Ubuntu server instead of Amazon, then you must specify the default region, e.g. us-west-2a). 
+
+==========================================
+How to View/Access Files from our S3 Bucket
+(Don’t actually need to execute these commands)
+==========================================
+List the buckets in S3:
+$ aws s3 ls
+
+Show the contents of the stanfordgtex bucket:
+$ aws s3 ls s3://stanfordgtex  
+
+Copy a file from stanfordgtex bucket to the current directory in EC2
+$ aws s3 cp s3://stanfordgtex/fileName.txt .
+
+Now, you can access this file like any normal file in your current directory.
+
+** Note: There’s an example at the very end of this file showing
+how to copy from EC2 back to S3 **
+
+===================================
+Copying the files from S3 to EC2
+===================================
+
+1) Copy data from S3 to EC2
+$ aws s3 cp s3://stanfordgtex/GO_Prediction/aws_predict_GO_to_gene.py .
+$ aws s3 cp s3://stanfordgtex/GO_Prediction/GO_terms_final_gene_counts.txt .
+$ aws s3 cp s3://stanfordgtex/GO_Prediction/experiment_inputs.zip .
+$ aws s3 cp --recursive s3://stanfordgtex/GO_Prediction .
+
+2) Check that the 1st line of the python script (aws_predict_GO_to_gene.py) is a shebang with the path to where we will install anaconda’s version of python:
+#! /home/ec2-user/anaconda2/bin/python
+
+3) Add permissions to python file:
+$ chmod +777 aws_predict_GO_to_gene.py
+
+4) Unzip the experiment input files (these files contain the positive and negative training examples):
+$ unzip -a experiment_inputs.zip
+
+Delete the archive, which is no longer needed:
+$ rm experiment_input.zip
+
+===================================
+Downloading and Installing Anaconda
+(needed to use numpy, etc)
+===================================
+1) Download 
+$ wget http://repo.continuum.io/archive/Anaconda2-4.0.0-Linux-x86_64.sh
+
+2) Install
+$ bash Anaconda2-4.0.0-Linux-x86_64.sh
+
+Then press Enter, q, yes, Enter
+ 
+3) Do you wish the installer to prepend the Anaconda2 install location
+to PATH in your /home/ec2-user/.bashrc ? [yes|no]
+[no] >>> yes
+
+
+====================
+Executing the Code
+====================
+If you only plan to run 1 server, then run:
+./aws_predict_GO_to_gene.py
+which is equivalent to:
+./aws_predict_GO_to_gene.py --n_servers=1 --server_no=0
+
+If you want to run multiple servers (say 2 servers), then use:
+./aws_predict_GO_to_gene.py --n_servers=2 --server_no=0
+on the first server and
+./aws_predict_GO_to_gene.py --n_servers=2 --server_no=1
+on the 2nd server
+
+Note: the python script will incrementally copy the individual results files back to S3. Once the script completes, it will then copy a tar.gz containing all of the result files (this makes downloading the results from S3 to your local machine MUCH easier).
+
+For your reference, here is how you could copy a folder containing your experiments back to S3 (again, this is done automatically for you in the python script, but you may want to see how it’s done):
+
+Suppose that you’re on server_no=0. Then, the results will be stored in results_server_0. To copy back to S3, use:
+$ tar -zcvf results_server_0.tar.gz results_server_0/
+$ aws s3 cp results_server_0.tar.gz s3://stanfordgtex/GO_Prediction/GO_Prediction_Results/results_server_0.tar.gz
+
+The changes should be reflected in the AWS S3 web interface shortly afterwards.
+
+Note: the above functionality is implemented in the function ‘copy_zipped_results_to_S3’ in aws_predict_GO_to_gene.py

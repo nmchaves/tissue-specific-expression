@@ -1,0 +1,5 @@
+# Number of gene annotations for each GO term that are being used for experiments.
+# GO_Term	Num_Genes
+GO:0001505	91
+GO:0001503	33
+GO:0000578	15
