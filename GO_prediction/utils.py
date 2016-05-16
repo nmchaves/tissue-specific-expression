@@ -41,11 +41,12 @@ def split_data(gene_features, labels, gene_ids_ordered, train_set_size=0.7):
     return train, test
 
 
-def print_prediction_results(model, labels, predictions, other_info=None):
+def print_prediction_results(model, fit, labels, predictions, other_info=None):
     print 20*'-'
     print model
     print 20*'-'
     print 'ROC AUC Score: ', roc_auc_score(labels, predictions)
+    print fit.coef_
     false_positives = 0
     false_negatives = 0
     for label, pred in zip(labels, predictions):
@@ -143,11 +144,11 @@ def logistic_regresssion_L1(term, train, test):
     num_folds = 3   # number of folds to use for cross-validation
     loss_function = 'l1'  # Loss function to use. Must be either 'l1' or 'l2'
     costs = np.logspace(-4, 4, 20)  # 10^(-start) to 10^stop in 10 logarithmic steps
-    logreg_cv_L1 = linear_model.LogisticRegressionCV(Cs=costs, cv=num_folds, penalty=loss_function, solver='liblinear', tol=0.0001)
+    logreg_cv_L1 = linear_model.LogisticRegressionCV(Cs=costs, cv=num_folds, penalty=loss_function, scoring='roc_auc', solver='liblinear', tol=0.0001)
     logreg_cv_L1.fit(train.gene_features, train.labels)
     best_c = logreg_cv_L1.C_
     pred_lr_cv_L1 = logreg_cv_L1.predict(test.gene_features)
-    print_prediction_results('Cross-Validated Logistic Regression', test.labels, pred_lr_cv_L1,
+    print_prediction_results('Cross-Validated Logistic Regression', logreg_cv_L1, test.labels, pred_lr_cv_L1,
                                    other_info='Norm: ' + loss_function + ', # of Folds: ' + str(num_folds))
     print 'Best cost (after inverting to obtain true cost): ', 1.0 / best_c
 
@@ -171,7 +172,7 @@ def predict(term, num_features, rpkm_path):
         ens_ids_dict[id] = True
 
     print 'Analyzing GO term: ', term.id
-    print 'This terms has ', len(ensembl_ids), ' genes associated with it.'
+    print 'This term has ', len(ensembl_ids), ' genes associated with it.'
     print len(set(ensembl_ids))
     # 1st Pass Through Dataset: Obtain positive training examples
     gene_features, positive_example_rows, gene_ids_ordered, num_transcripts = \

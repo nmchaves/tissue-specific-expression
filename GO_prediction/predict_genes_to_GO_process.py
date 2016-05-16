@@ -49,7 +49,7 @@ if __name__ == "__main__":
     GO_terms = GO_utils.get_go_terms_descendants(biomart_file_path, gene2go_file_path, gene_count_file_path, obo_file_path, ev_codes=ev_codes)
     GO_terms = GO_utils.sort_go_terms(GO_terms)
 
-    term = GO_terms[0]
+    term = GO_terms[300]
     utils.predict(term, NUM_FEATURES, rpkm_file_path)
     '''
     for t in GO_terms[0:10]:
