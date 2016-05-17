@@ -1,0 +1,337 @@
+# Prediction results for:	 GO:0043534 
+# Model used:	 group_lasso 
+# ROC AUC score:	 0.6363636 
+# Dimension per tissue:	 5 
+# All tissues were included
+# Best penalty parameter (CV): 0.1697592 
+# tissue	 1 	 Brain - Caudate (basal ganglia) 
+# tissue	 2 	 Brain - Anterior cingulate cortex (BA24) 
+# tissue	 3 	 Brain - Amygdala 
+# tissue	 4 	 Bladder 
+# tissue	 5 	 Whole Blood 
+# tissue	 6 	 Vagina 
+# tissue	 7 	 Uterus 
+# tissue	 8 	 Artery - Tibial 
+# tissue	 9 	 Thyroid 
+# tissue	 10 	 Testis 
+# tissue	 11 	 Stomach 
+# tissue	 12 	 Spleen 
+# tissue	 13 	 Small Intestine - Terminal Ileum 
+# tissue	 14 	 Skin - Sun Exposed (Lower leg) 
+# tissue	 15 	 Skin - Not Sun Exposed (Suprapubic) 
+# tissue	 16 	 Prostate 
+# tissue	 17 	 Pituitary 
+# tissue	 18 	 Pancreas 
+# tissue	 19 	 Artery - Coronary 
+# tissue	 20 	 Ovary 
+# tissue	 21 	 Nerve - Tibial 
+# tissue	 22 	 Muscle - Skeletal 
+# tissue	 23 	 Minor Salivary Gland 
+# tissue	 24 	 Lung 
+# tissue	 25 	 Liver 
+# tissue	 26 	 Kidney - Cortex 
+# tissue	 27 	 Heart - Left Ventricle 
+# tissue	 28 	 Heart - Atrial Appendage 
+# tissue	 29 	 Fallopian Tube 
+# tissue	 30 	 Artery - Aorta 
+# tissue	 31 	 Esophagus - Muscularis 
+# tissue	 32 	 Esophagus - Mucosa 
+# tissue	 33 	 Esophagus - Gastroesophageal Junction 
+# tissue	 34 	 Colon - Transverse 
+# tissue	 35 	 Colon - Sigmoid 
+# tissue	 36 	 Cervix - Endocervix 
+# tissue	 37 	 Cervix - Ectocervix 
+# tissue	 38 	 Cells - Transformed fibroblasts 
+# tissue	 39 	 Cells - EBV-transformed lymphocytes 
+# tissue	 40 	 Breast - Mammary Tissue 
+# tissue	 41 	 Adrenal Gland 
+# tissue	 42 	 Brain - Substantia nigra 
+# tissue	 43 	 Brain - Spinal cord (cervical c-1) 
+# tissue	 44 	 Brain - Putamen (basal ganglia) 
+# tissue	 45 	 Brain - Nucleus accumbens (basal ganglia) 
+# tissue	 46 	 Brain - Hypothalamus 
+# tissue	 47 	 Brain - Hippocampus 
+# tissue	 48 	 Brain - Frontal Cortex (BA9) 
+# tissue	 49 	 Brain - Cortex 
+# tissue	 50 	 Brain - Cerebellum 
+# tissue	 51 	 Brain - Cerebellar Hemisphere 
+# tissue	 52 	 Adipose - Visceral (Omentum) 
+# tissue	 53 	 Adipose - Subcutaneous 
+# Coefficients:
+1 	 0 
+1 	 0 
+1 	 0 
+1 	 0 
+1 	 0 
+2 	 0 
+2 	 0 
+2 	 0 
+2 	 0 
+2 	 0 
+3 	 0.002903521 
+3 	 -0.03059055 
+3 	 -0.05379231 
+3 	 -0.00624672 
+3 	 -0.04994618 
+4 	 0 
+4 	 0 
+4 	 0 
+4 	 0 
+4 	 0 
+5 	 0 
+5 	 0 
+5 	 0 
+5 	 0 
+5 	 0 
+6 	 0 
+6 	 0 
+6 	 0 
+6 	 0 
+6 	 0 
+7 	 0 
+7 	 0 
+7 	 0 
+7 	 0 
+7 	 0 
+8 	 0 
+8 	 0 
+8 	 0 
+8 	 0 
+8 	 0 
+9 	 0 
+9 	 0 
+9 	 0 
+9 	 0 
+9 	 0 
+10 	 0 
+10 	 0 
+10 	 0 
+10 	 0 
+10 	 0 
+11 	 0 
+11 	 0 
+11 	 0 
+11 	 0 
+11 	 0 
+12 	 0 
+12 	 0 
+12 	 0 
+12 	 0 
+12 	 0 
+13 	 -0.04846196 
+13 	 0.2910592 
+13 	 1.778496 
+13 	 -0.1267788 
+13 	 0.3552542 
+14 	 -0.006802402 
+14 	 -0.09883077 
+14 	 -0.6376927 
+14 	 -0.05084322 
+14 	 0.1170642 
+15 	 0 
+15 	 0 
+15 	 0 
+15 	 0 
+15 	 0 
+16 	 -0.02896948 
+16 	 1.035456 
+16 	 3.961784 
+16 	 -0.6619023 
+16 	 -3.277572 
+17 	 -0.05981711 
+17 	 0.08455868 
+17 	 -0.2350618 
+17 	 0.6873192 
+17 	 -1.924448 
+18 	 -0.3070735 
+18 	 -1.636302 
+18 	 0.723779 
+18 	 -4.335594 
+18 	 5.07278 
+19 	 0 
+19 	 0 
+19 	 0 
+19 	 0 
+19 	 0 
+20 	 0 
+20 	 0 
+20 	 0 
+20 	 0 
+20 	 0 
+21 	 0 
+21 	 0 
+21 	 0 
+21 	 0 
+21 	 0 
+22 	 0 
+22 	 0 
+22 	 0 
+22 	 0 
+22 	 0 
+23 	 0 
+23 	 0 
+23 	 0 
+23 	 0 
+23 	 0 
+24 	 0 
+24 	 0 
+24 	 0 
+24 	 0 
+24 	 0 
+25 	 0 
+25 	 0 
+25 	 0 
+25 	 0 
+25 	 0 
+26 	 0 
+26 	 0 
+26 	 0 
+26 	 0 
+26 	 0 
+27 	 0 
+27 	 0 
+27 	 0 
+27 	 0 
+27 	 0 
+28 	 0 
+28 	 0 
+28 	 0 
+28 	 0 
+28 	 0 
+29 	 0 
+29 	 0 
+29 	 0 
+29 	 0 
+29 	 0 
+30 	 0 
+30 	 0 
+30 	 0 
+30 	 0 
+30 	 0 
+31 	 0 
+31 	 0 
+31 	 0 
+31 	 0 
+31 	 0 
+32 	 0 
+32 	 0 
+32 	 0 
+32 	 0 
+32 	 0 
+33 	 0 
+33 	 0 
+33 	 0 
+33 	 0 
+33 	 0 
+34 	 0 
+34 	 0 
+34 	 0 
+34 	 0 
+34 	 0 
+35 	 0 
+35 	 0 
+35 	 0 
+35 	 0 
+35 	 0 
+36 	 0 
+36 	 0 
+36 	 0 
+36 	 0 
+36 	 0 
+37 	 0.01447483 
+37 	 -0.5718635 
+37 	 0.5003 
+37 	 0.001396925 
+37 	 0.1305513 
+38 	 0 
+38 	 0 
+38 	 0 
+38 	 0 
+38 	 0 
+39 	 0 
+39 	 0 
+39 	 0 
+39 	 0 
+39 	 0 
+40 	 0 
+40 	 0 
+40 	 0 
+40 	 0 
+40 	 0 
+41 	 0 
+41 	 0 
+41 	 0 
+41 	 0 
+41 	 0 
+42 	 -0.001121606 
+42 	 -0.2377155 
+42 	 -0.070005 
+42 	 -0.0786149 
+42 	 -0.06223202 
+43 	 0 
+43 	 0 
+43 	 0 
+43 	 0 
+43 	 0 
+44 	 0 
+44 	 0 
+44 	 0 
+44 	 0 
+44 	 0 
+45 	 -0.01605611 
+45 	 0.7930301 
+45 	 5.268261 
+45 	 1.243836 
+45 	 0.8346374 
+46 	 0 
+46 	 0 
+46 	 0 
+46 	 0 
+46 	 0 
+47 	 0 
+47 	 0 
+47 	 0 
+47 	 0 
+47 	 0 
+48 	 0 
+48 	 0 
+48 	 0 
+48 	 0 
+48 	 0 
+49 	 0 
+49 	 0 
+49 	 0 
+49 	 0 
+49 	 0 
+50 	 -0.01743305 
+50 	 -0.0631956 
+50 	 -0.5627026 
+50 	 0.2474616 
+50 	 0.1070539 
+51 	 -0.02067338 
+51 	 -0.19806 
+51 	 -0.02583168 
+51 	 0.1942847 
+51 	 -0.201375 
+52 	 0 
+52 	 0 
+52 	 0 
+52 	 0 
+52 	 0 
+53 	 -0.0709762 
+53 	 -0.7535117 
+53 	 0.135432 
+53 	 -0.1179189 
+53 	 -1.629908 
+# Gene ID	Label	Prediction
+0000000005 ENSG00000007047 	 0 	 0.8194172 
+0000000017 ENSG00000166153 	 0 	 0.1792056 
+0000000012 ENSG00000170445 	 0 	 1.917818e-17 
+0000000004 ENSG00000068078 	 0 	 0.9999971 
+0000000015 ENSG00000197653 	 0 	 0.1185521 
+0000000006 ENSG00000123358 	 1 	 0.4560659 
+0000000015 ENSG00000196411 	 1 	 0.9057087 
+0000000005 ENSG00000112715 	 1 	 0.9305887 
+0000000009 ENSG00000138685 	 1 	 0.9995618 
+0000000008 ENSG00000128052 	 1 	 1 
+0000000007 ENSG00000125266 	 1 	 0.2640751 

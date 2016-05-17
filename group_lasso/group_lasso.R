@@ -173,7 +173,7 @@ plot.coefficient.path <- function(x,y,index) {
 }
 
 ## set seed for reproducability
-set.seed(1)
+set.seed(2)
 
 main <- '/Users/jasonzhu/Documents/CS341_Code/'
 dir.name <- paste(main,'data/experiment_inputs/',sep='')
@@ -182,7 +182,7 @@ all.go.name <- paste(main,'data/GO_terms_final_gene_counts.txt',sep='')
 go.names <- read.table(all.go.name)$V1
 ndim <- 5
 
-for (go.idx in 3:length(go.names)){
+for (go.idx in 529:length(go.names)){
   go.term <- as.character(go.names[go.idx])
   # go.term <- 'GO:0000578'
   neg_idx <- 0
