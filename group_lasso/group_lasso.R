@@ -84,9 +84,9 @@ group.to.int <- function(group2col, specific=TRUE) {
 }
 
 load.pos.neg.sets <- function(pos.name,neg.name,grp.name,specific=TRUE,transform=FALSE) {
-  pos.data <- read.table(pos.name,sep='\t',row.names = 1,skip=2)
-  neg.data <- read.table(neg.name,sep='\t',row.names = 1,skip=2)
-  group <- read.table(grp.name,sep='\t',row.names = 1, skip=1) 
+  pos.data <- read.table(pos.name,sep='\t',row.names=1,skip=2)
+  neg.data <- read.table(neg.name,sep='\t',row.names=1,skip=2)
+  group    <- read.table(grp.name,sep='\t',row.names=1,skip=1) 
   # group: tissue type, tissue specific type
   data <- rbind(pos.data,neg.data)
   response <- c(rep(1,dim(pos.data)[1]),rep(0,dim(neg.data)[1]))
@@ -178,22 +178,22 @@ set.seed(1)
 main <- '/Users/jasonzhu/Documents/CS341_Code/'
 dir.name <- paste(main,'data/experiment_inputs/',sep='')
 grp.name <- paste(main,'data/samples_to_tissues_map.txt',sep='')
-all.go.name <- paste(dir.name,'go_list.txt',sep='')
-go.names <- read.table(all.go.name)
+all.go.name <- paste(main,'data/GO_terms_final_gene_counts.txt',sep='')
+go.names <- read.table(all.go.name)$V1
 ndim <- 5
 
-for (go.idx in 1){
-  go.term <- as.character(go.names$V1[go.idx])
+for (go.idx in 3:length(go.names)){
+  go.term <- as.character(go.names[go.idx])
   # go.term <- 'GO:0000578'
   neg_idx <- 0
-  neg_pfx <- paste(paste('_neg_',neg_idx,sep=''),'.txt',sep='')
+  neg_pfx <- paste(paste('_neg_',neg_idx,sep=''),'.txt.txt',sep='')
   out_pfx <- paste(paste(go.term,'_',sep=''),neg_idx,sep='')
   out.name <- paste(paste(paste(main,'data/grplasso_results/grplasso_',sep=''),out_pfx,sep=''),'.txt',sep='')
 
   ## load all data
   cat('----------------------------------------\n')
   cat('Loading raw data from',go.term,'...\n')
-  pos.name <- paste(dir.name,paste(go.term,'_pos.txt',sep=''),sep='')   # filename for positive set
+  pos.name <- paste(dir.name,paste(go.term,'_pos.txt.txt',sep=''),sep='')   # filename for positive set
   neg.name <- paste(dir.name,paste(go.term,neg_pfx,sep=''),sep='') # filename for negative set
   full.data <- load.pos.neg.sets(pos.name,neg.name,grp.name,specific=TRUE,transform=TRUE)
   
@@ -209,14 +209,14 @@ for (go.idx in 1){
   # plot.coefficient.path(full.x,full.y,index)
   
   ## split data
-  cat('----------------------------------------\n')
+  # cat('----------------------------------------\n')
   data <- split_data(full.x,full.y)
   cat('dimensionality of data: ',dim(data$train$x)[2],'\n')
   cat('# of training samples:  ',length(data$train$y),'\n')
   cat('# of test samples:      ',length(data$test$y),'\n')
   
   ## apply cv for grplasso
-  cat('----------------------------------------\n')
+  # cat('----------------------------------------\n')
   cat('Training group lasso classifier...')
   x <- data$train$x
   y <- data$train$y
@@ -229,7 +229,7 @@ for (go.idx in 1){
   cat('parameter (lambda) tuned as:',cv.result$lambda,'\n')
   
   ## compute the test error
-  cat('----------------------------------------\n')
+  # cat('----------------------------------------\n')
   prediction <- predict(fit, data$test$x, type = "response")
   auc.val <- auc(accuracy(prediction,as.factor(data$test$y)))
   cat('Test Error:',auc.val,'\n')
@@ -261,7 +261,7 @@ for (go.idx in 1){
     cat(rownames(data$test$x)[i],'\t',data$test$y[i],'\t',prediction[i],'\n')
   }
   sink()
-  file.show(out.name)
+  # file.show(out.name)
   cat('saved result to output\n')
-  cat('----------------------------------------\n')
+  # cat('----------------------------------------\n')
 }
