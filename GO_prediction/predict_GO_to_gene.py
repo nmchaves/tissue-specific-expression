@@ -20,6 +20,7 @@ from sklearn.metrics import roc_auc_score
 import argparse
 import os
 from math import log10
+from random import shuffle
 
 def get_data(term, num_features=8555):
     """
@@ -72,10 +73,16 @@ def get_data(term, num_features=8555):
     return gene_ids, train_test_split(gene_features, labels, indeces, test_size=0.33)  # , random_state=42)
 
 
-def logistic_regresssion_L1(term, x_tr, x_te, y_tr, y_te, gene_ids_test, idx_te, server):
+def logistic_regresssion_L1(term, x_tr, x_te, y_tr, y_te, gene_ids_test, idx_te, server, rand_permute=False):
     num_folds = 3   # number of folds to use for cross-validation
     loss_function = 'l1'  # Loss function to use. Must be either 'l1' or 'l2'
     costs = np.logspace(-4, 4, 20)  # 10^(-start) to 10^stop in 10 logarithmic steps
+
+    if rand_permute:
+        # Randomly permute the labels
+        shuffle(y_tr)
+        shuffle(y_te)
+
     logreg_cv_L1 = linear_model.LogisticRegressionCV(Cs=costs, cv=num_folds, penalty=loss_function,
                                                      scoring='roc_auc', solver='liblinear', tol=0.0001)
     logreg_cv_L1.fit(x_tr, y_tr)
@@ -89,7 +96,10 @@ def logistic_regresssion_L1(term, x_tr, x_te, y_tr, y_te, gene_ids_test, idx_te,
         print 'Best cost (not inverted) is 0'
 
     # Save results
-    directory_path = 'results_log_transformed_' + str(server)
+    if rand_permute:
+        directory_path = 'results_log_transformed_rand_perm_' + str(server)
+    else:
+        directory_path = 'results_log_transformed_' + str(server)
     if not os.path.exists(directory_path):
         os.makedirs(directory_path)
 
@@ -224,12 +234,14 @@ if __name__ == "__main__":
     terms_to_process = len(GO_terms)/num_servers
     print 'This program will process approximately ', terms_to_process, ' GO terms'
 
-    for (idx, GO_term) in enumerate(GO_terms[:10]):
-
+    for (idx, GO_term) in enumerate(GO_terms[660:670]):
+        # todo: 670-720
         if idx % num_servers != server_no:
             # Not for this server
             continue
 
+        print '=' * 30
+        print '=' * 30
         print idx, 'th GO term: ', GO_term
         print 'Approximately ', (terms_to_process-idx/num_servers), ' terms left to process'
 
@@ -240,4 +252,9 @@ if __name__ == "__main__":
 
         # Run Logistic Regression
         logistic_regresssion_L1(GO_term, X_train, X_test, y_train, y_test, test_genes, idx_test, server_no)
-        #break
+
+
+        print 'Randomly permuting the labels: '
+        # Run Logistic Regression using randomly permuted labels
+        logistic_regresssion_L1(GO_term, X_train, X_test, y_train, y_test,
+                                test_genes, idx_test, server_no, rand_permute=True)
