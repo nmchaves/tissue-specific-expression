@@ -158,6 +158,7 @@ reduce.features <- function(grouped.data, ndim=3) {
   # print(new.groups)
   # print(dim(new.x))
   # stop('lol')
+  rownames(new.x) <- rownames(grouped.data$x)
   return(list(x=new.x,
               y=grouped.data$y,
               group=new.groups,
@@ -175,19 +176,19 @@ plot.coefficient.path <- function(x,y,index) {
 set.seed(1)
 
 main <- '/Users/jasonzhu/Documents/CS341_Code/'
-dir.name <- paste(main,'data/experiment_inputs_subset/',sep='')
+dir.name <- paste(main,'data/experiment_inputs/',sep='')
 grp.name <- paste(main,'data/samples_to_tissues_map.txt',sep='')
-all.go.name <- paste(main,'data/experiment_input_go_list.txt',sep='')
+all.go.name <- paste(dir.name,'go_list.txt',sep='')
 go.names <- read.table(all.go.name)
 ndim <- 5
 
-for (go.idx in 1:length(go.names$V1)){
+for (go.idx in 1){
   go.term <- as.character(go.names$V1[go.idx])
   # go.term <- 'GO:0000578'
   neg_idx <- 0
   neg_pfx <- paste(paste('_neg_',neg_idx,sep=''),'.txt',sep='')
   out_pfx <- paste(paste(go.term,'_',sep=''),neg_idx,sep='')
-  out.name <- paste(paste(paste(dir.name,'grplasso_',sep=''),out_pfx,sep=''),'.txt',sep='')
+  out.name <- paste(paste(paste(main,'data/grplasso_results/grplasso_',sep=''),out_pfx,sep=''),'.txt',sep='')
 
   ## load all data
   cat('----------------------------------------\n')
@@ -251,13 +252,16 @@ for (go.idx in 1:length(go.names$V1)){
   for (i in 1:length(dim.red$types)) {
     cat('# tissue\t',i,'\t', dim.red$types[i],'\n')
   }
-  cat('Coefficients:\n')
+  cat('# Coefficients:\n')
   for (i in 1:length(dim.red$group)) {
     cat(dim.red$group[i],'\t',grplasso.ceoff[i+1],'\n')
   }
-  cat('\n')
+  cat('# Gene ID\tLabel\tPrediction\n')
+  for (i in 1:length(prediction)) {
+    cat(rownames(data$test$x)[i],'\t',data$test$y[i],'\t',prediction[i],'\n')
+  }
   sink()
-  # file.show(out.name)
+  file.show(out.name)
   cat('saved result to output\n')
   cat('----------------------------------------\n')
 }
