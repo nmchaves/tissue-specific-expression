@@ -16,11 +16,26 @@ import os
 import numpy as np
 from sklearn.cross_validation import train_test_split
 from sklearn import linear_model
-from sklearn.metrics import roc_auc_score
+from sklearn.metrics import roc_auc_score, roc_curve, auc
 import argparse
 import os
 from math import log10
 from random import shuffle
+
+"""
+def plot_roc(fprs, tprs, title):
+    plt.figure()
+    #for (fpr, tpr) in zip(fprs, tprs):
+    plt.plot(fprs, tprs, 'gray')
+    plt.plot([0, 1], [0, 1], 'k--')  # Plot the 50% line
+    plt.xlim([0.0, 1.0])
+    plt.ylim([0.0, 1.05])
+    plt.xlabel('False Positive Rate')
+    plt.ylabel('True Positive Rate')
+    plt.title(title)
+    plt.legend(loc="lower right")
+    plt.show()
+"""
 
 def get_data(term, num_features=8555):
     """
@@ -68,6 +83,20 @@ def get_data(term, num_features=8555):
 
     labels = num_pos_examples * [1] + num_neg_examples * [0]
 
+    # Normalize each feature (ie each column) to have 0 mean, unit variance
+    for i in range(0, num_features):
+        col = gene_features[:, i]
+        col = col - np.mean(col)
+        std_dev = np.std(col)
+        if std_dev > 0:
+            col = col / std_dev
+        gene_features[:, i] = col
+
+    # take log
+    # Then for each feature (each column), the mean
+    # then divide by std deviation of the column (if std dev is not 0)
+    # if std dev is actually 0, then just use features-mean
+
     indeces = range(0, gene_features.shape[0])
     # TODO: should I use random state?
     return gene_ids, train_test_split(gene_features, labels, indeces, test_size=0.33)  # , random_state=42)
@@ -88,7 +117,10 @@ def logistic_regresssion_L1(term, x_tr, x_te, y_tr, y_te, gene_ids_test, idx_te,
     logreg_cv_L1.fit(x_tr, y_tr)
     best_c = logreg_cv_L1.C_
     pred_lr_cv_L1 = logreg_cv_L1.predict(x_te)
-    print_prediction_results('Cross-Validated Logistic Regression', logreg_cv_L1, y_te, pred_lr_cv_L1,
+    conf_lr_cv_L1 = logreg_cv_L1.decision_function(x_te)
+    prob_lr_cv_L1 = logreg_cv_L1.predict_proba(x_te)
+    print_prediction_results('Cross-Validated Logistic Regression', logreg_cv_L1, y_te,
+                             pred_lr_cv_L1, conf_lr_cv_L1, prob_lr_cv_L1,
                              other_info='Norm: ' + loss_function + ', # of Folds: ' + str(num_folds))
     if best_c != 0:
         print 'Best cost (after inverting to obtain true cost): ', 1.0 / best_c
@@ -97,16 +129,19 @@ def logistic_regresssion_L1(term, x_tr, x_te, y_tr, y_te, gene_ids_test, idx_te,
 
     # Save results
     if rand_permute:
-        directory_path = 'results_log_transformed_rand_perm_' + str(server)
+        directory_path = 'results_log_transformed_scaled_rand_perm_' + str(server)
     else:
-        directory_path = 'results_log_transformed_' + str(server)
+        directory_path = 'results_log_transformed_scaled_score_' + str(server)
     if not os.path.exists(directory_path):
         os.makedirs(directory_path)
 
+
     out_fname = directory_path + '/result_logreg_' + term + '.txt'
     save_prediction_results(out_fname, term, 'Logistic Regression with L1 Penalty', logreg_cv_L1,
-                            y_te, pred_lr_cv_L1, gene_ids_test, num_folds,
+                            y_te, pred_lr_cv_L1, conf_lr_cv_L1, prob_lr_cv_L1, gene_ids_test, num_folds,
                             tissue_set=None, costs=costs, best_cost=best_c)
+
+
     """
     copy_results_to_S3(out_fname, server)
     """
@@ -126,20 +161,26 @@ def copy_zipped_results_to_S3(server):
               's3://stanfordgtex/GO_Prediction/GO_Prediction_Results/results_server_' + str(server) + '.tar.gz')
 
 
-def print_prediction_results(model, fit, labels, predictions, other_info=None):
+def print_prediction_results(model, fit, labels, predictions, conf_scores, pred_prob, other_info=None):
     print 20*'-'
     print model
     print 20*'-'
     print 'ROC AUC Score: ', roc_auc_score(labels, predictions)
+    print 'ROC AUC Score According to Decision Function: ', roc_auc_score(labels, conf_scores)
+    print 'Pred prob: ', pred_prob
+    print 'Conf scores: ', conf_scores
+    print labels
+    print predictions
     print 'Number of nonzero coefficients: ', np.count_nonzero(fit.coef_)
     print 'Total number of coefficients: ', len(fit.coef_[0])
 
     if other_info:
         print other_info
+
     return
 
 
-def save_prediction_results(fname, GO_id, model, fit, test_labels, preds, gene_ids_test, n_folds=None,
+def save_prediction_results(fname, GO_id, model, fit, test_labels, preds, conf_scores, prob_preds, gene_ids_test, n_folds=None,
                             tissue_set=None, costs=None, best_cost=None, other_info=None):
     """
     Save results of prediction for a given GO term to a text file.
@@ -187,9 +228,10 @@ def save_prediction_results(fname, GO_id, model, fit, test_labels, preds, gene_i
         out_file.write(str(c) + '\t')
     out_file.write(str(coefficients[-1]) + '\n')
 
-    out_file.write('# Gene ID\tLabel\tPrediction\n')
-    for id,label,pred in zip(gene_ids_test, test_labels, preds):
-        out_file.write(id + '\t' + str(label) + '\t' + str(pred) + '\n')
+    out_file.write('# Gene_ID\tLabel\tPrediction\tDecision_Func_Score\tProbability\n')
+    for id,label,pred,conf,prob in zip(gene_ids_test, test_labels, preds, conf_scores, prob_preds):
+        out_file.write(id + '\t' + str(label) + '\t' + str(pred) + '\t' + str(conf) + '\t' + str(max(prob)) + '\n')
+        #out_file.write(id + '\t' + str(label) + '\t' + str(pred) + '\t' + str(conf) + '\t' + prob[1] + '\n')
 
     out_file.close()
 
@@ -234,8 +276,10 @@ if __name__ == "__main__":
     terms_to_process = len(GO_terms)/num_servers
     print 'This program will process approximately ', terms_to_process, ' GO terms'
 
-    for (idx, GO_term) in enumerate(GO_terms[660:670]):
-        # todo: 670-720
+    #for (idx, GO_term) in enumerate(GO_terms[660:670]):
+    # todo: 670-720 for the unscaled results (both rand and non rand for the log transformed data)
+    for (idx, GO_term) in enumerate(GO_terms[710:718]):
+
         if idx % num_servers != server_no:
             # Not for this server
             continue
@@ -253,8 +297,9 @@ if __name__ == "__main__":
         # Run Logistic Regression
         logistic_regresssion_L1(GO_term, X_train, X_test, y_train, y_test, test_genes, idx_test, server_no)
 
-
+        """
         print 'Randomly permuting the labels: '
         # Run Logistic Regression using randomly permuted labels
         logistic_regresssion_L1(GO_term, X_train, X_test, y_train, y_test,
                                 test_genes, idx_test, server_no, rand_permute=True)
+        """
