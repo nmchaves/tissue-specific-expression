@@ -12,9 +12,12 @@
 
 """
 
+# TODO: correctly compute AUC
+
 import os
 import numpy as np
 from sklearn.cross_validation import train_test_split
+from sklearn.cross_validation import StratifiedKFold
 from sklearn import linear_model
 from sklearn.metrics import roc_auc_score, roc_curve, auc
 import argparse
@@ -129,18 +132,16 @@ def logistic_regresssion_L1(term, x_tr, x_te, y_tr, y_te, gene_ids_test, idx_te,
 
     # Save results
     if rand_permute:
-        directory_path = 'results_log_transformed_scaled_rand_perm_' + str(server)
+        directory_path = 'results_rand_perm_' + str(server)
     else:
-        directory_path = 'results_log_transformed_scaled_score_' + str(server)
+        directory_path = 'results_terms_with_tissues_' + str(server)
     if not os.path.exists(directory_path):
         os.makedirs(directory_path)
-
 
     out_fname = directory_path + '/result_logreg_' + term + '.txt'
     save_prediction_results(out_fname, term, 'Logistic Regression with L1 Penalty', logreg_cv_L1,
                             y_te, pred_lr_cv_L1, conf_lr_cv_L1, prob_lr_cv_L1, gene_ids_test, num_folds,
                             tissue_set=None, costs=costs, best_cost=best_c)
-
 
     """
     copy_results_to_S3(out_fname, server)
@@ -165,8 +166,8 @@ def print_prediction_results(model, fit, labels, predictions, conf_scores, pred_
     print 20*'-'
     print model
     print 20*'-'
-    print 'ROC AUC Score: ', roc_auc_score(labels, predictions)
-    print 'ROC AUC Score According to Decision Function: ', roc_auc_score(labels, conf_scores)
+    prob_of_pos = [p[1] for p in pred_prob]
+    print 'ROC AUC Score: ', roc_auc_score(labels, prob_of_pos)
     print 'Pred prob: ', pred_prob
     print 'Conf scores: ', conf_scores
     print labels
@@ -202,7 +203,8 @@ def save_prediction_results(fname, GO_id, model, fit, test_labels, preds, conf_s
     out_file = open(fname, 'w')
     out_file.write('# Prediction results for GO term: ' + GO_id + '\n')
     out_file.write('# Model used: ' + model + '\n')
-    auc_score = roc_auc_score(test_labels, preds)
+    prob_of_pos = [p[1] for p in prob_preds]
+    auc_score = roc_auc_score(test_labels, prob_of_pos)
 
     out_file.write('# ROC AUC Score: ' + str(auc_score) + '\n')
     if tissue_set:
@@ -228,10 +230,9 @@ def save_prediction_results(fname, GO_id, model, fit, test_labels, preds, conf_s
         out_file.write(str(c) + '\t')
     out_file.write(str(coefficients[-1]) + '\n')
 
-    out_file.write('# Gene_ID\tLabel\tPrediction\tDecision_Func_Score\tProbability\n')
+    out_file.write('# Gene_ID\tLabel\tPrediction\tDecision_Func_Score\tProb_of_Pos\n')
     for id,label,pred,conf,prob in zip(gene_ids_test, test_labels, preds, conf_scores, prob_preds):
-        out_file.write(id + '\t' + str(label) + '\t' + str(pred) + '\t' + str(conf) + '\t' + str(max(prob)) + '\n')
-        #out_file.write(id + '\t' + str(label) + '\t' + str(pred) + '\t' + str(conf) + '\t' + prob[1] + '\n')
+        out_file.write(id + '\t' + str(label) + '\t' + str(pred) + '\t' + str(conf) + '\t' + str(prob[1]) + '\n')
 
     out_file.close()
 
@@ -276,9 +277,8 @@ if __name__ == "__main__":
     terms_to_process = len(GO_terms)/num_servers
     print 'This program will process approximately ', terms_to_process, ' GO terms'
 
-    #for (idx, GO_term) in enumerate(GO_terms[660:670]):
     # todo: 670-720 for the unscaled results (both rand and non rand for the log transformed data)
-    for (idx, GO_term) in enumerate(GO_terms[710:718]):
+    for (idx, GO_term) in enumerate(GO_terms):
 
         if idx % num_servers != server_no:
             # Not for this server
