@@ -204,6 +204,12 @@ def predict(term, num_features, rpkm_path):
     logistic_regresssion_L1(term, train, test)
 
 
+def get_tissue_list(tissue_fpath):
+    tissue_file = open(tissue_fpath)
+    for line in tissue_file:
+        tissues = line.rstrip().split('\t')
+        break
+    return tissues
 
 
 

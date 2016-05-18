@@ -63,7 +63,7 @@ def get_go_terms_descendants(biomart_fpath, gene2go_fpath, gene_count_fpath, obo
     gene_cnt_file = open(gene_count_fpath)
     GO_terms = []
     atLine = 0
-    skipLines = 1
+    skipLines = 2
     for line in gene_cnt_file:
         if atLine < skipLines:
             atLine += 1

@@ -24,6 +24,7 @@ import argparse
 import os
 from math import log10
 from random import shuffle
+from utils import get_tissue_list
 
 """
 def plot_roc(fprs, tprs, title):
@@ -57,7 +58,7 @@ def get_data(term, num_features=8555, cols=None):
     gene_ids = []
 
     # Get positive examples
-    pos_file_name = '../data/experiment_inputs/' + term + '_pos.txt'
+    pos_file_name = '../../CS341_Data/experiment_inputs/' + term + '_pos.txt'
     pos_file = open(pos_file_name)
     for (i, line) in enumerate(pos_file):
         if i < 2:
@@ -76,7 +77,7 @@ def get_data(term, num_features=8555, cols=None):
     num_pos_examples = gene_features.shape[0]
 
     # Add on the negative examples
-    neg_file_name = '../data/experiment_inputs/' + term + '_neg_0.txt'
+    neg_file_name = '../../CS341_Data/experiment_inputs/' + term + '_neg_0.txt'
     neg_file = open(neg_file_name)
     for (i, line) in enumerate(neg_file):
         if i < 2:
@@ -107,11 +108,11 @@ def get_data(term, num_features=8555, cols=None):
 
     indeces = range(0, gene_features.shape[0])
     # TODO: should I use random state?
-    return gene_ids, train_test_split(gene_features, labels, indeces, test_size=0.33)  # , random_state=42)
+    return gene_ids, train_test_split(gene_features, labels, indeces, stratify=labels, test_size=0.33)  # , random_state=42)
 
 
 def logistic_regresssion_L1(term, x_tr, x_te, y_tr, y_te, gene_ids_test, idx_te, server, tissues=None, rand_permute=False):
-    num_folds = 3   # number of folds to use for cross-validation
+    num_folds = 5   # number of folds to use for cross-validation
     loss_function = 'l1'  # Loss function to use. Must be either 'l1' or 'l2'
     costs = np.logspace(-4, 4, 20)  # 10^(-start) to 10^stop in 10 logarithmic steps
 
@@ -137,13 +138,15 @@ def logistic_regresssion_L1(term, x_tr, x_te, y_tr, y_te, gene_ids_test, idx_te,
 
     # Save results
     if tissues:
-        directory_path = 'results_tissue_specific/' + tissues[0] + '_' + str(server)
+        directory_path = 'results_1_tissue/' + term  #+ '_' + str(server)
+        out_fname = directory_path + '/logreg_' + tissues[0] + '.txt'
     else:
-        directory_path = 'results_terms_with_tissues_v2_' + str(server)
+        directory_path = 'results_all_tissues' #+ str(server)
+        out_fname = directory_path + '/logreg_' + term + '.txt'
     if not os.path.exists(directory_path):
         os.makedirs(directory_path)
 
-    out_fname = directory_path + '/result_logreg_' + term + '.txt'
+
     save_prediction_results(out_fname, term, 'Logistic Regression with L1 Penalty', logreg_cv_L1,
                             y_te, pred_lr_cv_L1, conf_lr_cv_L1, prob_lr_cv_L1, gene_ids_test, num_folds,
                             tissue_set=tissues, costs=costs, best_cost=best_c)
@@ -213,7 +216,10 @@ def save_prediction_results(fname, GO_id, model, fit, test_labels, preds, conf_s
 
     out_file.write('# ROC AUC Score: ' + str(auc_score) + '\n')
     if tissue_set:
-        out_file.write('# Tissues used: ' + str(tissue_set) + '\n')
+        out_file.write('# Tissues used:\n')
+        for tiss in tissue_set[:-1]:
+            out_file.write(str(tiss) + '\t')
+        out_file.write(str(tissue_set[-1] + '\n'))
     else:
         out_file.write('# All tissues were included\n')
     if n_folds:
@@ -256,14 +262,6 @@ def get_go_terms():
     return terms
 
 
-def get_tissue_list(tissue_fpath):
-    tissue_file = open(tissue_fpath)
-    for line in tissue_file:
-        tissues = line.rstrip().split('\t')
-        break
-    return tissues
-
-
 def get_tissues_to_cols(tissue_list):
     tissues_to_cols = {}
     for tissue in tissue_list:
@@ -303,7 +301,7 @@ def predict_GO_to_genes(n_servers, server_no, tissue_specific=False, tissue_fpat
     print 'This program will process approximately ', terms_to_process, ' GO terms'
 
     # todo: 670-720 for the unscaled results (both rand and non rand for the log transformed data)
-    for (idx, GO_term) in enumerate(GO_terms):
+    for (idx, GO_term) in enumerate(GO_terms[2:]):
 
         if idx % n_servers != server_no:
             # Not for this server
@@ -317,19 +315,9 @@ def predict_GO_to_genes(n_servers, server_no, tissue_specific=False, tissue_fpat
         if tissue_specific:
             for tissue in tissues:
                 run_prediction(GO_term, server_no, tissues=[tissue], cols=tissues_to_cols[tissue])
-                break
         else:
             run_prediction(GO_term, server_no)
-            """
-            genes_train_test, train_test = get_data(GO_term, tissues)
-            X_train, X_test, y_train, y_test, idx_train, idx_test = train_test
-            # Arrange gene ids to match ordering of test set
-            test_genes = [genes_train_test[idx] for idx in idx_test]
 
-            # Run Logistic Regression
-            logistic_regresssion_L1(GO_term, X_train, X_test, y_train, y_test, test_genes, idx_test, server_no)
-            """
-        break
 
 """
 *********************
@@ -350,12 +338,8 @@ if __name__ == "__main__":
     print 'This program is running on server: ', str(server_number)
 
     # Make predictions using expression across all tissues
-    #predict_GO_to_genes(num_servers, server_number)
+    predict_GO_to_genes(num_servers, server_number)
 
     # Make predictions using expression in individual tissues
     predict_GO_to_genes(num_servers, server_number, tissue_specific=True, tissue_fpath='../data/tissues.txt')
-
-
-
-
 
