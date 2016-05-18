@@ -40,7 +40,8 @@ def plot_roc(fprs, tprs, title):
     plt.show()
 """
 
-def get_data(term, num_features=8555):
+
+def get_data(term, num_features=8555, cols=None):
     """
     Load and log-transform the data: x := log(x+1)
 
@@ -49,19 +50,25 @@ def get_data(term, num_features=8555):
     :return: The data
     """
 
+    if cols:
+        num_features = len(cols)
+
     gene_features = np.empty((0, num_features))  # each row will be the feature profile for a given gene
     gene_ids = []
 
     # Get positive examples
     pos_file_name = '../data/experiment_inputs/' + term + '_pos.txt'
     pos_file = open(pos_file_name)
-    skipLines = 2
     for (i, line) in enumerate(pos_file):
-        if i < skipLines:
+        if i < 2:
             continue
         vals = line.rstrip().split('\t')
         gene_ids.append(vals[0])
-        exp_levels = vals[1:]
+        if cols:
+            exp_levels = [vals[col+1] for col in cols]  # add 1 to skip over gene id column
+        else:
+            exp_levels = vals[1:]
+        # Convert expression levels to log(level+1)
         exp_levels = [log10(float(exp_level)+1.0) for exp_level in exp_levels]
         gene_features = np.append(gene_features, [exp_levels], axis=0)
     pos_file.close()
@@ -71,16 +78,19 @@ def get_data(term, num_features=8555):
     # Add on the negative examples
     neg_file_name = '../data/experiment_inputs/' + term + '_neg_0.txt'
     neg_file = open(neg_file_name)
-    skipLines = 2
     for (i, line) in enumerate(neg_file):
-        if i < skipLines:
+        if i < 2:
             continue
         vals = line.rstrip().split('\t')
         gene_ids.append(vals[0])
-        exp_levels = vals[1:]
-        exp_levels = [float(exp_level) for exp_level in exp_levels]
+        if cols:
+            exp_levels = [vals[col+1] for col in cols]  # add 1 to skip over gene id column
+        else:
+            exp_levels = vals[1:]
+        # Convert expression levels to log(level+1)
+        exp_levels = [log10(float(exp_level)+1.0) for exp_level in exp_levels]
         gene_features = np.append(gene_features, [exp_levels], axis=0)
-    pos_file.close()
+    neg_file.close()
 
     num_neg_examples = gene_features.shape[0] - num_pos_examples
 
@@ -95,17 +105,12 @@ def get_data(term, num_features=8555):
             col = col / std_dev
         gene_features[:, i] = col
 
-    # take log
-    # Then for each feature (each column), the mean
-    # then divide by std deviation of the column (if std dev is not 0)
-    # if std dev is actually 0, then just use features-mean
-
     indeces = range(0, gene_features.shape[0])
     # TODO: should I use random state?
     return gene_ids, train_test_split(gene_features, labels, indeces, test_size=0.33)  # , random_state=42)
 
 
-def logistic_regresssion_L1(term, x_tr, x_te, y_tr, y_te, gene_ids_test, idx_te, server, rand_permute=False):
+def logistic_regresssion_L1(term, x_tr, x_te, y_tr, y_te, gene_ids_test, idx_te, server, tissues=None, rand_permute=False):
     num_folds = 3   # number of folds to use for cross-validation
     loss_function = 'l1'  # Loss function to use. Must be either 'l1' or 'l2'
     costs = np.logspace(-4, 4, 20)  # 10^(-start) to 10^stop in 10 logarithmic steps
@@ -131,17 +136,17 @@ def logistic_regresssion_L1(term, x_tr, x_te, y_tr, y_te, gene_ids_test, idx_te,
         print 'Best cost (not inverted) is 0'
 
     # Save results
-    if rand_permute:
-        directory_path = 'results_rand_perm_' + str(server)
+    if tissues:
+        directory_path = 'results_tissue_specific/' + tissues[0] + '_' + str(server)
     else:
-        directory_path = 'results_terms_with_tissues_' + str(server)
+        directory_path = 'results_terms_with_tissues_v2_' + str(server)
     if not os.path.exists(directory_path):
         os.makedirs(directory_path)
 
     out_fname = directory_path + '/result_logreg_' + term + '.txt'
     save_prediction_results(out_fname, term, 'Logistic Regression with L1 Penalty', logreg_cv_L1,
                             y_te, pred_lr_cv_L1, conf_lr_cv_L1, prob_lr_cv_L1, gene_ids_test, num_folds,
-                            tissue_set=None, costs=costs, best_cost=best_c)
+                            tissue_set=tissues, costs=costs, best_cost=best_c)
 
     """
     copy_results_to_S3(out_fname, server)
@@ -208,7 +213,7 @@ def save_prediction_results(fname, GO_id, model, fit, test_labels, preds, conf_s
 
     out_file.write('# ROC AUC Score: ' + str(auc_score) + '\n')
     if tissue_set:
-        out_file.write('# Tissues used: ' + tissue_set + '\n')
+        out_file.write('# Tissues used: ' + str(tissue_set) + '\n')
     else:
         out_file.write('# All tissues were included\n')
     if n_folds:
@@ -251,6 +256,81 @@ def get_go_terms():
     return terms
 
 
+def get_tissue_list(tissue_fpath):
+    tissue_file = open(tissue_fpath)
+    for line in tissue_file:
+        tissues = line.rstrip().split('\t')
+        break
+    return tissues
+
+
+def get_tissues_to_cols(tissue_list):
+    tissues_to_cols = {}
+    for tissue in tissue_list:
+        cols = []
+        meta_fname = '../data/tissue_metadata/tissue_meta_' + tissue + '.txt'
+        meta_file = open(meta_fname)
+        for (i, line) in enumerate(meta_file):
+            if i < 1:
+                continue
+            col = int(line.split('\t')[0])
+            cols.append(col)
+        tissues_to_cols[tissue] = cols
+    return tissues_to_cols
+
+
+def run_prediction(GO_term, server_no, tissues=None, cols=None):
+    genes_train_test, train_test = get_data(GO_term, cols=cols)
+    X_train, X_test, y_train, y_test, idx_train, idx_test = train_test
+    # Arrange gene ids to match ordering of test set
+    test_genes = [genes_train_test[idx] for idx in idx_test]
+
+    # Run Logistic Regression
+    logistic_regresssion_L1(GO_term, X_train, X_test, y_train, y_test, test_genes, idx_test, server_no, tissues=tissues)
+
+
+def predict_GO_to_genes(n_servers, server_no, tissue_specific=False, tissue_fpath=None):
+
+    if tissue_specific:
+        # Determine which columns each tissue corresponds to
+        tissues = get_tissue_list(tissue_fpath)
+        tissues_to_cols = get_tissues_to_cols(tissues)
+
+    GO_terms = get_go_terms()
+    GO_terms.reverse()   # Process GO terms in order from least # of genes to most
+
+    terms_to_process = len(GO_terms)/n_servers
+    print 'This program will process approximately ', terms_to_process, ' GO terms'
+
+    # todo: 670-720 for the unscaled results (both rand and non rand for the log transformed data)
+    for (idx, GO_term) in enumerate(GO_terms):
+
+        if idx % n_servers != server_no:
+            # Not for this server
+            continue
+
+        print '=' * 30
+        print '=' * 30
+        print idx, 'th GO term: ', GO_term
+        print 'Approximately ', (terms_to_process-idx/n_servers), ' terms left to process'
+
+        if tissue_specific:
+            for tissue in tissues:
+                run_prediction(GO_term, server_no, tissues=[tissue], cols=tissues_to_cols[tissue])
+                break
+        else:
+            run_prediction(GO_term, server_no)
+            """
+            genes_train_test, train_test = get_data(GO_term, tissues)
+            X_train, X_test, y_train, y_test, idx_train, idx_test = train_test
+            # Arrange gene ids to match ordering of test set
+            test_genes = [genes_train_test[idx] for idx in idx_test]
+
+            # Run Logistic Regression
+            logistic_regresssion_L1(GO_term, X_train, X_test, y_train, y_test, test_genes, idx_test, server_no)
+            """
+        break
+
 """
 *********************
         Main
@@ -265,41 +345,17 @@ if __name__ == "__main__":
                         help='Which server # this program is running on')
     args = parser.parse_args()
     num_servers = args.n_servers
-    server_no = args.server_no
+    server_number = args.server_no
     print '# of servers to be used: ', str(num_servers)
-    print 'This program is running on server: ', str(server_no)
+    print 'This program is running on server: ', str(server_number)
 
-    # TODO: exceptions for invalid server #'s, etc.
+    # Make predictions using expression across all tissues
+    #predict_GO_to_genes(num_servers, server_number)
 
-    GO_terms = get_go_terms()
-    GO_terms.reverse()   # Process GO terms in order from least # of genes to most
+    # Make predictions using expression in individual tissues
+    predict_GO_to_genes(num_servers, server_number, tissue_specific=True, tissue_fpath='../data/tissues.txt')
 
-    terms_to_process = len(GO_terms)/num_servers
-    print 'This program will process approximately ', terms_to_process, ' GO terms'
 
-    # todo: 670-720 for the unscaled results (both rand and non rand for the log transformed data)
-    for (idx, GO_term) in enumerate(GO_terms):
 
-        if idx % num_servers != server_no:
-            # Not for this server
-            continue
 
-        print '=' * 30
-        print '=' * 30
-        print idx, 'th GO term: ', GO_term
-        print 'Approximately ', (terms_to_process-idx/num_servers), ' terms left to process'
 
-        genes_train_test, train_test = get_data(GO_term)
-        X_train, X_test, y_train, y_test, idx_train, idx_test = train_test
-        # Arrange gene ids to match ordering of test set
-        test_genes = [genes_train_test[idx] for idx in idx_test]
-
-        # Run Logistic Regression
-        logistic_regresssion_L1(GO_term, X_train, X_test, y_train, y_test, test_genes, idx_test, server_no)
-
-        """
-        print 'Randomly permuting the labels: '
-        # Run Logistic Regression using randomly permuted labels
-        logistic_regresssion_L1(GO_term, X_train, X_test, y_train, y_test,
-                                test_genes, idx_test, server_no, rand_permute=True)
-        """
