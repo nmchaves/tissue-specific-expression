@@ -4,6 +4,7 @@ rm(list=ls())
 library(grplasso)
 library(AUC)
 library(ggplot2)
+library(caret)
 
 cv.grplasso <- function(x, y, index, nfolds = 5, nlamdas = 20, plot.error=FALSE) {
   # select the parameters
@@ -12,27 +13,44 @@ cv.grplasso <- function(x, y, index, nfolds = 5, nlamdas = 20, plot.error=FALSE)
   y <- drop(y)
   if (nfolds < 3) 
     stop("nfolds must be bigger than 3; nfolds=5 recommended")
+ 
+   aucs <- matrix(,nrow=nfolds,ncol=length(lambda))
   
-  # fit the model and store the outputs
-  foldid <- sample(rep(seq(nfolds), length = N))
-  aucs <- matrix(,nrow=nfolds,ncol=length(lambda))
+  flds <- createFolds(y,nfolds,list=TRUE,returnTrain=FALSE)
   for (i in seq(nfolds)) {
-    which <- foldid == i
-    y_train <- y[!which]
-    x_train <- x[!which, , drop = FALSE]
-    y_test <- y[which]
-    x_test <- x[which, , drop = FALSE]
+    test.index <- flds[[i]]
+    y_test <- y[test.index]
+    x_test <- x[test.index, , drop = FALSE]
+    y_train <- y[-test.index]
+    x_train <- x[-test.index, , drop = FALSE]
     fit <- grplasso(x = x_train, y = y_train, index = index, lambda = lambda, model = LogReg(), penscale = sqrt,
                     control = grpl.control(update.hess = "lambda", trace = 0))
     coeffs <- fit$coefficients
     pred.resp <- predict(fit, x_test, type = "response")
-    # compute the auc for each of the lambda parameters
-    # auc_score = accuracy(y,coeffs)
     for (j in seq(length(lambda))) {
       predictions <- pred.resp[,j]
       aucs[i,j] <- auc(accuracy(predictions,as.factor(y_test)))
     }
   }
+  # fit the model and store the outputs
+#   foldid <- sample(rep(seq(nfolds), length = N))
+#   for (i in seq(nfolds)) {
+#     which <- foldid == i
+#     y_train <- y[!which]
+#     x_train <- x[!which, , drop = FALSE]
+#     y_test <- y[which]
+#     x_test <- x[which, , drop = FALSE]
+#     fit <- grplasso(x = x_train, y = y_train, index = index, lambda = lambda, model = LogReg(), penscale = sqrt,
+#                     control = grpl.control(update.hess = "lambda", trace = 0))
+#     coeffs <- fit$coefficients
+#     pred.resp <- predict(fit, x_test, type = "response")
+#     # compute the auc for each of the lambda parameters
+#     # auc_score = accuracy(y,coeffs)
+#     for (j in seq(length(lambda))) {
+#       predictions <- pred.resp[,j]
+#       aucs[i,j] <- auc(accuracy(predictions,as.factor(y_test)))
+#     }
+#   }
   error.mean = apply(aucs,2,mean)
   error.sd = apply(aucs,2,sd)
   # plot the c.v. error 
@@ -52,16 +70,19 @@ cv.grplasso <- function(x, y, index, nfolds = 5, nlamdas = 20, plot.error=FALSE)
 }
 
 split_data <- function(gene_features, labels, train_set_size=0.67) {
+  set.seed(1)
   # train_set_size: Fraction of genes used for training set
-  num_samples = length(labels)
-  num_features = dim(gene_features)[1]
-  num_train_samples = ceiling(train_set_size*num_samples)
-  sample_order = sample(1:num_samples, num_samples) # permute the samples
-  train_idx = sample_order[1:num_train_samples]
-  test_idx =  sample_order[(num_train_samples+1):num_samples]
-  
-  train = list(x=gene_features[train_idx,],y=labels[train_idx])
-  test = list(x=gene_features[test_idx,],y=labels[test_idx])
+  train.index <- createDataPartition(labels, p = train_set_size, list = FALSE)
+  train = list(x=gene_features[train.index,],y=labels[train.index])
+  test = list(x=gene_features[-train.index,],y=labels[-train.index])
+  #num_samples = length(labels)
+  #num_features = dim(gene_features)[1]
+  #num_train_samples = ceiling(train_set_size*num_samples)
+  #sample_order = sample(1:num_samples, num_samples) # permute the samples
+  #train_idx = sample_order[1:num_train_samples]
+  #test_idx =  sample_order[(num_train_samples+1):num_samples]
+  #train = list(x=gene_features[train_idx,],y=labels[train_idx])
+  #test = list(x=gene_features[test_idx,],y=labels[test_idx])
   return(list(train=train, test=test))
 }
 
@@ -173,7 +194,7 @@ plot.coefficient.path <- function(x,y,index) {
 }
 
 ## set seed for reproducability
-set.seed(2)
+
 
 main <- '/Users/jasonzhu/Documents/CS341_Code/'
 dir.name <- paste(main,'data/experiment_inputs/',sep='')
@@ -182,7 +203,8 @@ all.go.name <- paste(main,'data/GO_terms_final_gene_counts.txt',sep='')
 go.names <- read.table(all.go.name)$V1
 ndim <- 5
 
-for (go.idx in 529:length(go.names)){
+for (go.idx in 260:length(go.names)){
+  set.seed(1)
   go.term <- as.character(go.names[go.idx])
   # go.term <- 'GO:0000578'
   neg_idx <- 0
