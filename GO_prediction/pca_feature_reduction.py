@@ -118,7 +118,7 @@ def get_mtx(term, fpath, num_features=8555, cols=None):
 def get_reduced_data(term, fpath, n_pcomp = 5):
     print '*Taking the top '+ str(n_pcomp) + ' principle components of each tissue'
     # extract tissue meta information
-    tissues = sorted(get_tissue_list('../data/tissues.txt'));
+    tissues = get_tissue_list('../data/tissues.txt');
     tissues_to_cols = get_tissues_to_cols(tissues)
     # load an example matrix
     full_mtx, gene_ids, labels = get_mtx(term,fpath, num_features=8555)
@@ -141,7 +141,6 @@ def get_reduced_data(term, fpath, n_pcomp = 5):
     indeces = range(0, reduced_mtx.shape[0])
     train_test = train_test_split(reduced_mtx, labels, indeces, stratify=labels, test_size=0.33)  # , random_state=42)
     return gene_ids, train_test
-
 
 
 def get_tissues_to_cols(tissue_list):
