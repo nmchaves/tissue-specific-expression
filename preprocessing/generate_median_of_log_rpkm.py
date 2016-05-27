@@ -62,10 +62,10 @@ if __name__ == "__main__":
     # --------------------------------------
     # input and output files
     # --------------------------------------
-    rpkm_file_path = '../data/local_large/transcript_rpkm_in_go_nonzero_exp.txt'
-    rpkm_file_out = '../data/local_large/log_norm_pca_transcript_rpkm_in_go_nonzero_exp.txt'
-    # rpkm_file_path = '../data/small_example_data/small_transcript_rpkm_in_go_nonzero_exp.txt'
-    # rpkm_file_out = '../data/small_example_data/small_log_norm_pca_transcript_rpkm_in_go_nonzero_exp.txt'
+    # rpkm_file_path = '../data/local_large/transcript_rpkm_in_go_nonzero_exp.txt'
+    # rpkm_file_out = '../data/local_large/log_norm_pca_transcript_rpkm_in_go_nonzero_exp.txt'
+    rpkm_file_path = '../data/small_example_data/small_transcript_rpkm_in_go_nonzero_exp.txt'
+    rpkm_file_out = '../data/small_example_data/small_log_median_transcript_rpkm_in_go_nonzero_exp.txt'
 
     # --------------------------------------
     # load tissue information
@@ -92,7 +92,7 @@ if __name__ == "__main__":
     print 'Reading: ' + rpkm_file_path
     print 'Number of genes: ' + str(num_genes)
     # 2. read the full rpkm matrix
-    full_mtx = np.empty((num_genes, num_features))  # each row will be the feature profile for a given gene
+    full_log_mtx = np.empty((num_genes, num_features))  # each row will be the feature profile for a given gene
     gene_info = ["NULL"]*num_genes
     print 'Reading:' + rpkm_file_path
     rpkm_file = open(rpkm_file_path)
@@ -106,29 +106,20 @@ if __name__ == "__main__":
             print '    ' + str(idx) + ' genes read'
         gene_info[idx] = '\t'.join(vals[0:(n_meta_fields-1)])
         exp_levels = vals[n_meta_fields:]
-        exp_levels = [np.log10(float(exp_level)+1.0) for exp_level in exp_levels]
-        full_mtx[idx,:] = exp_levels 
+        exp_levels = [np.log10(float(exp_level)+1.0) for exp_level in exp_levels] # log transform
+        full_log_mtx[idx,:] = exp_levels 
     rpkm_file.close()
-    print 'Completed reading full matrix. Dimensions: ' + str(full_mtx.shape)
+    print 'Completed reading full matrix. Dimensions: ' + str(full_log_mtx.shape)
 
     # --------------------------------------
-    # perform pca for each tissue
+    # calculate median for each tissue
     # --------------------------------------
-    n_pcomp = 5
-    pca_tissues_to_cols = {}
-    reduced_mtx = np.zeros([full_mtx.shape[0],n_pcomp*len(tissues)]);
-    # reduced_cols= np.chararray(n_pcomp*len(tissues));
-    reduced_cols= ["NULL"]*(n_pcomp*len(tissues));
+    reduced_mtx = np.zeros([full_log_mtx.shape[0],len(tissues)]);
+    reduced_cols= tissues 
     for idx, tissue in enumerate(tissues):
-        print 'Reducing features for ' + tissue 
-        pca_tissues_to_cols[tissue] = range(n_pcomp*idx, n_pcomp*(idx+1))
-        tissue_mtx = normalize_columns(full_mtx[:,tissues_to_cols[tissue]])  # normalize tissue matrix
-        assert(tissue_mtx.shape[1] >= n_pcomp)
-        pca = PCA(n_components=n_pcomp)
-        reduced_tissue_mtx = pca.fit_transform(tissue_mtx)
-        reduced_mtx[:,pca_tissues_to_cols[tissue]] = reduced_tissue_mtx
-        for t_idx in pca_tissues_to_cols[tissue]:
-            reduced_cols[t_idx] = tissue
+        print 'Taking median of ' + tissue 
+        tissue_mtx = full_log_mtx[:,tissues_to_cols[tissue]] 
+        reduced_mtx[:,idx] = np.median(tissue_mtx,axis=1)
     print 'Reduced matrix size: ', str(reduced_mtx.shape)
 
     # --------------------------------------
