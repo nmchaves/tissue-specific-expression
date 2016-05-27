@@ -1,3 +1,4 @@
+#! /home/ec2-user/anaconda2/bin/python
 """
     File for predicting whether a given GO term is associated with
     various genes.
@@ -12,9 +13,6 @@
 
 """
 
-# TODO: correctly compute AUC
-
-import os
 import numpy as np
 from sklearn.cross_validation import train_test_split
 from sklearn.cross_validation import StratifiedKFold
@@ -24,25 +22,17 @@ import argparse
 import os
 from math import log10
 from random import shuffle
-from utils import get_tissue_list
-
-"""
-def plot_roc(fprs, tprs, title):
-    plt.figure()
-    #for (fpr, tpr) in zip(fprs, tprs):
-    plt.plot(fprs, tprs, 'gray')
-    plt.plot([0, 1], [0, 1], 'k--')  # Plot the 50% line
-    plt.xlim([0.0, 1.0])
-    plt.ylim([0.0, 1.05])
-    plt.xlabel('False Positive Rate')
-    plt.ylabel('True Positive Rate')
-    plt.title(title)
-    plt.legend(loc="lower right")
-    plt.show()
-"""
 
 
-def get_data(term, num_features=8555, cols=None):
+def get_tissue_list(tissue_fpath):
+    tissue_file = open(tissue_fpath)
+    for line in tissue_file:
+        tissues = line.rstrip().split('\t')
+        break
+    return tissues
+
+
+def get_data(term, num_features=8555, cols=None, pca_dimen=None):
     """
     Load and log-transform the data: x := log(x+1)
 
@@ -53,12 +43,14 @@ def get_data(term, num_features=8555, cols=None):
 
     if cols:
         num_features = len(cols)
+    elif pca_dimen:
+        num_features = pca_dimen * NUM_TISSUES
 
     gene_features = np.empty((0, num_features))  # each row will be the feature profile for a given gene
     gene_ids = []
 
     # Get positive examples
-    pos_file_name = '../../CS341_Data/experiment_inputs/' + term + '_pos.txt'
+    pos_file_name = exp_input_file_path + term + '_pos.txt'
     pos_file = open(pos_file_name)
     for (i, line) in enumerate(pos_file):
         if i < 2:
@@ -66,18 +58,20 @@ def get_data(term, num_features=8555, cols=None):
         vals = line.rstrip().split('\t')
         gene_ids.append(vals[0])
         if cols:
-            exp_levels = [vals[col+1] for col in cols]  # add 1 to skip over gene id column
+            exp_levels = [float(vals[col+1]) for col in cols]  # add 1 to skip over gene id column
         else:
-            exp_levels = vals[1:]
-        # Convert expression levels to log(level+1)
-        exp_levels = [log10(float(exp_level)+1.0) for exp_level in exp_levels]
+            exp_levels = [float(val) for val in vals[1:]]
+
+        if not pca_dimen:
+            # Convert expression levels to log(level+1)
+            exp_levels = [log10(float(exp_level)+1.0) for exp_level in exp_levels]
         gene_features = np.append(gene_features, [exp_levels], axis=0)
     pos_file.close()
 
     num_pos_examples = gene_features.shape[0]
 
     # Add on the negative examples
-    neg_file_name = '../../CS341_Data/experiment_inputs/' + term + '_neg_0.txt'
+    neg_file_name = exp_input_file_path + term + '_neg_' + str(neg_set) + '.txt'
     neg_file = open(neg_file_name)
     for (i, line) in enumerate(neg_file):
         if i < 2:
@@ -85,11 +79,13 @@ def get_data(term, num_features=8555, cols=None):
         vals = line.rstrip().split('\t')
         gene_ids.append(vals[0])
         if cols:
-            exp_levels = [vals[col+1] for col in cols]  # add 1 to skip over gene id column
+            exp_levels = [float(vals[col+1]) for col in cols]  # add 1 to skip over gene id column
         else:
-            exp_levels = vals[1:]
-        # Convert expression levels to log(level+1)
-        exp_levels = [log10(float(exp_level)+1.0) for exp_level in exp_levels]
+            exp_levels = [float(val) for val in vals[1:]]
+
+        if not pca_dimen:
+            # Convert expression levels to log(level+1)
+            exp_levels = [log10(float(exp_level)+1.0) for exp_level in exp_levels]
         gene_features = np.append(gene_features, [exp_levels], axis=0)
     neg_file.close()
 
@@ -97,23 +93,25 @@ def get_data(term, num_features=8555, cols=None):
 
     labels = num_pos_examples * [1] + num_neg_examples * [0]
 
-    # Normalize each feature (ie each column) to have 0 mean, unit variance
-    for i in range(0, num_features):
-        col = gene_features[:, i]
-        col = col - np.mean(col)
-        std_dev = np.std(col)
-        if std_dev > 0:
-            col = col / std_dev
-        gene_features[:, i] = col
+    if not pca_dimen:
+        # Normalize each feature (ie each column) to have 0 mean, unit variance
+        for i in range(0, num_features):
+            col = gene_features[:, i]
+            col = col - np.mean(col)
+            std_dev = np.std(col)
+            if std_dev > 0:
+                col = col / std_dev
+            gene_features[:, i] = col
 
     indeces = range(0, gene_features.shape[0])
-    # TODO: should I use random state?
+    # TODO: should I use random state? (good for reproducible results when debugging)
     return gene_ids, train_test_split(gene_features, labels, indeces, stratify=labels, test_size=0.33)  # , random_state=42)
 
 
-def logistic_regresssion_L1(term, x_tr, x_te, y_tr, y_te, gene_ids_test, idx_te, server, tissues=None, rand_permute=False):
+def logistic_regresssion(term, x_tr, x_te, y_tr, y_te, gene_ids_test, idx_te, server,
+                            loss_function='l2', tissues=None, rand_permute=False, pca_dimen=None):
     num_folds = 5   # number of folds to use for cross-validation
-    loss_function = 'l1'  # Loss function to use. Must be either 'l1' or 'l2'
+    #loss_function = 'l1'  # Loss function to use. Must be either 'l1' or 'l2'
     costs = np.logspace(-4, 4, 20)  # 10^(-start) to 10^stop in 10 logarithmic steps
 
     if rand_permute:
@@ -121,53 +119,69 @@ def logistic_regresssion_L1(term, x_tr, x_te, y_tr, y_te, gene_ids_test, idx_te,
         shuffle(y_tr)
         shuffle(y_te)
 
-    logreg_cv_L1 = linear_model.LogisticRegressionCV(Cs=costs, cv=num_folds, penalty=loss_function,
+    logreg_cv = linear_model.LogisticRegressionCV(Cs=costs, cv=num_folds, penalty=loss_function,
                                                      scoring='roc_auc', solver='liblinear', tol=0.0001)
-    logreg_cv_L1.fit(x_tr, y_tr)
-    best_c = logreg_cv_L1.C_
-    pred_lr_cv_L1 = logreg_cv_L1.predict(x_te)
-    conf_lr_cv_L1 = logreg_cv_L1.decision_function(x_te)
-    prob_lr_cv_L1 = logreg_cv_L1.predict_proba(x_te)
-    print_prediction_results('Cross-Validated Logistic Regression', logreg_cv_L1, y_te,
-                             pred_lr_cv_L1, conf_lr_cv_L1, prob_lr_cv_L1,
-                             other_info='Norm: ' + loss_function + ', # of Folds: ' + str(num_folds))
-    if best_c != 0:
-        print 'Best cost (after inverting to obtain true cost): ', 1.0 / best_c
-    else:
-        print 'Best cost (not inverted) is 0'
+    logreg_cv.fit(x_tr, y_tr)
+    best_c = logreg_cv.C_
+    pred_lr_cv = logreg_cv.predict(x_te)
+    conf_lr_cv = logreg_cv.decision_function(x_te)
+    prob_lr_cv = logreg_cv.predict_proba(x_te)
+
+    if not AWS:
+        print_prediction_results('Cross-Validated Logistic Regression', logreg_cv, y_te,
+                                 pred_lr_cv, conf_lr_cv, prob_lr_cv,
+                                 other_info='Norm: ' + loss_function + ', # of Folds: ' + str(num_folds))
+        if best_c != 0:
+            print 'Best cost (after inverting to obtain true cost): ', 1.0 / best_c
+        else:
+            print 'Best cost (not inverted) is 0'
 
     # Save results
+    directory_path = output_dir
     if tissues:
-        directory_path = 'results_1_tissue/' + term  #+ '_' + str(server)
+        directory_path += '/' + term + '_neg_' + str(neg_set)
         out_fname = directory_path + '/logreg_' + tissues[0] + '.txt'
     else:
-        directory_path = 'results_all_tissues' #+ str(server)
         out_fname = directory_path + '/logreg_' + term + '.txt'
     if not os.path.exists(directory_path):
         os.makedirs(directory_path)
 
+    if loss_function == 'l1':
+        model = 'Logistic Regression with L1 Penalty'
+    elif loss_function == 'l2':
+        model = 'Logistic Regression with L2 Penalty'
+    else:
+        model = 'Logistic Regression. Penalty is neither l1 nor l2.'
 
-    save_prediction_results(out_fname, term, 'Logistic Regression with L1 Penalty', logreg_cv_L1,
-                            y_te, pred_lr_cv_L1, conf_lr_cv_L1, prob_lr_cv_L1, gene_ids_test, num_folds,
-                            tissue_set=tissues, costs=costs, best_cost=best_c)
+    save_prediction_results(out_fname, term, model, logreg_cv,
+                            y_te, pred_lr_cv, conf_lr_cv, prob_lr_cv, gene_ids_test, num_folds,
+                            tissue_set=tissues, costs=costs, best_cost=best_c, pca_dimen=pca_dimen)
 
-    """
-    copy_results_to_S3(out_fname, server)
-    """
+    if AWS:
+        copy_results_to_S3(out_fname, server)
+
 
 
 def copy_results_to_S3(out_fname, server):
+
+    # Before saving, convert characters to their escaped versions
+    out_fname = repr(out_fname)
+
     print 'Copying ', out_fname, ' back to S3.'
-    os.system('aws s3 cp ' + out_fname + ' s3://stanfordgtex/GO_Prediction/GO_Prediction_Results/' + out_fname)
+    os.system('aws s3 cp ' + out_fname + ' s3://stanfordgtex/GO_Prediction/PCA_GO_Prediction_Results/' + out_fname)
 
 
-def copy_zipped_results_to_S3(server):
+def copy_zipped_results_to_S3(server, tissue_specific=False):
     # Create tarball
-    os.system('tar -zcvf results_server_' + str(server) + '.tar.gz results_server_' + str(server))
+    tar_name = 'pca_results_'
+    if tissue_specific:
+        tar_name += '1_tissue_'
+    tar_name += 'loss_' + loss + '_neg_' + str(neg_set) + '_server_' + str(server)
+    os.system('tar -zcvf ' + tar_name + '.tar.gz ' + tar_name)
 
     # Send the whole compressed directory to S3
-    os.system('aws s3 cp results_server_' + str(server) + '.tar.gz ' +
-              's3://stanfordgtex/GO_Prediction/GO_Prediction_Results/results_server_' + str(server) + '.tar.gz')
+    os.system('aws s3 cp ' + tar_name + '.tar.gz' +
+            ' s3://stanfordgtex/GO_Prediction/PCA_GO_Prediction_Results/' + tar_name + '.tar.gz')
 
 
 def print_prediction_results(model, fit, labels, predictions, conf_scores, pred_prob, other_info=None):
@@ -190,7 +204,7 @@ def print_prediction_results(model, fit, labels, predictions, conf_scores, pred_
 
 
 def save_prediction_results(fname, GO_id, model, fit, test_labels, preds, conf_scores, prob_preds, gene_ids_test, n_folds=None,
-                            tissue_set=None, costs=None, best_cost=None, other_info=None):
+                            tissue_set=None, costs=None, best_cost=None, other_info=None, pca_dimen=None):
     """
     Save results of prediction for a given GO term to a text file.
 
@@ -207,7 +221,6 @@ def save_prediction_results(fname, GO_id, model, fit, test_labels, preds, conf_s
     :param other_info: Other info to store in header of output file
     :return: None
     """
-
     out_file = open(fname, 'w')
     out_file.write('# Prediction results for GO term: ' + GO_id + '\n')
     out_file.write('# Model used: ' + model + '\n')
@@ -222,6 +235,8 @@ def save_prediction_results(fname, GO_id, model, fit, test_labels, preds, conf_s
         out_file.write(str(tissue_set[-1] + '\n'))
     else:
         out_file.write('# All tissues were included\n')
+    if pca_dimen:
+        out_file.write('# PCA used on features. Kept top ' + str(pca_dimen) + ' components.\n')
     if n_folds:
         out_file.write('# Number of folds used for cross-validation: ' + str(n_folds) + '\n')
     if costs is not None:
@@ -249,7 +264,10 @@ def save_prediction_results(fname, GO_id, model, fit, test_labels, preds, conf_s
 
 
 def get_go_terms():
-    f_name = '../data/GO_terms_final_gene_counts.txt'
+    if AWS:
+        f_name = 'GO_terms_final_gene_counts.txt'
+    else:
+        f_name = '../data/GO_terms_final_gene_counts.txt'
     GO_counts_file = open(f_name)
 
     terms = []
@@ -262,37 +280,48 @@ def get_go_terms():
     return terms
 
 
-def get_tissues_to_cols(tissue_list):
+def get_tissues_to_cols(tissue_list, pca_dimen=None):
     tissues_to_cols = {}
-    for tissue in tissue_list:
-        cols = []
-        meta_fname = '../data/tissue_metadata/tissue_meta_' + tissue + '.txt'
-        meta_file = open(meta_fname)
-        for (i, line) in enumerate(meta_file):
-            if i < 1:
-                continue
-            col = int(line.split('\t')[0])
-            cols.append(col)
-        tissues_to_cols[tissue] = cols
+
+    if pca_dimen:
+        for (i, tissue) in enumerate(tissue_list):
+            col_start = pca_dimen * i
+            col_stop = col_start + pca_dimen
+            tissues_to_cols[tissue] = range(col_start, col_stop)
+    else:
+        for tissue in tissue_list:
+            cols = []
+            if AWS:
+                meta_fname = 'tissue_metadata/tissue_meta_' + tissue + '.txt'
+            else:
+                meta_fname = '../data/tissue_metadata/tissue_meta_' + tissue + '.txt'
+            meta_file = open(meta_fname)
+            for (i, line) in enumerate(meta_file):
+                if i < 1:
+                    continue
+                col = int(line.split('\t')[0])
+                cols.append(col)
+            tissues_to_cols[tissue] = cols
     return tissues_to_cols
 
 
-def run_prediction(GO_term, server_no, tissues=None, cols=None):
-    genes_train_test, train_test = get_data(GO_term, cols=cols)
+def run_prediction(GO_term, server_no, tissues=None, cols=None, loss=None, pca_dimen=None):
+    genes_train_test, train_test = get_data(GO_term, cols=cols, pca_dimen=pca_dimen)
     X_train, X_test, y_train, y_test, idx_train, idx_test = train_test
+
     # Arrange gene ids to match ordering of test set
     test_genes = [genes_train_test[idx] for idx in idx_test]
 
     # Run Logistic Regression
-    logistic_regresssion_L1(GO_term, X_train, X_test, y_train, y_test, test_genes, idx_test, server_no, tissues=tissues)
+    logistic_regresssion(GO_term, X_train, X_test, y_train, y_test, test_genes, idx_test, server_no, loss_function=loss, tissues=tissues)
 
 
-def predict_GO_to_genes(n_servers, server_no, tissue_specific=False, tissue_fpath=None):
+def predict_GO_to_genes(n_servers, server_no, tissue_specific=False, tissue_fpath=None, loss=None, pca_dimen=None):
 
     if tissue_specific:
         # Determine which columns each tissue corresponds to
         tissues = get_tissue_list(tissue_fpath)
-        tissues_to_cols = get_tissues_to_cols(tissues)
+        tissues_to_cols = get_tissues_to_cols(tissues, pca_dimen=pca_dimen)
 
     GO_terms = get_go_terms()
     GO_terms.reverse()   # Process GO terms in order from least # of genes to most
@@ -300,8 +329,7 @@ def predict_GO_to_genes(n_servers, server_no, tissue_specific=False, tissue_fpat
     terms_to_process = len(GO_terms)/n_servers
     print 'This program will process approximately ', terms_to_process, ' GO terms'
 
-    # todo: 670-720 for the unscaled results (both rand and non rand for the log transformed data)
-    for (idx, GO_term) in enumerate(GO_terms[2:]):
+    for (idx, GO_term) in enumerate(GO_terms):
 
         if idx % n_servers != server_no:
             # Not for this server
@@ -309,15 +337,19 @@ def predict_GO_to_genes(n_servers, server_no, tissue_specific=False, tissue_fpat
 
         print '=' * 30
         print '=' * 30
+        print '=' * 30
+        print '=' * 30
         print idx, 'th GO term: ', GO_term
         print 'Approximately ', (terms_to_process-idx/n_servers), ' terms left to process'
 
         if tissue_specific:
             for tissue in tissues:
-                run_prediction(GO_term, server_no, tissues=[tissue], cols=tissues_to_cols[tissue])
+                run_prediction(GO_term, server_no, tissues=[tissue], cols=tissues_to_cols[tissue], loss=loss, pca_dimen=pca_dimen)
         else:
-            run_prediction(GO_term, server_no)
+            run_prediction(GO_term, server_no, loss=loss, pca_dimen=pca_dimen)
 
+    if AWS:
+        copy_zipped_results_to_S3(server_no, tissue_specific)
 
 """
 *********************
@@ -331,15 +363,43 @@ if __name__ == "__main__":
                         help='Tells the program how many servers you\'re using')
     parser.add_argument('--server_no', default=0, type=int, required=False,
                         help='Which server # this program is running on')
+    parser.add_argument('--neg_set', default=0, type=int, required=False,
+                        help='Which negative set to used.')
+    parser.add_argument('--aws', default=True, type=bool, required=False,
+                        help='Whether or not the code is being run on AWS.')
+    parser.add_argument('--single_tissue', default=True, type=bool, required=False,
+                        help='If True, each prediction problem only used features from 1 tissue')
+
     args = parser.parse_args()
     num_servers = args.n_servers
     server_number = args.server_no
+    neg_set = args.neg_set
+    AWS = False #args.aws
+    single_tissue = False #args.single_tissue
+
+    if AWS:
+        exp_input_file_path = 'pca_experiment_inputs/'
+        tissue_path = 'tissues.txt'
+    else:
+        exp_input_file_path = '../../CS341_Data/pca_experiment_inputs/'
+        tissue_path = '../data/tissues.txt'
+
+    NUM_TISSUES = 53
+
     print '# of servers to be used: ', str(num_servers)
     print 'This program is running on server: ', str(server_number)
+    print 'Obtaining experiment inputs from negative set: ', str(neg_set)
 
-    # Make predictions using expression across all tissues
-    predict_GO_to_genes(num_servers, server_number)
+    loss = 'l2'
 
-    # Make predictions using expression in individual tissues
-    predict_GO_to_genes(num_servers, server_number, tissue_specific=True, tissue_fpath='../data/tissues.txt')
+    if single_tissue:
+        output_dir = 'pca_results_1_tissue_loss_' + loss + '_neg_' + str(neg_set) + '_server_' + str(server_number)
+
+        # Make predictions using expression in individual tissues
+        predict_GO_to_genes(num_servers, server_number, tissue_specific=True, tissue_fpath=tissue_path, loss=loss, pca_dimen=5)
+    else:
+        output_dir = 'pca_results_all_tissues_loss_' + loss + '_neg_' + str(neg_set) + '_server_' + str(server_number)
+
+        # Make predictions using expression across all tissues
+        predict_GO_to_genes(num_servers, server_number, loss=loss, pca_dimen=5)
 
