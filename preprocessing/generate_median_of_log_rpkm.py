@@ -63,7 +63,7 @@ if __name__ == "__main__":
     # input and output files
     # --------------------------------------
     # rpkm_file_path = '../data/local_large/transcript_rpkm_in_go_nonzero_exp.txt'
-    # rpkm_file_out = '../data/local_large/log_norm_pca_transcript_rpkm_in_go_nonzero_exp.txt'
+    # rpkm_file_out = '../data/local_large/log_norm_median_transcript_rpkm_in_go_nonzero_exp.txt'
     rpkm_file_path = '../data/small_example_data/small_transcript_rpkm_in_go_nonzero_exp.txt'
     rpkm_file_out = '../data/small_example_data/small_log_median_transcript_rpkm_in_go_nonzero_exp.txt'
 
@@ -99,12 +99,13 @@ if __name__ == "__main__":
     for (i, line) in enumerate(rpkm_file):
         vals = line.rstrip().split('\t')
         if i < n_header_lines: 
-            first_fields = '\t'.join(vals[0:(n_meta_fields-1)]) # print header later
+            first_fields = '\t'.join(vals[0:n_meta_fields]) # print header later
+            print first_fields
             continue
         idx = i - n_header_lines  # gene index 
         if (idx % 1000 == 0):
             print '    ' + str(idx) + ' genes read'
-        gene_info[idx] = '\t'.join(vals[0:(n_meta_fields-1)])
+        gene_info[idx] = '\t'.join(vals[0:n_meta_fields])
         exp_levels = vals[n_meta_fields:]
         exp_levels = [np.log10(float(exp_level)+1.0) for exp_level in exp_levels] # log transform
         full_log_mtx[idx,:] = exp_levels 
@@ -118,10 +119,10 @@ if __name__ == "__main__":
     reduced_cols= tissues 
     for idx, tissue in enumerate(tissues):
         print 'Taking median of ' + tissue 
-        tissue_mtx = full_log_mtx[:,tissues_to_cols[tissue]] 
+        tissue_mtx = normalize_columns(full_log_mtx[:,tissues_to_cols[tissue]])
         reduced_mtx[:,idx] = np.median(tissue_mtx,axis=1)
     print 'Reduced matrix size: ', str(reduced_mtx.shape)
-
+ 
     # --------------------------------------
     # save reduced matrix to file 
     # --------------------------------------

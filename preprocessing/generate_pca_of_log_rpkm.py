@@ -99,12 +99,12 @@ if __name__ == "__main__":
     for (i, line) in enumerate(rpkm_file):
         vals = line.rstrip().split('\t')
         if i < n_header_lines: 
-            first_fields = '\t'.join(vals[0:(n_meta_fields-1)]) # print header later
+            first_fields = '\t'.join(vals[0:(n_meta_fields)]) # print header later
             continue
         idx = i - n_header_lines  # gene index 
         if (idx % 1000 == 0):
             print '    ' + str(idx) + ' genes read'
-        gene_info[idx] = '\t'.join(vals[0:(n_meta_fields-1)])
+        gene_info[idx] = '\t'.join(vals[0:(n_meta_fields)])
         exp_levels = vals[n_meta_fields:]
         exp_levels = [np.log10(float(exp_level)+1.0) for exp_level in exp_levels]
         full_mtx[idx,:] = exp_levels 
