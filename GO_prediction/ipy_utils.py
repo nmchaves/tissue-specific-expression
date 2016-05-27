@@ -162,7 +162,7 @@ def get_tissue_list(tissue_fpath):
         break
     return tissues
 
-def get_1_tissue_aucs(GO_term, tissue_list, loss=None):
+def get_1_tissue_aucs(GO_term, tissue_list, results_dir):
     """
     This function gets the AUC scores of predicting the gene associations of
     |GO_term| where each prediction task only used features from an individual
@@ -177,10 +177,7 @@ def get_1_tissue_aucs(GO_term, tissue_list, loss=None):
     """
 
     aucs_1_tissue = []
-    if loss:
-        results_dir = 'pca_results_1_tissue_' + loss + '/' + GO_term + '/'
-    else:
-        results_dir = 'results_1_tissue/' + GO_term + '/'
+
     for tissue in tissue_list:
         # Get the AUC score when using features from only this tissue
         f_name = results_dir + 'logreg_' + tissue + '.txt'
@@ -193,10 +190,11 @@ def get_1_tissue_aucs(GO_term, tissue_list, loss=None):
                 break
     return aucs_1_tissue
 
-def get_all_1_tissue_aucs(GO_terms, tissue_list, loss=None):
+
+def get_all_1_tissue_aucs(GO_terms, tissue_list, results_dir):
     aucs = np.zeros(shape=(len(GO_terms),len(tissue_list)))  # aucs[i][j] is auc score for using jth tissue features to predict ith GO term
     for (i, term) in enumerate(GO_terms):
-        aucs[i, :] = get_1_tissue_aucs(term, tissue_list, loss)
+        aucs[i, :] = get_1_tissue_aucs(term, tissue_list, results_dir + '/' + term + '/')
     return aucs
 
 
