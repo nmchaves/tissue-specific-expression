@@ -31,6 +31,7 @@ cv.grplasso <- function(x, y, index, nfolds = 5, nlamdas = 20, plot.error=FALSE)
       aucs[i,j] <- auc(accuracy(predictions,as.factor(y_test)))
     }
   }
+  aucs = aucs[complete.cases(aucs),]
   error.mean = apply(aucs,2,mean)
   error.sd = apply(aucs,2,sd)
   # plot the c.v. error 
@@ -109,85 +110,90 @@ group.info <- group.to.int(title.fields[5:length(title.fields)])
 for (go.idx in 1:length(go.names)){
   set.seed(1)
   go.term <- as.character(go.names[go.idx])
-  neg_idx <- 0
-  neg_pfx <- paste(paste('_neg_',neg_idx,sep=''),'.txt.txt',sep='')
-  out_pfx <- paste(paste(go.term,'_',sep=''),neg_idx,sep='')
-  out.name <- paste(paste(paste(main,'data/grplasso_results/grplasso_',sep=''),out_pfx,sep=''),'.txt',sep='')
-  cat('========================================\n')
-  cat('Target output: ', out.name,'\n')
-  
-  ## load all data
-  cat('----------------------------------------\n')
-  cat('Loading raw data from',go.term,'...\n')
-  pos.name <- paste(dir.name,paste(go.term,'_pos.txt.txt',sep=''),sep='')   # filename for positive set
-  neg.name <- paste(dir.name,paste(go.term,neg_pfx,sep=''),sep='') # filename for negative set
-  full.data <- load.pos.neg.sets(pos.name,neg.name,group.info)
-  
-  ## feature extraction for each tissue type
-  # cat('----------------------------------------\n')
-  cat('NOT Reducing dimension of group features...\n')
-  # dim.red <- reduce.features(full.data,ndim=ndim)
-  dim.red <- full.data
-  index <- c(NA, dim.red$group)
-  full.x <- cbind(1, dim.red$x)  # add intercept
-  full.y <- dim.red$y
-  
-  ## fit the data with coefficient path
-  # plot.coefficient.path(full.x,full.y,index)
-  
-  ## split data
-  # cat('----------------------------------------\n')
-  data <- split_data(full.x,full.y)
-  cat('dimensionality of data: ',dim(data$train$x)[2],'\n')
-  cat('# of training samples:  ',length(data$train$y),'\n')
-  cat('# of test samples:      ',length(data$test$y),'\n')
-  
-  ## apply cv for grplasso
-  # cat('----------------------------------------\n')
-  cat('Training group lasso classifier...\n')
-  x <- as.matrix(data$train$x)
-  y <- data$train$y
-  cv.result <- cv.grplasso(x,y,index,nfolds=5,plot.error=FALSE)
-  ## Re-fit the model with the best tuning paramter from cross-validation
-  fit <- grplasso(x, y = y, index = index, lambda = cv.result$lambda, model = LogReg(), 
-                  penscale = sqrt,control = grpl.control(update.hess = "lambda", trace = 0))
-  cat('done\n')
-  cat('cross-validaiton error:',cv.result$error,'\n')
-  cat('parameter (lambda) tuned as:',cv.result$lambda,'\n')
-  
-  ## compute the test error
-  # cat('----------------------------------------\n')
-  prediction <- predict(fit, data$test$x, type = "response")
-  auc.val <- auc(accuracy(prediction,as.factor(data$test$y)))
-  cat('Test Error:',auc.val,'\n')
-  
-  ## store the coefficients of the fit
-  sink(out.name)
-  model <- 'group_lasso'
-  cat('# Prediction results for:\t',go.term,'\n')
-  cat('# Model used:\t',model,'\n')
-  cat('# ROC AUC score:\t',auc.val,'\n')
-  # cat('# Dimension per tissue:\t',ndim,'\n')
-  if (length(full.data$types) > length(dim.red$types)) {
-    cat('# Tissues used: ',length(dim.red$types),'\n')
-  } else {
-    cat('# All tissues were included\n')
+  for (neg_idx in 2:9) {
+    
+    # neg_idx <- 1
+    neg_pfx <- paste(paste('_neg_',neg_idx,sep=''),'.txt.txt',sep='')
+    out_pfx <- paste(paste(go.term,'_',sep=''),neg_idx,sep='')
+    out.name <- paste(paste(paste(main,'data/grplasso_results/grplasso_',sep=''),out_pfx,sep=''),'.txt',sep='')
+    cat('========================================\n')
+    cat('Target output: ', out.name,'\n')
+    
+    ## load all data
+    cat('----------------------------------------\n')
+    cat('Loading raw data from',go.term,'...\n')
+    pos.name <- paste(dir.name,paste(go.term,'_pos.txt.txt',sep=''),sep='')   # filename for positive set
+    neg.name <- paste(dir.name,paste(go.term,neg_pfx,sep=''),sep='') # filename for negative set
+    full.data <- load.pos.neg.sets(pos.name,neg.name,group.info)
+    
+    ## feature extraction for each tissue type
+    # cat('----------------------------------------\n')
+    cat('NOT Reducing dimension of group features...\n')
+    # dim.red <- reduce.features(full.data,ndim=ndim)
+    dim.red <- full.data
+    index <- c(NA, dim.red$group)
+    full.x <- cbind(1, dim.red$x)  # add intercept
+    full.y <- dim.red$y
+    
+    ## fit the data with coefficient path
+    # plot.coefficient.path(full.x,full.y,index)
+    
+    ## split data
+    # cat('----------------------------------------\n')
+    data <- split_data(full.x,full.y)
+    cat('dimensionality of data: ',dim(data$train$x)[2],'\n')
+    cat('# of training samples:  ',length(data$train$y),'\n')
+    cat('# of test samples:      ',length(data$test$y),'\n')
+    
+    ## apply cv for grplasso
+    # cat('----------------------------------------\n')
+    cat('Training group lasso classifier...\n')
+    x <- as.matrix(data$train$x)
+    y <- data$train$y
+    cv.result <- cv.grplasso(x,y,index,nfolds=5,plot.error=FALSE)
+    ## Re-fit the model with the best tuning paramter from cross-validation
+    cat('Fitting model with lambda: ', cv.result$lambda)
+    fit <- grplasso(x, y = y, index = index, lambda = cv.result$lambda, model = LogReg(), 
+                    penscale = sqrt,control = grpl.control(update.hess = "lambda", trace = 0))
+    cat('done\n')
+    cat('cross-validaiton error:',cv.result$error,'\n')
+    cat('parameter (lambda) tuned as:',cv.result$lambda,'\n')
+    
+    ## compute the test error
+    # cat('----------------------------------------\n')
+    prediction <- predict(fit, data$test$x, type = "response")
+    auc.val <- auc(accuracy(prediction,as.factor(data$test$y)))
+    cat('Test Error:',auc.val,'\n')
+    
+    ## store the coefficients of the fit
+    sink(out.name)
+    model <- 'group_lasso'
+    cat('# Prediction results for:\t',go.term,'\n')
+    cat('# Model used:\t',model,'\n')
+    cat('# ROC AUC score:\t',auc.val,'\n')
+    # cat('# Dimension per tissue:\t',ndim,'\n')
+    if (length(full.data$types) > length(dim.red$types)) {
+      cat('# Tissues used: ',length(dim.red$types),'\n')
+    } else {
+      cat('# All tissues were included\n')
+    }
+    cat('# Best penalty parameter (CV):', cv.result$lambda,'\n')
+    grplasso.ceoff <- fit$coefficients
+    for (i in 1:length(dim.red$types)) {
+      cat('# tissue\t',i,'\t', dim.red$types[i],'\n')
+    }
+    cat('# Coefficients:\n')
+    for (i in 1:length(dim.red$group)) {
+      cat(dim.red$group[i],'\t',grplasso.ceoff[i+1],'\n')
+    }
+    cat('# Gene ID\tLabel\tPrediction\n')
+    for (i in 1:length(prediction)) {
+      cat(rownames(data$test$x)[i],'\t',data$test$y[i],'\t',prediction[i],'\n')
+    }
+    sink()
+    # file.show(out.name)
+    cat('saved result to output\n')
+    # cat('----------------------------------------\n')
+    
   }
-  cat('# Best penalty parameter (CV):', cv.result$lambda,'\n')
-  grplasso.ceoff <- fit$coefficients
-  for (i in 1:length(dim.red$types)) {
-    cat('# tissue\t',i,'\t', dim.red$types[i],'\n')
-  }
-  cat('# Coefficients:\n')
-  for (i in 1:length(dim.red$group)) {
-    cat(dim.red$group[i],'\t',grplasso.ceoff[i+1],'\n')
-  }
-  cat('# Gene ID\tLabel\tPrediction\n')
-  for (i in 1:length(prediction)) {
-    cat(rownames(data$test$x)[i],'\t',data$test$y[i],'\t',prediction[i],'\n')
-  }
-  sink()
-  # file.show(out.name)
-  cat('saved result to output\n')
-  # cat('----------------------------------------\n')
 }
