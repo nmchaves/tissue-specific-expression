@@ -5,7 +5,6 @@ from os.path import isfile, join
 from sklearn.metrics import roc_auc_score, roc_curve, auc
 import pandas as pd
 from collections import defaultdict
-from scipy.stats import cumfreq
 
 
 def get_GO_gene_counts(input_file):
@@ -194,7 +193,7 @@ def get_1_tissue_aucs(GO_term, tissue_list, results_dir):
 def get_all_1_tissue_aucs(GO_terms, tissue_list, results_dir):
     aucs = np.zeros(shape=(len(GO_terms),len(tissue_list)))  # aucs[i][j] is auc score for using jth tissue features to predict ith GO term
     for (i, term) in enumerate(GO_terms):
-        aucs[i, :] = get_1_tissue_aucs(term, tissue_list, results_dir + '/' + term + '/')
+        aucs[i, :] = get_1_tissue_aucs(term, tissue_list, results_dir + '/' + term + '_neg_0/')
     return aucs
 
 

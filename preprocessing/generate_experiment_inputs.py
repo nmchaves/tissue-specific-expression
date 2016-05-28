@@ -67,26 +67,87 @@ def make_neg_files(term, num_files, num_examples, num_transcripts, pos_ex_rows):
 
         # Write Headers
         header_1 = '# Negative Examples For GO Term: ' + str(term.id) + '\n'
-        header_2 = '# Gene ID' + '\t' + 'Expression Profile\n'
+        header_2 = '# Row_Idx\tGene_ID\tExpression_Profile\n'
         neg_file.write(header_1 + header_2)
 
         rpkm_file = open(rpkm_file_path)
-        i = 0
-        firstLine = True
-        for line in rpkm_file:
-            if firstLine:
-                firstLine = False
+        for (i, line) in enumerate(rpkm_file):
+            if i == 0:
                 continue
 
-            if i in neg_rows:
+            if i-1 in neg_rows:
                 cur_ens_id = get_ensembl_id(line)
                 exp_levels_str = get_exp_levels_str(line)
-                neg_file.write(cur_ens_id + '\t' + exp_levels_str)
-
-            i += 1
+                neg_file.write(str(i-1) + '\t' + cur_ens_id + '\t' + exp_levels_str)
 
         neg_file.close()
     return
+
+def make_neg_file_from(neg_fname, out_fname, term, rpkm):
+
+    neg_rows = []
+    neg_file = open(neg_fname)
+    for (i, line) in enumerate(neg_file):
+        if i < 2:
+            continue
+        row_idx = int(line.split('\t')[0])
+        neg_rows.append(row_idx)
+    neg_file.close()
+
+    neg_rows = sorted(neg_rows)
+
+    neg_out = open(out_fname, 'w')
+    header_1 = '# Positive Examples For GO Term: ' + term + '\n'
+    header_2 = '# Row_Idx\tGene_ID\tExpression_Profile\n'
+    neg_out.write(header_1 + header_2)
+
+    rpkm_file = open(rpkm)
+    for (i, line) in enumerate(rpkm_file):
+        if i == 0:
+            continue
+        elif i-1 == neg_rows[0]:
+            neg_rows.pop(0)
+            neg_out.write(str(i-1) + '\t')
+
+            cur_ens_id = get_ensembl_id(line)
+            neg_out.write(cur_ens_id + '\t')
+            neg_out.write(get_exp_levels_str(line))
+            if len(neg_rows) == 0:
+                break
+    neg_file.close()
+
+
+def make_pos_file_from(pos_fname, out_fname, term, rpkm):
+
+    pos_rows = []
+    pos_file = open(pos_fname)
+    for (i, line) in enumerate(pos_file):
+        if i < 2:
+            continue
+        row_idx = int(line.split('\t')[0])
+        pos_rows.append(row_idx)
+    pos_file.close()
+
+    pos_rows = sorted(pos_rows)
+
+    pos_out = open(out_fname, 'w')
+    header_1 = '# Positive Examples For GO Term: ' + term + '\n'
+    header_2 = '# Row_Idx\tGene_ID\tExpression_Profile\n'
+    pos_out.write(header_1 + header_2)
+
+    rpkm_file = open(rpkm)
+    for (i, line) in enumerate(rpkm_file):
+        if i == 0:
+            continue
+        elif i-1 == pos_rows[0]:
+            pos_rows.pop(0)
+            pos_out.write(str(i-1) + '\t')
+            cur_ens_id = get_ensembl_id(line)
+            pos_out.write(cur_ens_id + '\t')
+            pos_out.write(get_exp_levels_str(line))
+            if len(pos_rows) == 0:
+                break
+    pos_file.close()
 
 
 def make_pos_file(term, min_genes, ens_ids_dict):
@@ -105,18 +166,15 @@ def make_pos_file(term, min_genes, ens_ids_dict):
 
     # Write Headers
     header_1 = '# Positive Examples For GO Term: ' + str(term.id) + '\n'
-    header_2 = '# Gene ID' + '\t' + 'Expression Profile\n'
+    header_2 = '# Row_Idx\tGene_ID\tExpression_Profile\n'
     pos_file.write(header_1 + header_2)
 
     positive_example_rows = []
     genes_added = []
 
     rpkm_file = open(rpkm_file_path)
-    i = 0
-    firstLine = True
-    for line in rpkm_file:
-        if firstLine:
-            firstLine = False
+    for (i, line) in enumerate(rpkm_file):
+        if i == 0:
             continue
 
         cur_ens_id = get_ensembl_id(line)
@@ -126,11 +184,11 @@ def make_pos_file(term, min_genes, ens_ids_dict):
             # features. TODO: better method for accounting for multiple transcripts
             # mapping to same gene.
             if cur_ens_id not in genes_added:
-                positive_example_rows.append(i)
+                positive_example_rows.append(i-1)
                 genes_added.append(cur_ens_id)
+                pos_file.write(str(i-1) + '\t')
                 pos_file.write(cur_ens_id + '\t')
                 pos_file.write(get_exp_levels_str(line))
-        i += 1
 
     pos_file.close()
     num_genes_added = len(genes_added)
@@ -153,9 +211,9 @@ if __name__ == "__main__":
 
     gene2go_file_path = '../data/gene2go.txt' # If file doesn't exist, then run gene2go = download_ncbi_associations()
     rpkm_file_path = '../../CS341_Data/transcript_rpkm_in_go_nonzero_exp.txt'
-    gene_count_file_path = '../data/supp_GO_term_gene_counts.txt'
+    gene_count_file_path = '../data/GO_terms_final_gene_counts.txt'
     biomart_file_path = '../data/biomart_ensembl_to_entrez.txt'
-    obo_file_path = '../data/go-basic.obo'
+    obo_file_path = '../../CS341_Data/go-basic.obo.txt'
 
     # TODO: consider doing cases where you use multiple version of positive files instead of
     # just selecting the first gene each time.
@@ -166,26 +224,53 @@ if __name__ == "__main__":
     min_gene_associations = 10
     num_usable_terms = 0
 
+    existing_dir = '../data/experiment_inputs/'
+
+    new_dir = '../data/pca_experiment_inputs/'
+    new_rpkm = '../../CS341_Data/log_norm_pca_transcript_rpkm_in_go_nonzero_exp.txt'
+
+    new_dir2 = '../data/median_experiment_inputs/'
+    new_rpkm2 = '../../CS341_Data/log_norm_median_transcript_rpkm_in_go_nonzero_exp.txt'
+
     GO_terms = get_all_go_terms()
     for (t, term) in enumerate(GO_terms):
-
         print t, 'th term. ID: ', term.id, ' # of genes (before going through rpkm): ', len(term.genes)
+        term_id = term.id
 
-        if len(term.genes) < min_gene_associations:
-            break
+        if existing_dir:
+            # Generate matching positive/negative sets from the existing ones
+            pos_fname = existing_dir + term_id + '_pos.txt'
+            new_pos_fname = new_dir + term_id + '_pos.txt'
+            make_pos_file_from(pos_fname, new_pos_fname, term_id, new_rpkm)
+            neg_fname = existing_dir + term_id + '_neg_0.txt'
+            new_neg_fname = new_dir + term_id + '_neg_0.txt'
+            make_neg_file_from(neg_fname, new_neg_fname, term_id, new_rpkm)
 
-        ensembl_ids = term.genes
-        ensembl_ids_dict = {}
-        for id in ensembl_ids:
-            ensembl_ids_dict[id] = True
+            new_pos_fname2 = new_dir2 + term_id + '_pos.txt'
+            make_pos_file_from(pos_fname, new_pos_fname2, term_id, new_rpkm2)
+            new_neg_fname2 = new_dir2 + term_id + '_neg_0.txt'
+            make_neg_file_from(neg_fname, new_neg_fname2, term_id, new_rpkm2)
 
-        num_transcripts, pos_rows = make_pos_file(term, min_gene_associations, ensembl_ids_dict)
-        if pos_rows is None:
-            # make_pos_file returns None when there were fewer than |min_gene_associations|
-            # so this GO term will not be used
-            continue
 
-        make_neg_files(term, num_negative_files, len(pos_rows), num_transcripts, pos_rows)
+            #out_fname = '../data/pca_experiment_inputs/' + str(term.id) + '_pos.txt'
+        else:
+            print t, 'th term. ID: ', term.id, ' # of genes (before going through rpkm): ', len(term.genes)
 
-        num_usable_terms += 1
-        print '# of usable GO terms found so far: ', num_usable_terms
+            if len(term.genes) < min_gene_associations:
+                break
+
+            ensembl_ids = term.genes
+            ensembl_ids_dict = {}
+            for id in ensembl_ids:
+                ensembl_ids_dict[id] = True
+
+            num_transcripts, pos_rows = make_pos_file(term, min_gene_associations, ensembl_ids_dict)
+            if pos_rows is None:
+                # make_pos_file returns None when there were fewer than |min_gene_associations|
+                # so this GO term will not be used
+                continue
+
+            make_neg_files(term, num_negative_files, len(pos_rows), num_transcripts, pos_rows)
+
+            num_usable_terms += 1
+            print '# of usable GO terms found so far: ', num_usable_terms
