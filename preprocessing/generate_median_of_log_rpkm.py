@@ -62,10 +62,10 @@ if __name__ == "__main__":
     # --------------------------------------
     # input and output files
     # --------------------------------------
-    # rpkm_file_path = '../data/local_large/transcript_rpkm_in_go_nonzero_exp.txt'
-    # rpkm_file_out = '../data/local_large/log_norm_median_transcript_rpkm_in_go_nonzero_exp.txt'
-    rpkm_file_path = '../data/small_example_data/small_transcript_rpkm_in_go_nonzero_exp.txt'
-    rpkm_file_out = '../data/small_example_data/small_log_median_transcript_rpkm_in_go_nonzero_exp.txt'
+    rpkm_file_path = '../data/local_large/transcript_rpkm_in_go_nonzero_exp.txt'
+    rpkm_file_out = '../data/local_large/log_norm_median_transcript_rpkm_in_go_nonzero_exp.txt'
+    # rpkm_file_path = '../data/small_example_data/small_transcript_rpkm_in_go_nonzero_exp.txt'
+    # rpkm_file_out = '../data/small_example_data/small_log_median_transcript_rpkm_in_go_nonzero_exp.txt'
 
     # --------------------------------------
     # load tissue information

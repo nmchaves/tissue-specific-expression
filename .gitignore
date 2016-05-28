@@ -1,6 +1,7 @@
 data/gene2go*
 data/.DS_Store
-data/experiment_inputs*
+data/experiment_inputs/*
+data/pca_experiment_inputs/*
 data/local_large*
 .DS_Store
 
