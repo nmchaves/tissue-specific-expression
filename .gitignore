@@ -3,5 +3,6 @@ data/.DS_Store
 data/experiment_inputs/*
 data/pca_experiment_inputs/*
 data/local_large*
+GO_prediction/Results*
 .DS_Store
 

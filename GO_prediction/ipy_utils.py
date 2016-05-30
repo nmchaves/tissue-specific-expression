@@ -48,6 +48,7 @@ def get_prediction_results(results_dir):
         GO_terms[GO_term] = (labels, preds, dec_func_scores, probs)
     return GO_terms, roc_auc_scores
 
+"""
 def get_GO_gene_cnts():
     cnts_file = open('../data/GO_terms_final_gene_counts.txt')
     GO_to_num_genes = {}
@@ -59,6 +60,7 @@ def get_GO_gene_cnts():
         num_genes = int(vals[1])
         GO_to_num_genes[GO_id] = num_genes
     return GO_to_num_genes
+"""
 
 
 def plot_roc(fprs, tprs, title):
@@ -141,6 +143,91 @@ def make_roc_curves(GO_terms_map, GO_cnts):
 
     return auc_scores
 
+def parse_grplasso_results(results):
+    read_coeff = 0
+    read_perfo = 0
+    coeffs = []
+    tissues = []
+    pred = []
+    label = []
+    tissueMap = {}
+    for line in results:
+        data = line.rstrip('\n').split('\t')
+        # print data[0]
+        if data[0] == '# Prediction results for:':
+            GO_ID = data[1]    
+        elif data[0] == '# ROC AUC score:':
+            AUC = float(data[1])
+        elif data[0] == '# tissue':
+            tissues.append(data[2])
+            tissueMap[data[2]] = []
+        elif data[0] == '# Coefficients:':
+            read_coeff = 1
+            i = 0      
+        elif data[0] == '# Gene ID':
+            read_coeff = 0
+            read_perfo = 1
+        elif read_perfo == 1 and (data[0]):
+            label.append(int(data[1]))
+            pred.append(float(data[2]))
+        elif read_coeff == 1 and (data[0]):
+            t_idx = int(data[0])-1
+            coeff = float(data[1])
+            tissueMap[tissues[t_idx]].append(coeff) 
+    return [GO_ID, tissueMap, AUC, label, pred]
+
+def get_prediction_results_grplasso(results_dir,GO_gene_counts):
+    GO_test_map = {}
+    for GO_term in GO_gene_counts:
+        input_name = results_dir + 'grplasso_'+GO_term+'_1.txt'
+        try:
+            results = open(input_name)
+        except:
+            print GO_term+' not used because grplasso could not compute!'
+            continue
+        [GO_ID, tissueMap, AUC, label, pred] = parse_grplasso_results(results)
+        results.close();
+
+        GO_test_map[GO_term] = (label,pred)
+    return GO_test_map 
+    
+def make_roc_curves_grplasso(GO_terms_map, GO_cnts):
+    false_pos_rates = []
+    true_pos_rates = []
+    GO_terms_list = GO_terms_map.keys()
+    gene_counts = [GO_cnts[term] for term in GO_terms_list]
+    sorted_tuples = sorted(zip(GO_terms_list, gene_counts), key=lambda tup: tup[1], reverse=False)
+    GO_terms_list = [tup[0] for tup in sorted_tuples]
+    gene_counts = [tup[1] for tup in sorted_tuples]
+    auc_scores = []
+
+    for term in GO_terms_list:
+        (cur_labels, cur_probs) = GO_terms_map[term]
+        # print cur_probs
+        # print cur_labels
+        for j, pred in enumerate(cur_probs):
+            if pred == 0:
+                cur_probs[j] = 1.0 - cur_probs[j]
+        cur_fpr, cur_tpr, _ = roc_curve(cur_labels, cur_probs)
+        
+        #cur_fpr, cur_tpr, _ = roc_curve(cur_labels, cur_decs)
+        false_pos_rates.append(cur_fpr)
+        true_pos_rates.append(cur_tpr)
+        auc_scores.append(roc_auc_score(cur_labels, cur_probs))
+
+    plot_roc(false_pos_rates, true_pos_rates, 'ROC for Log Transformed Expressions')
+    plot_roc_heat(false_pos_rates, true_pos_rates, gene_counts, 'ROC for Log Transformed Expressions')
+    
+    plt.plot(gene_counts,auc_scores, "o")
+    plt.xlabel('Gene Counts')
+    plt.ylabel('AUC Score')
+    ax = plt.gca()
+    ax.grid()
+    plt.show()
+
+    return auc_scores
+    
+    
 
 def get_go_terms():
     f_name = '../data/GO_terms_final_gene_counts.txt'
