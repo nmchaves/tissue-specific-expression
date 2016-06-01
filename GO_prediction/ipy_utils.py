@@ -48,20 +48,6 @@ def get_prediction_results(results_dir):
         GO_terms[GO_term] = (labels, preds, dec_func_scores, probs)
     return GO_terms, roc_auc_scores
 
-"""
-def get_GO_gene_cnts():
-    cnts_file = open('../data/GO_terms_final_gene_counts.txt')
-    GO_to_num_genes = {}
-    for (i, line) in enumerate(cnts_file):
-        if i < 2:
-            continue
-        vals = line.rstrip().split('\t')
-        GO_id = vals[0]
-        num_genes = int(vals[1])
-        GO_to_num_genes[GO_id] = num_genes
-    return GO_to_num_genes
-"""
-
 
 def plot_roc(fprs, tprs, title):
     plt.figure()
