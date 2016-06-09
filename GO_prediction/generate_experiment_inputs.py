@@ -1,16 +1,16 @@
 """
     This file goes through all GO terms of interest and creates the positive and negative
-    examples for running a prediction problem. A positive example is a gene that is known
-    to be associated with the GO term, while a negative example is a randomly sampled gene
-    from the set of genes that are not known to be associated with the GO term.
+    examples for running a prediction task.
+
+    A positive example is a gene that is known to be associated with the GO term, while
+    a negative example is a randomly sampled gene from the set of genes that are not known
+    to be associated with the GO term.
 
 """
 
-from GO_Evidence_Codes import EvidenceCodes
 from os import remove
 
-import sys
-sys.path.insert(0, '../GO_prediction')
+from GO_Evidence_Codes import EvidenceCodes
 import GO_utils
 import utils
 

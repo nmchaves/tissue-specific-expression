@@ -336,5 +336,81 @@ def make_boxplot(vals, labels):
     plt.show()
     return
 
+def get_auc_scores(results_dir):
+    results_files = [f for f in listdir(results_dir) if isfile(join(results_dir, f))]
 
+    GO_terms = []
+    roc_auc_scores = []
+    roc_auc_score_line = 2
+    for rf in results_files:
+        f = open(results_dir + '/' + rf)
+        for (i, line) in enumerate(f):
+            if i == 0:
+                GO_terms.append(line.rstrip().split(' ')[-1])
+            elif i == roc_auc_score_line:
+                vals = line.rstrip().split(' ')
+                roc_auc_scores.append(float(vals[-1]))
+
+    return GO_terms, roc_auc_scores
+
+
+def plot_auc_vs_GO_function(aucs, GO_terms, highlight_tissues=None, highlight_colors=None,
+                            nonhighlight_color='blue'):
+    """
+    Generates scatter plot containing AUC score for each GO term.
+
+    :param aucs: List of auc scores. aucs[i] is auc score for prediction task
+     using GO term i.
+    :param tissues: List of GO terms. Must be ordered consistently with |aucs|, ie GO_terms[i]
+    has AUC score aucs[i]
+    :param highlight_tissues: List of tissues to highlight for emphasis
+    :return: None
+    """
+
+    # Set the default bar color
+    num_GO = len(GO_terms)
+    colors = np.array(num_GO * [nonhighlight_color])
+    #alphas = np.array(num_GO * [0.5])
+
+    # Set colors of positions to highlight
+    if highlight_tissues:
+        GTEX_to_GO_map = map_GTEX_to_GO(map_GO_to_GTEX())
+        highlight_indexes = get_GO_indexes(highlight_tissues, GO_terms, GTEX_to_GO_map)
+        # TODO: handle case where 2 of the highlight tissues share a GO term
+        for (i, cur_indexes) in enumerate(highlight_indexes):
+            cur_color = highlight_colors[i]
+            if len(cur_indexes) > 0:
+                colors[cur_indexes] = cur_color
+                #alphas[cur_indexes] = 1
+
+    fig, ax = plt.subplots(1, figsize=(30, 12))
+    ax.bar(range(num_GO), aucs, color=colors, width=1, edgecolor="none")
+    ax.set_xlim([0, num_GO])
+    ax.set_ylim([0, 1])
+    title = 'Highlighting Biological Functions Associated With: ' + ', '.join(highlight_tissues)
+    ax.set_title(title)
+    ax.set_xlabel('Biological Functions')
+    ax.set_ylabel('AUC Score')
+    fig.show()
+
+
+def get_GO_indexes(tissues, GO_terms, GTEX_to_GO_map):
+    """
+    Find indexes of GO terms associated with each tissue specified in |tissues|.
+
+    :param tissues: List of GTEX tissues.
+    :param GO_terms: List of GO terms.
+    :param GTEX_to_GO_map: Dictionary mapping each GTEX tissue name to its
+    associated GO terms.
+    :return: List of lists of indexes in |GO_terms| corresponding to each tissue in |tissues|
+    """
+    indexes = []
+    for tissue in tissues:
+        associated_terms = GTEX_to_GO_map[tissue]
+        cur_indexes = []
+        for term in associated_terms:
+            term_indexes = np.where(GO_terms == term)
+            cur_indexes.append(term_indexes)
+        indexes.append(np.unique(cur_indexes))
+    return indexes
 
