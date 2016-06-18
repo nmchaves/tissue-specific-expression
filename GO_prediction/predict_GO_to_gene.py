@@ -1,6 +1,7 @@
 #! /home/ec2-user/anaconda2/bin/python
 """
-    File for predicting whether a given GO term is associated with
+    Script for running prediction tasks. In particular, this script
+    can be used to predict whether a given GO term is associated with
     various genes.
 
     Consider biological process X

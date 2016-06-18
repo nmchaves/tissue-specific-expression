@@ -8,11 +8,9 @@
     0 otherwise. Can obtain negative examples by randomly sampling
     the genes that are not known to be associated with X
 
-    # TODO: should we use the random split argument to the sklearn train/test split??
+    # TODO: It would be best to use the random split argument to the sklearn train/test split??
 
 """
-
-# TODO: correctly compute AUC
 
 import os
 import numpy as np

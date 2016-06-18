@@ -494,7 +494,7 @@ def getArrayFromFile(path):
 if __name__ == "__main__":
 
     raw_rpkm_file = '../../../../Downloads/GTEx_Analysis_v6_RNA-seq_Flux1.6_transcript_rpkm.txt'
-    path_to_attributes_file = '../../../../Downloads/GTEx_Data_V6_Annotations_SampleAttributesDS.txt'
+    path_to_attributes_file = '../data/GTEx_Data_V6_Annotations_SampleAttributesDS.txt'
     NUM_TRANSCRIPTS_TO_RETAIN = 10000  # For certain purposes (eg t-SNE, only retain 10,000 transcripts
 
     # Operate on the RPKM expression levels matrix itself.

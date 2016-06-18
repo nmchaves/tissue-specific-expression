@@ -1,10 +1,9 @@
-"""
-    Gene Ontology Evidence Codes
-
-"""
-
-
 class EvidenceCodes:
+    """
+    Class to simplify the specification of Gene Ontology Evidence Codes
+    """
+
+
     def __init__(self):
         self.codes = {}
         # Experimental Evidence
