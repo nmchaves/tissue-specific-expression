@@ -1,6 +1,8 @@
-# CS 341 GTEx Project  
+# Tissue-Specific Genotype Expression Project using the GTEx Dataset
 
 Team members: Nico Chaves, Noam Weinberger and Junjie (Jason) Zhu
+
+We began this project in Spring 2016 as a course project for Stanford CS 341 (Project in Mining Massive Datasets).
 
 ## Structure
 
